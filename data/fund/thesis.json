@@ -1,0 +1,224 @@
+{
+  "version": "2026-11-18.v2",
+  "note": "Two lenses. 'stated' = what All In Capital says publicly (see data/fund/public_thesis.json for sources). 'revealed' = what the fund's own 12 deal memos and partner notes show it actually rewards. Kushal: 'tell me which one you used and why' -> every verdict shows both, recommendation is driven by 'revealed', and any disagreement between lenses is printed.",
+  "scale": "Each criterion 0-5. Weighted to 0-10 per lens. A criterion with no evidence is scored as missing_value (it drags the score, it is never skipped) and lowers coverage.",
+  "missing_value": 1.0,
+  "pedigree_cap": 2.0,
+  "pedigree_rule": "Credentials alone (IIT, PhD, ex-FAANG, ex-founder) cannot lift any criterion above pedigree_cap. Score the evidence, not the pedigree. (Partner notes, Meeting 3: 'credentials are not a business'.)",
+  "lenses": {
+    "revealed": {
+      "description": "Reconstructed from the 12 deal memos (6 invested, 6 passed) and 5 partner meetings. Founder behaviour is scored separately from path to market, as agreed in Meeting 3.",
+      "criteria": [
+        {
+          "id": "R1",
+          "name": "Founders own the defining risk",
+          "weight": 25,
+          "definition": "Every business has one risk that kills it: credit/default for a lender, the regulator for drones/aviation/crypto, repeat rate for a brand, profitability-at-density for ops-heavy models. Score whether the founders treat that risk as theirs to manage, with a plan, rather than someone else's problem.",
+          "high": "Names the risk unprompted and shows what they are doing about it (credit-risk hire plan, regulator milestone sequence, cohort data, contribution-margin path).",
+          "low": "Delegates the risk ('the NBFC handles defaults', 'solved once the tech works', 'rules will get friendlier', 'needs a big raise to reach density').",
+          "precedents": [
+            "Jai Kisan (invested) vs CampusCredit (passed)",
+            "ePlane (invested) vs AeroDrop (passed)",
+            "Coinlane (passed)",
+            "HopBox (passed)"
+          ],
+          "intake_observability": "partial - decks rarely show it; form answers about risks/'what would make you quit' do. Full test is on the call."
+        },
+        {
+          "id": "R2",
+          "name": "Went to the customer first",
+          "weight": 20,
+          "definition": "Evidence the founders did unscalable, on-the-ground work with real customers before building or scaling: manual operations, field visits, hand-run transactions, pilots treated as learning.",
+          "high": "Specific customer sites, named pilots, store/farm/user visits, what broke and what they changed.",
+          "low": "Product built around an assumption; traction is downloads/followers; no customer conversations described.",
+          "precedents": [
+            "Wint Wealth (invested)",
+            "SuperK (invested)",
+            "Jai Kisan (invested)",
+            "Unbox Robotics (invested)"
+          ],
+          "intake_observability": "good - decks and forms usually describe how the first customers were found."
+        },
+        {
+          "id": "R3",
+          "name": "Earned traction on the metric that matters",
+          "weight": 20,
+          "definition": "Traction measured on the sector's deciding metric (see sector_key_metrics), and earned rather than bought. A missing deciding metric is scored as missing_value.",
+          "high": "Cohort repeat / retention / default data / live-site pilot results given with numbers; growth not mostly paid.",
+          "low": "Vanity metrics only (downloads, followers, GMV with no margin); growth mostly paid; deciding metric absent.",
+          "precedents": [
+            "Giva (invested)",
+            "Petalry (passed)",
+            "Prepnest (passed)"
+          ],
+          "intake_observability": "good - either the number is in the application or it is not."
+        },
+        {
+          "id": "R4",
+          "name": "Credible path to market",
+          "weight": 15,
+          "definition": "Who pays, how the product reaches them, and what stands in the way (regulation, liability, procurement cycles) - with a concrete sequence. Scored separately from founder quality.",
+          "high": "Paying or signed customer, regulator-facing plan with milestones, liability addressed, channel proven.",
+          "low": "No paying customer identified; regulatory path absent; market size asserted rather than evidenced.",
+          "precedents": [
+            "Unbox Robotics (invested)",
+            "AeroDrop (passed)",
+            "ePlane (invested despite long path, because the sequence was clear)"
+          ],
+          "intake_observability": "good"
+        },
+        {
+          "id": "R5",
+          "name": "Works on a pre-seed cheque",
+          "weight": 10,
+          "definition": "Can the company reach its next proof point with the capital a pre-seed fund deploys, without becoming the small cheque that gets diluted or squeezed when larger funds set terms?",
+          "high": "Capital-efficient, milestones reachable with the ask; or long-duration but cheque sized to survive a slow path.",
+          "low": "Only works at density/scale that needs far more capital than the fund deploys; negative contribution margin with no niche.",
+          "precedents": [
+            "HopBox (passed)",
+            "ePlane (invested, cheque sized for slow path)"
+          ],
+          "intake_observability": "good"
+        },
+        {
+          "id": "R6",
+          "name": "Travels beyond the founder",
+          "weight": 10,
+          "definition": "Is there something that keeps working and gets harder to copy as it scales (field execution, network, data, distribution), or is the product the founder's personal talent/audience?",
+          "high": "Defensibility the founder can articulate and examine; process or network that does not depend on one person.",
+          "low": "Product is the founder (one teacher, one influencer); defensive when asked about copycats.",
+          "precedents": [
+            "Prepnest (passed)",
+            "SuperK (invested: field execution hard to copy)"
+          ],
+          "intake_observability": "partial"
+        }
+      ]
+    },
+    "stated": {
+      "description": "What All In Capital says publicly (fund site, apply page, Fund II launch coverage, Kushal Bhagia's interviews and posts). Every criterion cites its sources; full quotes in data/fund/public_thesis.json.",
+      "criteria": [
+        {
+          "id": "S1",
+          "name": "In a focus sector",
+          "weight": 20,
+          "definition": "Fund II is sector-agnostic with special focus on consumer tech, deeptech, fintech and consumer brands; intended mix ~50% consumer, ~30% Indian AI, ~20% deeptech. Vertical AI (one industry) preferred over horizontal; thin API wrappers seen as weakly defensible.",
+          "high": "Squarely in a focus sector, or vertical AI with a real industry problem.",
+          "low": "Outside the focus sectors with no AI/consumer/deeptech angle, or a thin wrapper.",
+          "sources": [
+            "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-tar",
+            "https://www.business-standard.com/amp/companies/start-ups/all-in-capit",
+            "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-in"
+          ]
+        },
+        {
+          "id": "S2",
+          "name": "Stage and round the fund can lead",
+          "weight": 20,
+          "definition": "Paper-plan through MVP to early paying customers; first cheque USD 200-600K (INR 3-5 Cr in Fund II), leading or co-leading rounds up to roughly INR 6 Cr, usually on a convertible note. Not a fit for revenue-generating companies where large VCs compete.",
+          "high": "First institutional round the fund can lead at its cheque size.",
+          "low": "Series A / large round, or already institutionally funded with big VCs competing.",
+          "sources": [
+            "https://allincapital.vc/",
+            "https://allincapital.vc/apply_now",
+            "https://x.com/kushalbhagia/status/1902586495778902475",
+            "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-in"
+          ]
+        },
+        {
+          "id": "S3",
+          "name": "Founder-market fit and earned secrets",
+          "weight": 35,
+          "definition": "The core public lens: what the founders know and can or cannot do for this opportunity; the key skills needed and the key risk; 'earned secrets'; proven ability to build (shipped product, handled scale); loving the problem enough to stay 5-6 years; long shared history between co-founders.",
+          "high": "Founders with demonstrated, specific knowledge of this problem and a record of building; complementary team with history.",
+          "low": "No evidence of insight or ability to build specific to this problem.",
+          "sources": [
+            "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market",
+            "https://x.com/kushalbhagia/status/1902586495778902475"
+          ]
+        },
+        {
+          "id": "S4",
+          "name": "Non-obvious, ambitious opportunity",
+          "weight": 25,
+          "definition": "Backs non-obvious founders and non-consensus ideas, a vision that inspires, ambition beyond the first market (global exposure valued); does not follow what is hot.",
+          "high": "A non-consensus insight with a large or global ambition.",
+          "low": "A me-too in a crowded, hot category; local ambition only.",
+          "sources": [
+            "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-in",
+            "https://x.com/kushalbhagia/status/1902586495778902475"
+          ]
+        }
+      ]
+    }
+  },
+  "sector_key_metrics": {
+    "consumer_brand": [
+      "cohort repeat rate",
+      "gross margin",
+      "CAC by channel",
+      "share of orders from paid",
+      "return rate"
+    ],
+    "consumer_tech": [
+      "30/90-day retention",
+      "conversion to paid",
+      "contribution margin per order/user",
+      "organic vs paid acquisition"
+    ],
+    "fintech": [
+      "who holds credit/default risk",
+      "default/NPA data or plan",
+      "regulatory licence path",
+      "trust/repeat usage"
+    ],
+    "deeptech": [
+      "milestone sequence to commercial use",
+      "signed pilot or LOI",
+      "regulatory/certification path",
+      "liability and insurance"
+    ],
+    "other": [
+      "the metric the founder says proves demand"
+    ]
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "name": "Portfolio conflict",
+      "rule": "Overlaps an existing portfolio company (same customer + same job). Checked against the full portfolio list, not memory. Default is no; a false alarm is preferred to a miss (Meeting 4).",
+      "effect": "HOLD_CONFLICT - Kushal speaks to the portfolio founder before anything else."
+    },
+    {
+      "id": "G2",
+      "name": "Exists only if the rules change",
+      "rule": "The business depends on a favourable regulatory change to exist (Coinlane). Category decision, not a people decision.",
+      "effect": "PASS suggested; Kushal still sees it."
+    },
+    {
+      "id": "G3",
+      "name": "Sector label stretch",
+      "rule": "Fits a stated sector only by label (rural credit, 'fintech' that is really lending ops). Not a reject: Jai Kisan precedent - founder behaviour mattered more than the label.",
+      "effect": "Flag only."
+    }
+  ],
+  "routing": {
+    "take_call": {
+      "revealed_min": 6.0,
+      "coverage_min": 0.6
+    },
+    "screen_first": {
+      "revealed_min": 4.5
+    },
+    "note": "Thresholds fixed before running the batch or the backtest. Below screen_first -> PASS with 'what would change our view'. Every outcome goes to Kushal; nothing is auto-advanced or auto-rejected.",
+    "deeptech_attendees": [
+      "Kushal",
+      "Aditya",
+      "Riya"
+    ],
+    "default_attendees": [
+      "Kushal",
+      "Riya"
+    ]
+  }
+}

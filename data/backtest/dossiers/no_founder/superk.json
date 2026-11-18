@@ -1,0 +1,65 @@
+{
+  "company": "SuperK",
+  "slug": "superk",
+  "one_liner": "A tech-enabled grocery retail network for small towns",
+  "sector": "consumer_tech",
+  "sub_sector": "Consumer tech (small-town retail)",
+  "stage": "Early round",
+  "ask": null,
+  "business_model": "A tech-enabled grocery retail network for small towns. It rebrands existing neighbourhood stores under its own name and provides standardised pricing, supply, discounts and digital billing. Founded 2020, operating in small towns of Andhra Pradesh.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "A tech-enabled grocery retail network for small towns. It rebrands existing neighbourhood stores under its own name and provides standardised pricing, supply, discounts and digital billing. Founded 2020, operating in small towns of Andhra Pradesh.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Operationally intense, thin margins, store-owner trust and retention, supply chain in small towns. Limited data on same-store sales growth at the time.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 9 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Consumer tech (small-town retail) | Stage: Early round | Source: Warm intro, Fund I founder"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 9 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "A tech-enabled grocery retail network for small towns. It rebrands existing neighbourhood stores under its own name and provides standardised pricing, supply, discounts and digital billing. Founded 2020, operating in small towns of Andhra Pradesh."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 9 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Operationally intense, thin margins, store-owner trust and retention, supply chain in small towns. Limited data on same-store sales growth at the time."
+    }
+  ],
+  "produced_by": "backtest builder (no_founder; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

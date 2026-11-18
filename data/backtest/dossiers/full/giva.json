@@ -1,0 +1,82 @@
+{
+  "company": "Giva",
+  "slug": "giva",
+  "one_liner": "An online-first fine silver jewellery brand founded in 2019, later expanding into gold and lab-grown diamonds and building offline presence",
+  "sector": "consumer_brand",
+  "sub_sector": "Consumer brand (jewellery, D2C)",
+  "stage": "Early round",
+  "ask": null,
+  "business_model": "An online-first fine silver jewellery brand founded in 2019, later expanding into gold and lab-grown diamonds and building offline presence.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "An online-first fine silver jewellery brand founded in 2019, later expanding into gold and lab-grown diamonds and building offline presence.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Inventory and working-capital intensity. Heavy reliance on marketplaces and paid channels early. Competition from established jewellers going digital.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    },
+    {
+      "text": "Partner assessment of founders from the meeting: Ishendra Agarwal, co-founder, an IIT Kanpur alumnus. In contrast to the typical D2C founder we meet, the story he told was about repeat purchase, gifting occasions and product margin, not follower counts. He knew his cost of acquisition by channel, his return rate and the percentage of revenue from repeat customers. That fluency is rare at this stage. Concern: the category had a risk of becoming a discount-led marketplace game, and inventory-heavy models punish any forecasting error.",
+      "source_ids": [
+        "M3"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 7 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Consumer brand (jewellery, D2C) | Stage: Early round | Source: Public application form"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 7 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "An online-first fine silver jewellery brand founded in 2019, later expanding into gold and lab-grown diamonds and building offline presence."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 7 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Inventory and working-capital intensity. Heavy reliance on marketplaces and paid channels early. Competition from established jewellers going digital."
+    },
+    {
+      "id": "M3",
+      "kind": "seed",
+      "title": "Memo 7 - Founder assessment",
+      "url": null,
+      "locator": "Founder assessment",
+      "retrieved_on": null,
+      "quote": "Ishendra Agarwal, co-founder, an IIT Kanpur alumnus. In contrast to the typical D2C founder we meet, the story he told was about repeat purchase, gifting occasions and product margin, not follower counts. He knew his cost of acquisition by channel, his return rate and the percentage of revenue from "
+    }
+  ],
+  "produced_by": "backtest builder (full; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

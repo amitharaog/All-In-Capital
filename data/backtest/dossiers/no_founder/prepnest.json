@@ -1,0 +1,65 @@
+{
+  "company": "Prepnest",
+  "slug": "prepnest",
+  "one_liner": "A mobile-first test-preparation app for competitive exams, with video lessons and adaptive practice",
+  "sector": "consumer_tech",
+  "sub_sector": "Consumer tech (exam-prep)",
+  "stage": "Pre-seed",
+  "ask": null,
+  "business_model": "A mobile-first test-preparation app for competitive exams, with video lessons and adaptive practice. Strong early download numbers.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "A mobile-first test-preparation app for competitive exams, with video lessons and adaptive practice. Strong early download numbers.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Crowded category with entrenched, heavily funded players. Retention and conversion to paid not shown. Content-led, founder-dependent product that is hard to scale beyond one teacher.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 12 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Consumer tech (exam-prep) | Stage: Pre-seed | Source: Warm intro"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 12 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "A mobile-first test-preparation app for competitive exams, with video lessons and adaptive practice. Strong early download numbers."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 12 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Crowded category with entrenched, heavily funded players. Retention and conversion to paid not shown. Content-led, founder-dependent product that is hard to scale beyond one teacher."
+    }
+  ],
+  "produced_by": "backtest builder (no_founder; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

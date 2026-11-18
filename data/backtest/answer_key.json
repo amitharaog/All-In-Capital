@@ -1,0 +1,86 @@
+[
+  {
+    "n": 1,
+    "name": "The ePlane Company",
+    "slug": "eplanecompany",
+    "decision": "INVESTED",
+    "why": "We were not underwriting the market size in the deck. We were underwriting two people who had stayed with a hard problem for years and who answered 'what would make you quit?' with a specific technical milestone rather than a platitude. The thesis fit is deeptech at the earliest stage, where the founder is most of the investment. We accepted that this is a long-duration bet and sized the cheque so a slow regulatory path does not force a bad financing."
+  },
+  {
+    "n": 2,
+    "name": "Petalry",
+    "slug": "petalry",
+    "decision": "PASSED",
+    "why": "A real brand with real orders, which is why it reached a call. We passed for two linked reasons. The numbers showed growth being bought rather than earned, and the founder could not tell us the repeat rate. The second reason matters more: consumer-brand investing at our stage turns on whether the founder instinctively thinks in cohorts and margins, and in this call she did not. If she returns with six months of cohort data and an operations co-founder, we would look again."
+  },
+  {
+    "n": 3,
+    "name": "Unbox Robotics",
+    "slug": "unboxrobotics",
+    "decision": "INVESTED",
+    "why": "This is deeptech with a nearer path to revenue than most. A concrete customer pain (sorting cost and accuracy), a product already in live sites, and founders who treated pilots as learning, not marketing. We were comfortable that the pilot-conversion risk was the right risk to be carrying at this stage."
+  },
+  {
+    "n": 4,
+    "name": "HopBox",
+    "slug": "hopbox",
+    "decision": "PASSED",
+    "why": "Good operators, wrong game for a pre-seed fund. The model only works with far more capital than we deploy, and we did not want to be the small cheque that gets diluted or squeezed once larger funds set the terms. The founders were strong; this was a pass on structure, not on people. We told them so and said we would reconsider if they found a dense, narrower niche with positive contribution margin."
+  },
+  {
+    "n": 5,
+    "name": "Wint Wealth",
+    "slug": "wintwealth",
+    "decision": "INVESTED",
+    "why": "Fintech with a real pain point (retail investors cannot easily buy quality bonds) and a founder doing unscalable things in the right order. Founder-market fit was the deciding factor, along with how clearly he understood that trust, not technology, was the bottleneck."
+  },
+  {
+    "n": 6,
+    "name": "CampusCredit",
+    "slug": "campuscredit",
+    "decision": "PASSED",
+    "why": "Fintech is core to our thesis, but this one fails on the founder question. The product itself was reasonable. A team that does not own risk will find out the cost of that the expensive way, and with someone else's money. We encouraged them to hire a credit lead before raising and offered an introduction to a risk operator."
+  },
+  {
+    "n": 7,
+    "name": "Giva",
+    "slug": "giva",
+    "decision": "INVESTED",
+    "why": "Our D2C passes usually fail on repeat rate. This one passed the test we apply to every brand: the founder could tell us cohort repeat behaviour and gross margin without looking at notes. A consumer-brand cheque at pre-seed is only defensible when the founder thinks like an operator, and this one did."
+  },
+  {
+    "n": 8,
+    "name": "AeroDrop",
+    "slug": "aerodrop",
+    "decision": "PASSED",
+    "why": "We like deeptech, and she is a high-quality technologist. We passed because the file had no customer, no path through the regulator and no answer on liability, and the founder treated all three as secondary. In the ePlane case the regulatory path was equally long, but the founders had a clear view of it and a concrete milestone sequence. Here there was none. We would reconsider with a signed pilot customer and a regulator-facing plan."
+  },
+  {
+    "n": 9,
+    "name": "SuperK",
+    "slug": "superk",
+    "decision": "INVESTED",
+    "why": "Founder behaviour decided it. They had visited dozens of stores and could describe what the owners wanted: working capital, price support, a branded look, not 'technology'. A franchise-style model with real field execution is hard to copy. We saw the risk, but it was the right sort of risk for a founder pair that was already on the ground."
+  },
+  {
+    "n": 10,
+    "name": "Coinlane",
+    "slug": "coinlane",
+    "decision": "PASSED",
+    "why": "This is outside the areas we back, and no founder quality could change that. Our decision was about the category, not the people: a business whose existence depends on a favourable regulatory change is not one we want to underwrite at pre-seed. We declined quickly and said why."
+  },
+  {
+    "n": 11,
+    "name": "Jai Kisan",
+    "slug": "jaikisan",
+    "decision": "INVESTED",
+    "why": "This is the harder cousin of the student-credit pass. Like CampusCredit, it is a lending business, but these founders had done the unglamorous groundwork in the field and the discussion centred on how they would build credit-risk depth. Our deciding question was whether the founders treated risk as theirs. Here they did. In the discussion, one partner asked whether the thesis stretched to rural credit; the group agreed the founder behaviour mattered more than the sector label."
+  },
+  {
+    "n": 12,
+    "name": "Prepnest",
+    "slug": "prepnest",
+    "decision": "PASSED",
+    "why": "The founder is likeable and talented, and the audience was real. We passed because the product is the teacher, and the data did not show it travelling beyond her. Defensibility was weak and she did not seem to want to examine that. A founder who gets defensive on the questions that matter is a signal in itself."
+  }
+]

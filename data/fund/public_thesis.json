@@ -1,0 +1,676 @@
+{
+ "retrieved_on": "2026-11-18",
+ "fund_facts": [
+  {
+   "fact": "All In Capital was founded by Kushal Bhagia and Aditya Singh; the site says it has partnered with 150+ founders.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "Founded by Kushal Bhagia & Aditya Singh, we've partnered with 150+ founders so far.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Self-description: a VC fund investing in Indian startups through a community of founders who help source and support companies.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "We are a new type of VC fund that invests in Indian startups through a community of founders, who help us identify the next generation of founders to back.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Fund II is a SEBI-registered Category II AIF (registered 6 May 2024); Founder Capital Advisors LLP is Investment Manager; KRB Ventures LLP is Sponsor.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "All In Capital Fund II (\"Fund\") (a scheme of All In Capital Trust) (\"Trust\") is registered with SEBI as a Category II Alternative Investment Fund with effect from 6th May 2024",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Registered address is in Mulund West, Mumbai.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "Our address for Sponsor , Fund , Investment Manager :- 522, Corporate Center, Nirmal Lifestyles, LBS Marg, Mulund West, Mumbai - 400080",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Fund launched publicly on 9 June 2022 (launch blog by Kushal Bhagia).",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "I am thrilled to announce the launch of our new early-stage VC firm - All In Capital.",
+   "source_type": "founder_social",
+   "note": "Substack post dated 2022-06-09."
+  },
+  {
+   "fact": "Inc42 (Mar 2023): founded June 2022, launched with a $10 Mn corpus, intended 75 startups by end-2024.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "Founded in June 2022 by Kushal Bhagia and Aditya Singh, All In Capital launched with a corpus of $10 Mn and intends to invest in 75 startups by the end of 2024.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Inc42 (Jun 2022) gives a different founding month (January 2022).",
+   "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
+   "quote": "Founded in January 2022 by Kushal Bhagia and Aditya Singh, All In Capital is an equity fund.",
+   "source_type": "press",
+   "note": "Conflicts with Inc42 Mar 2023 (June 2022). The public launch was June 2022."
+  },
+  {
+   "fact": "Fund I: $11M pool, 51 companies, across Indian consumer, AI, deep-tech and fintech (per Kushal Bhagia).",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "With All In Capital's first fund, a $11M pool, @allin_adi and I backed 51 companies, across sectors like Indian consumer, AI and deep-tech and fin-tech.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund I deployed $11M in 51 startups; nearly half raised follow-on funding.",
+   "source_url": "https://indianstartupnews.com/funding/all-in-capital-launches-rs-200-crore-second-fund-secures-rs-85-crore-in-first-close-8872954",
+   "quote": "All In Capital's first fund, launched in 2022, deployed $11 million and backed 51 startups. Nearly half of those companies went on to raise follow-on funding.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund I corpus stated as INR 95 Cr (~$11 Mn).",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "11 Mn corpus of its first fund (INR 95 Cr)",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund I outcomes per Kushal (Mar 2025): 23+ follow-ons, 2 Series A, one cash exit.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "Companies like Newme, Piersight, Magma, Salty, MeetRecord amongst 23 others have already raised follow-on rounds, 2 have even powered through to a Series A and we have luckily also seen a cash exit.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Tracxn lists one portfolio acquisition: Volt (by DSP Finance, Mar 2025).",
+   "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
+   "quote": "The most recent acquisition was Volt in Mar 2025 by DSP Finance",
+   "source_type": "database"
+  },
+  {
+   "fact": "Fund II: $25M fund announced 20 Mar 2025, $12M committed at announcement, 8 investments already made.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "we’ve launched a $25M second fund at @All_IN_CAPITAL to be the first backer for India’s boldest founders. We’ve already have $12M committed",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund II target INR 200 Cr + INR 100 Cr greenshoe (INR 300 Cr total); first close INR 85 Cr from family offices.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+   "quote": "For Fund II, the firm has already marked the first close at INR 85 crore, securing investments from prominent family offices across India and overseas.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund II target corpus and greenshoe.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+   "quote": "The fund also includes a greenshoe option of another Rs 100 crore, bringing its total capacity to INR 300 crore.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Venture Intelligence reports the Fund II first close as INR 100 Cr (conflicts with INR 85 Cr elsewhere).",
+   "source_url": "https://news.ventureintelligence.com/private-equity/all-in-capital-marks-first-close-of-fund-ii-at-rs.100-cr;-targets-a-corpus-of-rs.200-cr",
+   "quote": "The firm has already marked the first close at INR 100 crore, securing investments from family offices across India and abroad.",
+   "source_type": "press",
+   "note": "Discrepancy: Inc42/Entrackr/Indian Startup News say INR 85 Cr."
+  },
+  {
+   "fact": "Business Standard (Sep 2025): Fund II ($25M) expected to close in 2-3 months; dates first close to Sept 2024.",
+   "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
+   "quote": "Venture capital firm All in Capital is looking to close its second fund in the next two to three months, according to founder and partner Kushal Bhagia.",
+   "source_type": "press",
+   "note": "Same article says first close was \"in September last year\" (i.e., Sep 2024), vs. Mar 2025 announcement elsewhere. Fund II final close not found."
+  },
+  {
+   "fact": "Fund II plan: ~50 companies over three years, first cheques up to INR 5 Cr plus follow-ons.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+   "quote": "With Fund II, All In Capital plans to invest in 50 more companies over the next three years, writing first cheques of up to Rs 5 crore while also deploying follow-on investments in select winners.",
+   "source_type": "press"
+  },
+  {
+   "fact": "LPs: family offices and institutions from India and abroad plus tech founders.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We are privileged to backed by family offices & institutions from India and abroad along with some of India's best tech founders.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Team listed on site (Nov 2026): 2 founding partners, a VP, analysts, Director of Portfolio Support, Finance Lead.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "Simran Patel Vice President Disha Choudhary Analyst Aarjav Shah Analyst Aditya Singh Analyst Siddharth Dialani Director of Portfolio Support Trupti Sawant Finance Lead",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Name is a play on 'All India'.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "The name is about going all in and a play on ‘All India’, as we truly believe this is the time for the Indian tech industry.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Kushal Bhagia previously ran First Cheque (India Quotient-incubated pre-seed fund), backing 100+ startups.",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "subsequently ran FirstCheque.vc, a preseed fund through which I backed 100+ Indian startups in their first rounds.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Aditya Singh: co-founded BookMyForex (acquired by MakeMyTrip), Amazon startup BD, 50+ angel investments, founding principal at Stride Ventures.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "built India's first forex marketplace Bookmyforex.com (acquired by MakeMyTrip), did startup BD at Amazon, and angel invested in 50+ companies.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "AllStars: portfolio-support platform (investor network of 400+ VCs, operator network, deal book, founder community).",
+   "source_url": "https://medium.com/@kushalbhagia/announcing-allstars-3d3b7cc99d12",
+   "quote": "It’s a portfolio support platform designed to give our portfolio founders super powers!",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "TorQLabs (Aug 2025): supply-chain/logistics pre-seed platform with CJ Darcl President Nikhil Agarwal, up to Rs 5 Cr per startup.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-torqlabs-for-supply-chain-and-logistics-startups-9651748",
+   "quote": "TorQLabs will invest up to Rs 5 crore per startup, offering founders not only early capital but also operational mentorship and access to industry networks.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Golden Ticket program (Feb 2026): 20-30 AI-led/vertical SaaS startups, up to $300K each, total capped at $1M, 6-12 months in Silicon Valley.",
+   "source_url": "https://www.entrepreneur.com/en-in/news-and-trends/all-in-capital-launches-golden-ticket-program-for/502479",
+   "quote": "Chosen startups will be eligible to receive pre-seed funding of up to USD 300K each, with overall capital deployment capped at USD 1 million.",
+   "source_type": "press",
+   "note": "Arithmetic note: 20-30 startups x up to $300K cannot fit a $1M cap; reported as-is."
+  },
+  {
+   "fact": "Deal pace H1 2026: 25 funding rounds.",
+   "source_url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
+   "quote": "Early stage VC firm All In Capital took part in 25 startup funding rounds in the first half of 2026.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Tracxn (Sep 2026): 92 portfolio companies; lists HQ as Bengaluru.",
+   "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
+   "quote": "As of Sep 2026, All In Capital is an active investor, having invested in 92 companies, with 8 new investments in the last 12 months.",
+   "source_type": "database",
+   "note": "Tracxn HQ (Bengaluru) conflicts with the fund site address (Mumbai). Tracxn count likely includes pre-fund partner investments (e.g., GIVA, Wint Wealth listed as top investments)."
+  }
+ ],
+ "stated_sectors": [
+  {
+   "fact": "Sector-agnostic; backs pre-seed/seed founders from India building for India and the world.",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "We are a sector-agnostic fund, focused on backing the best pre-seed and seed-stage founders from India, building for India and for the world.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund II: sector-agnostic with special focus on consumer tech, deeptech, fintech and consumer brands.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+   "quote": "With its second fund, All In Capital will continue its sector-agnostic strategy; however, it will have a special focus on consumer tech, deeptech, fintech, and consumer brands.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund II intended mix: ~50% consumer, ~30% Indian AI companies, ~20% deeptech.",
+   "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
+   "quote": "\"It will be around 50 per cent of consumer companies, 30 per cent will be AI companies from India, and about 20 per cent will be deep tech companies,\" Bhagia said.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Examples of welcome categories: AI, D2C brand, space-tech.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "So whether you are building in AI or a D2C brand or a space-tech company, we are excited to hear your story.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund I spread over six sectors: AI & SaaS, consumer internet, deeptech, fintech, consumer brands, gaming.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "with capital distributed across six major sectors — AI and SaaS, consumer internet, deeptech, fintech, consumer brands and gaming.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Best performers in Fund I per team: consumer and deeptech.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "According to the founding team, the consumer-focussed ventures and deeptech startups have performed exceptionally well.",
+   "source_type": "press"
+  },
+  {
+   "fact": "SaaS/AI: preference for vertical startups specialising in a single industry.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "For instance, in SaaS and AI, the focus is on vertical startups specialising in a single industry, developing deep solutions within that domain.",
+   "source_type": "press"
+  },
+  {
+   "fact": "AI view: shift toward deeply vertical solutions where founders understand an industry problem best.",
+   "source_url": "https://www.bwdisrupt.com/article/all-in-capital-rolls-out-golden-ticket-programme-for-early-stage-ai-founders-592415",
+   "quote": "“The opportunity in AI is shifting towards deeply vertical solutions, where founders understand a specific industry problem better than anyone else,” said Kushal Bhagia",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Golden Ticket focus: AI solutions for verticals such as healthcare and professional services.",
+   "source_url": "https://www.entrepreneur.com/en-in/news-and-trends/all-in-capital-launches-golden-ticket-program-for/502479",
+   "quote": "The focus will be on startups building AI-based solutions for specific industry segments such as healthcare, professional services, and other specialised vertical markets.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Consumer AI thesis (Dec 2025): winners will be vertical AI companions for high-anxiety, high-frequency problems; voice-first, vernacular, micro-priced.",
+   "source_url": "https://allindiacapital.substack.com/p/mapping-the-consumer-ai-wave",
+   "quote": "The biggest winners will be vertical AI companions that solve high-anxiety, high-frequency problems.",
+   "source_type": "fund_site",
+   "note": "All In Capital Substack (linked as the Blog from allincapital.vc)."
+  },
+  {
+   "fact": "Consumer: looks for founders building for emerging consumer shifts in India (Simran Patel, VP Consumer Investments).",
+   "source_url": "https://startuptalky.com/news/health-qsr-chain-acai-theory-raises-4-crores-led-by-all-in-capital-with-participation-from-tdv-partners-and-other-marquee-investors/",
+   "quote": "At All In Capital, we look for founders building for emerging consumer shifts in India.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Supply chain/logistics via the TorQLabs vehicle.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-torqlabs-for-supply-chain-and-logistics-startups-9651748",
+   "quote": "have launched TorQLabs, a pre-seed investment platform targeting early-stage startups in supply chain, logistics, and adjacent sectors.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Early Fund I sectors (Jun 2022): B2B marketplace, SaaS, fintech, gaming, consumer internet.",
+   "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
+   "quote": "So far, the VC fund has invested in startups that are working in B2B marketplace, SaaS, fintech, gaming and consumer internet sectors.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Generative AI: invested in tooling layer (Segmind) and frames GenAI in four layers.",
+   "source_url": "https://medium.com/all-in-capital/how-to-think-about-generative-ai-7f8f7b10bec7",
+   "quote": "We have made an investment here — Segmind.",
+   "source_type": "founder_social"
+  }
+ ],
+ "stage_and_cheque": [
+  {
+   "fact": "Fund site: invests USD 250K-600K and leads pre-seed/seed rounds.",
+   "source_url": "https://allincapital.vc/",
+   "quote": "We invest USD 250K to 600K and lead pre-seed/seed rounds in Indian startups.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Fund FAQ: typically $250K-$500K in first round (FAQ text reads \"$250 to $500K\"), usually on a convertible note.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "We typically invest $250 to $500K in your first round. We usually invest on a convertible note with very simple, founder-friendly terms",
+   "source_type": "fund_site",
+   "note": "Discrepancy with homepage (USD 250K-600K) and X post ($200K-$600K)."
+  },
+  {
+   "fact": "Stage: paper-plan to MVP to early paying customers.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "You could be at a paper-plan stage, have an MVP built or you may even have a functional product with paying customers or active users.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Rounds under $1M: lead or co-lead; above $1M: first to commit and help find a lead.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "If you are raising under $1M we can lead or co-lead your round",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Rounds over $1M: commit first and help find a lead VC.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "If you are raising more than $1M then we are happy to be the first ones to commit to the round (and wire our money!) and we will work with you to help you find a lead VC.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Fund II (Mar 2025): $200K-$600K in the very first round.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We invest $200K to $600K in your very first round.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Leads on own conviction; usually 50-100% of the round.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We lead rounds on our own conviction and usually end up being 50-100% of the round.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Stage window: paper-plan through early PMF/early revenue.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We invest from a paper-plan stage to all the way through early product-market-fit/ early revenue stage.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund II cheques INR 3-5 Cr; for INR 5-9 Cr rounds, will take at least half.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "For companies raising INR 5-9 Cr, All In Capital plans to contribute at least half of the round while enabling additional participation from other investors.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund II cheque size raised to INR 3-5 Cr (Fund I capped at INR 1.5-2 Cr).",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "Accordingly, the VC player has adjusted its approach, raising cheque sizes to INR 3-5 Cr.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Lead-only policy stated; can lead rounds up to INR 6 Cr.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "It will only operate as a lead investor, even at the pre-seed stage.",
+   "source_type": "press",
+   "note": "Observed deals include co-leads (CUNIN, Iztri) and non-lead participation (Mowito, follow-ons), so treat as a preference."
+  },
+  {
+   "fact": "Fund II first cheques Rs 2-5 Cr.",
+   "source_url": "https://indianstartupnews.com/funding/all-in-capital-launches-rs-200-crore-second-fund-secures-rs-85-crore-in-first-close-8872954",
+   "quote": "offers first cheque sizes ranging from Rs 2 crore to Rs 5 crore.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Entrackr: first cheques up to $500K.",
+   "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+   "quote": "All In Capital is a pre-seed fund backing ambitious technology founders with first cheques of up to $500K.",
+   "source_type": "press"
+  },
+  {
+   "fact": "At launch (Jun 2022): $100K-$300K first cheques; most pre-product, almost all pre-revenue.",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "We typically invest $100K to $300K in Indian startups in your first round of funding.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "At launch: most first investments pre-product, almost all pre-revenue.",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "Most of our first investments are pre-product and almost all of them are pre-revenue.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Inc42 (Jun 2022) reported $100K-$500K cheques and 75-100 startups over three years.",
+   "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
+   "quote": "The sector-agnostic fund will invest between $100K to $500K in pre-seed and seed funding rounds.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Fund I average ticket ~$150K (Mar 2023).",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "With an average ticket size of $150K, the sector-agnostic fund has invested in 25 startups since launch last year",
+   "source_type": "press"
+  },
+  {
+   "fact": "Portfolio construction (Fund I): 60-70 companies, one winner should return the fund; sensible entry valuations.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "For the fund one cycle, we’re doing 60-70 companies, and the maths of it is one working should help us return the fund.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Pace target: one or two startups per month (Mar 2025).",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "All In Capital plans to maintain its investment pace by targeting one or two startups every month.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Follow-ons: Fund I had no substantial follow-on pool; Fund II will do follow-ons in portfolio.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "It will also take part in follow-on rounds of its portfolio companies.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Golden Ticket cheques: up to $300K per company.",
+   "source_url": "https://www.bwdisrupt.com/article/all-in-capital-rolls-out-golden-ticket-programme-for-early-stage-ai-founders-592415",
+   "quote": "Selected companies will be eligible for pre-seed funding of up to USD 300,000 each, with total capital deployment of up to USD 1 million.",
+   "source_type": "press"
+  }
+ ],
+ "founder_criteria": [
+  {
+   "fact": "Core lens is founder-market fit: what founders know and can or cannot do.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "It sounds really simple, but it’s about what the founders know and what they can do or can’t do.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Looks for key skills needed to crack the opportunity, the key risk, and founders' \"earned secrets\".",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "Essentially, it’s about the key skills that a founder needs to have to be able to crack the opportunity. What is the key risk and what are their earned secrets?",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "First-time founders must show proven ability to build (shipped consumer product, handled scale, managed transactions).",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "In the case of first-time founders, they need to have a proven and clear ability to build.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Likes \"Dil Chahta Hai\" teams: close friends or co-founders with long shared work history.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "one type of team we like to back is the ‘Dil Chahta Hai’ team. Essentially, close friends or a team of founders with long shared work history.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Founders must love the problem and not give up for 5-6 years.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "they need to love the problem they are trying to solve. The problem vector along with the team or the founder who will not give up for five-six years.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Backs non-obvious founders and non-consensus ideas.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "“We invest in non-obvious founders and non-consensus ideas.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Vision that inspires plus hustle; does not follow what is hot.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "If we see a team with a vision that inspires us and the hustle to match, we are All in on you!",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Targets \"non-obvious\" founders others consider too early.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "This fund is about finding and going All In on those \"non-obvious\" founders that everyone else feels are too early for them.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Global ambition: preference for founders with international exposure/relationships or foreign traction.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "preference is given to founders with international exposure, established overseas relationships, or early traction in foreign markets.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Golden Ticket selection: team capability, problem clarity, speed of iteration, openness to feedback; prior revenue/experience not required.",
+   "source_url": "https://www.bwdisrupt.com/article/all-in-capital-rolls-out-golden-ticket-programme-for-early-stage-ai-founders-592415",
+   "quote": "The selection process will evaluate founding team capability, clarity of the problem being addressed, speed of iteration and openness to feedback.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Golden Ticket requires at least one technical co-founder.",
+   "source_url": "https://www.entrepreneur.com/en-in/news-and-trends/all-in-capital-launches-golden-ticket-program-for/502479",
+   "quote": "Each participating team must include at least one technical co-founder with experience in software engineering, artificial intelligence, machine learning, or a related field.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Application form probes founder history together, full-time commitment, and a standout skill.",
+   "source_url": "https://docs.google.com/document/d/13pEWGPk9wPLhXhzofUeK-jzoDh3dVYHyyoJAK-lYNqw/edit",
+   "quote": "Have long have you known each other before starting up? Have you worked together before this? Please give details",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Application form asks for each founder's proudest skill/accomplishment and time spent full-time.",
+   "source_url": "https://docs.google.com/document/d/13pEWGPk9wPLhXhzofUeK-jzoDh3dVYHyyoJAK-lYNqw/edit",
+   "quote": "How long have each of you been working on this? How much of that has been full-time? Please explain.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Welcomes founders who just quit jobs or are still in college.",
+   "source_url": "https://allindiacapital.substack.com/p/hello-world",
+   "quote": "If you have just quit your job or planing to quit soon, or you are still in collge",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Aditya Singh: execution and action matter more than original ideas (esp. brands).",
+   "source_url": "https://startuppedia.in/trending/copying-startup-ideas-is-not-bad-all-in-capitals-aditya-singh-says-execution-matters-more-than-original-ideas-for-brands-11085491",
+   "quote": "He went on explaining that execution and action matter more than “original” ideas in the journey to build scalable companies.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Consumer AI: founders combining domain expertise, cultural nuance and trust.",
+   "source_url": "https://allindiacapital.substack.com/p/mapping-the-consumer-ai-wave",
+   "quote": "Founders who combine domain expertise, cultural nuance and trust will set the next defining trends in consumer AI.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Founder diligence includes reference checks with former employers, colleagues and peers.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "Founder evaluation includes a thorough background check based on conversations with former employers, colleagues and industry peers.",
+   "source_type": "press"
+  }
+ ],
+ "anti_thesis": [
+  {
+   "fact": "No explicit \"what we don't invest in\" list or sector exclusion found on the fund site, FAQs, launch posts, press, or Kushal Bhagia's posts reviewed. Items below are implied or structural limits, not stated exclusions.",
+   "source_url": null,
+   "quote": null,
+   "source_type": null
+  },
+  {
+   "fact": "Implied: will reject on market dislike or wrong stage (no specifics given).",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "if you are not the right fit for us (i.e. either we don’t like the market or this is not the right stage for us etc)",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Implied (structural): not a fit for already revenue/profit-generating companies where large VCs compete.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "But then I can’t get into those companies since I write small cheques and there I’ll be competing with the Accels, Sequoias, Nexuses of the world.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Implied (round size): pulled back when rounds grew to INR 10-15 Cr in Fund I; Fund II leads up to INR 6 Cr.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "Bhagia noted that in previous instances when the rounds grew larger — say, INR 10-15 Cr — the firm was forced to pull back.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Skeptical view (2023 GenAI series), not an explicit exclusion: thin API/UI wrappers lack defensibility.",
+   "source_url": "https://medium.com/all-in-capital/how-to-think-about-generative-ai-part-2-a9e73dfe3795",
+   "quote": "Those merely providing simplistic API calls and UI/UX wrappers will struggle to maintain a competitive advantage.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Does not decide based on hype or who else is investing.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We don’t care who else is investing or what’s hot.",
+   "source_type": "founder_social"
+  }
+ ],
+ "process": [
+  {
+   "fact": "Three ways in: via a Founder Angel Venture Partner, a portfolio founder intro, or the application form.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "Three Ways to Pitch us",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Venture partner route: if a listed venture partner invests even $5K, All In will \"most likely\" invest alongside.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "if you can convince them to invest even $5K in your startup, we will most likely invest with them. Really!",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Application form: 500+ deals/month; every form reviewed.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "We typically see 500+ deals every month and this form allows us to ensure that we give each and every founder a fair shot.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "SLA: response within 3 days; yes/no within 10 days of form submission.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "we assure you we will respond back to you within three days (Really!). Usually, after the form is submitted, we set up a call, and post the call we give you a yes or no within 10 days",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Form: 5 sections, ~10 minutes; asks raise amount, expected valuation, term sheets.",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "The form consists of 5 sections and is best filled in one sitting. It will take you around 10 mins to fill.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Application form fields include amount sought and expected valuation.",
+   "source_url": "https://docs.google.com/document/d/13pEWGPk9wPLhXhzofUeK-jzoDh3dVYHyyoJAK-lYNqw/edit",
+   "quote": "How much are you looking to raise?",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "End-to-end process target: two weeks from first contact to decision.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "From the first contact with us to a final decision, we try and run our process in two weeks end to end.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Term sheet typically within one to two weeks.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "All In Capital stands out for its speedy investment decisions, as it typically offers a term sheet within a week or two.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Money in bank in under a week from decision (convertible note).",
+   "source_url": "https://allincapital.vc/apply_now",
+   "quote": "it takes less than a week to get the money into your bank account from the day we decide to invest.",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Example speed: PierSight term sheet in 11 days from first meeting.",
+   "source_url": "https://allincapital.vc/piersight_founder_story",
+   "quote": "All In gave us a term sheet within 11 days of our first meeting”",
+   "source_type": "fund_site"
+  },
+  {
+   "fact": "Idea filter: \"why now\" — what changed in the world enabling this.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "Firstly, we ask ourselves, what has changed in the world which enables this product or tech to be made now.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Looks for technological differentiation and/or clear why-now.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "Before funding, the fund looks for technological differentiation and/ or a clear ‘why now’.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "AI evaluation: start with user problem/customer impact, then technical depth.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "“The first question should always be: What problem does it solve, and how does it enhance customer experience?",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Funnel (2023): sees 300-500 companies/month, picks 2-3; de-risks via price and volume.",
+   "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+   "quote": "The way we de-risk is with price and volume. We see a lot of companies, something like 300 to 500 companies every month. We pick two or three",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "Diligence: background checks, expert/user consultations, late-stage investor network for red flags.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "The firm also taps into its network of late stage investors to identify potential red flags.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Tracks every startup that raises funds.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "“We track every startup that raises funds, which allows us to evaluate and invest in the best opportunities,” he added.",
+   "source_type": "founder_interview"
+  },
+  {
+   "fact": "No board seats; founder-first.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "We are founder first. We don’t take board seats and are firmly in your camp.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Brings founder-angels from network into each round it leads.",
+   "source_url": "https://x.com/kushalbhagia/status/1902586495778902475",
+   "quote": "Typically when we lead a round, we pull in some of them with us to invest in every company.",
+   "source_type": "founder_social"
+  },
+  {
+   "fact": "Fund II strategy: lead rounds rather than co-invest.",
+   "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+   "quote": "In the past 18-24 months, All In Capital has consistently pursued its strategy of leading funding rounds instead of co-investing.",
+   "source_type": "press"
+  },
+  {
+   "fact": "Golden Ticket applications are rolling.",
+   "source_url": "https://www.bwdisrupt.com/article/all-in-capital-rolls-out-golden-ticket-programme-for-early-stage-ai-founders-592415",
+   "quote": "Applications for the Golden Ticket cohort are open on a rolling basis.",
+   "source_type": "press"
+  }
+ ],
+ "not_found": [
+  "Exact ownership/stake target per deal (only \"bigger stakes\" and \"50-100% of the round\" are stated)",
+  "Fund II final close amount and date (first close INR 85 Cr per most sources / INR 100 Cr per Venture Intelligence; Sep 2025 Business Standard expected close in 2-3 months)",
+  "Explicit sector exclusions or a \"what we don't invest in\" list",
+  "Valuation range or cap that All In Capital targets (First Cheque-era 5-15 Cr post-money guidance exists but is not All In policy)",
+  "Follow-on reserve ratio for Fund II",
+  "Named LPs, fund term/tenure, management fee/carry",
+  "Whether non-India-based or non-Indian founders are eligible (stated focus is Indian founders; Tracxn shows 11 US-located investments)",
+  "Content of Kushal Bhagia's Apr 2026 X video \"Why do VCs pass?\" (video only, no transcript)",
+  "Transcripts of podcasts (Neon/100x Entrepreneur rate-limited; Roohi podcast \"Founder Archetypes\" not retrieved)",
+  "Crunchbase and PitchBook investor pages (blocked, HTTP 403)",
+  "Aditya Singh and Kushal Bhagia LinkedIn posts (LinkedIn not accessible)",
+  "Golden Ticket cohort company names",
+  "Details on \"Parsec\" (named by Inc42 as an H1 2026 SaaS investment; no deal report found)",
+  "Explicit board/governance terms beyond \"no board seats\""
+ ]
+}

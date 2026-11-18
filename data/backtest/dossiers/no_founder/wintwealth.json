@@ -1,0 +1,65 @@
+{
+  "company": "Wint Wealth",
+  "slug": "wintwealth",
+  "one_liner": "A platform that makes bond-market products accessible to retail investors in India",
+  "sector": "fintech",
+  "sub_sector": "Fintech (bonds / fixed income)",
+  "stage": "Early round",
+  "ask": null,
+  "business_model": "A platform that makes bond-market products accessible to retail investors in India. Early on it was run almost manually.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "A platform that makes bond-market products accessible to retail investors in India. Early on it was run almost manually.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Regulation of retail access to debt products. Trust is slow to build in a category where mistakes cost real money. Early volumes were small.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 5 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Fintech (bonds / fixed income) | Stage: Early round | Source: Founder referral"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 5 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "A platform that makes bond-market products accessible to retail investors in India. Early on it was run almost manually."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 5 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Regulation of retail access to debt products. Trust is slow to build in a category where mistakes cost real money. Early volumes were small."
+    }
+  ],
+  "produced_by": "backtest builder (no_founder; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

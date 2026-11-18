@@ -1,0 +1,82 @@
+{
+  "company": "Coinlane",
+  "slug": "coinlane",
+  "one_liner": "A retail crypto trading app and wallet for Indian users, with fiat on-ramp through a payment partner",
+  "sector": "other",
+  "sub_sector": "Web3 (crypto exchange and wallet)",
+  "stage": "Pre-seed",
+  "ask": null,
+  "business_model": "A retail crypto trading app and wallet for Indian users, with fiat on-ramp through a payment partner. Growing user base from referral campaigns.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "A retail crypto trading app and wallet for Indian users, with fiat on-ramp through a payment partner. Growing user base from referral campaigns.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Regulatory and tax uncertainty on crypto in India. Banking and payment-partner dependency. Trading revenue is cyclical. Intense competition from large, well-funded exchanges.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    },
+    {
+      "text": "Partner assessment of founders from the meeting: Siddharth Menon, previously a growth lead at a payments company, and a co-founder with a blockchain engineering background. Capable and fast-moving; the user growth was real. In the meeting he spoke confidently about regulation, but his answers amounted to a bet that the rules would become friendlier. There was no plan for the scenario in which they did not.",
+      "source_ids": [
+        "M3"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 10 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Web3 (crypto exchange and wallet) | Stage: Pre-seed | Source: Public application form"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 10 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "A retail crypto trading app and wallet for Indian users, with fiat on-ramp through a payment partner. Growing user base from referral campaigns."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 10 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Regulatory and tax uncertainty on crypto in India. Banking and payment-partner dependency. Trading revenue is cyclical. Intense competition from large, well-funded exchanges."
+    },
+    {
+      "id": "M3",
+      "kind": "seed",
+      "title": "Memo 10 - Founder assessment",
+      "url": null,
+      "locator": "Founder assessment",
+      "retrieved_on": null,
+      "quote": "Siddharth Menon, previously a growth lead at a payments company, and a co-founder with a blockchain engineering background. Capable and fast-moving; the user growth was real. In the meeting he spoke confidently about regulation, but his answers amounted to a bet that the rules would become friendlie"
+    }
+  ],
+  "produced_by": "backtest builder (full; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

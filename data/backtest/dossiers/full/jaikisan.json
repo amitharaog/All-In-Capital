@@ -1,0 +1,82 @@
+{
+  "company": "Jai Kisan",
+  "slug": "jaikisan",
+  "one_liner": "A fintech platform providing financing to farmers and rural households for income-generating purchases such as agricultural and dairy equipment",
+  "sector": "fintech",
+  "sub_sector": "Fintech (rural / agri credit)",
+  "stage": "Early round",
+  "ask": null,
+  "business_model": "A fintech platform providing financing to farmers and rural households for income-generating purchases such as agricultural and dairy equipment. Mumbai-based, founded 2017.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "A fintech platform providing financing to farmers and rural households for income-generating purchases such as agricultural and dairy equipment. Mumbai-based, founded 2017.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Rural credit risk and collections, regulatory exposure, dependence on channel partners, and seasonality tied to monsoon and crop cycles.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    },
+    {
+      "text": "Partner assessment of founders from the meeting: Arjun Ahluwalia and Adriel Maniego. The case for them was in how they built distribution: a presence across many channel-partner locations in multiple districts, with thousands of farmers registered and assessed before they scaled lending. That says they started with the borrower, not the app. Concern raised internally: credit-risk depth would need to be built or hired quickly as lending scaled.",
+      "source_ids": [
+        "M3"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 11 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Fintech (rural / agri credit) | Stage: Early round | Source: Warm intro"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 11 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "A fintech platform providing financing to farmers and rural households for income-generating purchases such as agricultural and dairy equipment. Mumbai-based, founded 2017."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 11 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Rural credit risk and collections, regulatory exposure, dependence on channel partners, and seasonality tied to monsoon and crop cycles."
+    },
+    {
+      "id": "M3",
+      "kind": "seed",
+      "title": "Memo 11 - Founder assessment",
+      "url": null,
+      "locator": "Founder assessment",
+      "retrieved_on": null,
+      "quote": "Arjun Ahluwalia and Adriel Maniego. The case for them was in how they built distribution: a presence across many channel-partner locations in multiple districts, with thousands of farmers registered and assessed before they scaled lending. That says they started with the borrower, not the app. Conce"
+    }
+  ],
+  "produced_by": "backtest builder (full; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

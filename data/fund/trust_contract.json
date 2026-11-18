@@ -1,0 +1,97 @@
+{
+  "written": "2026-11-18, before the batch results or the backtest were seen",
+  "summary": "The system runs in shadow mode beside Riya's own triage for six intake weeks or 100 applications, whichever is later. Riya keeps triaging as today; the system's read is compared with hers and with the partners' calls. It graduates to first reader (Riya reads only what it flags, plus a random 10% of its suggested passes) only if every threshold below holds. Any single fabricated fact or missed portfolio conflict stops it immediately. Even after graduation it never decides: every outcome still goes to Kushal.",
+  "metrics": [
+    {
+      "metric": "Missed calls (false passes)",
+      "how": "Of applications the partners take a call on during shadow mode, the share the system had marked 'Suggest pass'. This is the costly error: a good founder never reaching a partner.",
+      "threshold": "0 of the first 20 calls; at most 5% overall",
+      "if_breached": "System may not suggest 'pass' at all; it ranks only, and Riya reads everything."
+    },
+    {
+      "metric": "Agreement with Riya on call / no call",
+      "how": "Share of applications where the system's 'take the call' matches Riya's. Reported with a 95% interval. Every disagreement is reviewed and logged as 'Riya right', 'system right' or 'unclear'.",
+      "threshold": ">= 80%",
+      "if_breached": "Extend shadow mode; review the corrections log for a systematic miss."
+    },
+    {
+      "metric": "Fabricated facts",
+      "how": "Weekly spot-check of 20 random claims: does the cited source actually say it? A fabrication is a claim whose source does not contain it, or a source that does not exist.",
+      "threshold": "0",
+      "if_breached": "Stop. Nothing goes to partners until the cause is found and fixed."
+    },
+    {
+      "metric": "Citation support rate",
+      "how": "Same spot-check: share of claims the cited source fully supports (partial support counts as a miss). Plus the mechanical audit: every deck/form quote found in the file.",
+      "threshold": ">= 95% supported; 100% of deck/form quotes verified",
+      "if_breached": "Fix the research prompt; re-run that week."
+    },
+    {
+      "metric": "Portfolio conflict recall",
+      "how": "Seeded test set (Talkbook vs MeetRecord, plus five synthetic overlaps with other portfolio companies) and every real overlap Riya spots in shadow mode.",
+      "threshold": "100% (false alarms are acceptable)",
+      "if_breached": "Stop. Expand the conflict families and the portfolio descriptions."
+    },
+    {
+      "metric": "Gaps named, not filled",
+      "how": "In the spot-check, any founder background or metric presented as known when it was not established.",
+      "threshold": "0",
+      "if_breached": "Stop, as for fabrication."
+    },
+    {
+      "metric": "Corrections reused",
+      "how": "When a later application matches a correction's tags, did the score card cite and apply it (precedents_applied)?",
+      "threshold": ">= 80% of matching cases",
+      "if_breached": "Tighten the tags on corrections; make retrieval stricter."
+    },
+    {
+      "metric": "Backtest agreement on past decisions",
+      "how": "Blind re-score of the 12 deal memos (decision and reasoning withheld). Agreement = 'take the call' on invested companies and anything else on passes. Every disagreement adjudicated in writing.",
+      "threshold": ">= 9 of 12, and no investment the fund made scored 'suggest pass'",
+      "if_breached": "Do not start shadow mode; rework the revealed thesis."
+    },
+    {
+      "metric": "Riya's time",
+      "how": "Minutes per application, logged by Riya during shadow mode, for applications where she accepts the system's read.",
+      "threshold": "<= 10 minutes (from ~30)",
+      "if_breached": "The system is not saving time; find out which section she is redoing."
+    }
+  ],
+  "where_it_breaks": [
+    {
+      "where": "Founder behaviour under pressure",
+      "why": "The fund's deciding signals (does the founder own the risk? get defensive? answer 'what would make you quit?' with a milestone?) appear in calls, not decks. In the backtest, removing the partners' founder assessment is the cleanest measure of how much of the decision lives there.",
+      "mitigation": "R1 and R6 carry low confidence from an application alone; call questions are generated to test them; Kushal and Riya's call notes feed corrections."
+    },
+    {
+      "where": "Founders with no public footprint",
+      "why": "Web research can confirm what exists, not what doesn't. A thin footprint is reported as a gap, never as a negative, but it means the founder criteria rest on founder-stated facts.",
+      "mitigation": "Gaps are listed with the exact question to ask; footprint is shown per founder."
+    },
+    {
+      "where": "Thesis drift",
+      "why": "The revealed lens is reconstructed from 12 memos, so it describes what the fund rewarded, and it will lag if the fund changes. The stated lens describes public wording, which already lags (Riya's observation).",
+      "mitigation": "Both lenses are shown with the gap between them; the thesis file is versioned and re-derived each quarter from new memos and corrections."
+    },
+    {
+      "where": "Categories the fund has never decided on",
+      "why": "Healthcare delivery, travel, and other categories with no precedent in the memos have no revealed-thesis evidence; scores there are extrapolation.",
+      "mitigation": "Flagged as sector-label stretch (G3); route to a partner, not to a pass."
+    },
+    {
+      "where": "Deeptech technical judgement",
+      "why": "The system cannot judge whether the technology works. Aditya's rule: deeptech second calls are not delegated.",
+      "mitigation": "Deeptech always adds Aditya to the call; technical claims are marked founder_stated."
+    },
+    {
+      "where": "A small backtest",
+      "why": "Twelve decisions give a wide confidence interval, the revealed lens is in-sample on those twelve, and six of the companies are real and well known (the scorer may recognise them).",
+      "mitigation": "Treat the backtest as a smoke test; shadow mode on new applications is the real test."
+    },
+    {
+      "where": "Founders learning the rubric",
+      "why": "Kushal: written rules turn into checklists and founders learn to pass them.",
+      "mitigation": "The thesis file and prompts stay internal; scores weigh evidence (numbers, named customers, contradictions), which is harder to perform than language."
+    }
+  ]
+}

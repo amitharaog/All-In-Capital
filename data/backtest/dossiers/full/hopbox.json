@@ -1,0 +1,82 @@
+{
+  "company": "HopBox",
+  "slug": "hopbox",
+  "one_liner": "Hyperlocal delivery of groceries and daily essentials in under ten minutes from small dark stores, operating in one city neighbourhood cluster",
+  "sector": "consumer_tech",
+  "sub_sector": "Consumer tech (10-minute delivery)",
+  "stage": "Pre-seed",
+  "ask": null,
+  "business_model": "Hyperlocal delivery of groceries and daily essentials in under ten minutes from small dark stores, operating in one city neighbourhood cluster.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "Hyperlocal delivery of groceries and daily essentials in under ten minutes from small dark stores, operating in one city neighbourhood cluster.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Capital-intensive model that only works at density. Well-funded incumbents with deep pockets. Contribution margin negative on the data shown. Customer loyalty unproven.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    },
+    {
+      "text": "Partner assessment of founders from the meeting: Varun Malhotra and Dev Sethi, two former operations managers at a quick-commerce company. Their operational knowledge was real and detailed; they knew picking times, rider utilisation and wastage by category. They were also visibly energetic. But when pressed, neither could describe a path to profitability that did not depend on a large raise to reach density, and they treated that as someone else's problem to solve.",
+      "source_ids": [
+        "M3"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 4 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Consumer tech (10-minute delivery) | Stage: Pre-seed | Source: Warm intro"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 4 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "Hyperlocal delivery of groceries and daily essentials in under ten minutes from small dark stores, operating in one city neighbourhood cluster."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 4 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Capital-intensive model that only works at density. Well-funded incumbents with deep pockets. Contribution margin negative on the data shown. Customer loyalty unproven."
+    },
+    {
+      "id": "M3",
+      "kind": "seed",
+      "title": "Memo 4 - Founder assessment",
+      "url": null,
+      "locator": "Founder assessment",
+      "retrieved_on": null,
+      "quote": "Varun Malhotra and Dev Sethi, two former operations managers at a quick-commerce company. Their operational knowledge was real and detailed; they knew picking times, rider utilisation and wastage by category. They were also visibly energetic. But when pressed, neither could describe a path to profit"
+    }
+  ],
+  "produced_by": "backtest builder (full; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}

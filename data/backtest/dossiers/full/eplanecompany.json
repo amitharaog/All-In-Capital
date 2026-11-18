@@ -1,0 +1,82 @@
+{
+  "company": "The ePlane Company",
+  "slug": "eplanecompany",
+  "one_liner": "Electric vertical take-off and landing (eVTOL) aircraft and unmanned aerial vehicles for short-range intracity travel",
+  "sector": "deeptech",
+  "sub_sector": "Deeptech (aerial mobility)",
+  "stage": "Early round",
+  "ask": null,
+  "business_model": "Electric vertical take-off and landing (eVTOL) aircraft and unmanned aerial vehicles for short-range intracity travel. Incubated at IIT Madras, grown out of a combustion research lab; founded 2016.",
+  "founders": [],
+  "claims": [
+    {
+      "text": "Electric vertical take-off and landing (eVTOL) aircraft and unmanned aerial vehicles for short-range intracity travel. Incubated at IIT Madras, grown out of a combustion research lab; founded 2016.",
+      "source_ids": [
+        "M2"
+      ],
+      "status": "founder_stated",
+      "note": null
+    },
+    {
+      "text": "Risks recorded by the fund: Regulation and certification timelines are long and outside the founders' control. Capital intensity is high and the first revenue is far away. Market sizing in the deck was aspirational rather than evidenced.",
+      "source_ids": [
+        "M4"
+      ],
+      "status": "verified",
+      "note": null
+    },
+    {
+      "text": "Partner assessment of founders from the meeting: Pranjal Mehta (CEO) and Satyanarayanan Chakravarthy (CTO). The pairing is the strongest part of the file: deep technical credibility on one side, a commercial operator on the other, and both have stayed with the problem for years rather than chasing a trend. Mehta is the better storyteller; Chakravarthy is quieter but the one people in the room defer to on technical questions. Concern: neither has shipped a certified aircraft, and neither has run a large manufacturing organisation.",
+      "source_ids": [
+        "M3"
+      ],
+      "status": "verified",
+      "note": null
+    }
+  ],
+  "gaps": [],
+  "competitors_named": [],
+  "competitors_found": [],
+  "keywords": [],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "M1",
+      "kind": "seed",
+      "title": "Memo 1 header",
+      "url": null,
+      "locator": "header",
+      "retrieved_on": null,
+      "quote": "Sector: Deeptech (aerial mobility) | Stage: Early round | Source: Warm intro, Fund I founder network"
+    },
+    {
+      "id": "M2",
+      "kind": "seed",
+      "title": "Memo 1 - What it does",
+      "url": null,
+      "locator": "What it does",
+      "retrieved_on": null,
+      "quote": "Electric vertical take-off and landing (eVTOL) aircraft and unmanned aerial vehicles for short-range intracity travel. Incubated at IIT Madras, grown out of a combustion research lab; founded 2016."
+    },
+    {
+      "id": "M4",
+      "kind": "seed",
+      "title": "Memo 1 - Risks",
+      "url": null,
+      "locator": "Risks and open questions",
+      "retrieved_on": null,
+      "quote": "Regulation and certification timelines are long and outside the founders' control. Capital intensity is high and the first revenue is far away. Market sizing in the deck was aspirational rather than evidenced."
+    },
+    {
+      "id": "M3",
+      "kind": "seed",
+      "title": "Memo 1 - Founder assessment",
+      "url": null,
+      "locator": "Founder assessment",
+      "retrieved_on": null,
+      "quote": "Pranjal Mehta (CEO) and Satyanarayanan Chakravarthy (CTO). The pairing is the strongest part of the file: deep technical credibility on one side, a commercial operator on the other, and both have stayed with the problem for years rather than chasing a trend. Mehta is the better storyteller; Chakrava"
+    }
+  ],
+  "produced_by": "backtest builder (full; decision and 'why' paragraph withheld)",
+  "research_notes": null
+}
