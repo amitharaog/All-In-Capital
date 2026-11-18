@@ -1,0 +1,598 @@
+{
+  "company": "RentRoute",
+  "slug": "rentroute",
+  "one_liner": "Mobile app that lets tenants pay rent by credit card, with the landlord paid by bank transfer through a payment aggregator partner.",
+  "sector": "fintech",
+  "sub_sector": "Consumer payments - rent via credit card",
+  "stage": "Pre-seed",
+  "ask": "INR 1.8 Cr at INR 12 Cr post-money",
+  "business_model": "Users pay a 1.8% fee on rent; ~0.9% goes to the payment aggregator, leaving ~0.9% net take rate.",
+  "founders": [
+    {
+      "name": "Sameer Qureshi",
+      "role": "CEO",
+      "background_claimed": "Product manager at a fintech for 4 years; launched two payments features.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D9",
+        "F2"
+      ]
+    },
+    {
+      "name": "Divya Menon",
+      "role": "Growth",
+      "background_claimed": "5 years in consumer marketing.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D10",
+        "F3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "Revenue is presented differently: deck shows 'INR 11 L revenue (1.8% fee)'; form says INR 11 L is gross and net revenue after the 0.9% paid to the payment partner is INR 5.5 L.",
+      "source_ids": [
+        "D4",
+        "F6"
+      ],
+      "status": "contradicted",
+      "note": "Deck reports gross fees as revenue; true net take rate is ~0.9% of rent volume."
+    },
+    {
+      "text": "Deck reports '1,900 users'; form clarifies 1,900 registered of whom 1,100 have paid at least once.",
+      "source_ids": [
+        "D3",
+        "F4"
+      ],
+      "status": "founder_stated",
+      "note": "Not a numeric contradiction, but the deck omits that ~42% of registered users have never paid."
+    },
+    {
+      "text": "Competition differs across sources: deck says 'We have no direct competitors'; the form itself acknowledges banks and card networks have changed rent-payment rules before; the web shows several platforms offering card rent payments (RedGiraffe, PayZapp, NoBroker per W7; HDFC PayZapp's own rent page lists credit card as a method, W10).",
+      "source_ids": [
+        "D6",
+        "D7",
+        "F8",
+        "W7",
+        "W10"
+      ],
+      "status": "contradicted",
+      "note": "Deck claim is contradicted by independent sources; CRED, PhonePe and Paytm also offered the product until September 2025 (W2)."
+    },
+    {
+      "text": "Rent paid: INR 6.1 Cr across 2,400 payments since July 2026 (avg ~INR 25,400 per payment); monthly volume grew 0.4 -> 1.0 -> 1.9 -> 2.8 Cr (Jul-Oct).",
+      "source_ids": [
+        "D5",
+        "F5"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Acquisition: mostly organic/word of mouth; small paid tests cost ~INR 120 per registered user; cost per paying user not measured.",
+      "source_ids": [
+        "F7"
+      ],
+      "status": "founder_stated",
+      "note": "At a 58% registered-to-paid rate, ~INR 207 per paying user vs ~INR 229 net revenue per average payment (25,400 x 0.9%) - payback depends on repeat monthly use, which is not reported."
+    },
+    {
+      "text": "RentRoute pays landlords through a single payment aggregator partner and states that a change in bank or card-network rules would hit it directly.",
+      "source_ids": [
+        "F9",
+        "F8"
+      ],
+      "status": "founder_stated",
+      "note": "Founders acknowledge the defining risk but give no mitigation plan."
+    },
+    {
+      "text": "In February 2024 the RBI instructed Visa to suspend all transactions involving business payment solution providers (BPSPs), which routed card payments such as rent through fintechs.",
+      "source_ids": [
+        "W1"
+      ],
+      "status": "verified"
+    },
+    {
+      "text": "RBI's Payment Aggregator Directions (September 2025) require a PA to aggregate funds only for merchants with whom it has a contractual relationship and prohibit PAs from running marketplaces.",
+      "source_ids": [
+        "W5",
+        "W6"
+      ],
+      "status": "verified",
+      "note": "A landlord receiving card-funded rent must effectively be an onboarded merchant of the PA."
+    },
+    {
+      "text": "CRED, PhonePe and Paytm halted credit-card rent payments in September 2025 following the RBI PA directions, because landlords were not onboarded with full merchant KYC.",
+      "source_ids": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "status": "verified"
+    },
+    {
+      "text": "By January 2026 some platforms (RedGiraffe, PayZapp, NoBroker) had restarted or continued card rent payments with stricter verification - PAN of both payer and payee plus rent agreement documents; PhonePe stayed out.",
+      "source_ids": [
+        "W7",
+        "W8",
+        "W9"
+      ],
+      "status": "verified",
+      "note": "Shows a compliant route may exist, but with KYC friction RentRoute does not describe (deck: 'Enter your landlord's bank details once')."
+    },
+    {
+      "text": "Whether RentRoute's flow complies with the 2025 PA directions (landlord onboarded as the PA's merchant with KYC) is not established by the application.",
+      "source_ids": [
+        "F9",
+        "D2",
+        "W5"
+      ],
+      "status": "unverifiable",
+      "note": "Relevant to gate G2 (exists only if the rules are favourable): the business launched in July 2026, after the rules that shut the incumbents' version."
+    },
+    {
+      "text": "Planned issuer referral income ('Referral income from card issuers is coming') is unsupported in the application.",
+      "source_ids": [
+        "D8"
+      ],
+      "status": "founder_stated",
+      "note": "No issuer partnership named."
+    },
+    {
+      "text": "Founders: Sameer Qureshi (CEO) claims 4 years as a fintech product manager who launched two payments features; Divya Menon (Growth) claims 5 years in consumer marketing. Engineering is outsourced to contract developers. Sameer full-time since June 2026, Divya since August 2026.",
+      "source_ids": [
+        "D9",
+        "D10",
+        "D11",
+        "F10",
+        "F14"
+      ],
+      "status": "founder_stated",
+      "note": "No in-house engineering or compliance/payments-regulation lead on the team."
+    },
+    {
+      "text": "Founder LinkedIn links are placeholders (*-example) and the website is a .example domain; no independent footprint for founders or company found.",
+      "source_ids": [
+        "F2",
+        "F3",
+        "F1"
+      ],
+      "status": "unverifiable"
+    },
+    {
+      "text": "Market sizing is top-down: INR 1.5 lakh Cr annual urban rent, 'capturing just 1%' = INR 1,500 Cr volume.",
+      "source_ids": [
+        "D14"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "12-month target INR 20 Cr monthly rent volume (~7x October); 55% of the raise goes to marketing.",
+      "source_ids": [
+        "D12",
+        "D13"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Raising INR 1.8 Cr at INR 12 Cr post-money; no outside investors; founders have put in INR 18 L and own 100%.",
+      "source_ids": [
+        "F12",
+        "F11"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Sector as selected (Fintech) matches the business: a consumer payments app (rent via credit card).",
+      "source_ids": [
+        "D1"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founders frame rent as a large, underserved payment category and the problem as landlords not accepting cards.",
+      "source_ids": [
+        "F13",
+        "D15"
+      ],
+      "status": "founder_stated"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Sameer Qureshi (CEO): no public footprint confirming 4 years as a fintech product manager.",
+      "why_it_matters": "Payments-product experience is the main founder claim in a regulator-exposed category.",
+      "searched": [
+        "WebSearch: \"Sameer Qureshi\" RentRoute Bengaluru rent credit card (2026-11-18) - no match; generic rent-by-card pages",
+        "Application LinkedIn link linkedin.com/in/sameer-qureshi- example is a placeholder"
+      ],
+      "ask_founder": "Which fintech, which two payments features, and did you work with PA/compliance teams?",
+      "blocks_criteria": [
+        "S3"
+      ]
+    },
+    {
+      "what": "Divya Menon (Growth): no public footprint confirming 5 years in consumer marketing.",
+      "why_it_matters": "Growth lead for a plan that puts 55% of funds into marketing.",
+      "searched": [
+        "WebSearch: \"Divya Menon\" RentRoute growth Bengaluru (2026-11-18) - no match",
+        "Application LinkedIn link linkedin.com/in/divya-menon-example is a placeholder"
+      ],
+      "ask_founder": "Which brands/companies and what channels did you run?",
+      "blocks_criteria": [
+        "S3"
+      ]
+    },
+    {
+      "what": "Company existence: no website, app-store listing or MCA record found for RentRoute Technologies Pvt. Ltd.",
+      "why_it_matters": "Basic verification; 1,900 users should leave an app-store footprint.",
+      "searched": [
+        "WebSearch: RentRoute app pay rent with credit card India (2026-11-18) - no result",
+        "Website www.rentroute.example is a placeholder",
+        "MCA portal not queried"
+      ],
+      "ask_founder": "Share app-store links and CIN.",
+      "blocks_criteria": [
+        "R4"
+      ]
+    },
+    {
+      "what": "Regulatory compliance of the payment flow under RBI's 2025 PA Directions: is each landlord onboarded as the PA's merchant with KYC, and who is the PA?",
+      "why_it_matters": "Incumbents (CRED, PhonePe, Paytm) exited this exact product over this rule; if RentRoute's flow is not compliant the business can be switched off overnight.",
+      "searched": [
+        "Web: Entrackr, Inc42, IndiaCorpLaw, Whalesbook (W2-W9)",
+        "Form Dependencies and What have you built?"
+      ],
+      "ask_founder": "Which payment aggregator do you use, does it KYC each landlord as a merchant, do you collect payer/payee PAN and rent agreements, and has the PA confirmed the flow in writing against the September 2025 directions?",
+      "blocks_criteria": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "what": "Card-network / issuer stance: treatment of rent transactions as commercial/BPSP payments and issuer fees or reward exclusions on rent.",
+      "why_it_matters": "Network or issuer changes (as in February 2024) directly remove the product's value proposition.",
+      "searched": [
+        "Web: RBI-Visa BPSP suspension (W1)",
+        "Deck slide 8"
+      ],
+      "ask_founder": "Which card networks and issuers currently work on your flow, and what happens to users if issuers stop rewards on rent?",
+      "blocks_criteria": [
+        "R1"
+      ]
+    },
+    {
+      "what": "Repeat monthly usage: share of paying users who pay rent again the following month; fraud/chargeback rate.",
+      "why_it_matters": "Trust/repeat usage is a key fintech metric; rent is monthly so repeat should be measurable. Rent-by-card is also a known channel for cash-out abuse.",
+      "searched": [
+        "Deck slide 5",
+        "Form Users / Rent volume"
+      ],
+      "ask_founder": "Of users who paid in August, what share paid again in September and October? Any chargebacks or fake-landlord cases?",
+      "blocks_criteria": [
+        "R3"
+      ]
+    },
+    {
+      "what": "Mitigation plan for single-PA dependency.",
+      "why_it_matters": "Founders name the risk but give no plan; precedent rewards founders who own the defining risk.",
+      "searched": [
+        "Form Dependencies"
+      ],
+      "ask_founder": "What is your plan if the PA partner drops rent payments - second PA, landlord-side onboarding, or a pivot?",
+      "blocks_criteria": [
+        "R1"
+      ]
+    }
+  ],
+  "competitors_named": [],
+  "competitors_found": [
+    "CRED (RentPay, halted Sep 2025)",
+    "PhonePe (exited)",
+    "Paytm (halted Sep 2025)",
+    "RedGiraffe",
+    "HDFC PayZapp",
+    "NoBroker"
+  ],
+  "keywords": [
+    "rent payment",
+    "credit card",
+    "tenant",
+    "landlord",
+    "bill payment",
+    "card rewards",
+    "payment aggregator",
+    "consumer payments",
+    "rent"
+  ],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "D1",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 1 (title)",
+      "quote": "Pay your rent with your credit card"
+    },
+    {
+      "id": "D2",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 4 (product)",
+      "quote": "Rent reaches the landlord's bank account within a day."
+    },
+    {
+      "id": "D3",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "1,900 users"
+    },
+    {
+      "id": "D4",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "INR 11 L revenue (1.8% fee)"
+    },
+    {
+      "id": "D5",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "Traction: INR 6.1 Cr of rent paid in 4 months"
+    },
+    {
+      "id": "D6",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (competition)",
+      "quote": "We have no direct competitors."
+    },
+    {
+      "id": "D7",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (competition)",
+      "quote": "Existing payment apps focus on other bills like electricity, mobile and credit card repayments."
+    },
+    {
+      "id": "D8",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (revenue model)",
+      "quote": "Referral income from card issuers is coming."
+    },
+    {
+      "id": "D9",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (team)",
+      "quote": "Product manager at a fintech for 4 years. Launched two payments features."
+    },
+    {
+      "id": "D10",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (team)",
+      "quote": "5 years in consumer marketing."
+    },
+    {
+      "id": "D11",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (team)",
+      "quote": "Engineering handled by contract developers."
+    },
+    {
+      "id": "D12",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (ask)",
+      "quote": "In 12 months: INR 20 Cr monthly rent volume."
+    },
+    {
+      "id": "D13",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (ask)",
+      "quote": "55% Marketing"
+    },
+    {
+      "id": "D14",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 6 (market)",
+      "quote": "Capturing just 1% would mean INR 1,500 Cr of annual rent volume."
+    },
+    {
+      "id": "D15",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 3 (problem)",
+      "quote": "Landlords will not accept cards, so reward points go unused."
+    },
+    {
+      "id": "F1",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Website",
+      "quote": "www.rentroute.example"
+    },
+    {
+      "id": "F2",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "linkedin.com/in/sameer-qureshi- example"
+    },
+    {
+      "id": "F3",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 2",
+      "quote": "linkedin.com/in/divya-menon-example"
+    },
+    {
+      "id": "F4",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Users",
+      "quote": "1,900 registered. 1,100 have paid at least once."
+    },
+    {
+      "id": "F5",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Rent volume",
+      "quote": "INR 6.1 Cr paid since July 2026 across 2,400 payments."
+    },
+    {
+      "id": "F6",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Revenue",
+      "quote": "Users pay a 1.8% fee: INR 11 L gross. After the 0.9% we pay the payment partner, net revenue is INR 5.5 L."
+    },
+    {
+      "id": "F7",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customer acquisition",
+      "quote": "In small paid tests we saw about INR 120 per registered user. We have not measured cost per paying user."
+    },
+    {
+      "id": "F8",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Dependencies",
+      "quote": "We rely on a single payment aggregator partner. Banks and card networks have changed rules on rent payments before, and a change would hit us directly."
+    },
+    {
+      "id": "F9",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > What have you built?",
+      "quote": "We pay the landlord's bank account through a payment aggregator partner."
+    },
+    {
+      "id": "F10",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Time commitment",
+      "quote": "Sameer full-time since June 2026. Divya full-time since August 2026."
+    },
+    {
+      "id": "F11",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Existing investors",
+      "quote": "None. Founders have put in INR 18 L of savings."
+    },
+    {
+      "id": "F12",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Valuation expectation",
+      "quote": "INR 12 Cr post-money"
+    },
+    {
+      "id": "F13",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Anything else",
+      "quote": "We believe rent is a large, underserved payment category."
+    },
+    {
+      "id": "F14",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Team size",
+      "quote": "4 (2 founders, 2 contract developers)"
+    },
+    {
+      "id": "W1",
+      "kind": "web",
+      "title": "Visa, Mastercard to stop commercial card payments via fintech intermediaries in India (Fintech News Singapore, 15 Feb 2024)",
+      "url": "https://fintechnews.sg/86371/fintech-india/visa-mastercard-to-stop-commercial-card-payments-via-fintech-intermediaries-in-india/",
+      "retrieved_on": "2026-11-18",
+      "quote": "The communication from the RBI instructed Visa to temporarily suspend all transactions involving BPSPs."
+    },
+    {
+      "id": "W2",
+      "kind": "web",
+      "title": "CRED, PhonePe, Paytm stop rent payments via credit cards (Entrackr, 17 Sep 2025)",
+      "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+      "retrieved_on": "2026-11-18",
+      "quote": "CRED, PhonePe, and Paytm have halted rent payments via credit cards on their platforms."
+    },
+    {
+      "id": "W3",
+      "kind": "web",
+      "title": "CRED, PhonePe, Paytm stop rent payments via credit cards (Entrackr) - cause",
+      "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+      "retrieved_on": "2026-11-18",
+      "quote": "The move follows the Reserve Bank of India’s (RBI) latest master directions on payment aggregator regulations."
+    },
+    {
+      "id": "W4",
+      "kind": "web",
+      "title": "PhonePe, Paytm & CRED halt rent payments via credit cards (Inc42, 18 Sep 2025)",
+      "url": "https://inc42.com/?p=532025",
+      "retrieved_on": "2026-11-18",
+      "quote": "Rent payments routed via fintechs were impacted as landlords are not often onboarded on fintech platforms with full KYC"
+    },
+    {
+      "id": "W5",
+      "kind": "web",
+      "title": "Decoding RBI's overhaul of the Payment Aggregator Directions (IndiaCorpLaw, 9 Oct 2025)",
+      "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+      "retrieved_on": "2026-11-18",
+      "quote": "mandate that a PA shall aggregate funds only for the merchant with whom it has a contractual relationship."
+    },
+    {
+      "id": "W6",
+      "kind": "web",
+      "title": "Decoding RBI's overhaul of the Payment Aggregator Directions (IndiaCorpLaw) - marketplaces",
+      "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+      "retrieved_on": "2026-11-18",
+      "quote": "The 2025 directions further prohibit PAs from running marketplaces"
+    },
+    {
+      "id": "W7",
+      "kind": "web",
+      "title": "Fintech rent payments resume amidst RBI scrutiny; PhonePe stays out (Whalesbook, 27 Jan 2026)",
+      "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "retrieved_on": "2026-11-18",
+      "quote": "have either quietly restarted or continued to offer rent payment facilities."
+    },
+    {
+      "id": "W8",
+      "kind": "web",
+      "title": "Fintech rent payments resume (Whalesbook) - new verification requirements",
+      "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "retrieved_on": "2026-11-18",
+      "quote": "including the mandatory submission of PAN cards for both payer and payee, alongside rent agreement documents"
+    },
+    {
+      "id": "W9",
+      "kind": "web",
+      "title": "Fintech rent payments resume (Whalesbook) - PhonePe",
+      "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "retrieved_on": "2026-11-18",
+      "quote": "Walmart-owned PhonePe has elected to maintain its discontinuation of rent payment services."
+    },
+    {
+      "id": "W10",
+      "kind": "web",
+      "title": "Pay rent in Bengaluru - PayZapp (HDFC Bank)",
+      "url": "https://www.hdfc.bank.in/ps/payzapp/rent/bengaluru",
+      "retrieved_on": "2026-11-18",
+      "quote": "Transfer rent digitally via UPI, Credit Card, Debit Card or Zapp Account on PayZapp."
+    }
+  ],
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Business Standard article on the September 2025 shutdown returned 403; Inc42, Entrackr and IndiaCorpLaw used instead. Search snippets also reported HDFC Bank's June 2024 1% fee on card rent payments and ICICI/SBI Card removing rewards on rent, but no page with a verbatim quote was retrieved for these, so they are not cited as sources. Whalesbook (Jan 2026) is a lesser-known outlet; its report that some platforms resumed rent payments should be confirmed.",
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+}

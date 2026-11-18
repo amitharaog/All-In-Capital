@@ -112,3 +112,18 @@ def record_correction(slug: str, criterion_id: str | None, new_score: float | No
         ov.setdefault(slug, {})[criterion_id] = {"score": new_score, "by": by, "reason": reason, "correction_id": c.id}
         dump_json(OVERRIDES, ov)
     return c.model_dump()
+
+
+def write_packets(slugs: list[str]) -> list[str]:
+    """Write the exact scoring input for each slug to data/scores/_packets/,
+    so an in-session (no API key) scorer sees what the API scorer would."""
+    from .llm import build_score_input
+
+    out = []
+    for slug in slugs:
+        d = ResearchDossier.model_validate(load_json(RESEARCH / f"{slug}.json"))
+        path = SCORES / "_packets" / f"{slug}.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(build_score_input(d), encoding="utf-8")
+        out.append(str(path))
+    return out

@@ -24,7 +24,7 @@ STOP = set(
 FAMILIES = {
     "meeting_notes": {"meeting", "meetings", "notes", "note", "notetaker", "transcript", "transcription",
                        "transcribe", "call", "calls", "summary", "summaries", "summarise", "summarize",
-                       "minutes", "recording", "recorder", "conversation", "conversations", "voice"},
+                       "recording", "recorder", "conversation", "conversations", "voice"},
     "lending": {"loan", "loans", "lending", "credit", "bnpl", "emi", "nbfc", "borrower", "borrowers", "financing"},
     "wealth": {"invest", "investing", "investment", "investments", "wealth", "bonds", "bond", "fixed",
                "income", "mutual", "funds", "stocks", "stock", "trading", "portfolio", "sip"},
@@ -37,7 +37,7 @@ FAMILIES = {
     "travel": {"travel", "trip", "trips", "tour", "tours", "booking", "itinerary", "hotel", "hotels"},
     "rental_housing": {"rent", "rental", "rentals", "tenant", "tenants", "landlord", "landlords", "housing", "pg", "flat"},
     "care_health": {"care", "caregiver", "caregivers", "elder", "elderly", "health", "healthcare", "clinic", "nursing", "patients"},
-    "agri": {"farmer", "farmers", "agri", "agriculture", "crop", "crops", "irrigation", "pump", "pumps", "dairy", "grain", "grains"},
+    "agri": {"farmer", "farmers", "agri", "agriculture", "crop", "crops", "irrigation", "dairy", "grain", "grains"},
     "food_brand": {"snack", "snacks", "food", "millet", "millets", "breakfast", "cereal", "beverage", "fmcg"},
     "beauty_jewellery": {"skincare", "beauty", "cosmetics", "jewellery", "jewelry", "silver", "gold"},
     "education": {"exam", "exams", "test", "prep", "learning", "edtech", "students", "tutor", "course", "courses"},
@@ -54,7 +54,7 @@ def _families(tokens: set[str]) -> dict[str, set[str]]:
     out = {}
     for fam, words in FAMILIES.items():
         hit = tokens & words
-        if len(hit) >= 2 or (len(hit) == 1 and fam in ("meeting_notes", "mobility_aero")):
+        if len(hit) >= 2:
             out[fam] = hit
     return out
 
@@ -89,17 +89,21 @@ def check(dossier: ResearchDossier, portfolio: list[dict] | None = None) -> list
         level = None
         why = []
         if named:
-            level = "high"
             why.append(f"application or research names {p['name']}")
         if shared_fam:
-            level = level or ("high" if "meeting_notes" in shared_fam else "medium")
             why.append("same job family: " + ", ".join(shared_fam))
-        if len(shared_words) >= 3 and not level:
+        if named and shared_fam:
+            level = "high"
+        elif named or shared_fam:
+            level = "medium"
+        elif len(shared_words) >= 3:
             level = "low"
             why.append("shared vocabulary: " + ", ".join(shared_words[:6]))
         if level:
             if p.get("all_in_capital_fund_investment") is False:
                 why.append("pre-fund partner investment (not Fund I/II)")
+                if level == "high":
+                    level = "medium"
             hits.append(
                 {
                     "portfolio_company": p["name"],

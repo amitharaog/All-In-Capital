@@ -1,0 +1,244 @@
+{
+  "company": "EarnWise",
+  "slug": "earnwise",
+  "one_liner": "Earned wage access app letting gig and shift workers withdraw up to 50% of earned wages for a flat fee, recovered by the employer from the next payroll.",
+  "sector": "fintech",
+  "sub_sector": "Earned wage access / salary advance (lending-adjacent, employer-integrated)",
+  "stage": "Pre-seed",
+  "ask": "INR 2 Cr at INR 12 Cr post-money",
+  "business_model": "Flat fee per wage withdrawal (amount undisclosed); advances funded by a partner NBFC under an agreement in principle and partly by the founder's savings; repaid via employer payroll deduction.",
+  "founders": [
+    {
+      "name": "Rohit Arora",
+      "role": "Founder and CEO (solo; a co-founder left in July 2026)",
+      "background_claimed": "Deck: Ex-Goldman Sachs, Ex-Google, MBA IIM Ahmedabad. Form: 10-week summer analyst internship at an investment bank; 5-month vendor contract role at a large technology company; MBA at a tier-2 business school (2022-2024); 18 months at a payments startup.",
+      "background_verified": "Not verified, and the deck version is contradicted by the founder's own form. LinkedIn link is a placeholder. Web searches for the name with EarnWise/Gurugram and with IIM Ahmedabad/Goldman Sachs/Google returned no matching profile.",
+      "public_footprint": "not_found",
+      "source_ids": ["D9", "F1", "F2", "F3", "F17"]
+    }
+  ],
+  "claims": [
+    {
+      "text": "Deck says the founder is 'Ex-Goldman Sachs'; the form says his investment-banking experience was a 10-week summer analyst internship at an unnamed investment bank.",
+      "source_ids": ["D9", "F1"],
+      "status": "contradicted",
+      "note": "A 10-week internship presented as 'Ex-Goldman Sachs'; the form does not even name Goldman."
+    },
+    {
+      "text": "Deck says the founder is 'Ex-Google'; the form says he had a 5-month contract role through a vendor at a large technology company.",
+      "source_ids": ["D9", "F2"],
+      "status": "contradicted",
+      "note": "A vendor contract is not Google employment; company not named in the form."
+    },
+    {
+      "text": "Deck says 'MBA, IIM Ahmedabad'; the form says MBA at a tier-2 business school (2022 to 2024).",
+      "source_ids": ["D9", "F3"],
+      "status": "contradicted",
+      "note": "Direct factual conflict on education."
+    },
+    {
+      "text": "Deck states a team of 12; the form states team size 5 (founder, 2 outsourced developers, 1 operations, 1 sales).",
+      "source_ids": ["D10", "F4"],
+      "status": "contradicted",
+      "note": "Deck more than doubles headcount; the form shows no in-house engineers."
+    },
+    {
+      "text": "Deck states 3 enterprise clients live; the form states 1 enterprise client live and 2 in pilot.",
+      "source_ids": ["D4", "F5"],
+      "status": "contradicted",
+      "note": "Two of the three 'live' clients are pilots. The deck's PDF extraction note confirms the '3' is the deck's own stat (it ran into the '14' chart label)."
+    },
+    {
+      "text": "Deck says tech is 'led by an advisor, ex-CTO of a lending startup'; the form shows the build is done by 2 outsourced developers and there is no technical founder.",
+      "source_ids": ["D10", "F4"],
+      "status": "contradicted",
+      "note": "Deck implies an in-house tech organisation; form shows outsourced development with advisor oversight."
+    },
+    {
+      "text": "A co-founder left in July 2026; the deck presents EarnWise as a single-founder company and does not mention the departure.",
+      "source_ids": ["F6", "D9"],
+      "status": "founder_stated",
+      "note": "Cap table shows founder 85% and angel 15%, so the departed co-founder appears to hold no equity; how that was settled is not stated."
+    },
+    {
+      "text": "Advances are funded by a partner NBFC's balance sheet under only an agreement in principle, and partly by the founder's personal savings.",
+      "source_ids": ["F7"],
+      "status": "founder_stated",
+      "note": "Red flag: there is no signed lending agreement, and advances funded from the founder's own money mean an unregulated entity/person is extending credit. The deck does not disclose either point."
+    },
+    {
+      "text": "RBI digital lending rules require loans to be disbursed directly into the borrower's bank account and repaid directly to the regulated entity's account, without any third-party pass-through or pool account.",
+      "source_ids": ["W2", "W1"],
+      "status": "verified",
+      "note": "2022 Digital Lending Guidelines, now consolidated into the RBI (Digital Lending) Directions, 2025. Founder-funded advances and employer-payroll recovery need to fit this structure."
+    },
+    {
+      "text": "Industry commentary states salary-advance/EWA products fall under the digital lending category and providers must partner with registered NBFCs or banks for disbursal.",
+      "source_ids": ["W3", "W4"],
+      "status": "verified",
+      "note": "Source is a vendor blog (Billcut), not RBI; no EWA-specific RBI rule was found. Treat the regulatory status of EWA as unsettled, with the conservative reading that it is credit."
+    },
+    {
+      "text": "INR 38 L in advances disbursed since July 2026 (4 months), to 1,600 enabled workers.",
+      "source_ids": ["D6", "F11", "D5", "F15"],
+      "status": "founder_stated",
+      "note": "Deck and form agree; chart months (4+9+11+14) sum to INR 38 L. Implies ~INR 2,400 advanced per enabled worker over four months."
+    },
+    {
+      "text": "The deck's chart values were extracted in reverse order (14, 11, 9, 4) and mapped Jul-Oct ascending.",
+      "source_ids": ["D7"],
+      "status": "unverifiable",
+      "note": "Rising trend is plausible but should be confirmed with monthly disbursal data."
+    },
+    {
+      "text": "Deck TAM is INR 14,400 Cr from 10M workers x INR 12,000 average monthly advance x 12, but those inputs multiply to INR 1.44 lakh Cr.",
+      "source_ids": ["D8"],
+      "status": "founder_stated",
+      "note": "10x arithmetic error; the INR 12,000 average monthly advance is also far above the ~INR 600 per enabled worker per month seen in actuals."
+    },
+    {
+      "text": "Workers withdraw up to 50% of earned wages instantly for a flat fee; the employer deducts the advance from the next payroll.",
+      "source_ids": ["D2", "D3"],
+      "status": "founder_stated",
+      "note": "The fee level is not disclosed anywhere; the problem slide compares against informal lenders at 5 to 10% a month."
+    },
+    {
+      "text": "Refyne, India's best-funded EWA platform, raised an USD 82 M Series B led by Tiger Global in January 2022.",
+      "source_ids": ["W5"],
+      "status": "verified",
+      "note": "Incumbent with large balance and employer distribution."
+    },
+    {
+      "text": "KarmaLife, an EWA/credit provider for gig workers, raised INR 44 Cr in an extended pre-Series A in June 2023.",
+      "source_ids": ["W6"],
+      "status": "verified",
+      "note": "Directly targets the same gig-worker segment."
+    },
+    {
+      "text": "Raising INR 2 Cr at INR 12 Cr post-money; existing angel invested INR 25 L for 15%.",
+      "source_ids": ["F10", "F9", "F8"],
+      "status": "founder_stated",
+      "note": "Our arithmetic: angel round implies ~INR 1.7 Cr post-money; the ask is ~7x higher. 40% of the new round goes to the advances book."
+    },
+    {
+      "text": "40% of the raise is earmarked for an 'advances book'.",
+      "source_ids": ["D12", "F7"],
+      "status": "founder_stated",
+      "note": "Equity-funded lending by an unregistered company would itself raise RBI issues; the NBFC structure for this book is not described."
+    },
+    {
+      "text": "12-month target: 15 enterprise clients and 25,000 workers.",
+      "source_ids": ["D11"],
+      "status": "founder_stated",
+      "note": "From 1 live client today (per form)."
+    },
+    {
+      "text": "Customer acquisition is direct outreach by the founder to HR heads.",
+      "source_ids": ["F13"],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founder-listed key risks: regulation of digital lending and employer payroll integration.",
+      "source_ids": ["F12"],
+      "status": "founder_stated"
+    },
+    {
+      "text": "No public footprint found for Rohit Arora or EarnWise Financial Technologies Pvt. Ltd.",
+      "source_ids": ["F3"],
+      "status": "unverifiable",
+      "note": "LinkedIn is a placeholder; company and founder searches returned only other EWA players."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Founder's actual career history",
+      "why_it_matters": "The deck's three headline credentials (Goldman Sachs, Google, IIM Ahmedabad) are each contradicted by the founder's own form; this is a founder-integrity question before it is a background question.",
+      "searched": ["web: \"EarnWise\" earned wage access Gurugram \"Rohit Arora\"", "web: Rohit Arora IIM Ahmedabad Goldman Sachs Google founder fintech Gurugram", "LinkedIn link in form (placeholder)"],
+      "ask_founder": "Your deck says Ex-Goldman, Ex-Google, IIM Ahmedabad; your form says a 10-week internship, a 5-month vendor contract and a tier-2 MBA. Which is accurate, and why does the deck say otherwise? Please share your real LinkedIn and degree certificate.",
+      "blocks_criteria": ["team", "founder_integrity"]
+    },
+    {
+      "what": "Signed lending partner and regulatory structure",
+      "why_it_matters": "Advances rest on an NBFC 'agreement in principle' and the founder's savings; without a signed RE partner, disbursals may amount to unregulated lending.",
+      "searched": ["form Funding of advances", "web: RBI earned wage access regulation India", "web: RBI digital lending directions 2025", "web: earned wage access India RBI NBFC partner"],
+      "ask_founder": "Name the NBFC. Is the agreement signed? How much of the INR 38 L came from your savings, through which entity, and whose bank account disbursed it? Is there any DLG or first-loss arrangement?",
+      "blocks_criteria": ["regulatory"]
+    },
+    {
+      "what": "Client status and references",
+      "why_it_matters": "Deck says 3 clients live, form says 1 live and 2 pilots; the deciding metric is live employers with payroll integration.",
+      "searched": ["deck slide 6", "form Customers"],
+      "ask_founder": "Name the live client and the two pilots, with start dates, workers enabled at each and whether payroll deduction is contractually committed. Can we call the HR head at the live client?",
+      "blocks_criteria": ["traction"]
+    },
+    {
+      "what": "Fee, repayment and loss data",
+      "why_it_matters": "EWA economics depend on the fee and on recovery when a worker leaves before payroll; neither is disclosed.",
+      "searched": ["deck slide 5", "form"],
+      "ask_founder": "What is the flat fee per withdrawal, what share of advances were not recovered through payroll, and who absorbs that loss?",
+      "blocks_criteria": ["unit_economics"]
+    },
+    {
+      "what": "Co-founder departure",
+      "why_it_matters": "A co-founder left in July 2026, unmentioned in the deck; equity, IP and reasons for departure are unknown.",
+      "searched": ["form Earlier co-founder", "deck slide 8"],
+      "ask_founder": "Who was the co-founder, why did they leave, did they hold equity and was it bought back, and are there any IP or non-compete issues?",
+      "blocks_criteria": ["team"]
+    },
+    {
+      "what": "Technical ownership",
+      "why_it_matters": "Product is built by 2 outsourced developers with an advisor; no one in-house owns code, security or payroll integrations.",
+      "searched": ["deck slide 8", "form Team size"],
+      "ask_founder": "Who owns the codebase and IP, what is the advisor's formal role and equity, and when will you hire an in-house tech lead?",
+      "blocks_criteria": ["team", "product"]
+    },
+    {
+      "what": "Company registration and footprint",
+      "why_it_matters": "No MCA record, website or app listing for EarnWise Financial Technologies Pvt. Ltd. was found.",
+      "searched": ["web: \"EarnWise Financial Technologies\" OR \"EarnWise\" India salary advance gig workers"],
+      "ask_founder": "Share the CIN and the app store listing.",
+      "blocks_criteria": ["traction"]
+    }
+  ],
+  "competitors_named": [],
+  "competitors_found": ["Refyne", "KarmaLife", "SalarySe", "Fibe (salary advance)", "PerkFinance"],
+  "keywords": ["earned wage access", "salary advance", "wage advance", "gig workers", "shift workers", "payroll deduction", "employer benefits", "NBFC partner", "short-term credit", "blue-collar finance"],
+  "founder_contact": null,
+  "sources": [
+    {"id": "D1", "kind": "deck", "title": "EarnWise deck - cover", "locator": "Cover", "quote": "Earned wage access for India's gig and shift workers"},
+    {"id": "D2", "kind": "deck", "title": "EarnWise deck - Earn, withdraw, repay (withdraw)", "locator": "Slide 5", "quote": "They withdraw up to 50% instantly, for a flat fee."},
+    {"id": "D3", "kind": "deck", "title": "EarnWise deck - Earn, withdraw, repay (repay)", "locator": "Slide 5", "quote": "The employer deducts it from the next payroll."},
+    {"id": "D4", "kind": "deck", "title": "EarnWise deck - Traction (clients)", "locator": "Slide 6 (Traction)", "quote": "3 enterprise clients live"},
+    {"id": "D5", "kind": "deck", "title": "EarnWise deck - Traction (workers)", "locator": "Slide 6 (Traction)", "quote": "1,600 workers enabled"},
+    {"id": "D6", "kind": "deck", "title": "EarnWise deck - Traction (headline)", "locator": "Slide 6 (Traction)", "quote": "Traction: INR 38 L advanced in 4 months"},
+    {"id": "D7", "kind": "deck", "title": "EarnWise deck - Traction chart extraction note", "locator": "Slide 6 (chart comment)", "quote": "chart values as extracted from the PDF: 14, 11, 9, 4 against months Jul, Aug, Sep, Oct"},
+    {"id": "D8", "kind": "deck", "title": "EarnWise deck - The market (TAM row; TAM shown as INR 14,400 Cr)", "locator": "Slide 7 (The market), TAM row", "quote": "10M gig and shift workers x INR 12,000 average monthly advance x 12"},
+    {"id": "D9", "kind": "deck", "title": "EarnWise deck - The team (founder)", "locator": "Slide 8 (The team)", "quote": "Ex-Goldman Sachs. Ex-Google. MBA, IIM Ahmedabad."},
+    {"id": "D10", "kind": "deck", "title": "EarnWise deck - The team (tech, team size)", "locator": "Slide 8 (The team)", "quote": "Led by an advisor, ex-CTO of a lending startup. Team of 12."},
+    {"id": "D11", "kind": "deck", "title": "EarnWise deck - The ask (12-month plan)", "locator": "Slide 9 (The ask)", "quote": "In 12 months: 15 enterprise clients and 25,000 workers."},
+    {"id": "D12", "kind": "deck", "title": "EarnWise deck - The ask (use of funds)", "locator": "Slide 9 (The ask)", "quote": "40% Advances book"},
+    {"id": "F1", "kind": "form", "title": "Application form - Founder (internship)", "locator": "Founders > Founder", "quote": "Summer analyst internship (10 weeks) at an investment bank."},
+    {"id": "F2", "kind": "form", "title": "Application form - Founder (contract role)", "locator": "Founders > Founder", "quote": "5-month contract role through a vendor at a large technology company."},
+    {"id": "F3", "kind": "form", "title": "Application form - Founder (MBA, payments startup)", "locator": "Founders > Founder", "quote": "MBA at a tier-2 business school (2022 to 2024). 18 months at a payments startup. linkedin.com/in/rohit-arora-example"},
+    {"id": "F4", "kind": "form", "title": "Application form - Team size", "locator": "Company > Team size", "quote": "5 (founder, 2 outsourced developers, 1 operations, 1 sales)"},
+    {"id": "F5", "kind": "form", "title": "Application form - Customers", "locator": "Product and traction > Customers", "quote": "1 enterprise client live and 2 in pilot."},
+    {"id": "F6", "kind": "form", "title": "Application form - Earlier co-founder", "locator": "Founders > Earlier co-founder", "quote": "A co-founder left in July 2026 and has moved on."},
+    {"id": "F7", "kind": "form", "title": "Application form - Funding of advances", "locator": "Product and traction > Funding of advances", "quote": "Advances are funded by our partner NBFC's balance sheet under an agreement in principle, and partly by the founder's savings."},
+    {"id": "F8", "kind": "form", "title": "Application form - Equity split", "locator": "Founders > Equity split", "quote": "Founder 85%, one angel 15%."},
+    {"id": "F9", "kind": "form", "title": "Application form - Existing investors", "locator": "Fundraising > Existing investors", "quote": "One angel, INR 25 L."},
+    {"id": "F10", "kind": "form", "title": "Application form - Valuation expectation", "locator": "Fundraising > Valuation expectation", "quote": "INR 12 Cr post-money"},
+    {"id": "F11", "kind": "form", "title": "Application form - Advances", "locator": "Product and traction > Advances", "quote": "INR 38 L disbursed since July 2026."},
+    {"id": "F12", "kind": "form", "title": "Application form - Key risks", "locator": "Product and traction > Key risks", "quote": "Regulation of digital lending and employer payroll integration."},
+    {"id": "F13", "kind": "form", "title": "Application form - Customer acquisition", "locator": "Product and traction > Customer acquisition", "quote": "Direct outreach by the founder to HR heads."},
+    {"id": "F15", "kind": "form", "title": "Application form - Workers", "locator": "Product and traction > Workers", "quote": "1,600 workers enabled."},
+    {"id": "F17", "kind": "form", "title": "Application form - Prior startup experience", "locator": "Founders > Prior startup experience", "quote": "18 months as an employee at a payments startup."},
+    {"id": "W1", "kind": "web", "title": "RBI - Guidelines on Digital Lending, 2 September 2022 (since repealed into the 2025 Directions)", "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12382", "retrieved_on": "2026-11-18", "quote": "without any pass-through account/ pool account of any third party"},
+    {"id": "W2", "kind": "web", "title": "Argus Partners - RBI Digital Lending Directions, 2025: an overview", "url": "https://www.argus-p.com/updates/updates/rbi-digital-lending-directions-2025-an-overview/", "retrieved_on": "2026-11-18", "quote": "Loans must be disbursed directly into the borrower’s bank account."},
+    {"id": "W3", "kind": "web", "title": "Billcut (vendor blog) - Salary Advance Fintechs: How They Work in India (22 Apr 2026)", "url": "https://www.billcut.com/blogs/salary-advance-fintechs-how-they-work-in-india", "retrieved_on": "2026-11-18", "quote": "Hence, fintechs must partner with registered NBFCs or banks for disbursal and ensure transparent disclosures."},
+    {"id": "W4", "kind": "web", "title": "Billcut (vendor blog) - Salary advance products compliance checklist (22 Apr 2026)", "url": "https://www.billcut.com/blogs/salary-advance-products-compliance-checklist", "retrieved_on": "2026-11-18", "quote": "salary advances are still classified as credit instruments when structured as loans or NBFC partnerships"},
+    {"id": "W5", "kind": "web", "title": "TechCrunch - India's Refyne raises $82 million (Jan 2022)", "url": "https://techcrunch.com/2022/01/11/refyne-tiger-global-earned-wage-access-india/embed/", "retrieved_on": "2026-11-18", "quote": "Tiger Global led Refyne's $82 million Series B funding, the two said Wednesday."},
+    {"id": "W6", "kind": "web", "title": "Entrepreneur India - KarmaLife raises INR 44 crore in extended pre-Series A (1 Jun 2023)", "url": "https://india.entrepreneur.com/news-and-trends/karmalife-raises-inr-44-crore-in-extended-pre-series-a/453294", "retrieved_on": "2026-11-18", "quote": "has raised INR 44 crore in an extension to its pre-Series funding round"}
+  ],
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)",
+  "research_notes": "Six deck-vs-form contradictions captured (Goldman/internship, Google/vendor contract, IIM-A/tier-2 MBA, team 12 vs 5, 3 live clients vs 1 live + 2 pilots, in-house tech vs outsourced). Undisclosed in deck: co-founder exit (July 2026) and advances partly funded from founder's savings with only an NBFC agreement in principle. No RBI rule specific to EWA found; conservative reading is that EWA is credit under the digital lending framework. Competitors SalarySe, Fibe and PerkFinance appeared in search results only (not opened, not cited). Web quotes were extracted via a fetch tool and should be re-verified with verify_web."
+}

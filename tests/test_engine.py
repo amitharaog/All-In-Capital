@@ -5,7 +5,7 @@ from triage.backtest import parse_memos
 from triage.citations import quote_in
 from triage.core import aggregate_lens, decide, load_thesis
 from triage.scheduling import IST, candidate_slots, free_slots
-from triage.schemas import CriterionScore, GateResult, ResearchDossier, ScoreCard
+from triage.schemas import Claim, CriterionScore, GateResult, ResearchDossier, ScoreCard
 
 THESIS = load_thesis()
 
@@ -79,7 +79,9 @@ def test_conflict_check_catches_meeting_notes_without_shared_name():
                 business_model="SaaS seats", keywords=["call summary", "meeting notes", "CRM"])
     pf = [{"name": "MeetRecord", "one_line": "Conversation intelligence: records sales calls and meetings, generates notes and summaries"}]
     hits = conflicts.check(d, pf)
-    assert hits and hits[0]["level"] == "high"
+    assert hits and hits[0]["level"] == "medium"  # same job, not named: flag
+    d.claims.append(Claim(text="Competitor MeetRecord also does this", source_ids=["W1"]))
+    assert conflicts.check(d, pf)[0]["level"] == "high"  # named + same job: hold
 
 
 def test_conflict_check_quiet_on_unrelated():

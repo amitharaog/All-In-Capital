@@ -24,11 +24,12 @@ SITUATIONS = {
     "credentials_heavy": r"phd|iit|iim|ex-|former|alumn",
     "regulatory_dependency": r"regulat|licen|rbi|sebi|dgca|approval|permission",
     "lending_risk": r"default|npa|credit risk|underwrit|collection",
-    "paid_growth": r"paid|ads|performance marketing|cac",
+    "paid_growth": r"paid (social|ads|acquisition|marketing|channels?)|performance marketing|cac (is )?rising",
     "founder_dependent": r"influencer|following|audience|personal brand|creator",
     "capital_intensive": r"density|dark store|fleet|capex|inventory|working capital",
-    "portfolio_overlap": r"overlap|conflict|portfolio",
 }
+SECTORS = {"fintech", "deeptech", "consumer_tech", "consumer_brand", "other"}
+STOP = {"and", "for", "the", "with", "from", "led", "based", "end", "front"}
 
 
 def load() -> list[Correction]:
@@ -56,11 +57,18 @@ def add(company: str, reason: str, by: str, applies_when: list[str], criterion_i
     return c
 
 
-def tags_for(dossier: ResearchDossier) -> set[str]:
-    tags = {dossier.sector, *re.findall(r"[a-z0-9_]+", dossier.sub_sector.lower())}
+def tags_for(dossier: ResearchDossier, conflict_hits: list[dict] | None = None) -> set[str]:
+    words = {w for w in re.findall(r"[a-z0-9_]+", dossier.sub_sector.lower()) if len(w) > 2 and w not in STOP}
+    tags = {dossier.sector, *words}
+    if conflict_hits is None:
+        from .conflicts import check
+
+        conflict_hits = check(dossier)
+    if any(h["level"] in ("high", "medium") for h in conflict_hits):
+        tags.add("portfolio_overlap")
     blob = " ".join([g.what + " " + g.why_it_matters for g in dossier.gaps]).lower()
     blob_all = blob + " " + " ".join(c.text for c in dossier.claims).lower()
-    for tag, pattern in SITUATIONS.items():
+    for tag, pattern in SITUATIONS.items():  # situation tags from the evidence
         target = blob if tag == "missing_repeat_rate" else blob_all
         if re.search(pattern, target):
             tags.add(tag)
@@ -68,14 +76,20 @@ def tags_for(dossier: ResearchDossier) -> set[str]:
 
 
 def retrieve(dossier: ResearchDossier, k: int = 5) -> list[dict]:
+    """A correction applies when (a) its sector tags include this company's
+    sector, or it has none, and (b) at least one non-sector tag matches.
+    Portfolio-overlap corrections apply across sectors."""
     tags = tags_for(dossier)
     scored = []
     for c in load():
-        overlap = tags & set(c.applies_when)
-        if not overlap:
+        ctags = set(c.applies_when)
+        sector_tags = ctags & SECTORS
+        overlap = tags & ctags
+        situational = overlap - SECTORS
+        cross_sector = "portfolio_overlap" in situational
+        if not situational:
             continue
-        # a sector match alone is weak; require a situation match or 2+ tags
-        if len(overlap) < 2 and not (overlap - {"fintech", "deeptech", "consumer_tech", "consumer_brand"}):
+        if sector_tags and dossier.sector not in sector_tags and not cross_sector:
             continue
         scored.append((len(overlap), c, sorted(overlap)))
     scored.sort(key=lambda x: -x[0])

@@ -95,9 +95,9 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
     flags: list[str] = []
 
     conflict_hits = conflict_hits or []
-    conflict = (gates.get("G1") and gates["G1"].triggered) or any(
-        h["level"] in ("high", "medium") for h in conflict_hits
-    )
+    # Hold on the scorer's own G1 judgement or a high-level deterministic hit
+    # (named + same job). Medium/low hits are shown as flags to check.
+    conflict = bool(gates.get("G1") and gates["G1"].triggered) or any(h["level"] == "high" for h in conflict_hits)
     regulatory = bool(gates.get("G2") and gates["G2"].triggered)
     mandate = bool(gates.get("G4") and gates["G4"].triggered)
     if gates.get("G3") and gates["G3"].triggered:

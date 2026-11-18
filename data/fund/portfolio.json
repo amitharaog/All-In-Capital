@@ -1,1371 +1,1381 @@
 [
- {
-  "name": "NewMe",
-  "aliases": [
-   "NEWME",
-   "Newme"
-  ],
-  "sector": "India Consumer",
-  "one_line": "Fast Fashion Brand (Shien for India)",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "NewMe,Fast Fashion Brand (Shien for India),https://newme.asia/,India Consumer,new-me.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://newme.asia/",
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/newme_founder_story",
-    "quote": "All In Capital wasn’t just first money in - he was first conviction in."
-   },
-   {
-    "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
-    "quote": "We came in there as the first check in July 2022"
-   }
-  ]
- },
- {
-  "name": "PierSight",
-  "aliases": [
-   "PierSight Space",
-   "Pier Sight"
-  ],
-  "sector": "DeepTech,Space",
-  "one_line": "Building Synthetic Aperture Radar (SAR) systems tailored to mission specific requirements",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "PierSight,Building Synthetic Aperture Radar (SAR) systems tailored to mission specific requirements,https://piersight.space/,\"DeepTech,Space\",piersight.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://piersight.space/",
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/piersight_founder_story",
-    "quote": "All In gave us a term sheet within 11 days of our first meeting”"
-   }
-  ]
- },
- {
-  "name": "MeetRecord",
-  "aliases": [
-   "Meet Record"
-  ],
-  "sector": "SAAS",
-  "one_line": "Meeting intelligence and sales coaching SAAS platform for US SMES",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "MeetRecord,Meeting intelligence and sales coaching SAAS platform for US SMES,https://www.meetrecord.com/,SAAS,meet-record.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.meetrecord.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/buzz/meetrecord-bags-2-7-mn-funding-to-enhance-ai-powered-sales-coaching-platform",
-    "quote": "MeetRecord had previously raised $310,000 (around INR 2.6 Cr) in 2021 from All In Capital and Powerhouse Ventures"
-   },
-   {
-    "source_url": "https://www.outdoo.ai/press-release/meetrecord-pre-series-a-funding",
-    "quote": "This investment round was led by SWC Global, a venture capital fund based in Singapore, with additional support from exisiting investor All In Capital."
-   }
-  ],
-  "note": "FOUND publicly. Matches internal note (meeting/call intelligence). One of the first three disclosed All In investments (Inc42 Jun 2022, $100K). meetrecord.com currently redirects to outdoo.ai (observed via HTTP redirect on 2026-11-18); MeetRecord press release is hosted on outdoo.ai - possible rebrand to Outdoo, not confirmed by press."
- },
- {
-  "name": "Broccoli AI",
-  "aliases": [
-   "Telematica (prior name/pivot)"
-  ],
-  "sector": "AI / SaaS (not tagged in CSV)",
-  "one_line": "AI-native operating system for home service businesses",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Broccoli AI,AI-native operating system for home service businesses,https://www.broccoli.com/,,broccoli.svg,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.broccoli.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/broccoli_founder_story",
-    "quote": "When we decided to pivot to what is now Broccoli AI, All In was super supportive."
-   }
-  ],
-  "note": "Backed in post-YC round while company was Telematica, later pivoted."
- },
- {
-  "name": "Potpie",
-  "aliases": [],
-  "sector": "AI / Dev Tools (not tagged in CSV)",
-  "one_line": "Custom Agents for your codebase in minutes",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Potpie,Custom Agents for your codebase in minutes,https://potpie.ai/,,potpie.jpg,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://potpie.ai/"
- },
- {
-  "name": "Volt",
-  "aliases": [
-   "Volt Money"
-  ],
-  "sector": "FinTech",
-  "one_line": "Loan against mutual funds / securities consumer app for India. Get low interest secured credit against your equity holdings in a single click",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Volt,Loan against mutual funds / securities consumer app for India. Get low interest secured credit against your equity holdings in a single click,http://voltmoney.in/,FinTech,volt.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "http://voltmoney.in/",
-  "additional_sources": [
-   {
-    "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
-    "quote": "The most recent acquisition was Volt in Mar 2025 by DSP Finance"
-   }
-  ],
-  "note": "Acquired by DSP Finance (Mar 2025) per Tracxn."
- },
- {
-  "name": "Vaaree",
-  "aliases": [],
-  "sector": "India Consumer",
-  "one_line": "B2C home / decor products marketplace",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Vaaree,B2C home / decor products marketplace,https://vaaree.com/,India Consumer,vaaree.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://vaaree.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
-    "quote": "most recent follow-on round was in Vaaree"
-   }
-  ],
-  "note": "Follow-on in Series A (Aug 2026) per Tracxn."
- },
- {
-  "name": "Hotelzify",
-  "aliases": [],
-  "sector": "Travel,SAAS",
-  "one_line": "Shopify for Small hotels",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Hotelzify,Shopify for Small hotels,https://hotelzify.com/,\"Travel,SAAS\",hotelzify.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://hotelzify.com/"
- },
- {
-  "name": "SuperSnd",
-  "aliases": [
-   "SuprSend"
-  ],
-  "sector": "SAAS",
-  "one_line": "Notification Infrastructure for your product. One integration to take all your notification channels live and to build logic on top of them.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "SuperSnd,Notification Infrastructure for your product. One integration to take all your notification channels live and to build logic on top of them.,https://www.suprsend.com/,SAAS,suprsend.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.suprsend.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
-    "quote": ", Volt Money, MeetRecord, SuprSend, CommandK, and Produze, among other ventures."
-   }
-  ],
-  "note": "CSV spells it \"SuperSnd\"; website suprsend.com."
- },
- {
-  "name": "Magma",
-  "aliases": [
-   "Magma Factory"
-  ],
-  "sector": "B2B Marketplace",
-  "one_line": "B2B Cross Border Marketplace for Ceramics and construction chemicals",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Magma,B2B Cross Border Marketplace for Ceramics and construction chemicals,https://magmafactory.com/,B2B Marketplace,magma.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://magmafactory.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/magma_founder_story",
-    "quote": "All In Capital was one of the first funds to take a bet on Magma in our first round."
-   }
-  ]
- },
- {
-  "name": "SuperNova",
-  "aliases": [],
-  "sector": "EdTech",
-  "one_line": "AI Tutor for English",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "SuperNova,AI Tutor for English,https://portal.gosupernova.live/,EdTech,supernova.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://portal.gosupernova.live/"
- },
- {
-  "name": "Sketchnote",
-  "aliases": [],
-  "sector": "SAAS",
-  "one_line": "Building a Startup operating system",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Sketchnote,Building a Startup operating system,https://sketchnote.co/,SAAS,sketchnote.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://sketchnote.co/"
- },
- {
-  "name": "GloRoots",
-  "aliases": [],
-  "sector": "SAAS",
-  "one_line": "Global Employer of Record Platform - hire employees across the world and Gloroots handles all the headache of payroll for you",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "GloRoots,Global Employer of Record Platform - hire employees across the world and Gloroots handles all the headache of payroll for you,https://www.gloroots.com/,SAAS,gloroots.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.gloroots.com/"
- },
- {
-  "name": "Suite42",
-  "aliases": [],
-  "sector": "B2B Marketplace",
-  "one_line": "On demand manufacturing platform for packaged food products",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Suite42,On demand manufacturing platform for packaged food products,https://www.suite42.in/,B2B Marketplace,suite42.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.suite42.in/"
- },
- {
-  "name": "Produze",
-  "aliases": [],
-  "sector": "B2B Marketplace",
-  "one_line": "Platform to help Indian brands sell in foreign marketplaces",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Produze,Platform to help Indian brands sell in foreign marketplaces,https://produze.com/,B2B Marketplace,Produze.svg,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://produze.com/"
- },
- {
-  "name": "Rocketpay",
-  "aliases": [
-   "RocketPay",
-   "UdharPay"
-  ],
-  "sector": "FinTech",
-  "one_line": "P2P Nach mandates for India. Enables any one to deploy a NACH mandate on anyone else (with their consent) to collect money back .",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Rocketpay,P2P Nach mandates for India. Enables any one to deploy a NACH mandate on anyone else (with their consent) to collect money back .,https://www.udharpay.com/,FinTech,rocketpay.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.udharpay.com/",
-  "note": "Tracxn news lists a later RocketPay round (Oct 2026)."
- },
- {
-  "name": "EximFiles",
-  "aliases": [],
-  "sector": "SAAS",
-  "one_line": "Generates all the 7- 25 documents a business needs to create to send or receive a shipment anywhere in the world",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "EximFiles,Generates all the 7- 25 documents a business needs to create to send or receive a shipment anywhere in the world,https://eximfiles.io/#/,SAAS,eximfiles.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://eximfiles.io/#/"
- },
- {
-  "name": "SalesMonk",
-  "aliases": [],
-  "sector": "SAAS",
-  "one_line": "3X Pipeline Generation using AI",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "SalesMonk,3X Pipeline Generation using AI,https://salesmonk.co/,SAAS,salesmonk.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://salesmonk.co/"
- },
- {
-  "name": "GigaFun Studios",
-  "aliases": [],
-  "sector": "Gaming",
-  "one_line": "Building Localized Match-3 puzzle games for India,",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "GigaFun Studios,\"Building Localized Match-3 puzzle games for India,\",https://gigafunstudios.com/,Gaming,gigafun-studios.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://gigafunstudios.com/"
- },
- {
-  "name": "Dashwave",
-  "aliases": [],
-  "sector": "Dev Tools",
-  "one_line": "Cloud platform to increase productivity and efficiency of mobile developers and teams.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Dashwave,Cloud platform to increase productivity and efficiency of mobile developers and teams.,https://dashwave.io/,Dev Tools,dashwave.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://dashwave.io/"
- },
- {
-  "name": "MoMoney",
-  "aliases": [],
-  "sector": "FinTech",
-  "one_line": "Investment App for GenZ India",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "MoMoney,Investment App for GenZ India,https://momoney.in/,FinTech,momoney.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://momoney.in/"
- },
- {
-  "name": "Hectar",
-  "aliases": [
-   "Hectar Global"
-  ],
-  "sector": "B2B Marketplace",
-  "one_line": "B2B cross border marketplace for agri commodities",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Hectar,B2B cross border marketplace for agri commodities,https://www.hectar.in/,B2B Marketplace,hectar.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.hectar.in/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
-    "quote": "The portfolio includes NewMe, SuperNova, Pier Sight, MeetRecord, Hectar Global, Magma, Salty, Reint, Karban and Volt Money, among others."
-   }
-  ]
- },
- {
-  "name": "Knot",
-  "aliases": [],
-  "sector": "Social,Consumer Internet",
-  "one_line": "Social Media app for teens to share positive feedback with each other",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Knot,Social Media app for teens to share positive feedback with each other,https://knotnow.co/,\"Social,Consumer Internet\",knot.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://knotnow.co/"
- },
- {
-  "name": "Mannjal",
-  "aliases": [],
-  "sector": "FinTech",
-  "one_line": "Lending out of the box service for B2B marketplaces",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Mannjal,Lending out of the box service for B2B marketplaces,https://www.mannjal.com/,FinTech,mannjal.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.mannjal.com/"
- },
- {
-  "name": "Nawgati",
-  "aliases": [],
-  "sector": "SAAS,Climate",
-  "one_line": "Complaince and Operations SAAS for Fuelling Stations",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Nawgati,Complaince and Operations SAAS for Fuelling Stations,https://www.nawgati.com/,\"SAAS,Climate\",nawgati.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.nawgati.com/"
- },
- {
-  "name": "FanTail",
-  "aliases": [],
-  "sector": "B2B Marketplace",
-  "one_line": "B2B Marketplace for Man made fabrics",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "FanTail,B2B Marketplace for Man made fabrics,https://www.linkedin.com/company/fantailindia/,B2B Marketplace,fantail.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.linkedin.com/company/fantailindia/"
- },
- {
-  "name": "DressFolk",
-  "aliases": [],
-  "sector": "India Consumer,D2C",
-  "one_line": "Handwoven Ethnic Wear brand for the modern Indian woman",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "DressFolk,Handwoven Ethnic Wear brand for the modern Indian woman,https://dressfolk.com/,\"India Consumer,D2C\",dressfolk.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://dressfolk.com/"
- },
- {
-  "name": "DevDham",
-  "aliases": [],
-  "sector": "India Consumer",
-  "one_line": "Platform bringing temples online connecting them to devotees worldwide",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "DevDham,Platform bringing temples online connecting them to devotees worldwide,https://devdarshanapp.com/en,India Consumer,devdham.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://devdarshanapp.com/en"
- },
- {
-  "name": "REint",
-  "aliases": [],
-  "sector": "SAAS,Climate",
-  "one_line": "AI Powered Supply prediction for renewable energy markets",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "REint,AI Powered Supply prediction for renewable energy markets,https://reint.co/,\"SAAS,Climate\",reint.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://reint.co/"
- },
- {
-  "name": "Segmind",
-  "aliases": [],
-  "sector": "SAAS,Dev Tools,Generative AI",
-  "one_line": "Fastest APIs for Generative AI models",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Segmind,Fastest APIs for Generative AI models,https://www.segmind.com/,\"SAAS,Dev Tools,Generative AI\",segmind.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.segmind.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://medium.com/all-in-capital/how-to-think-about-generative-ai-7f8f7b10bec7",
-    "quote": "We have made an investment here — Segmind."
-   }
-  ]
- },
- {
-  "name": "Arva",
-  "aliases": [],
-  "sector": "India Consumer,Healthcare",
-  "one_line": "Women's Health/Fertility Brand for India focussed on Egg Freezing",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Arva,Women's Health/Fertility Brand for India focussed on Egg Freezing,https://www.arva.health/,\"India Consumer,Healthcare\",arva.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.arva.health/"
- },
- {
-  "name": "Salty",
-  "aliases": [],
-  "sector": "D2C,India Consumer",
-  "one_line": "Fashion Accessories Brand for Indian GenZ",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Salty,Fashion Accessories Brand for Indian GenZ,https://salty.co.in/,\"D2C,India Consumer\",salty.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://salty.co.in/",
-  "additional_sources": [
-   {
-    "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
-    "quote": "He added that other companies in the firm's portfolio, such as Salty, a fashion accessories brand, and an AI company, Broccoli AI, are also making significant inroads."
-   }
-  ]
- },
- {
-  "name": "Nirmaan",
-  "aliases": [],
-  "sector": "B2B Marketplace",
-  "one_line": "B2B market place for construction materials connecting small brands to retailers",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Nirmaan,B2B market place for construction materials connecting small brands to retailers,https://nirmaan.store/,B2B Marketplace,nirmaan.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://nirmaan.store/"
- },
- {
-  "name": "Karban",
-  "aliases": [],
-  "sector": "India Consumer,DeepTech",
-  "one_line": "Fan+Light+Air Purifier in one Device, AC coming soon!",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Karban,\"Fan+Light+Air Purifier in one Device, AC coming soon!\",https://www.karban.in/,\"India Consumer,DeepTech\",karban.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.karban.in/"
- },
- {
-  "name": "Mave Health",
-  "aliases": [],
-  "sector": "India Consumer,Healthcare",
-  "one_line": "Wearable Device + Coaching for treatment of Depression and other Mental Health issues",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Mave Health,Wearable Device + Coaching for treatment of Depression and other Mental Health issues,https://www.mavehealth.com/,\"India Consumer,Healthcare\",mave-health.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.mavehealth.com/"
- },
- {
-  "name": "Trisu",
-  "aliases": [],
-  "sector": "India Consumer,D2C",
-  "one_line": "Fine Jewellery D2C Brand for India",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Trisu,Fine Jewellery D2C Brand for India,https://trisu.in/,\"India Consumer,D2C\",trisu.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://trisu.in/"
- },
- {
-  "name": "Grid",
-  "aliases": [],
-  "sector": "Manufacturing,B2B Marketplace",
-  "one_line": "Original Design Manufacturer Play for IOT products in India",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Grid,Original Design Manufacturer Play for IOT products in India,https://www.grid-os.com/,\"Manufacturing,B2B Marketplace\",grid.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.grid-os.com/"
- },
- {
-  "name": "FuturElectra",
-  "aliases": [],
-  "sector": "EV,FinTech",
-  "one_line": "EV 2Ws lifecycle management platform",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "FuturElectra,EV 2Ws lifecycle management platform,futurelectra.com,\"EV,FinTech\",futur-electra.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "futurelectra.com"
- },
- {
-  "name": "BindBee",
-  "aliases": [],
-  "sector": "SAAS,Dev Tools",
-  "one_line": "Unified API for People Data",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "BindBee,Unified API for People Data,https://www.bindbee.dev/,\"SAAS,Dev Tools\",bindbee.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.bindbee.dev/"
- },
- {
-  "name": "Prosparity",
-  "aliases": [],
-  "sector": "EV,FinTech",
-  "one_line": "EV Financing NBFC",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Prosparity,EV Financing NBFC,https://prosparity.in/,\"EV,FinTech\",prosparity.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://prosparity.in/"
- },
- {
-  "name": "MagicStudio",
-  "aliases": [],
-  "sector": "Generative AI,SAAS",
-  "one_line": "AI lead Photo Editing App for small businesses",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "MagicStudio,AI lead Photo Editing App for small businesses,https://magicstudio.com/,\"Generative AI,SAAS\",magicstudio.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://magicstudio.com/"
- },
- {
-  "name": "Everyday",
-  "aliases": [],
-  "sector": "India Consumer",
-  "one_line": "Lab grown diamonds brand for India",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Everyday,Lab grown diamonds brand for India,https://thisiseveryday.in/,India Consumer,everyday.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://thisiseveryday.in/"
- },
- {
-  "name": "Creatr",
-  "aliases": [],
-  "sector": "Generative AI,SAAS",
-  "one_line": "AI lead Design Tool",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Creatr,AI lead Design Tool,https://creatr.xyz/,\"Generative AI,SAAS\",creatr.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://creatr.xyz/"
- },
- {
-  "name": "TractorFactory",
-  "aliases": [
-   "Tractor Factory"
-  ],
-  "sector": "India Consumer,AgriTech",
-  "one_line": "Omni-channel marketplace for second hand tractors",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "TractorFactory,Omni-channel marketplace for second hand tractors,https://tractorfactory.in/#/,\"India Consumer,AgriTech\",tractor-factory.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://tractorfactory.in/#/",
-  "note": "Tracxn news lists \"Investments of ₹4 crore in Tractor Factory\" (Jul 2026) tagged with All In Capital."
- },
- {
-  "name": "Viralme",
-  "aliases": [],
-  "sector": "B2B Marketplace",
-  "one_line": "Sourcing platform for Online Arbitrage Resellers",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Viralme,Sourcing platform for Online Arbitrage Resellers,#,B2B Marketplace,viralme.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": null
- },
- {
-  "name": "CommandK",
-  "aliases": [],
-  "sector": "Dev Tools",
-  "one_line": "DPDP / GDPR Management SAAS Platform for Tech Companies",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "CommandK,DPDP / GDPR Management SAAS Platform for Tech Companies,https://www.commandk.dev/,Dev Tools,enclave_commandk.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.commandk.dev/"
- },
- {
-  "name": "Spiti",
-  "aliases": [
-   "Spiti.xyz"
-  ],
-  "sector": "SAAS",
-  "one_line": "Private Youtube for Teams to store, curate and watch video content on.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Spiti,\"Private Youtube for Teams to store, curate and watch video content on.\",https://spiti.xyz/,SAAS,spiti.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://spiti.xyz/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
-    "quote": "three startups – MeetRecord, Spiti.xyz and Suitable.ai have received capital infusions up to $100K each"
-   }
-  ]
- },
- {
-  "name": "Suitable",
-  "aliases": [
-   "Suitable.ai"
-  ],
-  "sector": "SAAS",
-  "one_line": "Employee Referral management SAAS platform",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Suitable,Employee Referral management SAAS platform,https://suitable.ai/,SAAS,suitable.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://suitable.ai/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
-    "quote": "three startups – MeetRecord, Spiti.xyz and Suitable.ai have received capital infusions up to $100K each"
-   }
-  ]
- },
- {
-  "name": "Piiko",
-  "aliases": [],
-  "sector": "Healthcare",
-  "one_line": "10X Cheaper Blood Testing Machines for India",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Piiko,10X Cheaper Blood Testing Machines for India,https://www.piiko.in/,Healthcare,piiko.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.piiko.in/"
- },
- {
-  "name": "Vivahit",
-  "aliases": [],
-  "sector": "India Consumer",
-  "one_line": "App to manage organising weddings and providing a smooth guest experience at a grand indian wedding",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Vivahit,App to manage organising weddings and providing a smooth guest experience at a grand indian wedding,https://www.vivahit.in/,India Consumer,vivahit.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.vivahit.in/"
- },
- {
-  "name": "Fijit",
-  "aliases": [],
-  "sector": "Gaming",
-  "one_line": "Hyper Casual play to earn Web3 Meme Games",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Fijit,Hyper Casual play to earn Web3 Meme Games,https://www.infini3.xyz/,Gaming,fijit.png,Fund 1",
-  "confidence": "high",
-  "relationship": "All In Capital Fund I",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.infini3.xyz/"
- },
- {
-  "name": "Tross",
-  "aliases": [],
-  "sector": "Healthcare",
-  "one_line": "Healthcare technology startup providing enterprise-grade infrastructure and API integrations for electronic health records (EHR) and payer portals",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Tross,Healthcare technology startup providing enterprise-grade infrastructure and API integrations for electronic health records (EHR) and payer portals,https://ontross.com,Healthcare,tross.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://ontross.com",
-  "additional_sources": [
-   {
-    "source_url": "https://www.saasrise.com/deals/all-in-capital-leads-pre-seed-round-in-healthcare-infrastructure-startup-tross-8f888570-4f2c-47c1-a465-b052ba069b8d",
-    "quote": "All In Capital led a pre‑seed round in healthcare‑infrastructure SaaS startup Tross on August 20, 2026, with participation from DeVC; the amount raised was not disclosed."
-   }
-  ]
- },
- {
-  "name": "SuperLiving",
-  "aliases": [
-   "Super Living"
-  ],
-  "sector": "Consumer Tech",
-  "one_line": "SuperLiving is Bharat's own lifestyle app uniquely designed for the lifestyle needs of Indian families.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "SuperLiving,\"SuperLiving is Bharat's own lifestyle app uniquely designed for the lifestyle needs of Indian families.\",https://www.superliving.app/,Consumer Tech,superliving.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.superliving.app/",
-  "additional_sources": [
-   {
-    "source_url": "https://inc42.com/buzz/preventive-health-platform-superliving-bags-7-mn-to-scale-in-tier-ii-iii-cities/",
-    "quote": "with participation from existing investors Kae Capital and All In Capital, who invested $2 Mn in the startup in January this year."
-   }
-  ]
- },
- {
-  "name": "Taakat",
-  "aliases": [],
-  "sector": "Consumer Brand",
-  "one_line": "Whole Truth for Masses",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Taakat,Whole Truth for Masses,https://www.linkedin.com/in/avinash-pareek-649a1413/,Consumer Brand,Taakat.jpeg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.linkedin.com/in/avinash-pareek-649a1413/",
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
-   }
-  ]
- },
- {
-  "name": "Medmitra AI",
-  "aliases": [
-   "MedMitra"
-  ],
-  "sector": "SAAS",
-  "one_line": "Perplexity for Doctors. AI Decision support tool for doctors, enabling differential diagnosis and prognosis",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Medmitra AI,\"Perplexity for Doctors. AI Decision support tool for doctors, enabling differential diagnosis and prognosis\",#,SAAS,medhmitra.jpg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
-   }
-  ]
- },
- {
-  "name": "Ionic",
-  "aliases": [
-   "Ionic Professional"
-  ],
-  "sector": "Consumer Brand",
-  "one_line": "Damage reversal professional haircare brand (similar to Olaplex/K18) with a salon-first GTM",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Ionic,Damage reversal professional haircare brand (similar to Olaplex/K18) with a salon-first GTM,http://ionicprofessional.com/,Consumer Brand,ionic professional.avif,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "http://ionicprofessional.com/",
-  "note": "Possibly related to \"&Done\" (also a salon-first professional haircare brand led by All In Capital, Nov 2025) - relationship NOT verified; kept as separate entries."
- },
- {
-  "name": "Spill Games",
-  "aliases": [],
-  "sector": "Consumer Tech",
-  "one_line": "Spill Games is game publishing studio that builds casual and hybrid casual games for mobile gamers.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Spill Games,Spill Games is game publishing studio that builds casual and hybrid casual games for mobile gamers.,#,Consumer Tech,spill_games.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
-   }
-  ],
-  "note": "Tracxn news: Spill Games raised USD 3.1M seed (Apr 2026) with All In Capital participating."
- },
- {
-  "name": "Krvvy",
-  "aliases": [
-   "Krrvy"
-  ],
-  "sector": "Consumer Brand",
-  "one_line": "Next-gen innovative intimates, shapewear and lifestyle brand",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Krvvy,\"Next-gen innovative intimates, shapewear and lifestyle brand\",https://krvvy.com/,Consumer Brand,krvvy.svg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://krvvy.com/",
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
-   }
-  ],
-  "note": "Press spells \"Krrvy\"; fund CSV and website spell \"Krvvy\"."
- },
- {
-  "name": "NPrep",
-  "aliases": [],
-  "sector": "Consumer Tech",
-  "one_line": "NPrep is a nursing education platform focused on nursing exam preparation such as NORCET (AIIMS)",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "NPrep,NPrep is a nursing education platform focused on nursing exam preparation such as NORCET (AIIMS),https://nprep.in/,Consumer Tech,nprep.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://nprep.in/"
- },
- {
-  "name": "Mixar",
-  "aliases": [
-   "Mixar3D"
-  ],
-  "sector": "SAAS",
-  "one_line": "A new-age 3D Models builder with text-to-model generation",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Mixar,A new-age 3D Models builder with text-to-model generation,#,SAAS,mixar3d.jpeg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
-   }
-  ]
- },
- {
-  "name": "Plazza",
-  "aliases": [
-   "Plazza Club"
-  ],
-  "sector": "Consumer Tech",
-  "one_line": "Quick commerce for medicines",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Plazza,Quick commerce for medicines,https://www.linkedin.com/company/plazza-club/,Consumer Tech,plazza_club.jpeg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.linkedin.com/company/plazza-club/",
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/quick-medicine-delivery-startup-plazza-raises-14-mn-led-by-all-in-capital-10507362",
-    "quote": "Plazza, a Quick medicine delivery startup, has raised $1.4 million in a funding round led by All In Capital."
-   }
-  ],
-  "note": "Later $15M Series A (Jul 2026) co-led by Accel/Elevation/Nexus with All In participating (per search results)."
- },
- {
-  "name": "Cherry",
-  "aliases": [],
-  "sector": "Consumer Tech",
-  "one_line": "Shopping app exclusively for creators",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Cherry,Shopping app exclusively for creators,https://www.cherryapp.in/,Consumer Tech,cherry.jpeg,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.cherryapp.in/"
- },
- {
-  "name": "Returns",
-  "aliases": [
-   "OptionBase"
-  ],
-  "sector": "FinTech",
-  "one_line": "Options trading made simple.",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "Returns,Options trading made simple.,https://www.optionbase.in/,FinTech,returns.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://www.optionbase.in/",
-  "note": "Website optionbase.in."
- },
- {
-  "name": "MomsMade",
-  "aliases": [],
-  "sector": "Consumer Brand",
-  "one_line": "Clean label in regional snacks building for Bihari cuisine",
-  "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
-  "quote": "MomsMade,Clean label in regional snacks building for Bihari cuisine,https://momsmade.shop/,Consumer Brand,momsmade.png,Fund 2",
-  "confidence": "high",
-  "relationship": "All In Capital Fund II",
-  "all_in_capital_fund_investment": true,
-  "website": "https://momsmade.shop/"
- },
- {
-  "name": "Iztri",
-  "aliases": [],
-  "sector": "Consumer services (fabric care)",
-  "one_line": "Apartment-hub fabric care (ironing, dry cleaning, shoe care) service in Bengaluru",
-  "source_url": "https://indianstartuptimes.com/investment/iztri-raises-rs-10-crore-seed-round-led-by-all-in-capital-and-suashish-group",
-  "quote": "has raised Rs 10 crore ($1.1 million) in a seed funding round led by All In Capital and Suashish Group",
-  "confidence": "high",
-  "relationship": "All In Capital (fund not specified; likely Fund II)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Seed, Sep 2026, co-led with Suashish Group. Not on fund CSV as of retrieval."
- },
- {
-  "name": "CUNIN",
-  "aliases": [
-   "Cumin (Tracxn spelling)"
-  ],
-  "sector": "Consumer brand (fragrance/lifestyle)",
-  "one_line": "Culture-led fragrance and lifestyle brand",
-  "source_url": "https://entrackr.com/snippets/cunin-raises-450k-pre-seed-round-co-led-by-all-in-capital-and-huddle-ventures-12130343",
-  "quote": "Culture-led lifestyle brand CUNIN has raised $450K in a pre-seed funding round co-led by All In Capital and Huddle Ventures.",
-  "confidence": "high",
-  "relationship": "All In Capital (fund not specified; likely Fund II)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Pre-seed, Jul 2026, co-led. Not on fund CSV."
- },
- {
-  "name": "Mowito",
-  "aliases": [],
-  "sector": "Deeptech (AI robotics)",
-  "one_line": "AI foundation models for industrial robots that learn tasks by observing humans",
-  "source_url": "https://www.bwdisrupt.com/article/ai-robotics-startup-mowito-raises-3-mn-in-pre-seed-funding-led-by-version-one-ventures-613800",
-  "quote": "has raised $3 million in a pre-seed funding round led by Version One Ventures, with participation from All In Capital, Unsol, and iSeed.",
-  "confidence": "high",
-  "relationship": "All In Capital (fund not specified; likely Fund II)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Participant, not lead (Jul 2026). Not on fund CSV."
- },
- {
-  "name": "Acai Theory",
-  "aliases": [
-   "Açaí Theory",
-   "Business Acai Theory"
-  ],
-  "sector": "Consumer brand (health QSR)",
-  "one_line": "Health-focused quick-service restaurant brand (acai bowls, smoothies) in Bengaluru",
-  "source_url": "https://startuptalky.com/news/health-qsr-chain-acai-theory-raises-4-crores-led-by-all-in-capital-with-participation-from-tdv-partners-and-other-marquee-investors/",
-  "quote": "has raised ₹4 crore in a pre-seed funding round led by All In Capital with participation from TDV Partners",
-  "confidence": "high",
-  "relationship": "All In Capital (fund not specified; likely Fund II)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "additional_sources": [
-   {
+  {
+    "name": "NewMe",
+    "aliases": [
+      "NEWME",
+      "Newme"
+    ],
+    "sector": "India Consumer",
+    "one_line": "Fast Fashion Brand (Shien for India)",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "NewMe,Fast Fashion Brand (Shien for India),https://newme.asia/,India Consumer,new-me.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://newme.asia/",
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/newme_founder_story",
+        "quote": "All In Capital wasn’t just first money in - he was first conviction in."
+      },
+      {
+        "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
+        "quote": "We came in there as the first check in July 2022"
+      }
+    ]
+  },
+  {
+    "name": "PierSight",
+    "aliases": [
+      "PierSight Space",
+      "Pier Sight"
+    ],
+    "sector": "DeepTech,Space",
+    "one_line": "Building Synthetic Aperture Radar (SAR) systems tailored to mission specific requirements",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "PierSight,Building Synthetic Aperture Radar (SAR) systems tailored to mission specific requirements,https://piersight.space/,\"DeepTech,Space\",piersight.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://piersight.space/",
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/piersight_founder_story",
+        "quote": "All In gave us a term sheet within 11 days of our first meeting”"
+      }
+    ]
+  },
+  {
+    "name": "MeetRecord",
+    "aliases": [
+      "Meet Record"
+    ],
+    "sector": "SAAS",
+    "one_line": "Meeting intelligence and sales coaching SAAS platform for US SMES",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "MeetRecord,Meeting intelligence and sales coaching SAAS platform for US SMES,https://www.meetrecord.com/,SAAS,meet-record.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.meetrecord.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/buzz/meetrecord-bags-2-7-mn-funding-to-enhance-ai-powered-sales-coaching-platform",
+        "quote": "MeetRecord had previously raised $310,000 (around INR 2.6 Cr) in 2021 from All In Capital and Powerhouse Ventures"
+      },
+      {
+        "source_url": "https://www.outdoo.ai/press-release/meetrecord-pre-series-a-funding",
+        "quote": "This investment round was led by SWC Global, a venture capital fund based in Singapore, with additional support from exisiting investor All In Capital."
+      }
+    ],
+    "note": "FOUND publicly. Matches internal note (meeting/call intelligence). One of the first three disclosed All In investments (Inc42 Jun 2022, $100K). meetrecord.com currently redirects to outdoo.ai (observed via HTTP redirect on 2026-11-18); MeetRecord press release is hosted on outdoo.ai - possible rebrand to Outdoo, not confirmed by press.",
+    "tags": [
+      "sales call recording",
+      "call transcription",
+      "call summaries",
+      "meeting notes",
+      "CRM auto-update",
+      "sales coaching",
+      "conversation intelligence"
+    ],
+    "tags_note": "Curated 2026-11-18 from the sourced press coverage (Inc42 2024; outdoo.ai press release) because the portfolio CSV one-liner is too thin to match on the job - the same reason the Meeting 4 overlap was missed."
+  },
+  {
+    "name": "Broccoli AI",
+    "aliases": [
+      "Telematica (prior name/pivot)"
+    ],
+    "sector": "AI / SaaS (not tagged in CSV)",
+    "one_line": "AI-native operating system for home service businesses",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Broccoli AI,AI-native operating system for home service businesses,https://www.broccoli.com/,,broccoli.svg,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.broccoli.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/broccoli_founder_story",
+        "quote": "When we decided to pivot to what is now Broccoli AI, All In was super supportive."
+      }
+    ],
+    "note": "Backed in post-YC round while company was Telematica, later pivoted."
+  },
+  {
+    "name": "Potpie",
+    "aliases": [],
+    "sector": "AI / Dev Tools (not tagged in CSV)",
+    "one_line": "Custom Agents for your codebase in minutes",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Potpie,Custom Agents for your codebase in minutes,https://potpie.ai/,,potpie.jpg,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://potpie.ai/"
+  },
+  {
+    "name": "Volt",
+    "aliases": [
+      "Volt Money"
+    ],
+    "sector": "FinTech",
+    "one_line": "Loan against mutual funds / securities consumer app for India. Get low interest secured credit against your equity holdings in a single click",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Volt,Loan against mutual funds / securities consumer app for India. Get low interest secured credit against your equity holdings in a single click,http://voltmoney.in/,FinTech,volt.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "http://voltmoney.in/",
+    "additional_sources": [
+      {
+        "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
+        "quote": "The most recent acquisition was Volt in Mar 2025 by DSP Finance"
+      }
+    ],
+    "note": "Acquired by DSP Finance (Mar 2025) per Tracxn."
+  },
+  {
+    "name": "Vaaree",
+    "aliases": [],
+    "sector": "India Consumer",
+    "one_line": "B2C home / decor products marketplace",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Vaaree,B2C home / decor products marketplace,https://vaaree.com/,India Consumer,vaaree.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://vaaree.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
+        "quote": "most recent follow-on round was in Vaaree"
+      }
+    ],
+    "note": "Follow-on in Series A (Aug 2026) per Tracxn."
+  },
+  {
+    "name": "Hotelzify",
+    "aliases": [],
+    "sector": "Travel,SAAS",
+    "one_line": "Shopify for Small hotels",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Hotelzify,Shopify for Small hotels,https://hotelzify.com/,\"Travel,SAAS\",hotelzify.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://hotelzify.com/"
+  },
+  {
+    "name": "SuperSnd",
+    "aliases": [
+      "SuprSend"
+    ],
+    "sector": "SAAS",
+    "one_line": "Notification Infrastructure for your product. One integration to take all your notification channels live and to build logic on top of them.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "SuperSnd,Notification Infrastructure for your product. One integration to take all your notification channels live and to build logic on top of them.,https://www.suprsend.com/,SAAS,suprsend.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.suprsend.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/features/kushal-baghia-all-in-capital-founder-market-fit-framework-pre-seed-investing",
+        "quote": ", Volt Money, MeetRecord, SuprSend, CommandK, and Produze, among other ventures."
+      }
+    ],
+    "note": "CSV spells it \"SuperSnd\"; website suprsend.com."
+  },
+  {
+    "name": "Magma",
+    "aliases": [
+      "Magma Factory"
+    ],
+    "sector": "B2B Marketplace",
+    "one_line": "B2B Cross Border Marketplace for Ceramics and construction chemicals",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Magma,B2B Cross Border Marketplace for Ceramics and construction chemicals,https://magmafactory.com/,B2B Marketplace,magma.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://magmafactory.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/magma_founder_story",
+        "quote": "All In Capital was one of the first funds to take a bet on Magma in our first round."
+      }
+    ]
+  },
+  {
+    "name": "SuperNova",
+    "aliases": [],
+    "sector": "EdTech",
+    "one_line": "AI Tutor for English",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "SuperNova,AI Tutor for English,https://portal.gosupernova.live/,EdTech,supernova.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://portal.gosupernova.live/"
+  },
+  {
+    "name": "Sketchnote",
+    "aliases": [],
+    "sector": "SAAS",
+    "one_line": "Building a Startup operating system",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Sketchnote,Building a Startup operating system,https://sketchnote.co/,SAAS,sketchnote.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://sketchnote.co/"
+  },
+  {
+    "name": "GloRoots",
+    "aliases": [],
+    "sector": "SAAS",
+    "one_line": "Global Employer of Record Platform - hire employees across the world and Gloroots handles all the headache of payroll for you",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "GloRoots,Global Employer of Record Platform - hire employees across the world and Gloroots handles all the headache of payroll for you,https://www.gloroots.com/,SAAS,gloroots.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.gloroots.com/"
+  },
+  {
+    "name": "Suite42",
+    "aliases": [],
+    "sector": "B2B Marketplace",
+    "one_line": "On demand manufacturing platform for packaged food products",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Suite42,On demand manufacturing platform for packaged food products,https://www.suite42.in/,B2B Marketplace,suite42.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.suite42.in/"
+  },
+  {
+    "name": "Produze",
+    "aliases": [],
+    "sector": "B2B Marketplace",
+    "one_line": "Platform to help Indian brands sell in foreign marketplaces",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Produze,Platform to help Indian brands sell in foreign marketplaces,https://produze.com/,B2B Marketplace,Produze.svg,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://produze.com/"
+  },
+  {
+    "name": "Rocketpay",
+    "aliases": [
+      "RocketPay",
+      "UdharPay"
+    ],
+    "sector": "FinTech",
+    "one_line": "P2P Nach mandates for India. Enables any one to deploy a NACH mandate on anyone else (with their consent) to collect money back .",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Rocketpay,P2P Nach mandates for India. Enables any one to deploy a NACH mandate on anyone else (with their consent) to collect money back .,https://www.udharpay.com/,FinTech,rocketpay.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.udharpay.com/",
+    "note": "Tracxn news lists a later RocketPay round (Oct 2026)."
+  },
+  {
+    "name": "EximFiles",
+    "aliases": [],
+    "sector": "SAAS",
+    "one_line": "Generates all the 7- 25 documents a business needs to create to send or receive a shipment anywhere in the world",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "EximFiles,Generates all the 7- 25 documents a business needs to create to send or receive a shipment anywhere in the world,https://eximfiles.io/#/,SAAS,eximfiles.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://eximfiles.io/#/"
+  },
+  {
+    "name": "SalesMonk",
+    "aliases": [],
+    "sector": "SAAS",
+    "one_line": "3X Pipeline Generation using AI",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "SalesMonk,3X Pipeline Generation using AI,https://salesmonk.co/,SAAS,salesmonk.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://salesmonk.co/"
+  },
+  {
+    "name": "GigaFun Studios",
+    "aliases": [],
+    "sector": "Gaming",
+    "one_line": "Building Localized Match-3 puzzle games for India,",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "GigaFun Studios,\"Building Localized Match-3 puzzle games for India,\",https://gigafunstudios.com/,Gaming,gigafun-studios.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://gigafunstudios.com/"
+  },
+  {
+    "name": "Dashwave",
+    "aliases": [],
+    "sector": "Dev Tools",
+    "one_line": "Cloud platform to increase productivity and efficiency of mobile developers and teams.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Dashwave,Cloud platform to increase productivity and efficiency of mobile developers and teams.,https://dashwave.io/,Dev Tools,dashwave.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://dashwave.io/"
+  },
+  {
+    "name": "MoMoney",
+    "aliases": [],
+    "sector": "FinTech",
+    "one_line": "Investment App for GenZ India",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "MoMoney,Investment App for GenZ India,https://momoney.in/,FinTech,momoney.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://momoney.in/"
+  },
+  {
+    "name": "Hectar",
+    "aliases": [
+      "Hectar Global"
+    ],
+    "sector": "B2B Marketplace",
+    "one_line": "B2B cross border marketplace for agri commodities",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Hectar,B2B cross border marketplace for agri commodities,https://www.hectar.in/,B2B Marketplace,hectar.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.hectar.in/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-indias-next-wave-of-founders/",
+        "quote": "The portfolio includes NewMe, SuperNova, Pier Sight, MeetRecord, Hectar Global, Magma, Salty, Reint, Karban and Volt Money, among others."
+      }
+    ]
+  },
+  {
+    "name": "Knot",
+    "aliases": [],
+    "sector": "Social,Consumer Internet",
+    "one_line": "Social Media app for teens to share positive feedback with each other",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Knot,Social Media app for teens to share positive feedback with each other,https://knotnow.co/,\"Social,Consumer Internet\",knot.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://knotnow.co/"
+  },
+  {
+    "name": "Mannjal",
+    "aliases": [],
+    "sector": "FinTech",
+    "one_line": "Lending out of the box service for B2B marketplaces",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Mannjal,Lending out of the box service for B2B marketplaces,https://www.mannjal.com/,FinTech,mannjal.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.mannjal.com/"
+  },
+  {
+    "name": "Nawgati",
+    "aliases": [],
+    "sector": "SAAS,Climate",
+    "one_line": "Complaince and Operations SAAS for Fuelling Stations",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Nawgati,Complaince and Operations SAAS for Fuelling Stations,https://www.nawgati.com/,\"SAAS,Climate\",nawgati.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.nawgati.com/"
+  },
+  {
+    "name": "FanTail",
+    "aliases": [],
+    "sector": "B2B Marketplace",
+    "one_line": "B2B Marketplace for Man made fabrics",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "FanTail,B2B Marketplace for Man made fabrics,https://www.linkedin.com/company/fantailindia/,B2B Marketplace,fantail.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.linkedin.com/company/fantailindia/"
+  },
+  {
+    "name": "DressFolk",
+    "aliases": [],
+    "sector": "India Consumer,D2C",
+    "one_line": "Handwoven Ethnic Wear brand for the modern Indian woman",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "DressFolk,Handwoven Ethnic Wear brand for the modern Indian woman,https://dressfolk.com/,\"India Consumer,D2C\",dressfolk.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://dressfolk.com/"
+  },
+  {
+    "name": "DevDham",
+    "aliases": [],
+    "sector": "India Consumer",
+    "one_line": "Platform bringing temples online connecting them to devotees worldwide",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "DevDham,Platform bringing temples online connecting them to devotees worldwide,https://devdarshanapp.com/en,India Consumer,devdham.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://devdarshanapp.com/en"
+  },
+  {
+    "name": "REint",
+    "aliases": [],
+    "sector": "SAAS,Climate",
+    "one_line": "AI Powered Supply prediction for renewable energy markets",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "REint,AI Powered Supply prediction for renewable energy markets,https://reint.co/,\"SAAS,Climate\",reint.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://reint.co/"
+  },
+  {
+    "name": "Segmind",
+    "aliases": [],
+    "sector": "SAAS,Dev Tools,Generative AI",
+    "one_line": "Fastest APIs for Generative AI models",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Segmind,Fastest APIs for Generative AI models,https://www.segmind.com/,\"SAAS,Dev Tools,Generative AI\",segmind.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.segmind.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://medium.com/all-in-capital/how-to-think-about-generative-ai-7f8f7b10bec7",
+        "quote": "We have made an investment here — Segmind."
+      }
+    ]
+  },
+  {
+    "name": "Arva",
+    "aliases": [],
+    "sector": "India Consumer,Healthcare",
+    "one_line": "Women's Health/Fertility Brand for India focussed on Egg Freezing",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Arva,Women's Health/Fertility Brand for India focussed on Egg Freezing,https://www.arva.health/,\"India Consumer,Healthcare\",arva.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.arva.health/"
+  },
+  {
+    "name": "Salty",
+    "aliases": [],
+    "sector": "D2C,India Consumer",
+    "one_line": "Fashion Accessories Brand for Indian GenZ",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Salty,Fashion Accessories Brand for Indian GenZ,https://salty.co.in/,\"D2C,India Consumer\",salty.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://salty.co.in/",
+    "additional_sources": [
+      {
+        "source_url": "https://www.business-standard.com/amp/companies/start-ups/all-in-capital-targets-closing-its-second-fund-in-next-three-months-125090300765_1.html",
+        "quote": "He added that other companies in the firm's portfolio, such as Salty, a fashion accessories brand, and an AI company, Broccoli AI, are also making significant inroads."
+      }
+    ]
+  },
+  {
+    "name": "Nirmaan",
+    "aliases": [],
+    "sector": "B2B Marketplace",
+    "one_line": "B2B market place for construction materials connecting small brands to retailers",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Nirmaan,B2B market place for construction materials connecting small brands to retailers,https://nirmaan.store/,B2B Marketplace,nirmaan.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://nirmaan.store/"
+  },
+  {
+    "name": "Karban",
+    "aliases": [],
+    "sector": "India Consumer,DeepTech",
+    "one_line": "Fan+Light+Air Purifier in one Device, AC coming soon!",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Karban,\"Fan+Light+Air Purifier in one Device, AC coming soon!\",https://www.karban.in/,\"India Consumer,DeepTech\",karban.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.karban.in/"
+  },
+  {
+    "name": "Mave Health",
+    "aliases": [],
+    "sector": "India Consumer,Healthcare",
+    "one_line": "Wearable Device + Coaching for treatment of Depression and other Mental Health issues",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Mave Health,Wearable Device + Coaching for treatment of Depression and other Mental Health issues,https://www.mavehealth.com/,\"India Consumer,Healthcare\",mave-health.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.mavehealth.com/"
+  },
+  {
+    "name": "Trisu",
+    "aliases": [],
+    "sector": "India Consumer,D2C",
+    "one_line": "Fine Jewellery D2C Brand for India",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Trisu,Fine Jewellery D2C Brand for India,https://trisu.in/,\"India Consumer,D2C\",trisu.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://trisu.in/"
+  },
+  {
+    "name": "Grid",
+    "aliases": [],
+    "sector": "Manufacturing,B2B Marketplace",
+    "one_line": "Original Design Manufacturer Play for IOT products in India",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Grid,Original Design Manufacturer Play for IOT products in India,https://www.grid-os.com/,\"Manufacturing,B2B Marketplace\",grid.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.grid-os.com/"
+  },
+  {
+    "name": "FuturElectra",
+    "aliases": [],
+    "sector": "EV,FinTech",
+    "one_line": "EV 2Ws lifecycle management platform",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "FuturElectra,EV 2Ws lifecycle management platform,futurelectra.com,\"EV,FinTech\",futur-electra.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "futurelectra.com"
+  },
+  {
+    "name": "BindBee",
+    "aliases": [],
+    "sector": "SAAS,Dev Tools",
+    "one_line": "Unified API for People Data",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "BindBee,Unified API for People Data,https://www.bindbee.dev/,\"SAAS,Dev Tools\",bindbee.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.bindbee.dev/"
+  },
+  {
+    "name": "Prosparity",
+    "aliases": [],
+    "sector": "EV,FinTech",
+    "one_line": "EV Financing NBFC",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Prosparity,EV Financing NBFC,https://prosparity.in/,\"EV,FinTech\",prosparity.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://prosparity.in/"
+  },
+  {
+    "name": "MagicStudio",
+    "aliases": [],
+    "sector": "Generative AI,SAAS",
+    "one_line": "AI lead Photo Editing App for small businesses",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "MagicStudio,AI lead Photo Editing App for small businesses,https://magicstudio.com/,\"Generative AI,SAAS\",magicstudio.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://magicstudio.com/"
+  },
+  {
+    "name": "Everyday",
+    "aliases": [],
+    "sector": "India Consumer",
+    "one_line": "Lab grown diamonds brand for India",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Everyday,Lab grown diamonds brand for India,https://thisiseveryday.in/,India Consumer,everyday.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://thisiseveryday.in/"
+  },
+  {
+    "name": "Creatr",
+    "aliases": [],
+    "sector": "Generative AI,SAAS",
+    "one_line": "AI lead Design Tool",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Creatr,AI lead Design Tool,https://creatr.xyz/,\"Generative AI,SAAS\",creatr.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://creatr.xyz/"
+  },
+  {
+    "name": "TractorFactory",
+    "aliases": [
+      "Tractor Factory"
+    ],
+    "sector": "India Consumer,AgriTech",
+    "one_line": "Omni-channel marketplace for second hand tractors",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "TractorFactory,Omni-channel marketplace for second hand tractors,https://tractorfactory.in/#/,\"India Consumer,AgriTech\",tractor-factory.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://tractorfactory.in/#/",
+    "note": "Tracxn news lists \"Investments of ₹4 crore in Tractor Factory\" (Jul 2026) tagged with All In Capital."
+  },
+  {
+    "name": "Viralme",
+    "aliases": [],
+    "sector": "B2B Marketplace",
+    "one_line": "Sourcing platform for Online Arbitrage Resellers",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Viralme,Sourcing platform for Online Arbitrage Resellers,#,B2B Marketplace,viralme.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": null
+  },
+  {
+    "name": "CommandK",
+    "aliases": [],
+    "sector": "Dev Tools",
+    "one_line": "DPDP / GDPR Management SAAS Platform for Tech Companies",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "CommandK,DPDP / GDPR Management SAAS Platform for Tech Companies,https://www.commandk.dev/,Dev Tools,enclave_commandk.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.commandk.dev/"
+  },
+  {
+    "name": "Spiti",
+    "aliases": [
+      "Spiti.xyz"
+    ],
+    "sector": "SAAS",
+    "one_line": "Private Youtube for Teams to store, curate and watch video content on.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Spiti,\"Private Youtube for Teams to store, curate and watch video content on.\",https://spiti.xyz/,SAAS,spiti.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://spiti.xyz/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
+        "quote": "three startups – MeetRecord, Spiti.xyz and Suitable.ai have received capital infusions up to $100K each"
+      }
+    ]
+  },
+  {
+    "name": "Suitable",
+    "aliases": [
+      "Suitable.ai"
+    ],
+    "sector": "SAAS",
+    "one_line": "Employee Referral management SAAS platform",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Suitable,Employee Referral management SAAS platform,https://suitable.ai/,SAAS,suitable.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://suitable.ai/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/buzz/all-in-capital-sets-up-10-mn-fund-to-back-homegrown-early-stage-startups",
+        "quote": "three startups – MeetRecord, Spiti.xyz and Suitable.ai have received capital infusions up to $100K each"
+      }
+    ]
+  },
+  {
+    "name": "Piiko",
+    "aliases": [],
+    "sector": "Healthcare",
+    "one_line": "10X Cheaper Blood Testing Machines for India",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Piiko,10X Cheaper Blood Testing Machines for India,https://www.piiko.in/,Healthcare,piiko.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.piiko.in/"
+  },
+  {
+    "name": "Vivahit",
+    "aliases": [],
+    "sector": "India Consumer",
+    "one_line": "App to manage organising weddings and providing a smooth guest experience at a grand indian wedding",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Vivahit,App to manage organising weddings and providing a smooth guest experience at a grand indian wedding,https://www.vivahit.in/,India Consumer,vivahit.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.vivahit.in/"
+  },
+  {
+    "name": "Fijit",
+    "aliases": [],
+    "sector": "Gaming",
+    "one_line": "Hyper Casual play to earn Web3 Meme Games",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Fijit,Hyper Casual play to earn Web3 Meme Games,https://www.infini3.xyz/,Gaming,fijit.png,Fund 1",
+    "confidence": "high",
+    "relationship": "All In Capital Fund I",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.infini3.xyz/"
+  },
+  {
+    "name": "Tross",
+    "aliases": [],
+    "sector": "Healthcare",
+    "one_line": "Healthcare technology startup providing enterprise-grade infrastructure and API integrations for electronic health records (EHR) and payer portals",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Tross,Healthcare technology startup providing enterprise-grade infrastructure and API integrations for electronic health records (EHR) and payer portals,https://ontross.com,Healthcare,tross.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://ontross.com",
+    "additional_sources": [
+      {
+        "source_url": "https://www.saasrise.com/deals/all-in-capital-leads-pre-seed-round-in-healthcare-infrastructure-startup-tross-8f888570-4f2c-47c1-a465-b052ba069b8d",
+        "quote": "All In Capital led a pre‑seed round in healthcare‑infrastructure SaaS startup Tross on August 20, 2026, with participation from DeVC; the amount raised was not disclosed."
+      }
+    ]
+  },
+  {
+    "name": "SuperLiving",
+    "aliases": [
+      "Super Living"
+    ],
+    "sector": "Consumer Tech",
+    "one_line": "SuperLiving is Bharat's own lifestyle app uniquely designed for the lifestyle needs of Indian families.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "SuperLiving,\"SuperLiving is Bharat's own lifestyle app uniquely designed for the lifestyle needs of Indian families.\",https://www.superliving.app/,Consumer Tech,superliving.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.superliving.app/",
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/buzz/preventive-health-platform-superliving-bags-7-mn-to-scale-in-tier-ii-iii-cities/",
+        "quote": "with participation from existing investors Kae Capital and All In Capital, who invested $2 Mn in the startup in January this year."
+      }
+    ]
+  },
+  {
+    "name": "Taakat",
+    "aliases": [],
+    "sector": "Consumer Brand",
+    "one_line": "Whole Truth for Masses",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Taakat,Whole Truth for Masses,https://www.linkedin.com/in/avinash-pareek-649a1413/,Consumer Brand,Taakat.jpeg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.linkedin.com/in/avinash-pareek-649a1413/",
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
+      }
+    ]
+  },
+  {
+    "name": "Medmitra AI",
+    "aliases": [
+      "MedMitra"
+    ],
+    "sector": "SAAS",
+    "one_line": "Perplexity for Doctors. AI Decision support tool for doctors, enabling differential diagnosis and prognosis",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Medmitra AI,\"Perplexity for Doctors. AI Decision support tool for doctors, enabling differential diagnosis and prognosis\",#,SAAS,medhmitra.jpg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
+      }
+    ]
+  },
+  {
+    "name": "Ionic",
+    "aliases": [
+      "Ionic Professional"
+    ],
+    "sector": "Consumer Brand",
+    "one_line": "Damage reversal professional haircare brand (similar to Olaplex/K18) with a salon-first GTM",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Ionic,Damage reversal professional haircare brand (similar to Olaplex/K18) with a salon-first GTM,http://ionicprofessional.com/,Consumer Brand,ionic professional.avif,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "http://ionicprofessional.com/",
+    "note": "Possibly related to \"&Done\" (also a salon-first professional haircare brand led by All In Capital, Nov 2025) - relationship NOT verified; kept as separate entries."
+  },
+  {
+    "name": "Spill Games",
+    "aliases": [],
+    "sector": "Consumer Tech",
+    "one_line": "Spill Games is game publishing studio that builds casual and hybrid casual games for mobile gamers.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Spill Games,Spill Games is game publishing studio that builds casual and hybrid casual games for mobile gamers.,#,Consumer Tech,spill_games.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
+      }
+    ],
+    "note": "Tracxn news: Spill Games raised USD 3.1M seed (Apr 2026) with All In Capital participating."
+  },
+  {
+    "name": "Krvvy",
+    "aliases": [
+      "Krrvy"
+    ],
+    "sector": "Consumer Brand",
+    "one_line": "Next-gen innovative intimates, shapewear and lifestyle brand",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Krvvy,\"Next-gen innovative intimates, shapewear and lifestyle brand\",https://krvvy.com/,Consumer Brand,krvvy.svg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://krvvy.com/",
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
+      }
+    ],
+    "note": "Press spells \"Krrvy\"; fund CSV and website spell \"Krvvy\"."
+  },
+  {
+    "name": "NPrep",
+    "aliases": [],
+    "sector": "Consumer Tech",
+    "one_line": "NPrep is a nursing education platform focused on nursing exam preparation such as NORCET (AIIMS)",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "NPrep,NPrep is a nursing education platform focused on nursing exam preparation such as NORCET (AIIMS),https://nprep.in/,Consumer Tech,nprep.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://nprep.in/"
+  },
+  {
+    "name": "Mixar",
+    "aliases": [
+      "Mixar3D"
+    ],
+    "sector": "SAAS",
+    "one_line": "A new-age 3D Models builder with text-to-model generation",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Mixar,A new-age 3D Models builder with text-to-model generation,#,SAAS,mixar3d.jpeg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "The firm has already made a few investments from Fund II, including Taakat, MedMitra, Spill Games, Krrvy, and Mixar."
+      }
+    ]
+  },
+  {
+    "name": "Plazza",
+    "aliases": [
+      "Plazza Club"
+    ],
+    "sector": "Consumer Tech",
+    "one_line": "Quick commerce for medicines",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Plazza,Quick commerce for medicines,https://www.linkedin.com/company/plazza-club/,Consumer Tech,plazza_club.jpeg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.linkedin.com/company/plazza-club/",
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/quick-medicine-delivery-startup-plazza-raises-14-mn-led-by-all-in-capital-10507362",
+        "quote": "Plazza, a Quick medicine delivery startup, has raised $1.4 million in a funding round led by All In Capital."
+      }
+    ],
+    "note": "Later $15M Series A (Jul 2026) co-led by Accel/Elevation/Nexus with All In participating (per search results)."
+  },
+  {
+    "name": "Cherry",
+    "aliases": [],
+    "sector": "Consumer Tech",
+    "one_line": "Shopping app exclusively for creators",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Cherry,Shopping app exclusively for creators,https://www.cherryapp.in/,Consumer Tech,cherry.jpeg,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.cherryapp.in/"
+  },
+  {
+    "name": "Returns",
+    "aliases": [
+      "OptionBase"
+    ],
+    "sector": "FinTech",
+    "one_line": "Options trading made simple.",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "Returns,Options trading made simple.,https://www.optionbase.in/,FinTech,returns.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://www.optionbase.in/",
+    "note": "Website optionbase.in."
+  },
+  {
+    "name": "MomsMade",
+    "aliases": [],
+    "sector": "Consumer Brand",
+    "one_line": "Clean label in regional snacks building for Bihari cuisine",
+    "source_url": "https://allincapital.vc/company_portfolio/portfolio.csv",
+    "quote": "MomsMade,Clean label in regional snacks building for Bihari cuisine,https://momsmade.shop/,Consumer Brand,momsmade.png,Fund 2",
+    "confidence": "high",
+    "relationship": "All In Capital Fund II",
+    "all_in_capital_fund_investment": true,
+    "website": "https://momsmade.shop/"
+  },
+  {
+    "name": "Iztri",
+    "aliases": [],
+    "sector": "Consumer services (fabric care)",
+    "one_line": "Apartment-hub fabric care (ironing, dry cleaning, shoe care) service in Bengaluru",
+    "source_url": "https://indianstartuptimes.com/investment/iztri-raises-rs-10-crore-seed-round-led-by-all-in-capital-and-suashish-group",
+    "quote": "has raised Rs 10 crore ($1.1 million) in a seed funding round led by All In Capital and Suashish Group",
+    "confidence": "high",
+    "relationship": "All In Capital (fund not specified; likely Fund II)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Seed, Sep 2026, co-led with Suashish Group. Not on fund CSV as of retrieval."
+  },
+  {
+    "name": "CUNIN",
+    "aliases": [
+      "Cumin (Tracxn spelling)"
+    ],
+    "sector": "Consumer brand (fragrance/lifestyle)",
+    "one_line": "Culture-led fragrance and lifestyle brand",
+    "source_url": "https://entrackr.com/snippets/cunin-raises-450k-pre-seed-round-co-led-by-all-in-capital-and-huddle-ventures-12130343",
+    "quote": "Culture-led lifestyle brand CUNIN has raised $450K in a pre-seed funding round co-led by All In Capital and Huddle Ventures.",
+    "confidence": "high",
+    "relationship": "All In Capital (fund not specified; likely Fund II)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Pre-seed, Jul 2026, co-led. Not on fund CSV."
+  },
+  {
+    "name": "Mowito",
+    "aliases": [],
+    "sector": "Deeptech (AI robotics)",
+    "one_line": "AI foundation models for industrial robots that learn tasks by observing humans",
+    "source_url": "https://www.bwdisrupt.com/article/ai-robotics-startup-mowito-raises-3-mn-in-pre-seed-funding-led-by-version-one-ventures-613800",
+    "quote": "has raised $3 million in a pre-seed funding round led by Version One Ventures, with participation from All In Capital, Unsol, and iSeed.",
+    "confidence": "high",
+    "relationship": "All In Capital (fund not specified; likely Fund II)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Participant, not lead (Jul 2026). Not on fund CSV."
+  },
+  {
+    "name": "Acai Theory",
+    "aliases": [
+      "Açaí Theory",
+      "Business Acai Theory"
+    ],
+    "sector": "Consumer brand (health QSR)",
+    "one_line": "Health-focused quick-service restaurant brand (acai bowls, smoothies) in Bengaluru",
+    "source_url": "https://startuptalky.com/news/health-qsr-chain-acai-theory-raises-4-crores-led-by-all-in-capital-with-participation-from-tdv-partners-and-other-marquee-investors/",
+    "quote": "has raised ₹4 crore in a pre-seed funding round led by All In Capital with participation from TDV Partners",
+    "confidence": "high",
+    "relationship": "All In Capital (fund not specified; likely Fund II)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
+        "quote": "The firm wrote cheques for QSR startup Acai Theory, healthtech startup Plazza, clothing care startup Iztri and SaaS startup Parsec."
+      }
+    ],
+    "note": "Pre-seed, Apr 2026. Some outlets describe it as co-led with TDV Partners. Not on fund CSV."
+  },
+  {
+    "name": "&Done",
+    "aliases": [
+      "And Done"
+    ],
+    "sector": "Consumer brand (professional haircare)",
+    "one_line": "Professional haircare brand (salon + D2C) for heat-styled/chemically treated hair",
+    "source_url": "https://scoopearth.com/done-secured-%E2%82%B96-5-crore-in-a-pre-seed-funding-round-led-by-all-in-capital/",
+    "quote": "&Done secured ₹6.5 crore in a pre-Seed funding round led by All In Capital",
+    "confidence": "medium",
+    "relationship": "All In Capital (fund not specified; likely Fund II)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Single lower-tier source (scoopearth, Nov 2025). May be the same company as fund-CSV entry \"Ionic\" (salon-first haircare) - unverified."
+  },
+  {
+    "name": "Parsec",
+    "aliases": [],
+    "sector": "SaaS",
+    "one_line": "not found (only described as a SaaS startup)",
     "source_url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
-    "quote": "The firm wrote cheques for QSR startup Acai Theory, healthtech startup Plazza, clothing care startup Iztri and SaaS startup Parsec."
-   }
-  ],
-  "note": "Pre-seed, Apr 2026. Some outlets describe it as co-led with TDV Partners. Not on fund CSV."
- },
- {
-  "name": "&Done",
-  "aliases": [
-   "And Done"
-  ],
-  "sector": "Consumer brand (professional haircare)",
-  "one_line": "Professional haircare brand (salon + D2C) for heat-styled/chemically treated hair",
-  "source_url": "https://scoopearth.com/done-secured-%E2%82%B96-5-crore-in-a-pre-seed-funding-round-led-by-all-in-capital/",
-  "quote": "&Done secured ₹6.5 crore in a pre-Seed funding round led by All In Capital",
-  "confidence": "medium",
-  "relationship": "All In Capital (fund not specified; likely Fund II)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Single lower-tier source (scoopearth, Nov 2025). May be the same company as fund-CSV entry \"Ionic\" (salon-first haircare) - unverified."
- },
- {
-  "name": "Parsec",
-  "aliases": [],
-  "sector": "SaaS",
-  "one_line": "not found (only described as a SaaS startup)",
-  "source_url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
-  "quote": "The firm wrote cheques for QSR startup Acai Theory, healthtech startup Plazza, clothing care startup Iztri and SaaS startup Parsec.",
-  "confidence": "low",
-  "relationship": "All In Capital (fund not specified)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Only a one-line Inc42 mention; no deal report or company details found. Inc42 calls Plazza \"healthtech\" whereas the fund calls it quick commerce for medicines."
- },
- {
-  "name": "Diagna",
-  "aliases": [],
-  "sector": "Healthcare AI (per third-party descriptions)",
-  "one_line": "not confirmed from a primary source",
-  "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
-  "quote": "Jul 31, 2026 Diagna United States Seed",
-  "confidence": "low",
-  "relationship": "All In Capital (per Tracxn only)",
-  "all_in_capital_fund_investment": true,
-  "website": null,
-  "note": "Only Tracxn lists this (Seed, Jul 2026; Tracxn shows 100X.VC as co-investor). Third-party profiles also list First Cheque as an earlier investor. Not on fund CSV; no press confirmation."
- },
- {
-  "name": "The ePlane Company",
-  "aliases": [
-   "ePlane",
-   "Eplane"
-  ],
-  "sector": "Deeptech (electric aviation)",
-  "one_line": "Building compact electric flying taxis (e200) for passengers and cargo",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
-    "quote": "The Eplane Company : Building Electric Airplanes for Intra-City Mobility"
-   },
-   {
-    "source_url": "https://allincapital.vc/portfolio",
-    "quote": "The ePlane Company, founded in 2017 and launched in 2019"
-   }
-  ],
-  "note": "Internal memo name. Listed on the fund's Notion \"Past Portfolio Companies\" table (title row: \"Companies we have partnered with before starting All In Capital\") and as a First Cheque 2020 investment. Its logo is commented out of the fund site's past-portfolio section. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Unbox Robotics",
-  "aliases": [],
-  "sector": "Deeptech (warehouse robotics)",
-  "one_line": "Software-defined robotics systems for logistics/warehouse automation",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/portfolio",
-    "quote": "Unbox Robotics builds software-defined robotics systems to enable logistics players to automate"
-   }
-  ],
-  "note": "Internal memo name. Pre-fund partner investment per fund Notion table and fund site \"Past Portfolio Companies\". Tracxn lists it as a top All In Capital investment (likely conflation). Not on First Cheque portfolio page; one aggregator links Aditya Singh personally (unverified). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Wint Wealth",
-  "aliases": [
-   "GrowFix"
-  ],
-  "sector": "Fintech (bonds/fixed income)",
-  "one_line": "Alternate debt/bond investment platform",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/wint_wealth_founder_story",
-    "quote": "I made sure to reach back out to Kushal to have him finally join the cap-table and he was more than happy to."
-   },
-   {
-    "source_url": "https://www.firstcheque.vc/portfolio",
-    "quote": "Wint Wealth"
-   }
-  ],
-  "note": "Internal memo name. Founder story says Kushal joined the cap table at seed in 2020 (pre-All In). Also on First Cheque portfolio page. Tracxn lists it as a top All In investment; Entrackr calls All In its \"first backer\" - both conflict with the fund's own pre-fund classification. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "GIVA",
-  "aliases": [
-   "Giva"
-  ],
-  "sector": "Consumer brand (jewellery)",
-  "one_line": "Silver/fine jewellery brand for Indian millennials",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
-    "quote": "Giva raised multiple follow-on rounds from India Quotient"
-   },
-   {
-    "source_url": "https://thestorywatch.com/kushal-bhagia-and-aditya-singh-launch-a-10-million-fund-all-in-capital-to-back-early-stage-companies",
-    "quote": "All in Capital has already invested in companies like Rocketlane, Fashinza, Giva, and Jai Kisan."
-   }
-  ],
-  "note": "Internal memo name. First Cheque 2019 investment. Story Watch (Jun 2022) and Tracxn attribute it to All In Capital; Inc42 (Mar 2025) wrongly describes Giva as \"a short-form video edtech platform\". Fund's own classification: pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "SuperK",
-  "aliases": [
-   "Super K"
-  ],
-  "sector": "Consumer retail (kirana chain)",
-  "one_line": "Tech-enabled franchised kirana/mini-supermarket chain in Tier 2-3 towns",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
-    "quote": "SuperK: Chain of Tech-Enabled Kirana Stores"
-   }
-  ],
-  "note": "Internal memo name. First Cheque 2020 investment; pre-fund per fund Notion table. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Jai Kisan",
-  "aliases": [],
-  "sector": "Fintech (rural credit)",
-  "one_line": "Rural credit and financial products for agri, poultry and dairy value chains",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://thestorywatch.com/kushal-bhagia-and-aditya-singh-launch-a-10-million-fund-all-in-capital-to-back-early-stage-companies",
-    "quote": "All in Capital has already invested in companies like Rocketlane, Fashinza, Giva, and Jai Kisan."
-   }
-  ],
-  "note": "Internal memo name. Pre-fund per fund Notion table and site past-portfolio list. Story Watch (Jun 2022) says All In \"has already invested\" in Jai Kisan - conflicts with fund's own classification. Not found on First Cheque portfolio page. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Rocketlane",
-  "aliases": [],
-  "sector": "SaaS",
-  "one_line": "Customer onboarding/implementation software",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "Pre-fund; founder Srikrishnan Ganesan is also an All In partner-network member. Also on First Cheque portfolio page. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Mailmodo",
-  "aliases": [
-   "MailModo"
-  ],
-  "sector": "SaaS (email marketing)",
-  "one_line": "Interactive (AMP) email marketing platform",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/mailmodo_founder_story",
-    "quote": "Kushal built the conviction to price and lead our pre-seed round - all on Zoom calls and all within 2 weeks."
-   }
-  ],
-  "note": "Kushal led pre-seed in Jun 2020 (pre-All In) per fund founder story. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Fleetx",
-  "aliases": [
-   "Fleetx.io"
-  ],
-  "sector": "SaaS (fleet management)",
-  "one_line": "AI fleet management SaaS",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "First Cheque 2019 investment; pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Fashinza",
-  "aliases": [],
-  "sector": "B2B marketplace (fashion supply chain)",
-  "one_line": "Managed marketplace for fashion supply chain",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "Pre-fund; co-founder Pawan Gupta is in the partner network. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Rigi",
-  "aliases": [
-   "Plaza / Rigi"
-  ],
-  "sector": "Creator economy",
-  "one_line": "Creator community monetisation platform",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "First Cheque investment (Kushal cites it as a First Cheque example in Inc42 2023). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Questbook",
-  "aliases": [],
-  "sector": "Web3 / edtech",
-  "one_line": "Decentralised learning/grants platform",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "Pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Anar",
-  "aliases": [
-   "Anar.biz"
-  ],
-  "sector": "B2B / SME networking",
-  "one_line": "Business networking platform for Indian SMEs",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "First Cheque 2020 investment; founder story describes 2020 cheque. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "BiteSpeed",
-  "aliases": [
-   "Bitespeed"
-  ],
-  "sector": "SaaS (eCommerce marketing)",
-  "one_line": "Messenger/WhatsApp marketing for Shopify stores",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "First Cheque 2020 investment. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "RevenueHero",
-  "aliases": [
-   "Revenue Hero"
-  ],
-  "sector": "SaaS (sales)",
-  "one_line": "Lead routing/meeting scheduling for sales teams",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "note": "Pre-fund; logo commented out of fund site past-portfolio section. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Masterchow",
-  "aliases": [
-   "MasterChow"
-  ],
-  "sector": "Consumer brand (D2C food)",
-  "one_line": "D2C Asian food brand",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://allincapital.vc/masterchow_founder_story",
-    "quote": "We met Aditya at a very early stage in our journey."
-   }
-  ],
-  "note": "Aditya Singh personal investment pre-All In per founder story; Entrackr (Mar 2025) calls All In its \"first backer\". (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- },
- {
-  "name": "Seekho",
-  "aliases": [],
-  "sector": "Consumer internet (edtech short video)",
-  "one_line": "Short-video learning app",
-  "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
-  "quote": "Companies we have partnered with before starting All In Capital",
-  "confidence": "high",
-  "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
-  "all_in_capital_fund_investment": false,
-  "website": null,
-  "additional_sources": [
-   {
-    "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
-    "quote": "the firm has been the first backer of companies like Giva, Seekho, NewMe, MasterChow, Wint Wealth, and PierSight Space."
-   }
-  ],
-  "note": "Pre-fund per Notion table; Entrackr (Mar 2025) lists it among companies where All In \"has been the first backer\" (counts founders' careers). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
- }
+    "quote": "The firm wrote cheques for QSR startup Acai Theory, healthtech startup Plazza, clothing care startup Iztri and SaaS startup Parsec.",
+    "confidence": "low",
+    "relationship": "All In Capital (fund not specified)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Only a one-line Inc42 mention; no deal report or company details found. Inc42 calls Plazza \"healthtech\" whereas the fund calls it quick commerce for medicines."
+  },
+  {
+    "name": "Diagna",
+    "aliases": [],
+    "sector": "Healthcare AI (per third-party descriptions)",
+    "one_line": "not confirmed from a primary source",
+    "source_url": "https://tracxn.com/d/venture-capital/all-in-capital/__NuV1svZZJdroN4cSzZZtXwS8kITV9k8nqNDngEna8bM",
+    "quote": "Jul 31, 2026 Diagna United States Seed",
+    "confidence": "low",
+    "relationship": "All In Capital (per Tracxn only)",
+    "all_in_capital_fund_investment": true,
+    "website": null,
+    "note": "Only Tracxn lists this (Seed, Jul 2026; Tracxn shows 100X.VC as co-investor). Third-party profiles also list First Cheque as an earlier investor. Not on fund CSV; no press confirmation."
+  },
+  {
+    "name": "The ePlane Company",
+    "aliases": [
+      "ePlane",
+      "Eplane"
+    ],
+    "sector": "Deeptech (electric aviation)",
+    "one_line": "Building compact electric flying taxis (e200) for passengers and cargo",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
+        "quote": "The Eplane Company : Building Electric Airplanes for Intra-City Mobility"
+      },
+      {
+        "source_url": "https://allincapital.vc/portfolio",
+        "quote": "The ePlane Company, founded in 2017 and launched in 2019"
+      }
+    ],
+    "note": "Internal memo name. Listed on the fund's Notion \"Past Portfolio Companies\" table (title row: \"Companies we have partnered with before starting All In Capital\") and as a First Cheque 2020 investment. Its logo is commented out of the fund site's past-portfolio section. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Unbox Robotics",
+    "aliases": [],
+    "sector": "Deeptech (warehouse robotics)",
+    "one_line": "Software-defined robotics systems for logistics/warehouse automation",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/portfolio",
+        "quote": "Unbox Robotics builds software-defined robotics systems to enable logistics players to automate"
+      }
+    ],
+    "note": "Internal memo name. Pre-fund partner investment per fund Notion table and fund site \"Past Portfolio Companies\". Tracxn lists it as a top All In Capital investment (likely conflation). Not on First Cheque portfolio page; one aggregator links Aditya Singh personally (unverified). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Wint Wealth",
+    "aliases": [
+      "GrowFix"
+    ],
+    "sector": "Fintech (bonds/fixed income)",
+    "one_line": "Alternate debt/bond investment platform",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/wint_wealth_founder_story",
+        "quote": "I made sure to reach back out to Kushal to have him finally join the cap-table and he was more than happy to."
+      },
+      {
+        "source_url": "https://www.firstcheque.vc/portfolio",
+        "quote": "Wint Wealth"
+      }
+    ],
+    "note": "Internal memo name. Founder story says Kushal joined the cap table at seed in 2020 (pre-All In). Also on First Cheque portfolio page. Tracxn lists it as a top All In investment; Entrackr calls All In its \"first backer\" - both conflict with the fund's own pre-fund classification. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "GIVA",
+    "aliases": [
+      "Giva"
+    ],
+    "sector": "Consumer brand (jewellery)",
+    "one_line": "Silver/fine jewellery brand for Indian millennials",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
+        "quote": "Giva raised multiple follow-on rounds from India Quotient"
+      },
+      {
+        "source_url": "https://thestorywatch.com/kushal-bhagia-and-aditya-singh-launch-a-10-million-fund-all-in-capital-to-back-early-stage-companies",
+        "quote": "All in Capital has already invested in companies like Rocketlane, Fashinza, Giva, and Jai Kisan."
+      }
+    ],
+    "note": "Internal memo name. First Cheque 2019 investment. Story Watch (Jun 2022) and Tracxn attribute it to All In Capital; Inc42 (Mar 2025) wrongly describes Giva as \"a short-form video edtech platform\". Fund's own classification: pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "SuperK",
+    "aliases": [
+      "Super K"
+    ],
+    "sector": "Consumer retail (kirana chain)",
+    "one_line": "Tech-enabled franchised kirana/mini-supermarket chain in Tier 2-3 towns",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://medium.com/first-cheque/first-cheque-a-2020-review-c7d29e558872",
+        "quote": "SuperK: Chain of Tech-Enabled Kirana Stores"
+      }
+    ],
+    "note": "Internal memo name. First Cheque 2020 investment; pre-fund per fund Notion table. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Jai Kisan",
+    "aliases": [],
+    "sector": "Fintech (rural credit)",
+    "one_line": "Rural credit and financial products for agri, poultry and dairy value chains",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://thestorywatch.com/kushal-bhagia-and-aditya-singh-launch-a-10-million-fund-all-in-capital-to-back-early-stage-companies",
+        "quote": "All in Capital has already invested in companies like Rocketlane, Fashinza, Giva, and Jai Kisan."
+      }
+    ],
+    "note": "Internal memo name. Pre-fund per fund Notion table and site past-portfolio list. Story Watch (Jun 2022) says All In \"has already invested\" in Jai Kisan - conflicts with fund's own classification. Not found on First Cheque portfolio page. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Rocketlane",
+    "aliases": [],
+    "sector": "SaaS",
+    "one_line": "Customer onboarding/implementation software",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "Pre-fund; founder Srikrishnan Ganesan is also an All In partner-network member. Also on First Cheque portfolio page. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Mailmodo",
+    "aliases": [
+      "MailModo"
+    ],
+    "sector": "SaaS (email marketing)",
+    "one_line": "Interactive (AMP) email marketing platform",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/mailmodo_founder_story",
+        "quote": "Kushal built the conviction to price and lead our pre-seed round - all on Zoom calls and all within 2 weeks."
+      }
+    ],
+    "note": "Kushal led pre-seed in Jun 2020 (pre-All In) per fund founder story. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Fleetx",
+    "aliases": [
+      "Fleetx.io"
+    ],
+    "sector": "SaaS (fleet management)",
+    "one_line": "AI fleet management SaaS",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "First Cheque 2019 investment; pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Fashinza",
+    "aliases": [],
+    "sector": "B2B marketplace (fashion supply chain)",
+    "one_line": "Managed marketplace for fashion supply chain",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "Pre-fund; co-founder Pawan Gupta is in the partner network. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Rigi",
+    "aliases": [
+      "Plaza / Rigi"
+    ],
+    "sector": "Creator economy",
+    "one_line": "Creator community monetisation platform",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "First Cheque investment (Kushal cites it as a First Cheque example in Inc42 2023). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Questbook",
+    "aliases": [],
+    "sector": "Web3 / edtech",
+    "one_line": "Decentralised learning/grants platform",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "Pre-fund. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Anar",
+    "aliases": [
+      "Anar.biz"
+    ],
+    "sector": "B2B / SME networking",
+    "one_line": "Business networking platform for Indian SMEs",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "First Cheque 2020 investment; founder story describes 2020 cheque. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "BiteSpeed",
+    "aliases": [
+      "Bitespeed"
+    ],
+    "sector": "SaaS (eCommerce marketing)",
+    "one_line": "Messenger/WhatsApp marketing for Shopify stores",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "First Cheque 2020 investment. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "RevenueHero",
+    "aliases": [
+      "Revenue Hero"
+    ],
+    "sector": "SaaS (sales)",
+    "one_line": "Lead routing/meeting scheduling for sales teams",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "note": "Pre-fund; logo commented out of fund site past-portfolio section. (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Masterchow",
+    "aliases": [
+      "MasterChow"
+    ],
+    "sector": "Consumer brand (D2C food)",
+    "one_line": "D2C Asian food brand",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://allincapital.vc/masterchow_founder_story",
+        "quote": "We met Aditya at a very early stage in our journey."
+      }
+    ],
+    "note": "Aditya Singh personal investment pre-All In per founder story; Entrackr (Mar 2025) calls All In its \"first backer\". (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  },
+  {
+    "name": "Seekho",
+    "aliases": [],
+    "sector": "Consumer internet (edtech short video)",
+    "one_line": "Short-video learning app",
+    "source_url": "https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7",
+    "quote": "Companies we have partnered with before starting All In Capital",
+    "confidence": "high",
+    "relationship": "Pre-All In Capital partner investment (First Cheque era / partners' personal cheques) - NOT an All In Capital fund investment",
+    "all_in_capital_fund_investment": false,
+    "website": null,
+    "additional_sources": [
+      {
+        "source_url": "https://entrackr.com/snippets/all-in-capital-launches-fund-ii-with-target-corpus-of-rs-200-cr-8872102",
+        "quote": "the firm has been the first backer of companies like Giva, Seekho, NewMe, MasterChow, Wint Wealth, and PierSight Space."
+      }
+    ],
+    "note": "Pre-fund per Notion table; Entrackr (Mar 2025) lists it among companies where All In \"has been the first backer\" (counts founders' careers). (Company row present in this Notion table, linked from allincapital.vc/apply_now.)"
+  }
 ]
