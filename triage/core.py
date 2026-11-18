@@ -109,15 +109,18 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
     if missing:
         flags.append("No evidence (scored as missing, drags score): " + ", ".join(missing))
 
-    if conflict:
+    if mandate:
+        # out of mandate makes a conflict moot; the overlap still shows as a flag
+        rec = "PASS"
+        headline = "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company."
+        if conflict:
+            flags.append("Possible portfolio overlap also flagged (G1); moot unless the round changes.")
+    elif conflict:
         rec = "HOLD_CONFLICT"
         headline = "Hold: possible overlap with a portfolio company. Kushal to speak to the portfolio founder first."
     elif regulatory:
         rec = "PASS"
         headline = "Suggest pass on category: the business depends on a favourable rule change (G2)."
-    elif mandate:
-        rec = "PASS"
-        headline = "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company."
     elif revealed.score_10 >= routing["take_call"]["revealed_min"] and revealed.coverage >= routing["take_call"]["coverage_min"]:
         rec = "TAKE_CALL"
         headline = f"Take the call: {revealed.score_10}/10 on the fund's revealed thesis with {int(revealed.coverage*100)}% evidence coverage."

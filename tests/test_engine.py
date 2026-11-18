@@ -127,3 +127,10 @@ def test_no_pass_without_founder_evidence():
 def test_mandate_gate_suggests_pass_even_for_strong_company():
     g = GateResult(gate_id="G4", triggered=True, detail="Series A, INR 30 Cr")
     assert decide(dossier(), card(all_revealed(5), [g])).recommendation == "PASS"
+
+
+def test_mandate_beats_conflict():
+    gates = [GateResult(gate_id="G1", triggered=True, detail="overlap"),
+             GateResult(gate_id="G4", triggered=True, detail="Series A")]
+    v = decide(dossier(), card(all_revealed(5), gates))
+    assert v.recommendation == "PASS" and any("overlap" in f for f in v.flags)

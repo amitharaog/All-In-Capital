@@ -1,0 +1,295 @@
+{
+ "slug": "carecorner",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "For an ops-heavy clinic chain the defining risk is profitability at achievable density. Unprompted, the founders name capital intensity, doctor retention and new-location ramp as key risks, give a per-clinic breakeven (month 8 for clinic 1) and offer clinic-level P&Ls, which is owning the risk. Against that, the plan assumes mature clinics make ~3.6x today's average. The deck also pitches 'Tier-2 India' while every clinic is in Hyderabad suburbs, a positioning inconsistency that lowers the score.",
+   "evidence": [
+    {
+     "text": "Founder-listed key risks: capital intensity, doctor retention, slower ramp in new locations.",
+     "source_ids": ["F5"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "First clinic reached monthly breakeven in month 8; founders offer clinic-level P&Ls.",
+     "source_ids": ["F2", "F15"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Mature clinic revenue projected at INR 1.4 Cr a year vs ~INR 39 L annualised average today.",
+     "source_ids": ["D6", "D3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Deck: clinics 'for Tier-2 India'; form: all three clinics in Hyderabad suburbs.",
+     "source_ids": ["D1", "F1"],
+     "status": "contradicted"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "The founders run three physical clinics, built patient acquisition through local doctor referrals and health camps, and sized spend from their own billing plus a 90-household survey. This is direct, unscalable work with real patients. They do not describe what broke or what they changed.",
+   "evidence": [
+    {
+     "text": "Three neighbourhood clinics, each with a family doctor, diagnostics and pharmacy.",
+     "source_ids": ["F1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Acquisition: local doctor referrals 45%, WhatsApp/Google 35%, health camps 20%.",
+     "source_ids": ["F3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Household spend estimated from clinic billing and a 90-household survey.",
+     "source_ids": ["D5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "For a clinic chain the deciding metric is per-clinic ramp to profitability. One clinic is at breakeven and October revenue is INR 9.8 L across three clinics, acquired cheaply at INR 210 per patient, mostly through referral and camps. Patient retention and visit frequency are missing, and the monthly trend relies on an assumed chart order.",
+   "evidence": [
+    {
+     "text": "INR 9.8 L revenue across three clinics in October 2026.",
+     "source_ids": ["D3", "F2"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Patient acquisition cost ~INR 210, mostly referrals and camps.",
+     "source_ids": ["F3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Month-by-month series is an extraction assumption; only October confirmed.",
+     "source_ids": ["D4"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Patients pay and the local channels work. But registrations are never mentioned (Clinical Establishments Act registration, lab registration, drug licences) in a city actively shutting unregistered facilities. Tier-2 expansion is untested, and a funded chain (Hoola) is entering Hyderabad.",
+   "evidence": [
+    {
+     "text": "Telangana requires all healthcare facilities, including diagnostic labs, to register under the Clinical Establishments Act.",
+     "source_ids": ["W1"],
+     "status": "verified"
+    },
+    {
+     "text": "Hyderabad authorities found ~224 private hospitals unregistered in Jan 2026 and ordered shutdowns.",
+     "source_ids": ["W2"],
+     "status": "verified"
+    },
+    {
+     "text": "In-house diagnostics and pharmacy in every clinic; no licensing mentioned.",
+     "source_ids": ["D13", "F1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Hoola Health (USD 5 M) plans 30 more clinics including Hyderabad.",
+     "source_ids": ["W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "INR 3 Cr funds five more clinics at INR 28 L each, which reaches the next proof point (8 clinics, 3 at breakeven). Density beyond that needs repeated capex rounds, and an existing bank loan and a ~7.5x valuation step-up raise the risk that a pre-seed cheque gets diluted.",
+   "evidence": [
+    {
+     "text": "Capex INR 28 L per clinic, funded by angels and a INR 40 L bank loan.",
+     "source_ids": ["F4", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Raising INR 3 Cr at INR 18 Cr post; angels hold 25% for INR 60 L.",
+     "source_ids": ["F6", "F8", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "12-month target: 8 clinics, INR 45 L monthly revenue, 3 at breakeven.",
+     "source_ids": ["D11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 2.0,
+   "status": "partial",
+   "rationale": "Clinical protocols and a site-selection/rollout process could travel beyond the founders, but each clinic depends on a single doctor and the founders name doctor retention as a key risk. No defensibility argument is made.",
+   "evidence": [
+    {
+     "text": "CEO designs clinical protocols; COO runs site selection and rollout.",
+     "source_ids": ["D8", "D9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Team of 14 including 3 doctors across 3 clinics.",
+     "source_ids": ["D10", "F13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Doctor retention named as a key risk.",
+     "source_ids": ["F5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "An owned clinic chain is healthcare services, not one of the four focus sectors. The fund is sector-agnostic and has backed consumer-healthcare brands, so this sits at the edge, with no AI or deeptech angle.",
+   "evidence": [
+    {
+     "text": "Sector selected as 'Other (Healthcare)'.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "Pre-seed, INR 3 Cr at INR 18 Cr post, with angels and a bank loan only. This is a first institutional round the fund can lead, though two healthcare funds are also talking to them.",
+   "evidence": [
+    {
+     "text": "INR 3 Cr at INR 18 Cr post; existing angels INR 60 L plus bank loan.",
+     "source_ids": ["F6", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Two healthcare-focused funds in conversation.",
+     "source_ids": ["F9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "The MBBS and hospital-chain operations credentials alone would stay at the cap of 2. The founders have built three clinics and taken one to breakeven, and the doctor-plus-operator pairing matches the business's key skills. Identities are unverified (placeholder LinkedIns, a same-name doctor who does not match), and neither founder has prior startup experience.",
+   "evidence": [
+    {
+     "text": "CEO: MBBS, 8 years in family medicine, designs clinical protocols; COO: 6 years hospital-chain operations.",
+     "source_ids": ["D8", "D9", "F10", "F11"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Same-name doctor at Continental Hospitals does not match the claimed profile; not linkable.",
+     "source_ids": ["W5", "F10"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "Three clinics built; first at breakeven in month 8.",
+     "source_ids": ["F1", "F2"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "Neighbourhood primary-care chains with diagnostics are a well-trodden model (Preventify, Hoola, Apollo Clinic), and the ambition is regional (Telangana, AP, Karnataka).",
+   "evidence": [
+    {
+     "text": "Preventify: three-clinic Tier-2/3 chain, INR 2 Cr pre-seed; Hoola Health: USD 5 M.",
+     "source_ids": ["W3", "W4"],
+     "status": "verified"
+    },
+    {
+     "text": "Market sized on Tier-2 households in Telangana, AP and Karnataka.",
+     "source_ids": ["D5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked against all 88 portfolio companies. The healthcare-adjacent ones do different jobs. Plazza (quick commerce for medicines) overlaps only on pharmacy sales, which are dispensed in-clinic after consultation, not delivered; the job (primary care) differs. Piiko (cheaper blood-testing machines), Medmitra (AI decision support for doctors) and Tross (EHR infrastructure) would be suppliers to CareCorner, not competitors. Arva (fertility/egg freezing), Mave Health (mental-health wearable) and SuperLiving (family lifestyle app) serve different needs. Diagna's product is unconfirmed but is described as healthcare AI, not a clinic operator. No same customer + same job.",
+   "source_ids": ["F1", "D6"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "Clinics, labs and pharmacies need routine registrations (Clinical Establishments Act, drug licence) under existing rules. No rule change is needed. Whether these are in place is unknown and scored under R4.",
+   "source_ids": ["W1", "W2"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "The founders select 'Other (Healthcare)' and do not claim a focus-sector label, so there is no label stretch. The weak fit with the focus sectors is reflected in S1.",
+   "source_ids": ["F14"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 3 Cr at INR 18 Cr post, angel- and bank-funded so far. Within what the fund leads.",
+   "source_ids": ["F6", "F7"]
+  }
+ ],
+ "case_for": [
+  "The founders name the defining risk themselves (capital intensity, doctor retention, ramp), give a per-clinic breakeven, and offer clinic P&Ls (R1).",
+  "Real on-the-ground build: three operating clinics with referral- and camp-led acquisition at ~INR 210 per patient (R2, R3).",
+  "A doctor plus a hospital-operations lead, a pairing that matches what this model needs (S3).",
+  "The round size reaches a clear proof point: 8 clinics with 3 at breakeven (R5, S2)."
+ ],
+ "case_against": [
+  "Capex-heavy model (INR 28 L per clinic) whose economics assume mature clinics earn ~3.6x today's average; density will need repeated rounds (R1, R5).",
+  "The deck pitches Tier-2 India but every clinic is in a Hyderabad suburb; Tier-2 ramp is untested (R1, R4).",
+  "Clinic, lab and pharmacy registrations are never mentioned, in a city actively shutting unregistered facilities (R4).",
+  "Outside the focus sectors, in a well-trodden model with funded competitors entering Hyderabad (S1, S4)."
+ ],
+ "call_questions": [
+  "Send the clinic-level P&Ls: revenue, gross margin and EBITDA by clinic by month since opening. What does your best clinic make today?",
+  "What patient volume per day does INR 1.4 Cr per clinic require, and why will clinics reach 3.6x today's average?",
+  "Your deck says Tier-2 India, but every clinic is in a Hyderabad suburb. Why, and where exactly will the next five open?",
+  "Are all three clinics and labs registered under the Clinical Establishments Act, and do the pharmacies hold drug licences?",
+  "What share of patients return within 90 days? What happens to a clinic's revenue when its doctor leaves?",
+  "Please share Dr Reddy's medical registration number and where Vikram worked."
+ ],
+ "what_would_change_our_view": "Clinic-level P&Ls showing a second clinic reaching breakeven on a similar curve, patient return rates, and confirmed registrations for clinics, labs and pharmacies would let us look again."
+,
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

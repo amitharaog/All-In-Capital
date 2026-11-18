@@ -1,0 +1,293 @@
+{
+ "slug": "stocksathi",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "For a lender the defining risk is who holds default risk. The deck says the credit book is on StockSathi's own capital with an NBFC 'in discussion'; the form says credit comes 'through our NBFC partner' with StockSathi taking first loss, and then asks the fund for NBFC introductions. That is a deck/form contradiction on the defining fact. There is no days-past-due or loss data, and nothing on whether the structure complies with NBFC registration or the digital-lending rules. Under C004 the claimed (unsigned) NBFC partner earns no credit as risk management; the personal follow-up on late payments is the only sign of ownership.",
+   "evidence": [
+    {
+     "text": "Deck: credit pilot funded from own capital; NBFC partnership in discussion. Form: credit provided through 'our NBFC partner', StockSathi takes first loss; form also asks for NBFC introductions.",
+     "source_ids": ["D9", "D10", "F8", "F18"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Not registered as an NBFC; legality of own-balance-sheet trade credit and of the disbursal/repayment flow is not addressed.",
+     "source_ids": ["F11", "W1", "W4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "First-loss cover under RBI's DLG framework is capped at 5%; the form gives no DLG percentage or form.",
+     "source_ids": ["F8", "W2", "W3"],
+     "status": "verified"
+    },
+    {
+     "text": "Credit book INR 85,000 across 12 retailers after four months; 'no defaults so far'; late payments followed up personally. No DPD data.",
+     "source_ids": ["F9", "F10", "D9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "CAC contradiction: deck INR 2,860 (October, one town) vs form 'under INR 2,000', which is the deck's own 12-month target. Retailer count 38 vs 42.",
+     "source_ids": ["D6", "D7", "F7", "D13", "D4", "F5"],
+     "status": "contradicted"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": ["C004"]
+  },
+  {
+   "criterion_id": "R2",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "The founders did 60 owner interviews in two towns before launch. They onboard stores in person with field agents, track acquisition by channel and chase late credit payments themselves. They also say what they will change next (agent-free onboarding through distributor reps). All of this is self-reported, and the application does not say what broke.",
+   "evidence": [
+    {
+     "text": "60 owner interviews in Karimnagar and Warangal, June-July 2026, before launch; live in Karimnagar only.",
+     "source_ids": ["D2", "F12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Two field agents onboard stores; channel split 24 field agents / 9 neighbour referrals / 5 distributor intros.",
+     "source_ids": ["D6", "D7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Late credit payments are followed up personally.",
+     "source_ids": ["F10"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 2.0,
+   "status": "evidenced",
+   "rationale": "For a lending-led model the deciding metrics are default data and repeat usage. Repeat is promising: 22 stores reorder, about weekly. Default data does not exist in any meaningful form (a four-month book of 12 borrowers). There is no cohort table, the headline retailer count and CAC differ between deck and form, and GMV is small (INR 3.8 L in October). Acquisition is field-led, not paid media.",
+   "evidence": [
+    {
+     "text": "22 stores have ordered more than once (58% of 38 or 52% of 42); repeat customers reorder about weekly.",
+     "source_ids": ["D17", "F5", "F17"],
+     "status": "contradicted"
+    },
+    {
+     "text": "GMV INR 3.8 L in October, ~INR 9 L over three months, growing monthly since July.",
+     "source_ids": ["D5", "F6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "No defaults on an INR 85,000 book across 12 retailers; no days-past-due data.",
+     "source_ids": ["F9", "F10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "INR 520 monthly margin per active store, ~5.5-month payback on trade margin; delivery cost not shown.",
+     "source_ids": ["D8", "F13"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 2.0,
+   "status": "evidenced",
+   "rationale": "Store owners already order, and there is a field channel with measured CAC. The credit leg has no regulatory path: no signed NBFC, no NBFC registration, and the disbursal flow is undescribed. Well-funded players already bundle supply and credit for kiranas, and an open-network pilot is running in the same state. The deck's competition slide understates both.",
+   "evidence": [
+    {
+     "text": "Paying customers via ~4% trade margin and 1.5% credit fee; field-agent channel with October CAC INR 2,860.",
+     "source_ids": ["D6", "D7", "D8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Credit regulatory path absent: not an NBFC, NBFC partner unsigned, Digital Lending Directions require disbursal and repayment via the regulated entity.",
+     "source_ids": ["F11", "D10", "W4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Jumbotail (USD 120M Series D) offers kiranas credit alongside supply; ONDC DigiDukaan pilot in Hyderabad signed 10,000+ retailers; B2B BNPL players already embed credit.",
+     "source_ids": ["W5", "W6", "W7", "W8"],
+     "status": "verified"
+    },
+    {
+     "text": "Competition named only as 'large B2B marketplaces and local wholesale markets'.",
+     "source_ids": ["F20", "D16"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "INR 2 Cr at INR 12 Cr post-money is a pre-seed-sized round. But 40% of it goes into a credit book, so equity is used as lending capital. The 300-store target is an ops-heavy density play, and contribution after delivery is not shown. If the NBFC route closes, the cheque gets consumed by the book.",
+   "evidence": [
+    {
+     "text": "Use of funds: 40% credit book, 35% team and tech, 25% two new towns; 12-month target 300 stores, INR 40 L monthly GMV.",
+     "source_ids": ["D14", "D13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Positive contribution claimed once a store has ordered twice; delivery cost not given.",
+     "source_ids": ["F13", "D8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Raising INR 2 Cr at INR 12 Cr post; INR 25 L from three angels.",
+     "source_ids": ["F15", "F19"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 2.0,
+   "status": "partial",
+   "rationale": "The claimed edge is small-town focus, vernacular UX and credit rules built on UPI trails. Field execution could compound in the way the fund credited SuperK. None of it is examined in the application, and better-funded players already offer supply plus credit.",
+   "evidence": [
+    {
+     "text": "Founders claim their edge is small-town focus and assessing credit 'in the owner's language'; credit rules built by the CTO.",
+     "source_ids": ["D12", "D16"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Jumbotail and B2B BNPL providers already bundle kirana supply and credit.",
+     "source_ids": ["W5", "W8"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "This is B2B kirana commerce with embedded credit. It sits in the fintech focus area as lending-led commerce, not in the consumer tech the founders selected. There is no AI or deeptech angle.",
+   "evidence": [
+    {
+     "text": "Founders selected 'Consumer tech'; business is a B2B ordering marketplace with trade credit, 40% of raise to the credit book.",
+     "source_ids": ["F2", "D1", "D14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "This is a first institutional round of INR 2 Cr at INR 12 Cr post-money. Only angels have invested, and one other pre-seed fund is talking without a term sheet. The fund can lead it.",
+   "evidence": [
+    {
+     "text": "Raising INR 2 Cr at INR 12 Cr post; existing investors three angels with INR 25 L.",
+     "source_ids": ["F15", "F19"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "On paper the backgrounds fit well (FMCG distribution, payments engineering), but those are credentials and are capped. What lifts the score slightly is work on this problem: interviews, a live app, and a running credit pilot. Both backgrounds are unverifiable (placeholder links), shared history is unknown, and the contradictions weaken the founders' credibility.",
+   "evidence": [
+    {
+     "text": "CEO claims 8 years in FMCG distribution; CTO claims 5 years at a payments company and built the app and credit rules; no prior startups; full-time since April 2026.",
+     "source_ids": ["D11", "D12", "F16"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "LinkedIn links and website are placeholders; no independent footprint.",
+     "source_ids": ["F3", "F4", "F1"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "Built and launched a vernacular ordering app with 38-42 stores onboarded after 60 interviews.",
+     "source_ids": ["D2", "D4", "F5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "Kirana restocking plus credit is a crowded, well-funded category: Jumbotail, ONDC/Qwipo and B2B BNPL players. The ambition is regional (Telangana and Andhra Pradesh SAM), and the TAM is top-down from founders' estimates.",
+   "evidence": [
+    {
+     "text": "Jumbotail, ONDC DigiDukaan and B2B BNPL players already serve kirana supply and credit.",
+     "source_ids": ["W5", "W6", "W7", "W8"],
+     "status": "verified"
+    },
+    {
+     "text": "TAM INR 17 lakh Cr top-down; store counts are founders' estimates.",
+     "source_ids": ["D15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": true,
+   "detail": "Possible overlap with SuperK, a tech-enabled franchised kirana/mini-supermarket chain in small towns. It is a pre-fund partner investment (all_in_capital_fund_investment=false), but it is still in the portfolio list. Same customer (small-town kirana owners) and an overlapping job (stock supply, and possibly working capital, to those stores). The intro came through a Fund I portfolio founder. Per C003 the fund prefers a false alarm: Kushal should check with SuperK before proceeding. The full list was also checked. Mannjal (credit for B2B marketplaces) and Rocketpay (P2P collections) are adjacent on the credit layer but serve different customers. B2B marketplaces Magma, Hectar, Nirmaan, FanTail and Viralme serve different categories. No other same-customer, same-job match.",
+   "source_ids": ["F14", "S1", "D1"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "The core ordering business, earning trade margin, does not need a regulatory permission. The credit leg is not NBFC-registered and its compliance is unclear, but a standard NBFC-partner route exists and the founders are pursuing it. That is a serious R1/R4 risk, not 'exists only if the rules change'. Re-check on the call: if credit cannot be offered compliantly, a large part of the plan has to be rebuilt.",
+   "source_ids": ["F11", "D10", "F18", "W4"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": true,
+   "detail": "The sector label is a stretch. The founders selected 'Consumer tech', but this is B2B kirana distribution with embedded trade credit, i.e. lending ops. That matches the thesis example of 'fintech that is really lending ops'. Flag only (Jai Kisan precedent).",
+   "source_ids": ["F2", "D1", "D14"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "This is a pre-seed first round: INR 2 Cr at INR 12 Cr post-money, angels only. It is within the fund's lead mandate (first rounds up to ~INR 6 Cr).",
+   "source_ids": ["F15", "F19"]
+  }
+ ],
+ "case_for": [
+  "Real on-the-ground work: 60 owner interviews before launch, in-person field onboarding, and channel-level CAC disclosed with its caveats (R2).",
+  "Early repeat behaviour is strong for a B2B ordering app: 22 stores reorder, about weekly (R3).",
+  "Domain fit on paper (FMCG distribution plus payments engineering) for small-town distribution, and a first round the fund can lead (S3, S2)."
+ ],
+ "case_against": [
+  "The defining lender question is unresolved, and the deck and form answer it differently. Deck: own capital, NBFC 'in discussion'. Form: 'our NBFC partner', StockSathi takes first loss, while also asking for NBFC intros. This counts against candour (R1).",
+  "Two more headline numbers differ between deck and form: retailers 38 vs 42, CAC INR 2,860 vs 'under 2,000' (the latter is the 12-month target) (R1, R3).",
+  "There is no compliant credit structure yet (not an NBFC, flow undescribed under the Digital Lending Directions), and 40% of the raise goes into the book (R4, R5).",
+  "Crowded, well-funded category (Jumbotail, ONDC/Qwipo, B2B BNPL). Possible overlap with SuperK needs a conversation first (S4, G1)."
+ ],
+ "call_questions": [
+  "Is there a signed NBFC agreement today? If yes, which NBFC, what DLG percentage and in what form; if not, on whose balance sheet is the INR 85,000 book, and why did the form say 'our NBFC partner'?",
+  "Have you taken legal advice on lending from your own capital without NBFC registration? Who disburses, into whose account, and where do repayments land?",
+  "How many credit orders have paid late and by how many days, and what loss rate does your plan assume at 300 stores?",
+  "What is today's retailer count, and what was October CAC including field-agent salaries? Why does the form say under INR 2,000?",
+  "What is contribution per order after delivery cost and expected credit losses?",
+  "Your deck and form tell two different stories about who funds credit. Walk us through how that happened. (Pressure test on the weakest point: we are watching for ownership versus defensiveness.)"
+ ],
+ "what_would_change_our_view": "A signed, compliant credit structure with a clear statement of who holds default risk, plus three to six months of repayment data (days past due, losses) on a larger book, reconciled with consistent traction numbers.",
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

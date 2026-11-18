@@ -1,0 +1,283 @@
+{
+ "slug": "capilot",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "The defining risk for AI drafting software is whether output is accurate enough to keep firms paying when cheaper tools do the same job. The founders name model errors and GST-data dependence as risks, but they give no accuracy data and push responsibility to the CA. The deck has a material contradiction with the form on customers: 31 'paying' firms vs 24 paying plus 7 on trial. The deck also labels MRR x 12 as ARR and claims no competitor offers AI notice replies, which the web contradicts. Together these weigh on candour.",
+   "evidence": [
+    {
+     "text": "Deck: 31 paying CA firms; form: 24 paying plus 7 on free trial.",
+     "source_ids": ["D4", "F4"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Key risks named: model errors on unusual notices, dependence on GST portal data formats; no accuracy data given.",
+     "source_ids": ["F8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Liability: every reply reviewed by the CA; 'Responsibility sits with the CA'.",
+     "source_ids": ["F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Deck claims no competitor offers AI notice replies; GST Reply AI does, from INR 299 per reply.",
+     "source_ids": ["D11", "W1", "W2"],
+     "status": "contradicted"
+    },
+    {
+     "text": "'INR 9.4 L annual recurring revenue' is October MRR x 12.",
+     "source_ids": ["D5", "F5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "The CEO's GST practice (about 60 clients) is the source of the problem, and the first customers come from his CA network. That is close to the customer, but the application describes no pilots, field work or product changes driven by users.",
+   "evidence": [
+    {
+     "text": "CEO handled GST for about 60 clients in practice.",
+     "source_ids": ["D12", "F13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Customers mostly from founders' network and CA referrals.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "MRR grew from INR 18k to 78k in three months through referrals, not paid acquisition, with 24 paying firms at about INR 3,250 a month and 2 churned. Retention by cohort, trial conversion and usage are missing, and the deck overstates the paying-customer count.",
+   "evidence": [
+    {
+     "text": "MRR INR 18k -> 41k -> 78k (Aug-Oct).",
+     "source_ids": ["D7", "F5"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "24 paying firms, 7 on trial, 2 churned.",
+     "source_ids": ["F4", "D6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Acquisition mostly network and referrals; CAC not measured.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "CA firms already pay, and liability is handled through CA review. But the channel is untested beyond the founders' network. The route for getting GST data (GSP/ASP) is not described. GST Reply AI undercuts the pricing (unlimited for INR 999 a month), and Vyapar TaxOne brings distribution to the same reconciliation job. The market is sized top-down from services revenue, not software spend.",
+   "evidence": [
+    {
+     "text": "Seat-based INR 2,500-6,000 per firm per month plus INR 400 per extra reply.",
+     "source_ids": ["D9", "D10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "GST Reply AI INR 999/month unlimited for CA firms; Vyapar TaxOne automates GST reconciliation for CAs.",
+     "source_ids": ["W3", "W4"],
+     "status": "verified"
+    },
+    {
+     "text": "Third-party GST tools connect via GSPs; CAPilot's data route not stated.",
+     "source_ids": ["W6", "F8"],
+     "status": "verified"
+    },
+    {
+     "text": "Market sized as 1% of a services market; ~99,000 CA firms in India.",
+     "source_ids": ["D8", "W7"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Capital-light SaaS. INR 1.5 Cr is enough to try for 150 firms and INR 7 L MRR, which is the next proof point. The target assumes a higher price per firm (about INR 4,670 a month against about INR 3,250 today) while cheaper competitors push prices down.",
+   "evidence": [
+    {
+     "text": "Raising INR 1.5 Cr at INR 10 Cr post; 12-month target 150 firms, INR 7 L MRR.",
+     "source_ids": ["F10", "D14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "20% of funds to compliance and security.",
+     "source_ids": ["D15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 1.5,
+   "status": "partial",
+   "rationale": "Sales today depend on the CEO's personal CA network. The product's job (matching plus drafted replies) is already offered by cheaper and better-distributed tools. The only possible moat is the matching engine, and the founders do not examine it.",
+   "evidence": [
+    {
+     "text": "Acquisition is the founders' network and referrals.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Matching engine built by CTO.",
+     "source_ids": ["D13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Competing tools already offer AI notice replies and GST reconciliation.",
+     "source_ids": ["W1", "W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Vertical AI for one industry (CA firms and GST compliance) fits the fund's Indian AI focus. The selected 'Fintech' label does not fit, and the product risks being seen as a thin layer that competitors already copy.",
+   "evidence": [
+    {
+     "text": "Selected Fintech; product is AI workflow software for CA firms.",
+     "source_ids": ["F9", "D1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Similar AI tools exist at lower prices.",
+     "source_ids": ["W1", "W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "First institutional round of INR 1.5 Cr at INR 10 Cr post-money. One angel has put in INR 15 L, and no other investors are in conversation. The fund can lead it.",
+   "evidence": [
+    {
+     "text": "Raising INR 1.5 Cr at INR 10 Cr post; one angel INR 15 L.",
+     "source_ids": ["F10", "F11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "A practising CA who handled GST for about 60 clients has earned insight into this exact problem, beyond the CA credential itself. The CTO built the matching engine and the product is live with paying firms. Both backgrounds are unverified (placeholder links), shared history is unknown, and the deck's inflated figures weaken credibility.",
+   "evidence": [
+    {
+     "text": "CEO qualified CA, 4 years in practice handling GST for ~60 clients; CTO 3 years at a SaaS company, built the matching engine; full-time since February 2026.",
+     "source_ids": ["D12", "D13", "F13", "F12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "LinkedIn links and website are placeholders.",
+     "source_ids": ["F2", "F3", "F1"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "AI tools for CAs and GST notices are a crowded category, and the deck's claim of no competition is wrong. The ambition is tied to Indian GST, and the market sizing is top-down.",
+   "evidence": [
+    {
+     "text": "GST Reply AI and Vyapar TaxOne in the same job.",
+     "source_ids": ["W1", "W4", "W5"],
+     "status": "verified"
+    },
+    {
+     "text": "'Even 1% of this market is a INR 1,400 Cr opportunity'.",
+     "source_ids": ["D8"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked all 88 portfolio companies; none sells GST reconciliation or notice drafting to CA firms. Nearest adjacencies: Sketchnote (startup operating system; customer is startups, not CA firms), EximFiles (shipment documents), CommandK (DPDP/GDPR compliance for tech companies), Nawgati (compliance SaaS for fuel stations), GloRoots (EOR/payroll), Medmitra (AI decision support for doctors: vertical-AI analogue, different industry). Different customer or different job in each case.",
+   "source_ids": ["D1", "F4"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "The model does not depend on a withdrawn or pending permission. Access to GST data runs through the standard GSP/ASP ecosystem, which is a path-to-market question scored under R4, not a rule-change dependency.",
+   "source_ids": ["W6", "F8"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": true,
+   "detail": "The founders selected 'Fintech', but there is no money movement or lending. This is B2B vertical AI/SaaS for CA firms, so the fintech label is a stretch. The genuine fit is the Indian vertical-AI focus (scored under S1). Flag only.",
+   "source_ids": ["F9", "D1"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 1.5 Cr at INR 10 Cr post-money, one angel. Within the lead mandate.",
+   "source_ids": ["F10", "F11"]
+  }
+ ],
+ "case_for": [
+  "A practising CA who lived this problem built the product. It has 24 paying firms with MRR up about 4x in three months, through referrals rather than paid acquisition (S3, R3).",
+  "Vertical AI for one industry, capital-light, and a small first round the fund can lead (S1, R5, S2).",
+  "The founders name model errors and GST-data dependence as risks (R1)."
+ ],
+ "case_against": [
+  "The deck counts 7 free-trial firms as paying (31 vs 24), labels MRR x 12 as ARR, and claims no competitor offers AI notice replies. These contradictions on customers and competition weigh on candour (R1).",
+  "Cheaper tools already do the same job (GST Reply AI at INR 999 a month unlimited; Vyapar TaxOne reconciliation), and the founders do not acknowledge them (R4, R6, S4).",
+  "Distribution so far is the CEO's personal network; no retention cohorts, trial conversion or accuracy data (R3, R6).",
+  "Liability is pushed to the CA, and the GST data access route is undescribed (R1, R4)."
+ ],
+ "call_questions": [
+  "Your deck says 31 paying firms and the form says 24 paying plus 7 on trial. Which is right, and why the difference? (Pressure test: we are watching how you respond to the discrepancy.)",
+  "Of firms that started paying in August, how many still pay and at what MRR? What share of trials convert?",
+  "What share of drafted replies are filed with minimal edits, and what is the false-match rate in reconciliation?",
+  "Why would a firm pay INR 2,500-6,000 a month for CAPilot when GST Reply AI offers unlimited replies at INR 999 a month?",
+  "Do you pull GST data through a GSP API or manual uploads, and how do you protect client tax data?",
+  "How many paying firms have come from outside your personal CA network?"
+ ],
+ "what_would_change_our_view": "Consistent customer reporting, plus cohort retention and accuracy data showing firms outside the founders' network stay and pay above cheaper alternatives.",
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

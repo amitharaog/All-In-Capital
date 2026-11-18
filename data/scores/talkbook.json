@@ -1,0 +1,279 @@
+{
+ "slug": "talkbook",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "For an early B2B SaaS the defining risk is whether paid revenue is real and retained against well-funded competitors. The founders name operational risks (recording rules, noisy-call accuracy, BFSI concentration) but give no plan for any of them, report three different MRR figures across deck, form and their own seats x price, and state there is no India-first player when several exist, including the fund's own portfolio company. The revenue contradiction is a candour signal and pulls this down.",
+   "evidence": [
+    {
+     "text": "MRR is INR 2.1 L in the deck and INR 1.9 L in the form; 340 seats x INR 500 gives INR 1.7 L.",
+     "source_ids": ["D3", "F1", "F2"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Form: 'We do not know of an India-first player'; MeetRecord, Convin, ConvoZen and Enthu.ai are India-built conversation-intelligence products.",
+     "source_ids": ["F4", "W1", "W4", "W5", "W6"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Founder-listed key risks: telecom call-recording restrictions, accuracy on noisy calls, BFSI concentration; no mitigation described.",
+     "source_ids": ["F5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "Founder-led outbound brought 9 of 16 paying teams and referrals another 5, so the founders have sold directly. No customer conversations, pilots, what broke or what changed are described.",
+   "evidence": [
+    {
+     "text": "Founder-led outbound 9 teams, referrals 5, CRM consultants 2.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "16 paying teams in 4 months.",
+     "source_ids": ["D2", "F2"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Paying teams, seats and MRR growth are given and acquisition is earned (outbound and referrals, not paid). But the MRR figure itself is inconsistent, the chart ordering was inferred, and there is no churn, seat expansion or usage data after four months.",
+   "evidence": [
+    {
+     "text": "16 paying teams, 340 paid seats.",
+     "source_ids": ["D2", "F2"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "MRR grew from INR 40 K (July) to INR 210 K (October) per the deck chart; values were extracted in reverse order and October conflicts with the form.",
+     "source_ids": ["D6", "D3", "F1"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "14 of 16 teams came from founder outbound and referrals.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "There are paying customers, a clear per-seat price and a working founder-led channel with early referral and consultant channels. Obstacles are only partly addressed: DPDP consent duties from May 2027 and BFSI vendor reviews are not planned for, and the competitive set is underestimated.",
+   "evidence": [
+    {
+     "text": "INR 500 per seat per month; average team pays INR 13,000 a month.",
+     "source_ids": ["D5", "D4", "F1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Acquisition via founder outbound, referrals and CRM consultants.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "DPDP Act consent obligations come into force on 13 May 2027.",
+     "source_ids": ["W7"],
+     "status": "verified"
+    },
+    {
+     "text": "Funded Indian competitors: Convin (USD 6.5 M Series A), ConvoZen (2M+ conversations/day).",
+     "source_ids": ["W4", "W5"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "INR 2 Cr is a pre-seed-sized round for a software business with founder-stated 70% gross margin and ~5-month payback; the 12-month target (80 teams, INR 12 L MRR) is reachable on that capital if the unit economics hold. The target assumes a higher revenue per team than today.",
+   "evidence": [
+    {
+     "text": "CAC ~INR 48,000 per team incl. founder time; gross margin 70%; payback ~5 months.",
+     "source_ids": ["F3", "D4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Raising INR 2 Cr at INR 12 Cr post; 12-month target 80 paying teams and INR 12 L MRR.",
+     "source_ids": ["F9", "D9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 1.5,
+   "status": "partial",
+   "rationale": "The only claimed edge is accuracy on code-mixed Indian-language calls, with no benchmark and no statement of whether the model is in-house. Competitors with their own Indian speech models already exist and the founders do not appear to know them, so defensibility has not been examined.",
+   "evidence": [
+    {
+     "text": "Claim: Hindi-English and Tamil-English calls are poorly transcribed by global tools; no accuracy benchmark given.",
+     "source_ids": ["D10", "F13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "ConvoZen runs India-focused speech models at 2M+ conversations a day across 50+ enterprises.",
+     "source_ids": ["W5"],
+     "status": "verified"
+    },
+    {
+     "text": "Founders name only global tools as competitors.",
+     "source_ids": ["F4"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Indian-language speech AI for sales teams fits the fund's stated Indian-AI allocation, but it is a horizontal sales-function tool rather than vertical AI, and the founders mislabelled it as consumer tech.",
+   "evidence": [
+    {
+     "text": "Product: call recording, code-mixed transcription, summaries and CRM auto-fill for sales teams.",
+     "source_ids": ["F13", "D13", "D1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Sector selected as 'Consumer tech' although the product is B2B SaaS.",
+     "source_ids": ["F8"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "Pre-seed, INR 2 Cr at INR 12 Cr post, with only one other pre-seed fund in conversation: a first institutional round the fund can lead.",
+   "evidence": [
+    {
+     "text": "INR 2 Cr at INR 12 Cr post-money; one pre-seed fund in conversation.",
+     "source_ids": ["F9", "F12"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "On paper the pair is complementary (CRM product plus speech ML), but employers are unnamed and LinkedIn links are placeholders, so credentials alone stay at the cap of 2. They have shipped a product with paying users, which lifts this slightly. Missing every Indian competitor argues against deep earned insight into this market.",
+   "evidence": [
+    {
+     "text": "CEO: 6 years as product lead at a CRM company; CTO: 4 years in speech ML; employers not named.",
+     "source_ids": ["D7", "D8", "F6", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "No public footprint for either founder or the company.",
+     "source_ids": ["F6", "F7"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "Shipped product with 16 paying teams.",
+     "source_ids": ["F13", "F2"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "Conversation intelligence is a crowded, funded category in India and globally; the code-mixed-language angle is a known thesis already pursued by others, and ambition is India-only.",
+   "evidence": [
+    {
+     "text": "Competitors: MeetRecord/Outdoo, Convin, ConvoZen, Enthu.ai, plus Gong, Otter, Fireflies.",
+     "source_ids": ["W1", "W4", "W5", "W6", "F4"],
+     "status": "verified"
+    },
+    {
+     "text": "Market sizing is India-only (7M reps, SOM 45,000 seats).",
+     "source_ids": ["D5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": true,
+   "detail": "Conflict with portfolio company MeetRecord (now Outdoo AI), in which All In Capital invested and followed on in June 2024. MeetRecord transcribes sales calls, produces AI summaries and coaching and updates the CRM from the call: the same job for the same buyer (sales teams), even though MeetRecord focuses on US SMEs and Talkbook on Indian inside sales. The application does not mention MeetRecord. This is the C003 situation exactly. Rest of the portfolio checked: SalesMonk (AI pipeline generation) is next to it in the sales stack, not the same job. Mailmodo, BiteSpeed, RevenueHero and Rocketlane are other sales/marketing SaaS but none records or transcribes calls. Nothing else overlaps.",
+   "source_ids": ["W1", "W2", "W3", "F13", "D13"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "Does not depend on a permission that is withdrawn or not yet granted. Call-recording consent (DPDP duties from May 2027; telecom rules) is a compliance design task the founders already name as a risk, not a regulatory change the business needs.",
+   "source_ids": ["F5", "W7"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "The founders ticked 'Consumer tech', which is wrong: this is B2B SaaS. But the business really is Indian-language AI software, which the fund says it backs (~30% Indian AI) and has backed in sales SaaS, so the fit is real rather than a matter of the label. Recorded under S1.",
+   "source_ids": ["F8", "F13"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 2 Cr at INR 12 Cr post, with one other pre-seed fund in conversation. This is within the first-round size (up to ~INR 6 Cr) the fund leads.",
+   "source_ids": ["F9", "F12"]
+  }
+ ],
+ "case_for": [
+  "Real early revenue: 16 paying teams and 340 seats in four months, mostly from founder outbound and referrals rather than paid acquisition (R2, R3).",
+  "Capital-efficient SaaS shape: founder-stated 70% gross margin and ~5-month payback mean INR 2 Cr can plausibly reach 80 teams (R5, S2).",
+  "On paper the team pairs a CRM product lead with a speech-ML engineer, the right two skills for code-mixed Indian sales calls (S3)."
+ ],
+ "case_against": [
+  "Portfolio conflict: MeetRecord/Outdoo, a fund portfolio company, does the same job for sales teams; the application does not mention it (G1).",
+  "Three different MRR figures (deck INR 2.1 L, form INR 1.9 L, seats x price INR 1.7 L) on the deciding metric: a candour question before anything else (R1, R3).",
+  "Founders say no India-first competitor exists while Convin, ConvoZen, Enthu.ai and MeetRecord are all live, and the only claimed moat (code-mixed accuracy) has no benchmark (R6, S4).",
+  "Founder backgrounds are unverifiable: employers not named, LinkedIn links are placeholders, no public footprint (S3)."
+ ],
+ "call_questions": [
+  "Do you run into MeetRecord/Outdoo in deals today, and where do your customers sit relative to theirs? (Needed before Kushal speaks to the MeetRecord founders.)",
+  "Your deck says INR 2.1 L MRR, your form says INR 1.9 L, and 340 seats at INR 500 is INR 1.7 L. Walk us through October's billing export: which number is right and why do they differ?",
+  "You wrote that you know of no India-first player. Convin, ConvoZen and Enthu.ai sell to the same buyers. Why didn't they come up, and what is your word error rate against them on the same Hindi-English test set?",
+  "How many teams have churned or cut seats, and what share of paid seats used Talkbook weekly in October?",
+  "How is consent captured on recorded calls today, where is audio stored, and has any BFSI customer put you through a vendor security review?",
+  "Which companies did each of you work at, and what did you ship there?"
+ ],
+ "what_would_change_our_view": "A reconciled billing export with retention data, a word-error-rate benchmark against Indian competitors on code-mixed calls, and clarity on how you differ from MeetRecord (a company we have backed) would let us look again."
+,
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

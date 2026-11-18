@@ -1,0 +1,274 @@
+{
+ "slug": "yatrika",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "For a consumer travel service the defining risk is contribution margin per booking and repeat. The founders candidly list manual operations, partner quality and seasonality as risks, but give no plan. Paid CAC (~INR 640) eats over half the ~INR 1,130 commission per booking before operations cost. The deck also inflates the customer facts: 'thousands of travellers' against ~1,300, operations in two states and 'growing across India' against Jaipur only, and 'planned by AI' against templates confirmed manually. These contradictions count against candour.",
+   "evidence": [
+    {
+     "text": "Deck: 'served thousands of travellers across Rajasthan and Uttarakhand'; form: ~1,300 travellers across 410 bookings.",
+     "source_ids": ["D4", "F7"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Deck claims operations in Rajasthan and Uttarakhand and growth 'across India'; form gives Jaipur and referrals from Manish's earlier agency.",
+     "source_ids": ["D4", "D5", "F10"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "Paid acquisition ~INR 640 per booking; revenue INR 4.6 L on 410 bookings (~INR 1,130 each).",
+     "source_ids": ["F10", "F8", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Founder-listed key risks: partner quality, seasonality, manual operations that do not yet scale.",
+     "source_ids": ["F11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Bookings are assembled and confirmed by hand on WhatsApp with local guides, taxis and stays, and the lead founder ran a family travel agency for ten years. That is real hands-on work with customers. No learnings or changes from those operations are described, and the agency's history is unverified.",
+   "evidence": [
+    {
+     "text": "Itineraries from an LLM over 40 hand-built route templates; bookings confirmed manually on WhatsApp.",
+     "source_ids": ["F6", "D7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Manish ran his family's Jaipur travel agency for 10 years, serving 3,000+ families.",
+     "source_ids": ["D2", "F3"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 2.0,
+   "status": "evidenced",
+   "rationale": "Repeat is given (14% booked a second trip) but with no cohort window, and the base is likely flattered by the old agency's customers. Revenue is small, contribution margin per booking is not given and looks thin after paid CAC, and organic and paid bookings are not split. '3x growth' has no baseline.",
+   "evidence": [
+    {
+     "text": "14% of families have booked a second trip.",
+     "source_ids": ["F9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "GBV INR 38.6 L, revenue INR 4.6 L, 410 bookings.",
+     "source_ids": ["F8", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "'3x growth' and 'many 5-star reviews' with no baseline or source.",
+     "source_ids": ["D4"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 2.0,
+   "status": "evidenced",
+   "rationale": "Families pay a commission and early acquisition comes from the founder's old agency base plus Instagram. Beyond that there is no evidenced channel and no SAM. The deck names no competitors, yet MakeMyTrip gives away AI itineraries and Thrillophilia is headquartered in the same city.",
+   "evidence": [
+    {
+     "text": "Acquisition: referrals from Manish's earlier agency customers and Instagram, plus paid.",
+     "source_ids": ["F10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Market sizing is a single top-down INR 3 lakh Cr figure.",
+     "source_ids": ["D8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "MakeMyTrip's GenAI trip planner Myra is live in English and Hindi; Thrillophilia is headquartered in Jaipur.",
+     "source_ids": ["W3", "W1"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "INR 1.2 Cr is a small, pre-seed-sized ask, but neither document says what milestone it buys. Use of funds is a generic list, and manual operations mean costs grow with bookings.",
+   "evidence": [
+    {
+     "text": "Raising INR 1.2 Cr at INR 8 Cr post; deck ask slide gives no amount.",
+     "source_ids": ["F12", "F13", "D6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Use of funds: marketing, technology, hiring, expansion.",
+     "source_ids": ["F16"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 1.5,
+   "status": "partial",
+   "rationale": "What exists is the founder's agency relationships and a local partner network. The AI itinerary is no moat, since category leaders give it away free, and the partner network is unquantified. As described, the business is mostly the founder's personal network.",
+   "evidence": [
+    {
+     "text": "Early customers are referrals from the founder's earlier agency.",
+     "source_ids": ["F10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Free AI itineraries from MakeMyTrip (Myra) and GuavaTrips.",
+     "source_ids": ["W3", "W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Consumer travel is a focus area, but the 'AI' is a language model over 40 templates and the business is a commission agency run on WhatsApp, a thin AI layer rather than vertical AI (see G3).",
+   "evidence": [
+    {
+     "text": "'Family trips, planned by AI' vs LLM over 40 hand-built templates with manual WhatsApp confirmation.",
+     "source_ids": ["D1", "F6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Sector selected as consumer tech.",
+     "source_ids": ["F15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "Pre-seed, INR 1.2 Cr at INR 8 Cr post, with no institutional investors: a round the fund can lead, though the deck itself states no amount.",
+   "evidence": [
+    {
+     "text": "INR 1.2 Cr at INR 8 Cr post-money.",
+     "source_ids": ["F12", "F13"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Ten years running a travel agency for families is real, problem-specific experience, not pedigree. It is unverified (agency not named, placeholder LinkedIn), and the technical co-founder has no AI background for a product pitched on AI.",
+   "evidence": [
+    {
+     "text": "Manish: 10 years running the family travel agency, 3,000+ families.",
+     "source_ids": ["D2", "F3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Kavya: 3 years as a web developer, no prior startup experience.",
+     "source_ids": ["D3", "F4", "F5"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "No public footprint for either founder.",
+     "source_ids": ["F3", "F4"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "AI trip planning and packaged family holidays are a crowded, consensus category with funded and incumbent players. The vision ('India's most loved family travel brand') is broad, with no non-consensus insight shown.",
+   "evidence": [
+    {
+     "text": "WanderOn INR 54 Cr Series A; Thrillophilia, TravelTriangle, Tripoto, Holidify in the same space.",
+     "source_ids": ["W2", "W1"],
+     "status": "verified"
+    },
+    {
+     "text": "Vision: 'To become India's most loved family travel brand.'",
+     "source_ids": ["D9"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked against all 88 portfolio companies. Hotelzify (Shopify for small hotels) sells software to hotels; Yatrika would book stays, not compete. DevDham (temples online for devotees) and Vivahit (wedding management) reach families on adjacent occasions, but neither assembles or books holiday trips. SuperLiving (family lifestyle app) and the consumer-tech names (Knot, Cherry, Spill Games, Plazza, NPrep) do unrelated jobs. No same customer + same job. C003 was shown but does not apply.",
+   "source_ids": ["F6", "D7"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "No dependence on a regulatory permission; travel booking on commission needs no new rule.",
+   "source_ids": ["F8"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": true,
+   "detail": "Presented as consumer tech with trips 'planned by AI', but the business is a commission travel agency: an LLM over 40 hand-built templates, with bookings confirmed manually on WhatsApp. It fits the consumer-tech/AI focus mainly by label. Flag only.",
+   "source_ids": ["D1", "F6", "F15"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 1.2 Cr at INR 8 Cr post, no institutional investors. Within what the fund leads.",
+   "source_ids": ["F12", "F13"]
+  }
+ ],
+ "case_for": [
+  "Real problem-specific experience: ten years running a family travel agency, and the startup operates trips hands-on (R2, S3).",
+  "Some paying demand and early repeat: 410 bookings, INR 38.6 L GBV, 14% of families booking again (R3).",
+  "Small ask the fund could lead (S2)."
+ ],
+ "case_against": [
+  "The deck overstates traction and reach ('thousands of travellers', two states, 'across India') against ~1,300 travellers from Jaipur in the form (R1).",
+  "Thin unit economics: paid CAC takes over half the commission per booking before manual operations cost, and no contribution margin is given (R1, R3).",
+  "The 'AI' is an LLM over templates while MakeMyTrip and others give AI itineraries away free; this is essentially an agency (R6, G3).",
+  "Crowded category, with Thrillophilia headquartered in the same city and no competitors named (R4, S4)."
+ ],
+ "call_questions": [
+  "Your deck says 'thousands of travellers across Rajasthan and Uttarakhand'; the form says ~1,300 from Jaipur. Which is right, and why does the deck read differently?",
+  "Of the 410 bookings, how many came from your family agency's past customers, how many from Instagram and how many from paid ads? Is the agency still trading separately?",
+  "What does a booking cost you in staff time, calls and refunds, and what is contribution margin after CAC?",
+  "Why would a Tier-2 family book with you rather than use MakeMyTrip's free AI planner or a local agent?",
+  "What milestones does INR 1.2 Cr get you to, and over how many months?",
+  "What is the name and GSTIN of the family agency, and can we speak to three repeat families?"
+ ],
+ "what_would_change_our_view": "Positive contribution margin per booking after CAC and operations, repeat measured on cohorts not drawn from the family agency, and traction claims that match across deck and form would let us look again."
+,
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

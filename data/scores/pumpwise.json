@@ -1,0 +1,284 @@
+{
+ "slug": "pumpwise",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "For deeptech hardware the defining risk is the path to commercial use: accuracy in the field, certification and liability. The founders name accuracy across motor types, hardware supply and sales cycles as risks without being asked. They flag their own value data as unaudited and invite scrutiny of calibration. But they show no plan: no false-alert or missed-failure rates, certifications unnamed despite 25% of the raise, liability absent. Their own figures also do not reconcile on subscription revenue. Scored on behaviour, not credentials (C002 applied on S3).",
+   "evidence": [
+    {
+     "text": "Key risks named: sensor accuracy across motor types, hardware supply, longer sales cycles in larger plants.",
+     "source_ids": ["F9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Value evidence flagged by founders as customer-reported, not audited; founders invite a calibration and scale-up conversation and offer pilot data.",
+     "source_ids": ["F7", "F8", "F15"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Form gives ~INR 0.9 L cumulative non-hardware revenue, while the deck's paid-sensor ramp at INR 750/sensor/month implies ~INR 3 L subscription June-October.",
+     "source_ids": ["F5", "D6", "D9"],
+     "status": "contradicted"
+    },
+    {
+     "text": "25% of raise for 'Certification and operations' with no certification named; wireless devices generally need WPC ETA.",
+     "source_ids": ["D15", "W5"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "The founders visited 38 plants in two industrial clusters before scaling, then ran 11 hands-on pilots (10 free sensors for 30 days each). They sell through a cluster association and pump distributors. The application does not say what broke in pilots or what they changed.",
+   "evidence": [
+    {
+     "text": "Visits to 38 plants in the Pune and Coimbatore clusters, Nov 2025-Feb 2026.",
+     "source_ids": ["D2"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "11 pilots of 10 free sensors for 30 days; 6 converted to paid.",
+     "source_ids": ["D7", "D4", "F4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "3 of 6 paid customers via a cluster association, 2 via a pump distributor, 1 direct.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Live-site pilots have numbers: 55% pilot-to-paid, 140 paid sensors growing every month, INR 1.05 L MRR and 9 early catches. Acquisition comes through associations and distributors, not paid media. What holds it back: revenue is ~94% hardware, collected subscription does not reconcile with the ramp, the catches are unaudited, and there is no accuracy, churn or expansion data.",
+   "evidence": [
+    {
+     "text": "6 of 11 pilots converted; 140 paid sensors (20 -> 48 -> 80 -> 112 -> 140, Jun-Oct); MRR INR 1.05 L.",
+     "source_ids": ["D4", "D5", "D6", "F4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "INR 14.2 L cumulative revenue of which INR 13.3 L hardware.",
+     "source_ids": ["F5"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Customers report 9 unplanned stoppages caught early (~INR 1.8 L downtime each), unaudited.",
+     "source_ids": ["F8", "F7"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "There are paying customers and two working channels, and the unit economics are clear: ~INR 73k cost per paid customer against ~INR 3.1 L first-year gross profit. But the certification path and liability for missed failures are absent, which are deeptech key metrics. Half the paid customers come from one association. Well-funded Infinite Uptime and pump OEM Kirloskar already sell monitoring.",
+   "evidence": [
+    {
+     "text": "Hardware INR 9,500 vs INR 3,200 cost; INR 750/sensor/month at ~85% GM; average customer 23 sensors, INR 3.1 L first-year gross profit; CAC ~INR 73k.",
+     "source_ids": ["D8", "D9", "D10", "D7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "No certification named and liability not mentioned.",
+     "source_ids": ["D15", "W5"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Infinite Uptime (Pune, USD 35M Series C) and Kirloskar KirloSmart offer predictive maintenance / pump monitoring; other MSME entrants exist.",
+     "source_ids": ["W1", "W2", "W3", "W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Hardware is sold at a healthy margin, so customer acquisition largely funds itself. The ask (INR 2.2 Cr) fits a pre-seed cheque, and the next proof point (30 customers) looks reachable. Two things hold it back: the 12-month targets don't add up on the founders' own numbers (INR 12 L MRR needs ~53 sensors per customer, not 23), and inventory plus certification will absorb cash.",
+   "evidence": [
+    {
+     "text": "Raising INR 2.2 Cr at INR 11 Cr post; INR 30 L raised (grant + angels).",
+     "source_ids": ["F10", "F11"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "12-month target 30 customers, INR 12 L MRR, 65% pilot-to-paid.",
+     "source_ids": ["D14", "F4", "D9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Positive hardware gross margin (INR 9,500 price vs INR 3,200 cost).",
+     "source_ids": ["D8"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "A per-motor learning model, a growing fleet of sensors and association or distributor channels do not depend on one person. Data across motor types could compound. The founders do not articulate defensibility, and the application positions only against imported systems and manual rounds.",
+   "evidence": [
+    {
+     "text": "Model learns each motor's pattern; alerts on drift.",
+     "source_ids": ["D17"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Channels via a cluster association and pump distributors.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Competitors Infinite Uptime and Kirloskar not addressed in the deck.",
+     "source_ids": ["W1", "W3", "D3"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "Industrial IoT hardware with a learning model for one industry (MSME manufacturing). This is squarely deeptech and vertical AI.",
+   "evidence": [
+    {
+     "text": "Sector selected Deeptech; predictive maintenance sensors plus self-learning model.",
+     "source_ids": ["F13", "D1", "D17"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "First institutional round of INR 2.2 Cr at INR 11 Cr post-money. Only a grant and two angels so far, with two pre-seed funds in conversation. The fund can lead it.",
+   "evidence": [
+    {
+     "text": "Raising INR 2.2 Cr at INR 11 Cr post; INR 10 L grant + INR 20 L angels.",
+     "source_ids": ["F10", "F11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Per C002, the IIT credential earns nothing. The score rests on work done on this problem. A reliability engineer and an embedded engineer designed, shipped and sold a sensor product with paying customers, and that experience is directly relevant. Both backgrounds are unverifiable (placeholder links), and shared history between the founders is unknown.",
+   "evidence": [
+    {
+     "text": "CEO: IIT Madras mechanical, 5 years reliability engineer at an engine maker. CTO: 4 years embedded systems, designed sensor and firmware. Full-time since October 2025; no prior startups.",
+     "source_ids": ["D11", "D12", "F12", "F16"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Shipped product: 140 paid sensors across 6 customers, contract-manufactured in Pune.",
+     "source_ids": ["F4", "D13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "LinkedIn links and website are placeholders; no footprint found.",
+     "source_ids": ["F2", "F3", "F1"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": ["C002"]
+  },
+  {
+   "criterion_id": "S4",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Low-cost monitoring for MSMEs, which incumbents underserve, is a reasonable insight. But predictive maintenance is an established category with funded Indian players and OEM offerings. The ambition is India MSMEs only, and the market is sized from the founders' own plant visits.",
+   "evidence": [
+    {
+     "text": "TAM INR 16,200 Cr from 300K MSMEs with 20+ motors, based on plant visits.",
+     "source_ids": ["D16"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Infinite Uptime, Kirloskar KirloSmart and a BITS Pilani MSME product in the same space.",
+     "source_ids": ["W1", "W3", "W4"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked all 88 portfolio companies. No company serves MSME factories with machine-health monitoring. Nearest adjacencies: Mowito (AI models for industrial robots: factory customer, different job); Unbox Robotics (warehouse automation); Fleetx (fleet telematics: different asset and customer); Nawgati (fuel-station compliance/ops SaaS); REint (renewable supply prediction); Grid (IoT ODM, a possible supplier, not a competitor). None share both customer and job.",
+   "source_ids": ["D1", "D17"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "No dependence on a withdrawn or ungranted permission. Radio type approval (WPC ETA) is a standard certification step, scored under R4.",
+   "source_ids": ["D18", "W5"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "Selected Deeptech, and the business (sensor hardware plus a learning model) genuinely fits it.",
+   "source_ids": ["F13", "D1"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 2.2 Cr at INR 11 Cr post-money, grant and angels only. Within the lead mandate.",
+   "source_ids": ["F10", "F11"]
+  }
+ ],
+ "case_for": [
+  "Went to the customer: 38 plant visits, then 11 hands-on pilots with a 55% conversion to paid (R2, R3).",
+  "Unit economics are clear, and hardware margin funds acquisition. The round fits a pre-seed cheque (R4, R5, S2).",
+  "Founders name their own risks and flag their value data as unaudited, which is a good candour signal (R1).",
+  "Deeptech and vertical AI built by engineers who designed and shipped the product (S1, S3)."
+ ],
+ "case_against": [
+  "Revenue is ~94% one-off hardware, and collected subscription (~INR 0.9 L) does not reconcile with the deck's sensor ramp (~INR 3 L implied). This is an inconsistency in the founders' own figures (R1, R3).",
+  "No accuracy data (false alerts, missed failures), no named certification path, and no liability position: three deeptech key metrics are missing (R1, R4).",
+  "12-month MRR target is inconsistent with the founders' own sensors-per-customer figure (R5).",
+  "Well-funded competitor Infinite Uptime and OEM Kirloskar are not addressed; half the customers come from one association (R4, R6, S4)."
+ ],
+ "call_questions": [
+  "How much subscription has actually been invoiced and collected, month by month? Are any customers on free months, and why is non-hardware revenue only ~INR 0.9 L?",
+  "Across 140 sensors, how many alerts fired, how many were confirmed faults, and were any failures missed?",
+  "Which certifications do you need before selling to larger plants, what will they cost, and when will you have them?",
+  "What do customer contracts say about a motor that fails without an alert, and do you carry liability cover?",
+  "The 12-month target of INR 12 L MRR needs ~53 sensors per customer, but you have 23. Which assumption is wrong? (Pressure test: we want to see how you handle your own numbers being challenged.)",
+  "Why does an MSME choose you over Infinite Uptime or Kirloskar's KirloSmart, and have you lost a pilot to either?"
+ ],
+ "what_would_change_our_view": "Reconciled subscription revenue showing paying customers renew and add sensors, plus measured alert accuracy across motor types and a named certification path with a timeline.",
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

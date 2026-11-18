@@ -1,0 +1,262 @@
+{
+ "slug": "earnwise",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 0.5,
+   "status": "evidenced",
+   "rationale": "For an earned-wage-access lender the defining risk is who holds credit and non-recovery risk, and under what licence. Advances rest on an NBFC partner with only an agreement in principle plus the founder's personal savings. Nothing is said about non-recovery when a worker leaves before payroll, and the listed risks are regulation and payroll integration, not default. Per C004, leaning on an NBFC partner is a low R1, which takes this from ~1 to 0.5. Six deck/form contradictions on founder background, team size, live clients and tech ownership, plus an undisclosed co-founder exit, are strong evidence against candour.",
+   "evidence": [
+    {
+     "text": "Advances funded by a partner NBFC under an agreement in principle and partly by the founder's savings.",
+     "source_ids": ["F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Founder-listed key risks are regulation of digital lending and payroll integration; default/non-recovery is not mentioned.",
+     "source_ids": ["F12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Deck 'Ex-Goldman Sachs, Ex-Google, MBA IIM Ahmedabad' vs form: 10-week internship at an unnamed bank, 5-month vendor contract, tier-2 MBA.",
+     "source_ids": ["D9", "F1", "F2", "F3"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Deck: team of 12, 3 enterprise clients live, tech led by an advisor; form: team of 5 with 2 outsourced developers, 1 client live and 2 in pilot.",
+     "source_ids": ["D10", "D4", "F4", "F5"],
+     "status": "contradicted"
+    },
+    {
+     "text": "A co-founder left in July 2026; the deck does not mention it.",
+     "source_ids": ["F6", "D9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": ["C004"]
+  },
+  {
+   "criterion_id": "R2",
+   "score": 2.0,
+   "status": "partial",
+   "rationale": "The founder sells directly to HR heads and has one live employer and two pilots, so there is some customer contact. Nothing is said about what was learned from workers or employers, and the deck inflates the pilots into live clients.",
+   "evidence": [
+    {
+     "text": "Customer acquisition: direct outreach by the founder to HR heads.",
+     "source_ids": ["F13"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "1 enterprise client live and 2 in pilot; 1,600 workers enabled.",
+     "source_ids": ["F5", "F15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": null,
+   "status": "not_evidenced",
+   "rationale": "The deciding fintech metrics are default/non-recovery data and repeat usage, and neither is given. INR 38 L disbursed to 1,600 enabled workers is a volume figure like GMV, with no fee level, recovery rate or repeat-withdrawal data. Scored as a missing value, as the thesis requires when the deciding metric is absent.",
+   "evidence": [],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "The fee charged to workers is never disclosed, and there is one live employer. The regulatory path is the main obstacle and is unresolved: EWA is most safely read as digital lending, which needs a signed regulated-entity partner and direct disbursal and repayment. Here the NBFC agreement is unsigned, the founder's own money has funded advances, and repayment comes through employer payroll.",
+   "evidence": [
+    {
+     "text": "RBI digital lending rules: disbursal directly to the borrower's account and repayment directly to the regulated entity, with no third-party pool account.",
+     "source_ids": ["W1", "W2"],
+     "status": "verified"
+    },
+    {
+     "text": "Salary-advance products are treated as credit; providers must partner with registered NBFCs or banks (vendor commentary).",
+     "source_ids": ["W3", "W4"],
+     "status": "verified"
+    },
+    {
+     "text": "Workers withdraw for a flat fee (amount not disclosed); employer deducts from next payroll.",
+     "source_ids": ["D2", "D3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Deck TAM inputs multiply to INR 1.44 lakh Cr, not the INR 14,400 Cr shown.",
+     "source_ids": ["D8"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "40% of a INR 2 Cr equity round is earmarked for an advances book. That puts equity into lending inside an apparently unregistered company, and the book will need far more capital as volume grows. The valuation is ~7x the angel round's. Reaching 15 clients from 1 live is not shown to be achievable on this cheque.",
+   "evidence": [
+    {
+     "text": "40% of the raise earmarked for an advances book.",
+     "source_ids": ["D12", "F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Raising INR 2 Cr at INR 12 Cr post; angel invested INR 25 L for 15%.",
+     "source_ids": ["F10", "F9", "F8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "12-month target 15 enterprise clients and 25,000 workers.",
+     "source_ids": ["D11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 1.0,
+   "status": "partial",
+   "rationale": "Employer payroll integrations could become sticky, but the company is a solo founder with outsourced development, no in-house owner of code or integrations, and better-capitalised incumbents selling to the same employers.",
+   "evidence": [
+    {
+     "text": "Team: founder, 2 outsourced developers, 1 operations, 1 sales.",
+     "source_ids": ["F4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Refyne raised USD 82 M Series B; KarmaLife raised INR 44 Cr targeting gig workers.",
+     "source_ids": ["W5", "W6"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Fintech is a focus sector, but in substance this is short-term credit distribution on a partner's licence and balance sheet (see G3).",
+   "evidence": [
+    {
+     "text": "Earned wage access for gig and shift workers, funded via NBFC partner.",
+     "source_ids": ["D1", "F7"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "Pre-seed, INR 2 Cr, a single angel on the cap table and no other investors in conversation: a round the fund could lead, although the price is steep relative to the angel round.",
+   "evidence": [
+    {
+     "text": "INR 2 Cr at INR 12 Cr post; one angel invested INR 25 L.",
+     "source_ids": ["F10", "F9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 0.5,
+   "status": "evidenced",
+   "rationale": "The founder's own form contradicts the headline deck credentials. What remains is 18 months at a payments startup, with no credit or risk experience, a co-founder who left, and no technical founder. Nothing shows earned insight into wage advances.",
+   "evidence": [
+    {
+     "text": "Deck credentials (Goldman, Google, IIM-A) contradicted by form (internship, vendor contract, tier-2 MBA).",
+     "source_ids": ["D9", "F1", "F2", "F3"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Prior startup experience: 18 months as an employee at a payments startup.",
+     "source_ids": ["F17"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Co-founder left July 2026.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "EWA in India is an established category with well-funded incumbents. Nothing in the application is non-consensus, and ambition is India-only.",
+   "evidence": [
+    {
+     "text": "Refyne (USD 82 M Series B) and KarmaLife (INR 44 Cr) already serve this market.",
+     "source_ids": ["W5", "W6"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked against all 88 portfolio companies. No portfolio company offers earned wage access or salary advances. Nearest: Prosparity (EV financing NBFC) and FuturElectra (EV 2W lifecycle) may reach gig riders, but with asset finance, not wage advances. Volt (loans against mutual funds), Mannjal (credit for B2B marketplaces), Rocketpay (P2P NACH collections), MoMoney and Returns (investing) do different jobs for different customers. GloRoots (employer of record/payroll) sells to employers but for global hiring, not worker liquidity. Jai Kisan is rural value-chain credit. No same customer + same job.",
+   "source_ids": ["D1", "D2", "D3"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "The model does not need a rule change: EWA can run under the existing digital-lending framework through a signed regulated-entity partner, as incumbents do. The current set-up (unsigned NBFC, founder-funded advances, payroll recovery) is a serious compliance gap scored under R1/R4, not a category that can exist only if the rules change.",
+   "source_ids": ["F7", "W1", "W2", "W3"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": true,
+   "detail": "Labelled fintech, but the business is short-term credit distribution: an NBFC partner's licence and balance sheet, with lending operations and employer integration as the product. This is the 'fintech that is really lending ops' case in the thesis. Flag only.",
+   "source_ids": ["F7", "D12", "W3"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 2 Cr at INR 12 Cr post, angel-only cap table. Within what the fund leads.",
+   "source_ids": ["F10", "F9"]
+  }
+ ],
+ "case_for": [
+  "A real need: gig and shift workers otherwise borrow informally at 5-10% a month, and one employer is live with 1,600 workers enabled (R2).",
+  "Small first round the fund could lead (S2)."
+ ],
+ "case_against": [
+  "Six deck/form contradictions: Goldman, Google and IIM-A versus an internship, a vendor contract and a tier-2 MBA; team of 12 versus 5; 3 live clients versus 1; in-house versus outsourced tech. The co-founder's exit is also left out of the deck. This is a founder-candour problem (R1, S3).",
+  "No one owns credit risk: the NBFC agreement is unsigned, the founder's own savings have funded advances, and 40% of the raise goes to an advances book with no regulated structure described (R1 per C004, R4, R5).",
+  "The deciding metric (recovery/default and repeat usage) is absent; INR 38 L disbursed is volume only (R3).",
+  "Crowded category with well-funded incumbents (Refyne, KarmaLife) and no technical founder (R6, S4)."
+ ],
+ "call_questions": [
+  "Your deck says Ex-Goldman, Ex-Google and IIM Ahmedabad; your form says a 10-week internship, a 5-month vendor contract and a tier-2 MBA. Which is accurate, and why does the deck say otherwise?",
+  "Name the NBFC. Is the agreement signed? How much of the INR 38 L came from your own savings, which entity disbursed it, and from whose bank account?",
+  "When a worker leaves before payroll, who absorbs the unrecovered advance? What share of advances so far has not been recovered?",
+  "What will the advances book in this round legally be, and how does it fit the RBI direct-disbursal and repayment rules?",
+  "Name the live client and the two pilots; can we speak to the live client's HR head?",
+  "Why did your co-founder leave, did they hold equity, and who owns the code your outsourced developers wrote?"
+ ],
+ "what_would_change_our_view": "A signed regulated lending partner with a clear statement of who bears non-recovery, recovery and repeat data from the live employer, and a team and background description that matches across every document would let us look again."
+,
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

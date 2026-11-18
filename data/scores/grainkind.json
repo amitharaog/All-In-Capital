@@ -1,0 +1,293 @@
+{
+ "slug": "grainkind",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "For a brand the defining risk is repeat. The founders bring cohort repeat data unprompted (31 -> 34 -> 38% at 90 days) and set a repeat target. They name their own risks (single co-packer, rising paid-social cost, weaker repeat on Jowar puffs) and offer the cohort sheet and co-packer agreement. Two things hold it back: the deck shows only the best cohort, which may be incomplete, and there is no repeat split by channel. Still an application-only read.",
+   "evidence": [
+    {
+     "text": "90-day repeat by cohort: 31% (June), 34% (July), 38% (August), 3,100 customers; deck shows only August.",
+     "source_ids": ["F5", "D4", "D5"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Founders list single co-packer, rising paid social costs and slower Jowar puffs repeat as key risks.",
+     "source_ids": ["F9", "D12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Offer to share cohort sheet and co-packer agreement; 12-month target 45% repeat, 15% contribution.",
+     "source_ids": ["F13", "D13"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "There was a pre-launch survey of 420 parents, and two channels are hands-on and cheap: nutritionist referrals and gym sampling. The founders also track which SKU repeats worse. A survey is not unscalable fieldwork, though, and the application does not describe what they changed in response.",
+   "evidence": [
+    {
+     "text": "Survey of 420 urban parents, July 2025.",
+     "source_ids": ["D2"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Nutritionist referrals 20% of new customers (CAC INR 210); gyms and sampling 10% (INR 380).",
+     "source_ids": ["D8", "F8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Slower repeat observed on Jowar puffs.",
+     "source_ids": ["F9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "The deciding metric (cohort repeat) is present and improving, and above the anecdotal >30% benchmark. Revenue grew from INR 4.8 L to 16.5 L a month at 48% gross margin. But about 70% of new customers come from paid social and promoted quick commerce. The first order does not pay back CAC, LTV:CAC is about 1.8x, and return rate is not given. C001 does not lower the score because repeat is reported.",
+   "evidence": [
+    {
+     "text": "Monthly revenue 4.8 -> 7.1 -> 10.2 -> 13.0 -> 16.5 INR L (Jun-Oct); INR 72 L cumulative.",
+     "source_ids": ["D3", "F4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "90-day repeat 31/34/38% by cohort vs ~37% peer figure and >30% 'strong' benchmark.",
+     "source_ids": ["F5", "W1", "W2"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Paid social 45% of new customers (INR 410 CAC), quick commerce 25% (INR 290 after promos).",
+     "source_ids": ["F8", "F17", "D8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Gross margin 48%, blended CAC INR 340, contribution 11%, LTV:CAC ~1.8x; first order INR 540.",
+     "source_ids": ["F6", "F7", "D6", "D9"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Consumers already pay across three working channels: own site 55%, Amazon 25%, quick commerce 20%. All products depend on one co-packer, and contribution by channel is unknown. Tata (Soulfull) and ITC (Yoga Bar) are consolidating the shelf.",
+   "evidence": [
+    {
+     "text": "Revenue mix: own site 55%, Amazon 25%, quick commerce 20%.",
+     "source_ids": ["D17"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "All products made by one co-packer in Hosur.",
+     "source_ids": ["D12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Tata Soulfull (millet breakfast), ITC-owned Yoga Bar, Slurrp Farm and a crowded healthy-snack shelf.",
+     "source_ids": ["W3", "W4", "W5", "W7", "W8"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Contribution is positive (11%), and INR 2.5 Cr could plausibly reach INR 40 L a month. But 40% of the raise goes to inventory and working capital. The scaled peer (Slurrp Farm) still loses ~Rs 33 Cr at ~Rs 100 Cr revenue, so later rounds will be large and this cheque risks dilution.",
+   "evidence": [
+    {
+     "text": "12-month targets INR 40 L monthly revenue, 15% contribution; 40% of raise to inventory and working capital.",
+     "source_ids": ["D13", "D14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Contribution after CAC and logistics 11%.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Slurrp Farm FY25 revenue Rs 97.5 Cr with Rs 32.67 Cr net loss.",
+     "source_ids": ["W5", "W6"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "The brand, cohort data and nutritionist network do not depend on one person. But the founders articulate no moat, they rely on a co-packer, and three hero SKUs (87% of orders) sit on a shelf where FMCG majors are buying in.",
+   "evidence": [
+    {
+     "text": "Three hero SKUs = 87% of orders; seven SKUs from one co-packer.",
+     "source_ids": ["F10", "D12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Nutritionist referral channel (20% of new customers).",
+     "source_ids": ["F8", "D8"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Shelf consolidating: Tata Soulfull, ITC Yoga Bar.",
+     "source_ids": ["W3", "W8"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "A packaged food brand, squarely in the consumer-brands focus sector, and labelled as such by the founders.",
+   "evidence": [
+    {
+     "text": "Sector selected Consumer brands; millet breakfast and snacks brand.",
+     "source_ids": ["F16", "D1"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "First institutional round of INR 2.5 Cr at INR 14 Cr post-money, with angels only. The fund can lead it. Revenue is already about INR 2 Cr annualised, so the round could attract competition, but nothing indicates large VCs are involved.",
+   "evidence": [
+    {
+     "text": "Raising INR 2.5 Cr at INR 14 Cr post; INR 45 L from three angels.",
+     "source_ids": ["F11", "F12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "October revenue INR 16.5 L.",
+     "source_ids": ["F4"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "On paper, category management plus food science and quick-commerce supply chain fit this business, but those are credentials and are capped. What earns the score is building on this problem: a launched brand with INR 72 L revenue and cohort tracking. Both backgrounds are unverifiable. The food-science wording differs slightly between deck and form, which is minor. Shared history between the founders is unknown.",
+   "evidence": [
+    {
+     "text": "CEO 6 years category/brand at a packaged-food company; COO 5 years supply chain at quick commerce, runs co-packer; first-time founders, team of 9.",
+     "source_ids": ["D10", "D11", "D12", "F15"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Deck 'trained in food science' vs form 'food science degree'.",
+     "source_ids": ["D10", "F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "LinkedIn links and website are placeholders.",
+     "source_ids": ["F2", "F3", "F1"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "INR 72 L revenue since November 2025 launch.",
+     "source_ids": ["F4"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "Millet better-for-you breakfast is a consensus, crowded category. Tata and ITC have acquired into it, and Slurrp Farm is at scale. The ambition is urban India only, sized from founders' own estimates.",
+   "evidence": [
+    {
+     "text": "Tata Soulfull, ITC Yoga Bar, Slurrp Farm, crowded shelf.",
+     "source_ids": ["W3", "W5", "W7", "W8"],
+     "status": "verified"
+    },
+    {
+     "text": "INR 2,400 household spend is founders' estimate.",
+     "source_ids": ["D16"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": true,
+   "detail": "Possible overlap with portfolio consumer-food brands, triggered on the false-alarm-preferred rule. Taakat ('Whole Truth for Masses') is a clean-label, better-for-you packaged-food brand, and MomsMade is a clean-label regional snacks brand. Both sell healthy packaged snacks to Indian households, which is the same job, though positioning and audience may differ (Taakat is mass; GrainKind is urban premium millet breakfast). Kushal should confirm with both founders. Also checked: Masterchow (pre-fund, D2C Asian food: different category), Acai Theory (health QSR, not packaged), DressFolk/Salty/Trisu/Everyday/NewMe/Krvvy/CUNIN/Ionic/&Done (non-food brands), Plazza/Cherry/Vaaree (commerce). No other overlap found.",
+   "source_ids": ["D1", "F10"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "Food brand; there is no dependence on a withdrawn or pending permission. FSSAI licensing is routine and is listed as a verification gap.",
+   "source_ids": ["D1"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "Selected Consumer brands, and it is one.",
+   "source_ids": ["F16", "D1"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 2.5 Cr at INR 14 Cr post-money, angels only. Within the lead mandate. There is early revenue, but there is no sign of a Series A or large VCs competing.",
+   "source_ids": ["F11", "F12"]
+  }
+ ],
+ "case_for": [
+  "The founders bring the brand's deciding metric unprompted: cohort repeat that improves month over month and is above peer benchmarks (R1, R3).",
+  "Real revenue (INR 16.5 L in October, 3.4x since June) at 48% gross margin with positive contribution (R3, R5).",
+  "Candid about their risks and willing to share the cohort sheet and co-packer agreement (R1).",
+  "Squarely in a focus sector, with a team whose experience matches category and supply chain (S1, S3)."
+ ],
+ "case_against": [
+  "Growth is mostly bought: about 70% of new customers come from paid social or promoted quick commerce. The first order loses money and LTV:CAC is about 1.8x (R3).",
+  "Crowded, consolidating category (Tata Soulfull, ITC Yoga Bar, Slurrp Farm) with no articulated moat; three hero SKUs from one co-packer (R6, S4).",
+  "Capital intensity: 40% of the raise goes to inventory, and the scaled peer is still heavily loss-making, so this cheque risks being diluted (R5).",
+  "Possible overlap with portfolio brands Taakat and MomsMade needs a conversation first (G1)."
+ ],
+ "call_questions": [
+  "What is 90-day repeat for paid-social-acquired customers vs nutritionist-referred, and for Jowar puffs vs Ragi choco crunch?",
+  "Is the August cohort's 38% a full 90 days for every customer, and why does the deck show only that cohort?",
+  "What is contribution after CAC and logistics separately for own site, Amazon and quick commerce?",
+  "What capacity headroom does the Hosur co-packer have, and when will a second co-packer be qualified?",
+  "Tata and ITC now own millet and better-for-you brands with national distribution. Why won't you be out-shelved within two years? (Pressure test on the weakest point.)"
+ ],
+ "what_would_change_our_view": "Repeat that holds above ~40% for paid-acquired cohorts, together with a rising share of customers from cheap earned channels (nutritionists, referrals) and positive contribution on each sales channel.",
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

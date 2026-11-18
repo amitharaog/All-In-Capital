@@ -1,0 +1,279 @@
+{
+ "slug": "settlr",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "For invoice financing the defining risk is who holds credit risk on financed invoices. The founders name credit losses as a key risk, but the only answer given is that financing is 'funded through NBFC partners'. Meanwhile revenue implies Settlr keeps most of the ~1.2%/month spread and 45% of the round goes to a 'financing book', and no DPD or loss data is shown. Under C004, deferring to NBFC partners is a low R1, which takes this from ~2.5 to 1.5. Deck and form agree on every number, which counts in their favour on candour.",
+   "evidence": [
+    {
+     "text": "Financing at about 1.2% a month, funded through NBFC partners.",
+     "source_ids": ["D9", "F1"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "45% of the INR 30 Cr Series A earmarked for a 'financing book'; legal form not stated.",
+     "source_ids": ["D15"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Founder-listed key risks: credit losses on financed invoices, dependence on NBFC partners, digital-lending regulation.",
+     "source_ids": ["F4"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "RBI caps default-loss-guarantee cover from an LSP at 5% of the portfolio.",
+     "source_ids": ["W1", "W2"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": ["C004"]
+  },
+  {
+   "criterion_id": "R2",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "The CA/accountant partner channel and a direct sales team suggest on-the-ground work with SMEs, but the application describes no customer conversations, early hand-run transactions or lessons learned.",
+   "evidence": [
+    {
+     "text": "Acquisition: CA and accountant partners 40%, direct sales 35%, inbound and referrals 25%.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Usage and trust metrics are present and consistent between deck and form: INR 86 Cr monthly volume, INR 78 L net revenue, 1,150 SMEs and 112% NRR. The fintech deciding metric for a financing book (DPD/loss data) is absent, and the monthly trend relies on an assumed chart order.",
+   "evidence": [
+    {
+     "text": "October 2026: INR 86 Cr payment volume, INR 78 L net revenue, 1,150 SMEs.",
+     "source_ids": ["D3", "F2", "F12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Net revenue retention 112%; CAC INR 14,500; gross margin 58%.",
+     "source_ids": ["F3", "D7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Month-by-month volume order is an extraction assumption; only October is confirmed.",
+     "source_ids": ["D4"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "1,150 paying SMEs and a working CA-partner channel show the path to market is real. Regulatory obstacles are not addressed: DLG cap, no-pool-account repayment routing, and payment-aggregator status for collections. TReDS and funded invoice-discounting players are not mentioned, and market sizing has 10x errors.",
+   "evidence": [
+    {
+     "text": "0.4% fee on payments plus ~1.2%/month on invoices financed.",
+     "source_ids": ["D8", "D9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Repayments must go directly to the regulated lender without any third-party pool account.",
+     "source_ids": ["W3", "W2"],
+     "status": "verified"
+    },
+    {
+     "text": "TReDS offers regulated discounting of MSME bills; Credlix prices from 1% a month.",
+     "source_ids": ["W4", "W5"],
+     "status": "verified"
+    },
+    {
+     "text": "SOM/SAM shown 10x below the product of their own inputs.",
+     "source_ids": ["D5", "D6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "This is a INR 30 Cr Series A, 45% of it for a financing book, with four Series A funds in conversation. A pre-seed cheque would be the small cheque in a large round, the situation this criterion warns against.",
+   "evidence": [
+    {
+     "text": "Raising INR 30 Cr at INR 180 Cr post; four Series A funds in conversation; seeking a lead.",
+     "source_ids": ["D1", "F5", "F10", "F11"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "45% of the round to a financing book.",
+     "source_ids": ["D15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 2.5,
+   "status": "partial",
+   "rationale": "A CA/accountant partner network, a 31-person team and 112% NRR point to a process and distribution that do not depend on one person. The founders do not set out a defensibility argument, though, and the space has many lookalikes.",
+   "evidence": [
+    {
+     "text": "CA and accountant partners bring 40% of customers.",
+     "source_ids": ["F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Team of 31.",
+     "source_ids": ["D12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "NRR 112%.",
+     "source_ids": ["F3"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 4.0,
+   "status": "evidenced",
+   "rationale": "SME payments and invoice financing sit squarely in fintech, a focus sector, and the payments/collections product is real software, not only lending operations.",
+   "evidence": [
+    {
+     "text": "Payments platform for SMEs with payment links, collections reconciliation and NBFC-funded invoice financing.",
+     "source_ids": ["F1"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 0.5,
+   "status": "evidenced",
+   "rationale": "A Series A of INR 30 Cr at INR 180 Cr post, after a INR 9 Cr institutional seed, with four Series A funds competing. The fund says publicly that this is not its round.",
+   "evidence": [
+    {
+     "text": "Series A, INR 30 Cr at INR 180 Cr post; four Series A funds in conversation.",
+     "source_ids": ["D1", "F5", "F10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "INR 9 Cr seed in 2024 led by two institutional funds.",
+     "source_ids": ["F6", "D12"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 3.0,
+   "status": "evidenced",
+   "rationale": "Transaction-banking SME product plus payments engineering is the right pairing; as credentials alone it stays at 2. Building and scaling to 1,150 SMEs, INR 86 Cr monthly volume and a 31-person team is demonstrated ability to build, which lifts it. Nothing is verified: employers are unnamed, there is no public footprint, and no record of the seed round was found.",
+   "evidence": [
+    {
+     "text": "CEO 10 years transaction banking, led SME product at a private bank; CTO 8 years payments engineering.",
+     "source_ids": ["D10", "D11", "F8", "F9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "No public footprint for either founder.",
+     "source_ids": ["F8", "F9"],
+     "status": "unverifiable"
+    },
+    {
+     "text": "1,150 SMEs and INR 86 Cr monthly volume.",
+     "source_ids": ["F2", "F12"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.5,
+   "status": "evidenced",
+   "rationale": "SME invoice financing and collections is a crowded, consensus category with regulated (TReDS) and funded alternatives at similar or lower pricing; ambition is India-metro only.",
+   "evidence": [
+    {
+     "text": "TReDS platforms, Credlix (from 1%/month), Cashinvoice (USD 3.4 M Series A).",
+     "source_ids": ["W4", "W5", "W6"],
+     "status": "verified"
+    },
+    {
+     "text": "SAM defined as 400K SMEs in 6 metros.",
+     "source_ids": ["D6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": true,
+   "detail": "Triggered as a precaution (the fund prefers a false alarm). Rocketpay (UdharPay), a portfolio company, helps businesses collect money owed to them via NACH mandates, so the customer is the same (Indian SMEs collecting receivables) and the job is close (getting paid on what customers owe). Settlr's payment links and collections do that job by a different rail. Mannjal (lending-out-of-the-box for B2B marketplaces) is adjacent on B2B working-capital credit. Kushal should confirm with both founders before any call. Rest of the portfolio checked: Volt, MoMoney, Returns, Prosparity and FuturElectra are consumer or EV finance. EximFiles, GloRoots and the B2B marketplaces (Magma, Hectar, FanTail, Nirmaan, Suite42) are not payments or receivables tools. No other overlap.",
+   "source_ids": ["F1", "D2", "D8"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": false,
+   "detail": "Works under existing rules through NBFC partners and a licensed payment aggregator. No favourable rule change is needed, though DLG caps and pool-account rules constrain the structure (scored under R1/R4).",
+   "source_ids": ["W1", "W2", "W3"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "Genuinely fintech: a payments and collections product with financing on top. Over half of revenue appears to come from financing, so it leans toward lending, but the payments software is substantive.",
+   "source_ids": ["F1", "D8", "D9"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": true,
+   "detail": "Outside mandate. Settlr is raising a INR 30 Cr Series A at INR 180 Cr post and seeking a lead, with four Series A funds in conversation, after a INR 9 Cr institutional seed. That is far above the ~INR 6 Cr first rounds the fund leads, and it is a revenue-generating company where large VCs compete. This is a pass on mandate, not on the company.",
+   "source_ids": ["D1", "F5", "F10", "F11", "F6"]
+  }
+ ],
+ "case_for": [
+  "Real scale at a young age: INR 86 Cr monthly volume, INR 78 L monthly net revenue, 1,150 SMEs and 112% NRR, consistent across deck and form (R3).",
+  "Proven channel through CA/accountant partners plus direct sales (R4, R6).",
+  "On paper the founders pair SME banking product with payments engineering, and they have built and scaled a 31-person company (S3)."
+ ],
+ "case_against": [
+  "Outside mandate: a INR 30 Cr Series A with four Series A funds competing (G4, S2, R5).",
+  "Who holds credit risk is unanswered: 'funded through NBFC partners' alongside a 45% 'financing book' and a revenue split that implies Settlr keeps the spread. There is no DPD or loss data (R1 per C004).",
+  "Regulatory structure not addressed: DLG 5% cap, no-pool-account repayment routing, payment-aggregator status (R4).",
+  "Crowded, consensus category (TReDS, Credlix, Cashinvoice) at similar pricing; market sizing off by 10x (R4, S4)."
+ ],
+ "call_questions": [
+  "This round is larger than what we lead; what part, if any, would a smaller pre-seed fund play, and who are the seed leads we could speak to?",
+  "Name the NBFC partners. Is there a DLG or co-lending arrangement, at what percentage, and who books the loss when a buyer defaults?",
+  "What will the INR 13.5 Cr 'financing book' legally be, and under which licence?",
+  "Show financed volume, outstanding book, 30/90+ DPD and write-offs by vintage since launch.",
+  "Which licensed payment aggregator processes your links, and how are repayments of financed invoices routed to the NBFC?",
+  "Do you run into Rocketpay (UdharPay) when selling to SMEs, and how do your customers' collection needs differ from theirs?"
+ ],
+ "what_would_change_our_view": "This is a pass on mandate: a INR 30 Cr Series A is larger than the first rounds we lead. If you raise a smaller round we could lead, a clear statement of who holds credit risk with vintage loss data would be what we look for first."
+,
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}
