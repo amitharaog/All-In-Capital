@@ -1,0 +1,259 @@
+{
+  "slug": "aerodrop",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "The defining risk is regulatory permission for routine BVLOS operation plus liability; the founder treats both as 'solved once the tech works', which is the delegation the low anchor describes.",
+      "evidence": [
+        {
+          "text": "Founder had less to say about liability and how regulators would permit routine BVLOS operation; viewed those as 'solved once the tech works'.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Regulatory permission for commercial operations uncertain on a multi-year horizon; liability and insurance unaddressed.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Only demonstration flights; no paying customer identified and no customer conversations or pilots with a buyer described.",
+      "evidence": [
+        {
+          "text": "Working prototype and a handful of demonstration flights.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "No signed customer; founder had less to say about who the paying customer was.",
+          "source_ids": [
+            "M3",
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Deeptech deciding metric is a signed pilot/LOI and a milestone sequence; the file states there is no signed customer. A prototype and demo flights are technical, not commercial, traction.",
+      "evidence": [
+        {
+          "text": "No signed customer.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Prototype with a handful of demonstration flights.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "No paying customer, no regulator-facing milestone plan, liability and insurance unaddressed: all three elements of a path to market are missing.",
+      "evidence": [
+        {
+          "text": "Regulatory permission uncertain on a multi-year horizon; no signed customer; liability and insurance unaddressed.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "A multi-year regulatory horizon for a hardware company implies capital needs well beyond a pre-seed cheque before commercial operation; no ask or milestone plan is given.",
+      "evidence": [
+        {
+          "text": "Regulatory permission for commercial operations uncertain on a multi-year horizon.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Flight-systems technology may be defensible, but it currently rests on one technical founder; the operations co-founder joined recently and the commercial side is weak.",
+      "evidence": [
+        {
+          "text": "Technically excellent and deeply convincing on flight systems; operations co-founder joined recently.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Weak commercial co-founder.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Drone delivery is squarely deeptech, a stated focus sector.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (drone delivery).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed with a prototype and no stated institutional investors: a round the fund could lead, though no ask is given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "The PhD is pedigree (capped at 2), but a working prototype and convincing command of flight systems are evidence of building. Offsetting: no insight on customer, liability or regulator, and a recently joined, weak commercial co-founder.",
+      "evidence": [
+        {
+          "text": "Aerospace PhD; technically excellent and deeply convincing on the flight systems; working prototype.",
+          "source_ids": [
+            "M2",
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Weak commercial co-founder; operations co-founder joined recently.",
+          "source_ids": [
+            "M3",
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Medical-supply drone delivery is an ambitious vision, but the dossier gives no non-consensus insight or ambition beyond the first use case.",
+      "evidence": [
+        {
+          "text": "Autonomous drone delivery of medical supplies and small parcels over short distances.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": true,
+      "detail": "Routine commercial (BVLOS) drone delivery needs a permission not yet granted and uncertain on a multi-year horizon; the founder's answer is that it will be 'solved once the tech works', i.e. no plan B. Triggered; Kushal to confirm whether this is a rules-change dependency or a slow-but-existing permission path.",
+      "source_ids": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely deeptech; no label stretch.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Strong technical founder with a working prototype and demonstration flights (S3, S1).",
+    "Deeptech in a focus sector at a pre-seed stage the fund can lead (S1, S2)."
+  ],
+  "case_against": [
+    "Regulator, liability and customer are all treated as 'solved once the tech works' - the defining risk is delegated (R1, G2).",
+    "No signed customer, pilot or LOI; path to market absent (R2, R3, R4).",
+    "Weak, recently joined commercial co-founder; the company currently rests on one technical founder (R6, S3).",
+    "Multi-year regulatory horizon makes a pre-seed cheque unlikely to reach a commercial proof point (R5)."
+  ],
+  "call_questions": [
+    "Walk us through the exact sequence of permissions you need from DGCA for routine BVLOS deliveries, and what you do if each one slips by two years.",
+    "Who is the first customer who will pay, what have they said, and can you get an LOI before the next round?",
+    "If a drone drops a medical package or hits something, who is liable today and who insures it?",
+    "What can the company earn from before routine BVLOS is allowed (line-of-sight ops, defence, surveying)?",
+    "You've told us the regulatory and liability questions get solved once the tech works - argue the opposite case: why might they not, and what would you do then?",
+    "What does your operations co-founder own, and how long have the two of you worked together?"
+  ],
+  "what_would_change_our_view": "A signed pilot or LOI with a paying buyer, a written regulator-milestone plan with a fallback use case that earns before routine BVLOS approval, and a commercial co-founder who owns liability and insurance.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

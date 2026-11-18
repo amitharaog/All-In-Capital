@@ -1,0 +1,258 @@
+{
+  "slug": "giva",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "For a brand the defining risk is repeat; the founder led with repeat purchase and margin and knew his repeat share of revenue, CAC by channel and return rate. Numbers themselves are not in the file.",
+      "evidence": [
+        {
+          "text": "Story was about repeat purchase, gifting occasions and product margin; knew CAC by channel, return rate and % revenue from repeat customers.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Understanding of gifting occasions and repeat behaviour implies close customer knowledge, but no specific on-the-ground customer work is described.",
+      "evidence": [
+        {
+          "text": "Story told was about repeat purchase and gifting occasions.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "The deciding metrics (repeat rate, CAC by channel, return rate) are tracked and known, but no values are in the file, and early growth relied heavily on marketplaces and paid channels.",
+      "evidence": [
+        {
+          "text": "Knew CAC by channel, return rate and percentage of revenue from repeat customers.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Heavy reliance on marketplaces and paid channels early.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Customers already pay through online and marketplace channels, with offline expansion planned; competition from established jewellers going digital is the obstacle.",
+      "evidence": [
+        {
+          "text": "Online-first fine silver jewellery brand, building offline presence.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Competition from established jewellers going digital; reliance on marketplaces and paid channels.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "Inventory and working-capital intensity mean growth consumes capital; margin fluency helps, but forecasting errors are punished.",
+      "evidence": [
+        {
+          "text": "Inventory and working-capital intensity.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Inventory-heavy models punish any forecasting error.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "A repeat-driven brand can compound, but the category risks becoming a discount-led marketplace game and incumbents are moving online.",
+      "evidence": [
+        {
+          "text": "Risk of becoming a discount-led marketplace game.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Competition from established jewellers going digital.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "D2C jewellery is squarely a consumer brand.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer brand (jewellery, D2C).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round for a brand founded in 2019 that is already selling; whether this is a first institutional round the fund can lead is unclear.",
+      "evidence": [
+        {
+          "text": "Stage: Early round.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded in 2019.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Rare fluency on brand unit economics (repeat, CAC by channel, returns, margin) is demonstrated knowledge of this problem; the IIT credential is pedigree and capped. Co-founder detail is thin.",
+      "evidence": [
+        {
+          "text": "Fluency on repeat, CAC by channel, return rate and margin - rare at this stage.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Fine silver as an online-first wedge is a partly non-obvious angle, but D2C jewellery is a well-trodden category with established jewellers moving in; ambition beyond India not stated.",
+      "evidence": [
+        {
+          "text": "Online-first fine silver jewellery, expanding into gold and lab-grown diamonds.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Competition from established jewellers going digital.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely a consumer brand.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Founder owns the brand's defining risk: talks repeat, margin, CAC by channel and returns, not followers (R1, S3).",
+    "Customers already paying across online channels; focus-sector consumer brand (R4, S1)."
+  ],
+  "case_against": [
+    "Inventory and working-capital intensity punish forecasting errors and consume capital (R5).",
+    "Early growth leaned on marketplaces and paid channels; actual repeat numbers not in the file (R3).",
+    "Risk of a discount-led category with incumbents going digital (R6, S4)."
+  ],
+  "call_questions": [
+    "Show us repeat rate by monthly cohort and the share of orders from paid channels over the last 12 months.",
+    "What is your inventory turn and how much working capital does each additional crore of revenue tie up?",
+    "What happens to gross margin if the big jewellers start discounting silver online?",
+    "How much of revenue comes from marketplaces, and what is the margin there vs your own site?",
+    "Your weakest point looks like inventory risk - tell us about a forecasting mistake you made and what it cost."
+  ],
+  "what_would_change_our_view": "Cohort repeat and gross-margin data showing growth that is not mostly paid, and a working-capital plan that a smaller first cheque can carry to the next milestone.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "jaikisan",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Assessing thousands of farmers before scaling lending is a risk-conscious sequence; but credit-risk depth was flagged as something still to be built or hired, and the founders' own stance on default risk is not recorded.",
+      "evidence": [
+        {
+          "text": "Thousands of farmers registered and assessed before they scaled lending.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Credit-risk depth would need to be built or hired quickly as lending scaled.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Rural credit risk and collections; seasonality tied to monsoon and crop cycles.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Built physical distribution across many channel-partner locations in multiple districts and assessed thousands of farmers before scaling - started with the borrower, not the app.",
+      "evidence": [
+        {
+          "text": "Presence across many channel-partner locations in multiple districts, thousands of farmers registered and assessed before they scaled lending.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "The deciding fintech metric (default/NPA data, repeat borrowing) is not in the file; farmer registrations are a funnel metric. Scored as missing value.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Borrowers and the channel to reach them (channel partners across districts) are identified and proven; regulatory exposure and channel-partner dependence remain.",
+      "evidence": [
+        {
+          "text": "Presence across many channel-partner locations in multiple districts.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Regulatory exposure and dependence on channel partners.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Lending growth needs balance-sheet or partner capital beyond a pre-seed cheque, and seasonality adds volatility; distribution groundwork is capital-light.",
+      "evidence": [
+        {
+          "text": "Seasonality tied to monsoon and crop cycles; rural credit risk.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "A multi-district channel-partner network and farmer assessment base is a process and network that does not depend on one person and gets harder to copy as it grows.",
+      "evidence": [
+        {
+          "text": "Presence across many channel-partner locations in multiple districts with thousands of farmers registered and assessed.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Labelled fintech (focus sector) but the business is rural lending - see G3.",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (rural / agri credit).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round for a company founded in 2017; whether the fund can lead is unclear.",
+      "evidence": [
+        {
+          "text": "Stage: Early round.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded 2017.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Demonstrated ability to build rural distribution is specific to this problem; credit-risk depth, the key skill for a lender, is missing.",
+      "evidence": [
+        {
+          "text": "Built distribution across many channel-partner locations; started with the borrower, not the app.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Credit-risk depth would need to be built or hired.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Financing income-generating assets for farmers is non-consensus relative to metro fintech; ambition beyond India is not stated.",
+      "evidence": [
+        {
+          "text": "Financing to farmers and rural households for income-generating purchases such as agricultural and dairy equipment.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Regulatory exposure is noted but the model does not depend on a rule change.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": true,
+      "detail": "Fits fintech by label; the business is rural credit and lending operations. Flag only - founder behaviour (borrower-first distribution) should weigh more than the label.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ]
+    }
+  ],
+  "case_for": [
+    "Went to the borrower first: multi-district channel-partner network and thousands of farmers assessed before scaling lending (R2).",
+    "Distribution network that travels beyond the founders and compounds (R6, R4).",
+    "Non-consensus rural market (S4)."
+  ],
+  "case_against": [
+    "No default/NPA data in the file - the deciding metric is missing (R3).",
+    "Credit-risk depth not yet on the team (R1, S3).",
+    "Lending is capital-hungry and seasonal; channel-partner and regulatory dependence (R5, R4).",
+    "Sector label stretch: rural lending more than fintech (G3)."
+  ],
+  "call_questions": [
+    "Show us repayment and default data by cohort and by crop season.",
+    "Who holds the credit risk on each loan - you, a lending partner, or the channel partner?",
+    "Who will own credit risk on the team, and when do you hire them?",
+    "What happens to collections in a failed monsoon year?",
+    "We worry you're a distribution business that hasn't yet learned credit - convince us otherwise, with a specific loss you took and what you changed."
+  ],
+  "what_would_change_our_view": "Cohort repayment data through at least one crop cycle and a named owner of credit risk on the team.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

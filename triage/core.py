@@ -99,6 +99,7 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
         h["level"] in ("high", "medium") for h in conflict_hits
     )
     regulatory = bool(gates.get("G2") and gates["G2"].triggered)
+    mandate = bool(gates.get("G4") and gates["G4"].triggered)
     if gates.get("G3") and gates["G3"].triggered:
         flags.append("G3 sector-label stretch: " + gates["G3"].detail)
     for h in conflict_hits:
@@ -114,6 +115,9 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
     elif regulatory:
         rec = "PASS"
         headline = "Suggest pass on category: the business depends on a favourable rule change (G2)."
+    elif mandate:
+        rec = "PASS"
+        headline = "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company."
     elif revealed.score_10 >= routing["take_call"]["revealed_min"] and revealed.coverage >= routing["take_call"]["coverage_min"]:
         rec = "TAKE_CALL"
         headline = f"Take the call: {revealed.score_10}/10 on the fund's revealed thesis with {int(revealed.coverage*100)}% evidence coverage."
@@ -126,6 +130,13 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
     else:
         rec = "PASS"
         headline = f"Suggest pass: {revealed.score_10}/10 on the revealed thesis."
+        r1 = next((c for c in card.criteria if c.criterion_id == "R1"), None)
+        founder_seen = r1 is not None and r1.status == "evidenced" and r1.confidence in ("medium", "high")
+        if routing.get("pass_requires_founder_evidence", False) and not founder_seen:
+            rec = "SCREEN_FIRST"
+            headline = (f"Low score ({revealed.score_10}/10) but founder behaviour is not observable from the application, "
+                        "so it is not a pass yet: Riya to screen before anything is decided.")
+            flags.append("Pass withheld: R1 not evidenced with confidence (rule v2, from the backtest).")
 
     lens_gap = round(revealed.score_10 - stated.score_10, 2)
     lens_note = None

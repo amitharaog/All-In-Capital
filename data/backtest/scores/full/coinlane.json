@@ -1,0 +1,255 @@
+{
+  "slug": "coinlane",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "The defining risk is the regulator; the founder's answers amounted to a bet that rules would become friendlier, with no plan if they did not.",
+      "evidence": [
+        {
+          "text": "Answers on regulation amounted to a bet that the rules would become friendlier; no plan for the scenario in which they did not.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Regulatory and tax uncertainty on crypto in India.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "User growth came from referral campaigns; no customer conversations, manual operations or learnings from users are described.",
+      "evidence": [
+        {
+          "text": "Growing user base from referral campaigns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "The metric the founder offers is user growth, confirmed as real, but it is driven by referral campaigns (typically incentivised) and no retention, trading activity or revenue numbers are given.",
+      "evidence": [
+        {
+          "text": "The user growth was real.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Growing user base from referral campaigns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Fiat on-ramp depends on a payment partner and banking access, revenue is cyclical trading income, and the regulatory and tax path is uncertain.",
+      "evidence": [
+        {
+          "text": "Fiat on-ramp through a payment partner.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Banking and payment-partner dependency; trading revenue is cyclical; regulatory and tax uncertainty.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Competing as an exchange against large, well-funded players with compliance overhead needs far more capital than a pre-seed cheque.",
+      "evidence": [
+        {
+          "text": "Intense competition from large, well-funded exchanges.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "No differentiation from incumbent exchanges is described; referral-led growth is easy to copy.",
+      "evidence": [
+        {
+          "text": "Intense competition from large, well-funded exchanges.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Growth from referral campaigns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "Web3 is outside the stated focus sectors; a retail trading app has a consumer/fintech angle but is not squarely in either.",
+      "evidence": [
+        {
+          "text": "Sector: Web3 (crypto exchange and wallet).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed via public application with no institutional investors mentioned.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "Growth background and blockchain engineering are relevant and they have shipped a product with real growth; but no earned insight on the key risk (regulation) is shown. Prior titles capped as pedigree.",
+      "evidence": [
+        {
+          "text": "Previously a growth lead at a payments company; co-founder with blockchain engineering background; capable and fast-moving; user growth real.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "A me-too retail exchange in a hot, crowded category dominated by well-funded players; India-only.",
+      "evidence": [
+        {
+          "text": "A retail crypto trading app and wallet for Indian users.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Intense competition from large, well-funded exchanges.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": true,
+      "detail": "The business depends on Indian crypto regulation and tax becoming friendlier; the founder's plan is a bet on that change with no plan B.",
+      "source_ids": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Self-classified as Web3/other rather than claiming a focus sector; outside-sector fit is reflected in S1.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Capable, fast-moving team with real user growth (S3, R3).",
+    "Pre-seed round the fund could lead (S2)."
+  ],
+  "case_against": [
+    "Exists only if regulation becomes friendlier; no plan if it does not (R1, G2).",
+    "Banking and payment-partner dependency and cyclical revenue undermine the path to market (R4).",
+    "Me-too exchange against large, well-funded incumbents; nothing that compounds (S4, R6).",
+    "Growth is referral-campaign driven with no retention data (R3)."
+  ],
+  "call_questions": [
+    "If the current tax and regulatory regime stays exactly as it is for five years, what does Coinlane look like?",
+    "What happens the day your payment partner or bank pulls the fiat on-ramp?",
+    "What are 30- and 90-day retention and cost per retained user for referral-acquired users?",
+    "Why would a user pick Coinlane over the largest Indian exchanges?",
+    "You've said the rules will get friendlier - make the strongest case that they won't, and tell us what you would build then."
+  ],
+  "what_would_change_our_view": "A business that works under today's rules - with a fallback if regulation does not improve - plus retention data showing users stay without referral incentives.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

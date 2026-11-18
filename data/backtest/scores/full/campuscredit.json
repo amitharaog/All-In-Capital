@@ -1,0 +1,262 @@
+{
+  "slug": "campuscredit",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "For a lender the defining risk is default; the founder dismissed default-rate questions as 'something the NBFC partner handles' - textbook delegation.",
+      "evidence": [
+        {
+          "text": "Iyer dismissed questions on default rates as 'something the NBFC partner handles'.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Neither founder has experience in credit, collections or risk.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Collections from students are hard; unclear bureau data on first-time borrowers.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Campus ambassador networks indicate on-the-ground distribution work, but no borrower conversations, hand-run loans or pilot learnings are described.",
+      "evidence": [
+        {
+          "text": "Underwritten with parent co-signer data and campus ambassador networks.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Strong on distribution through campus networks.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "The deciding fintech metric (default/NPA data or plan, repeat usage) is absent; no loan volume or repayment numbers given. Scored as missing value.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "Licence and balance sheet both sit with an NBFC partner, collections from students are hard and digital lending faces regulatory scrutiny; the channel (campus networks) is the only element in place.",
+      "evidence": [
+        {
+          "text": "Depends on an NBFC partner for the licence and balance sheet; regulatory scrutiny of digital lending.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Campus ambassador networks as distribution.",
+          "source_ids": [
+            "M2",
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Using a partner's balance sheet keeps equity needs low, so a pre-seed cheque can fund distribution; but credit losses land on the company's economics with no risk owner.",
+      "evidence": [
+        {
+          "text": "Depends on an NBFC partner for the licence and balance sheet.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Campus ambassador networks are a process, but easily copied; there is no data or underwriting edge described that compounds.",
+      "evidence": [
+        {
+          "text": "Underwriting with parent co-signer data and campus ambassador networks.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Unclear credit-bureau data on first-time borrowers.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Labelled fintech (a focus sector), but the model is lending distribution on a partner's licence and balance sheet - see G3.",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (student credit).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Depends on an NBFC partner for licence and balance sheet.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed, public application, no institutional investors mentioned: a round the fund could lead.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "Smart, hungry founders with distribution instinct, but no credit, collections or risk knowledge - the key skill for this business - and no earned secret on student credit.",
+      "evidence": [
+        {
+          "text": "24-year-old recent engineering graduate and classmate CTO; no experience in credit, collections or risk.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Student BNPL is a consensus, crowded digital-lending category under regulatory scrutiny; nothing in the file suggests a non-obvious insight or ambition beyond India.",
+      "evidence": [
+        {
+          "text": "Buy-now-pay-later and small-ticket credit for college students.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Regulatory scrutiny of digital lending.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Digital lending is under scrutiny but permitted through a licensed NBFC partner; the model does not depend on a rule change. Watch item.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": true,
+      "detail": "Fits fintech by label; operationally it is lending distribution on an NBFC's licence and balance sheet ('fintech' that is really lending ops). Flag only.",
+      "source_ids": [
+        "M2",
+        "M4"
+      ]
+    }
+  ],
+  "case_for": [
+    "Founders are strong at campus distribution, a real acquisition edge for student products (R2).",
+    "Pre-seed, focus-sector label, a round the fund can lead (S1, S2)."
+  ],
+  "case_against": [
+    "Founder delegates default risk to the NBFC partner - the defining risk for a lender is not owned (R1).",
+    "No credit, collections or risk experience on the team (S3).",
+    "No default, repayment or repeat data; deciding metric missing (R3).",
+    "Licence, balance sheet and regulatory exposure all sit outside the company (R4, G3)."
+  ],
+  "call_questions": [
+    "If 8% of your student borrowers default next semester, whose P&L takes the loss, and what does your contract with the NBFC say exactly?",
+    "What default and repayment data do you have so far, by cohort?",
+    "How do you collect from a student who has graduated and moved city?",
+    "Who on the team will own credit risk, and when will you hire them?",
+    "You told us defaults are something the NBFC handles - suppose the NBFC drops you after a bad cohort; what is left of the business?"
+  ],
+  "what_would_change_our_view": "A credit-risk owner on the founding team, repayment and default data on the first cohorts, and a plan in which the company holds and manages some default risk rather than passing it to the NBFC.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

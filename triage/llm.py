@@ -82,7 +82,7 @@ def build_score_input(dossier: ResearchDossier) -> str:
         "<portfolio>\n" + json.dumps(slim, indent=1) + "\n</portfolio>\n\n"
         "<partner_corrections>\n" + as_prompt_block(precedents) + "\n</partner_corrections>\n\n"
         "<dossier>\n" + dossier.model_dump_json(indent=1) + "\n</dossier>\n\n"
-        "Score every criterion in both lenses (R1-R6, S1-S4) and evaluate gates G1-G3."
+        "Score every criterion in both lenses (R1-R6, S1-S4) and evaluate gates G1-G4."
     )
 
 

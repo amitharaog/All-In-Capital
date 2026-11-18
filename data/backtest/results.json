@@ -1,0 +1,892 @@
+{
+  "variants": {
+    "full": {
+      "n": 12,
+      "agreement": 8,
+      "agreement_rate": 0.67,
+      "agreement_ci95": [
+        0.39,
+        0.86
+      ],
+      "stated_lens_agreement": 11,
+      "stated_lens_rate": 0.92,
+      "missed_investments": [
+        "The ePlane Company",
+        "Wint Wealth",
+        "SuperK",
+        "Jai Kisan"
+      ],
+      "investments_marked_pass": [],
+      "would_have_advanced_passes": [],
+      "mean_revealed_invested": 5.68,
+      "mean_revealed_passed": 2.52,
+      "mean_stated_invested": 7.25,
+      "mean_stated_passed": 5.38,
+      "rows": [
+        {
+          "memo": 1,
+          "company": "The ePlane Company",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 3.2,
+          "stated": 7.65,
+          "coverage": 0.53,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "We were not underwriting the market size in the deck. We were underwriting two people who had stayed with a hard problem for years and who answered 'what would make you quit?' with a specific technical milestone rather than a platitude. The thesis fit is deeptech at the earliest stage, where the founder is most of the investment. We accepted that this is a long-duration bet and sized the cheque so a slow regulatory path does not force a bad financing."
+        },
+        {
+          "memo": 2,
+          "company": "Petalry",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.05,
+          "stated": 5.15,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "A real brand with real orders, which is why it reached a call. We passed for two linked reasons. The numbers showed growth being bought rather than earned, and the founder could not tell us the repeat rate. The second reason matters more: consumer-brand investing at our stage turns on whether the founder instinctively thinks in cohorts and margins, and in this call she did not. If she returns with six months of cohort data and an operations co-founder, we would look again."
+        },
+        {
+          "memo": 3,
+          "company": "Unbox Robotics",
+          "fund": "INVESTED",
+          "system": "TAKE_CALL",
+          "revealed": 6.75,
+          "stated": 7.75,
+          "coverage": 0.68,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "This is deeptech with a nearer path to revenue than most. A concrete customer pain (sorting cost and accuracy), a product already in live sites, and founders who treated pilots as learning, not marketing. We were comfortable that the pilot-conversion risk was the right risk to be carrying at this stage."
+        },
+        {
+          "memo": 4,
+          "company": "HopBox",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 3.1,
+          "stated": 5.4,
+          "coverage": 0.95,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Good operators, wrong game for a pre-seed fund. The model only works with far more capital than we deploy, and we did not want to be the small cheque that gets diluted or squeezed once larger funds set the terms. The founders were strong; this was a pass on structure, not on people. We told them so and said we would reconsider if they found a dense, narrower niche with positive contribution margin."
+        },
+        {
+          "memo": 5,
+          "company": "Wint Wealth",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.9,
+          "stated": 7.4,
+          "coverage": 0.72,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "Fintech with a real pain point (retail investors cannot easily buy quality bonds) and a founder doing unscalable things in the right order. Founder-market fit was the deciding factor, along with how clearly he understood that trust, not technology, was the bottleneck."
+        },
+        {
+          "memo": 6,
+          "company": "CampusCredit",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 3.0,
+          "stated": 4.8,
+          "coverage": 0.6,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech is core to our thesis, but this one fails on the founder question. The product itself was reasonable. A team that does not own risk will find out the cost of that the expensive way, and with someone else's money. We encouraged them to hire a credit lead before raising and offered an introduction to a risk operator."
+        },
+        {
+          "memo": 7,
+          "company": "Giva",
+          "fund": "INVESTED",
+          "system": "TAKE_CALL",
+          "revealed": 6.45,
+          "stated": 6.9,
+          "coverage": 0.75,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Our D2C passes usually fail on repeat rate. This one passed the test we apply to every brand: the founder could tell us cohort repeat behaviour and gross margin without looking at notes. A consumer-brand cheque at pre-seed is only defensible when the founder thinks like an operator, and this one did."
+        },
+        {
+          "memo": 8,
+          "company": "AeroDrop",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 1.95,
+          "stated": 6.65,
+          "coverage": 0.9,
+          "agree": true,
+          "stated_agree": false,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "We like deeptech, and she is a high-quality technologist. We passed because the file had no customer, no path through the regulator and no answer on liability, and the founder treated all three as secondary. In the ePlane case the regulatory path was equally long, but the founders had a clear view of it and a concrete milestone sequence. Here there was none. We would reconsider with a signed pilot customer and a regulator-facing plan."
+        },
+        {
+          "memo": 9,
+          "company": "SuperK",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.85,
+          "stated": 7.35,
+          "coverage": 0.68,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "Founder behaviour decided it. They had visited dozens of stores and could describe what the owners wanted: working capital, price support, a branded look, not 'technology'. A franchise-style model with real field execution is hard to copy. We saw the risk, but it was the right sort of risk for a founder pair that was already on the ground."
+        },
+        {
+          "memo": 10,
+          "company": "Coinlane",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.45,
+          "stated": 4.65,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is outside the areas we back, and no founder quality could change that. Our decision was about the category, not the people: a business whose existence depends on a favourable regulatory change is not one we want to underwrite at pre-seed. We declined quickly and said why."
+        },
+        {
+          "memo": 11,
+          "company": "Jai Kisan",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.95,
+          "stated": 6.45,
+          "coverage": 0.62,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "This is the harder cousin of the student-credit pass. Like CampusCredit, it is a lending business, but these founders had done the unglamorous groundwork in the field and the discussion centred on how they would build credit-risk depth. Our deciding question was whether the founders treated risk as theirs. Here they did. In the discussion, one partner asked whether the thesis stretched to rural credit; the group agreed the founder behaviour mattered more than the sector label."
+        },
+        {
+          "memo": 12,
+          "company": "Prepnest",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.55,
+          "stated": 5.65,
+          "coverage": 0.85,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "The founder is likeable and talented, and the audience was real. We passed because the product is the teacher, and the data did not show it travelling beyond her. Defensibility was weak and she did not seem to want to examine that. A founder who gets defensive on the questions that matter is a signal in itself."
+        }
+      ]
+    },
+    "no_founder": {
+      "n": 12,
+      "agreement": 6,
+      "agreement_rate": 0.5,
+      "agreement_ci95": [
+        0.25,
+        0.75
+      ],
+      "stated_lens_agreement": 7,
+      "stated_lens_rate": 0.58,
+      "missed_investments": [
+        "The ePlane Company",
+        "Unbox Robotics",
+        "Wint Wealth",
+        "Giva",
+        "SuperK",
+        "Jai Kisan"
+      ],
+      "investments_marked_pass": [],
+      "would_have_advanced_passes": [],
+      "mean_revealed_invested": 3.53,
+      "mean_revealed_passed": 2.62,
+      "mean_stated_invested": 5.51,
+      "mean_stated_passed": 4.58,
+      "rows": [
+        {
+          "memo": 1,
+          "company": "The ePlane Company",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 2.4,
+          "stated": 6.4,
+          "coverage": 0.5,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "We were not underwriting the market size in the deck. We were underwriting two people who had stayed with a hard problem for years and who answered 'what would make you quit?' with a specific technical milestone rather than a platitude. The thesis fit is deeptech at the earliest stage, where the founder is most of the investment. We accepted that this is a long-duration bet and sized the cheque so a slow regulatory path does not force a bad financing."
+        },
+        {
+          "memo": 2,
+          "company": "Petalry",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.85,
+          "stated": 4.8,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "A real brand with real orders, which is why it reached a call. We passed for two linked reasons. The numbers showed growth being bought rather than earned, and the founder could not tell us the repeat rate. The second reason matters more: consumer-brand investing at our stage turns on whether the founder instinctively thinks in cohorts and margins, and in this call she did not. If she returns with six months of cohort data and an operations co-founder, we would look again."
+        },
+        {
+          "memo": 3,
+          "company": "Unbox Robotics",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 4.1,
+          "stated": 5.65,
+          "coverage": 0.45,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is deeptech with a nearer path to revenue than most. A concrete customer pain (sorting cost and accuracy), a product already in live sites, and founders who treated pilots as learning, not marketing. We were comfortable that the pilot-conversion risk was the right risk to be carrying at this stage."
+        },
+        {
+          "memo": 4,
+          "company": "HopBox",
+          "fund": "PASSED",
+          "system": "SCREEN_FIRST",
+          "revealed": 2.9,
+          "stated": 4.35,
+          "coverage": 0.72,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Good operators, wrong game for a pre-seed fund. The model only works with far more capital than we deploy, and we did not want to be the small cheque that gets diluted or squeezed once larger funds set the terms. The founders were strong; this was a pass on structure, not on people. We told them so and said we would reconsider if they found a dense, narrower niche with positive contribution margin."
+        },
+        {
+          "memo": 5,
+          "company": "Wint Wealth",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 4.25,
+          "stated": 5.45,
+          "coverage": 0.42,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech with a real pain point (retail investors cannot easily buy quality bonds) and a founder doing unscalable things in the right order. Founder-market fit was the deciding factor, along with how clearly he understood that trust, not technology, was the bottleneck."
+        },
+        {
+          "memo": 6,
+          "company": "CampusCredit",
+          "fund": "PASSED",
+          "system": "SCREEN_FIRST",
+          "revealed": 3.1,
+          "stated": 4.45,
+          "coverage": 0.4,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech is core to our thesis, but this one fails on the founder question. The product itself was reasonable. A team that does not own risk will find out the cost of that the expensive way, and with someone else's money. We encouraged them to hire a credit lead before raising and offered an introduction to a risk operator."
+        },
+        {
+          "memo": 7,
+          "company": "Giva",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 3.2,
+          "stated": 5.4,
+          "coverage": 0.35,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Our D2C passes usually fail on repeat rate. This one passed the test we apply to every brand: the founder could tell us cohort repeat behaviour and gross margin without looking at notes. A consumer-brand cheque at pre-seed is only defensible when the founder thinks like an operator, and this one did."
+        },
+        {
+          "memo": 8,
+          "company": "AeroDrop",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.4,
+          "stated": 5.7,
+          "coverage": 0.62,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Credible path to market",
+          "fund_reason": "We like deeptech, and she is a high-quality technologist. We passed because the file had no customer, no path through the regulator and no answer on liability, and the founder treated all three as secondary. In the ePlane case the regulatory path was equally long, but the founders had a clear view of it and a concrete milestone sequence. Here there was none. We would reconsider with a signed pilot customer and a regulator-facing plan."
+        },
+        {
+          "memo": 9,
+          "company": "SuperK",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 4.4,
+          "stated": 5.3,
+          "coverage": 0.45,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Founder behaviour decided it. They had visited dozens of stores and could describe what the owners wanted: working capital, price support, a branded look, not 'technology'. A franchise-style model with real field execution is hard to copy. We saw the risk, but it was the right sort of risk for a founder pair that was already on the ground."
+        },
+        {
+          "memo": 10,
+          "company": "Coinlane",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.3,
+          "stated": 3.6,
+          "coverage": 0.55,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is outside the areas we back, and no founder quality could change that. Our decision was about the category, not the people: a business whose existence depends on a favourable regulatory change is not one we want to underwrite at pre-seed. We declined quickly and said why."
+        },
+        {
+          "memo": 11,
+          "company": "Jai Kisan",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 2.85,
+          "stated": 4.85,
+          "coverage": 0.17,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is the harder cousin of the student-credit pass. Like CampusCredit, it is a lending business, but these founders had done the unglamorous groundwork in the field and the discussion centred on how they would build credit-risk depth. Our deciding question was whether the founders treated risk as theirs. Here they did. In the discussion, one partner asked whether the thesis stretched to rural credit; the group agreed the founder behaviour mattered more than the sector label."
+        },
+        {
+          "memo": 12,
+          "company": "Prepnest",
+          "fund": "PASSED",
+          "system": "SCREEN_FIRST",
+          "revealed": 2.15,
+          "stated": 4.6,
+          "coverage": 0.7,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "The founder is likeable and talented, and the audience was real. We passed because the product is the teacher, and the data did not show it travelling beyond her. Defensibility was weak and she did not seem to want to examine that. A founder who gets defensive on the questions that matter is a signal in itself."
+        }
+      ]
+    }
+  },
+  "preregistered": {
+    "full": {
+      "n": 12,
+      "agreement": 8,
+      "agreement_rate": 0.67,
+      "agreement_ci95": [
+        0.39,
+        0.86
+      ],
+      "stated_lens_agreement": 11,
+      "stated_lens_rate": 0.92,
+      "missed_investments": [
+        "The ePlane Company",
+        "Wint Wealth",
+        "SuperK",
+        "Jai Kisan"
+      ],
+      "investments_marked_pass": [
+        "The ePlane Company"
+      ],
+      "would_have_advanced_passes": [],
+      "mean_revealed_invested": 5.68,
+      "mean_revealed_passed": 2.52,
+      "mean_stated_invested": 7.25,
+      "mean_stated_passed": 5.38,
+      "rows": [
+        {
+          "memo": 1,
+          "company": "The ePlane Company",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 3.2,
+          "stated": 7.65,
+          "coverage": 0.53,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "We were not underwriting the market size in the deck. We were underwriting two people who had stayed with a hard problem for years and who answered 'what would make you quit?' with a specific technical milestone rather than a platitude. The thesis fit is deeptech at the earliest stage, where the founder is most of the investment. We accepted that this is a long-duration bet and sized the cheque so a slow regulatory path does not force a bad financing."
+        },
+        {
+          "memo": 2,
+          "company": "Petalry",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.05,
+          "stated": 5.15,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "A real brand with real orders, which is why it reached a call. We passed for two linked reasons. The numbers showed growth being bought rather than earned, and the founder could not tell us the repeat rate. The second reason matters more: consumer-brand investing at our stage turns on whether the founder instinctively thinks in cohorts and margins, and in this call she did not. If she returns with six months of cohort data and an operations co-founder, we would look again."
+        },
+        {
+          "memo": 3,
+          "company": "Unbox Robotics",
+          "fund": "INVESTED",
+          "system": "TAKE_CALL",
+          "revealed": 6.75,
+          "stated": 7.75,
+          "coverage": 0.68,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "This is deeptech with a nearer path to revenue than most. A concrete customer pain (sorting cost and accuracy), a product already in live sites, and founders who treated pilots as learning, not marketing. We were comfortable that the pilot-conversion risk was the right risk to be carrying at this stage."
+        },
+        {
+          "memo": 4,
+          "company": "HopBox",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 3.1,
+          "stated": 5.4,
+          "coverage": 0.95,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Good operators, wrong game for a pre-seed fund. The model only works with far more capital than we deploy, and we did not want to be the small cheque that gets diluted or squeezed once larger funds set the terms. The founders were strong; this was a pass on structure, not on people. We told them so and said we would reconsider if they found a dense, narrower niche with positive contribution margin."
+        },
+        {
+          "memo": 5,
+          "company": "Wint Wealth",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.9,
+          "stated": 7.4,
+          "coverage": 0.72,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "Fintech with a real pain point (retail investors cannot easily buy quality bonds) and a founder doing unscalable things in the right order. Founder-market fit was the deciding factor, along with how clearly he understood that trust, not technology, was the bottleneck."
+        },
+        {
+          "memo": 6,
+          "company": "CampusCredit",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 3.0,
+          "stated": 4.8,
+          "coverage": 0.6,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech is core to our thesis, but this one fails on the founder question. The product itself was reasonable. A team that does not own risk will find out the cost of that the expensive way, and with someone else's money. We encouraged them to hire a credit lead before raising and offered an introduction to a risk operator."
+        },
+        {
+          "memo": 7,
+          "company": "Giva",
+          "fund": "INVESTED",
+          "system": "TAKE_CALL",
+          "revealed": 6.45,
+          "stated": 6.9,
+          "coverage": 0.75,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Our D2C passes usually fail on repeat rate. This one passed the test we apply to every brand: the founder could tell us cohort repeat behaviour and gross margin without looking at notes. A consumer-brand cheque at pre-seed is only defensible when the founder thinks like an operator, and this one did."
+        },
+        {
+          "memo": 8,
+          "company": "AeroDrop",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 1.95,
+          "stated": 6.65,
+          "coverage": 0.9,
+          "agree": true,
+          "stated_agree": false,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "We like deeptech, and she is a high-quality technologist. We passed because the file had no customer, no path through the regulator and no answer on liability, and the founder treated all three as secondary. In the ePlane case the regulatory path was equally long, but the founders had a clear view of it and a concrete milestone sequence. Here there was none. We would reconsider with a signed pilot customer and a regulator-facing plan."
+        },
+        {
+          "memo": 9,
+          "company": "SuperK",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.85,
+          "stated": 7.35,
+          "coverage": 0.68,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "Founder behaviour decided it. They had visited dozens of stores and could describe what the owners wanted: working capital, price support, a branded look, not 'technology'. A franchise-style model with real field execution is hard to copy. We saw the risk, but it was the right sort of risk for a founder pair that was already on the ground."
+        },
+        {
+          "memo": 10,
+          "company": "Coinlane",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.45,
+          "stated": 4.65,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is outside the areas we back, and no founder quality could change that. Our decision was about the category, not the people: a business whose existence depends on a favourable regulatory change is not one we want to underwrite at pre-seed. We declined quickly and said why."
+        },
+        {
+          "memo": 11,
+          "company": "Jai Kisan",
+          "fund": "INVESTED",
+          "system": "SCREEN_FIRST",
+          "revealed": 5.95,
+          "stated": 6.45,
+          "coverage": 0.62,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "This is the harder cousin of the student-credit pass. Like CampusCredit, it is a lending business, but these founders had done the unglamorous groundwork in the field and the discussion centred on how they would build credit-risk depth. Our deciding question was whether the founders treated risk as theirs. Here they did. In the discussion, one partner asked whether the thesis stretched to rural credit; the group agreed the founder behaviour mattered more than the sector label."
+        },
+        {
+          "memo": 12,
+          "company": "Prepnest",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.55,
+          "stated": 5.65,
+          "coverage": 0.85,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "The founder is likeable and talented, and the audience was real. We passed because the product is the teacher, and the data did not show it travelling beyond her. Defensibility was weak and she did not seem to want to examine that. A founder who gets defensive on the questions that matter is a signal in itself."
+        }
+      ]
+    },
+    "no_founder": {
+      "n": 12,
+      "agreement": 6,
+      "agreement_rate": 0.5,
+      "agreement_ci95": [
+        0.25,
+        0.75
+      ],
+      "stated_lens_agreement": 7,
+      "stated_lens_rate": 0.58,
+      "missed_investments": [
+        "The ePlane Company",
+        "Unbox Robotics",
+        "Wint Wealth",
+        "Giva",
+        "SuperK",
+        "Jai Kisan"
+      ],
+      "investments_marked_pass": [
+        "The ePlane Company",
+        "Unbox Robotics",
+        "Wint Wealth",
+        "Giva",
+        "SuperK",
+        "Jai Kisan"
+      ],
+      "would_have_advanced_passes": [],
+      "mean_revealed_invested": 3.53,
+      "mean_revealed_passed": 2.62,
+      "mean_stated_invested": 5.51,
+      "mean_stated_passed": 4.58,
+      "rows": [
+        {
+          "memo": 1,
+          "company": "The ePlane Company",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 2.4,
+          "stated": 6.4,
+          "coverage": 0.5,
+          "agree": false,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "We were not underwriting the market size in the deck. We were underwriting two people who had stayed with a hard problem for years and who answered 'what would make you quit?' with a specific technical milestone rather than a platitude. The thesis fit is deeptech at the earliest stage, where the founder is most of the investment. We accepted that this is a long-duration bet and sized the cheque so a slow regulatory path does not force a bad financing."
+        },
+        {
+          "memo": 2,
+          "company": "Petalry",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.85,
+          "stated": 4.8,
+          "coverage": 0.8,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "A real brand with real orders, which is why it reached a call. We passed for two linked reasons. The numbers showed growth being bought rather than earned, and the founder could not tell us the repeat rate. The second reason matters more: consumer-brand investing at our stage turns on whether the founder instinctively thinks in cohorts and margins, and in this call she did not. If she returns with six months of cohort data and an operations co-founder, we would look again."
+        },
+        {
+          "memo": 3,
+          "company": "Unbox Robotics",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 4.1,
+          "stated": 5.65,
+          "coverage": 0.45,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is deeptech with a nearer path to revenue than most. A concrete customer pain (sorting cost and accuracy), a product already in live sites, and founders who treated pilots as learning, not marketing. We were comfortable that the pilot-conversion risk was the right risk to be carrying at this stage."
+        },
+        {
+          "memo": 4,
+          "company": "HopBox",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.9,
+          "stated": 4.35,
+          "coverage": 0.72,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Works on a pre-seed cheque",
+          "fund_reason": "Good operators, wrong game for a pre-seed fund. The model only works with far more capital than we deploy, and we did not want to be the small cheque that gets diluted or squeezed once larger funds set the terms. The founders were strong; this was a pass on structure, not on people. We told them so and said we would reconsider if they found a dense, narrower niche with positive contribution margin."
+        },
+        {
+          "memo": 5,
+          "company": "Wint Wealth",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 4.25,
+          "stated": 5.45,
+          "coverage": 0.42,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech with a real pain point (retail investors cannot easily buy quality bonds) and a founder doing unscalable things in the right order. Founder-market fit was the deciding factor, along with how clearly he understood that trust, not technology, was the bottleneck."
+        },
+        {
+          "memo": 6,
+          "company": "CampusCredit",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 3.1,
+          "stated": 4.45,
+          "coverage": 0.4,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Fintech is core to our thesis, but this one fails on the founder question. The product itself was reasonable. A team that does not own risk will find out the cost of that the expensive way, and with someone else's money. We encouraged them to hire a credit lead before raising and offered an introduction to a risk operator."
+        },
+        {
+          "memo": 7,
+          "company": "Giva",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 3.2,
+          "stated": 5.4,
+          "coverage": 0.35,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Our D2C passes usually fail on repeat rate. This one passed the test we apply to every brand: the founder could tell us cohort repeat behaviour and gross margin without looking at notes. A consumer-brand cheque at pre-seed is only defensible when the founder thinks like an operator, and this one did."
+        },
+        {
+          "memo": 8,
+          "company": "AeroDrop",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.4,
+          "stated": 5.7,
+          "coverage": 0.62,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Credible path to market",
+          "fund_reason": "We like deeptech, and she is a high-quality technologist. We passed because the file had no customer, no path through the regulator and no answer on liability, and the founder treated all three as secondary. In the ePlane case the regulatory path was equally long, but the founders had a clear view of it and a concrete milestone sequence. Here there was none. We would reconsider with a signed pilot customer and a regulator-facing plan."
+        },
+        {
+          "memo": 9,
+          "company": "SuperK",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 4.4,
+          "stated": 5.3,
+          "coverage": 0.45,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "Founder behaviour decided it. They had visited dozens of stores and could describe what the owners wanted: working capital, price support, a branded look, not 'technology'. A franchise-style model with real field execution is hard to copy. We saw the risk, but it was the right sort of risk for a founder pair that was already on the ground."
+        },
+        {
+          "memo": 10,
+          "company": "Coinlane",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.3,
+          "stated": 3.6,
+          "coverage": 0.55,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [
+            "G2"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is outside the areas we back, and no founder quality could change that. Our decision was about the category, not the people: a business whose existence depends on a favourable regulatory change is not one we want to underwrite at pre-seed. We declined quickly and said why."
+        },
+        {
+          "memo": 11,
+          "company": "Jai Kisan",
+          "fund": "INVESTED",
+          "system": "PASS",
+          "revealed": 2.85,
+          "stated": 4.85,
+          "coverage": 0.17,
+          "agree": false,
+          "stated_agree": false,
+          "gates": [
+            "G3"
+          ],
+          "weakest": "Founders own the defining risk",
+          "fund_reason": "This is the harder cousin of the student-credit pass. Like CampusCredit, it is a lending business, but these founders had done the unglamorous groundwork in the field and the discussion centred on how they would build credit-risk depth. Our deciding question was whether the founders treated risk as theirs. Here they did. In the discussion, one partner asked whether the thesis stretched to rural credit; the group agreed the founder behaviour mattered more than the sector label."
+        },
+        {
+          "memo": 12,
+          "company": "Prepnest",
+          "fund": "PASSED",
+          "system": "PASS",
+          "revealed": 2.15,
+          "stated": 4.6,
+          "coverage": 0.7,
+          "agree": true,
+          "stated_agree": true,
+          "gates": [],
+          "weakest": "Earned traction on the metric that matters",
+          "fund_reason": "The founder is likeable and talented, and the audience was real. We passed because the product is the teacher, and the data did not show it travelling beyond her. Defensibility was weak and she did not seem to want to examine that. A founder who gets defensive on the questions that matter is a signal in itself."
+        }
+      ]
+    }
+  },
+  "auc": {
+    "full": {
+      "revealed": 1.0,
+      "stated": 0.972
+    },
+    "no_founder": {
+      "revealed": 0.833,
+      "stated": 0.861
+    }
+  },
+  "adjudication": {
+    "written_by": "Claude Code session, after reading the system's score cards against the withheld 'Why we...' paragraphs and the partner notes",
+    "summary": "Each disagreement was checked against the paragraph the scorer never saw. In all four cases the system was wrong, and the fund was not. The errors are all on the cautious side: on full memos the system never put a company the fund passed on in front of a partner, but it under-calls companies the fund backed for founder behaviour despite thin numbers. Three of the four are calibration misses: correctly ranked above every pass, but under the 6.0 take-call bar set before the backtest. The fourth (ePlane) is a gap in the revealed thesis, which has no way to express 'pre-revenue deeptech where the founders are the investment'. On the drift question: read from the fund's actual public statements (founder-market fit, earned secrets, love of the problem), the stated thesis separates the past decisions almost as well as the revealed one (AUC 0.97 vs 1.00). Its one miss is AeroDrop, where it rewards pedigree and ambition, which is the same mistake Kushal corrected in Riya's 7.5. So the evidence leans toward Aditya ('the thesis is stable'), with one real difference: in practice the fund discounts credentials and ambition, and the public wording does not say so.",
+    "cases": [
+      {
+        "company": "The ePlane Company",
+        "fund": "INVESTED",
+        "system": "PASS under the pre-registered rule; SCREEN_FIRST under rule v2",
+        "verdict": "System wrong (thesis gap)",
+        "reasoning": "The fund said it was 'not underwriting the market size' but two founders who stayed with a hard problem and answered 'what would make you quit?' with a technical milestone. The revealed lens scores traction (R3), path to market (R4) and capital fit (R5) as if every company should have them; pre-revenue deeptech structurally cannot, and the fund knowingly sizes the cheque for a slow path. The milestone answer that decided it sits only in the withheld paragraph, so the scorer never saw the deciding evidence. Fix: for deeptech, the deciding metric is the milestone sequence (already in sector_key_metrics), and a missing one should be asked for on a call, not counted as a pass. Rule v2 stops this becoming a pass."
+      },
+      {
+        "company": "Wint Wealth",
+        "fund": "INVESTED",
+        "system": "SCREEN_FIRST (5.9)",
+        "verdict": "System wrong (calibration)",
+        "reasoning": "It scored the deciding behaviour at the top of the scale (R2 = 5, doing unscalable things with customers) and correctly flagged thin volumes and no scale mechanism, which are the same concerns the memo lists. The fund invested anyway because 'founder-market fit was the deciding factor'. The system's ordering is right, but its take-call bar weights early traction more heavily than the fund does. With rule v2, 'screen first' means Riya runs a short screen, and the founder behaviour it already rewards would very likely get it to a partner."
+      },
+      {
+        "company": "SuperK",
+        "fund": "INVESTED",
+        "system": "SCREEN_FIRST (5.85)",
+        "verdict": "System wrong (calibration)",
+        "reasoning": "R2 = 4.5 for months in small-town stores, and R6 = 3.5 for field execution that is hard to copy: the same two reasons as the memo. It held back on R3 (no same-store data), which the memo also notes ('limited data on same-store sales growth') and the fund accepted. Same lesson as Wint Wealth: the fund trades thin early numbers for proven customer-first behaviour more readily than a 6.0 bar does."
+      },
+      {
+        "company": "Jai Kisan",
+        "fund": "INVESTED",
+        "system": "SCREEN_FIRST (5.95)",
+        "verdict": "System wrong (calibration), and partly the same unease the partners had",
+        "reasoning": "It credited the groundwork (R2 = 4.5) and flagged credit-risk depth as not yet built, which is Aditya's 'rural credit is a graveyard' concern; the fund resolved that with a credit-hire condition. It also raised G3 (sector-label stretch), which Riya raised in Meeting 2. The partners decided the founder behaviour outweighed the label; the system cannot weigh that without the call."
+      },
+      {
+        "company": "Prepnest (agreement, reviewed because Kushal is uneasy)",
+        "fund": "PASSED",
+        "system": "PASS (2.55)",
+        "verdict": "Fund not shown wrong on the evidence it had",
+        "reasoning": "A similar-format competitor doing well later does not change Prepnest's own file: no 30/90-day retention, the product was the teacher, and the founder was defensive on defensibility. The system reached the same answer from the same evidence. Without the founder read (no-founder variant) it routes Prepnest to 'screen first', which is the right posture for a re-look: ask for retention cohorts."
+      },
+      {
+        "company": "All 12 without the founder assessment (no-founder variant)",
+        "fund": "6 invested / 6 passed",
+        "system": "Under the pre-registered rule, all 6 investments marked PASS; under rule v2, none marked PASS (they go to SCREEN_FIRST)",
+        "verdict": "System cannot see what decides these deals",
+        "reasoning": "With only 'what it does' and the risks, revealed-lens separation falls from AUC 1.00 to 0.83 and every investment drops below the take-call bar. This shows how much of All In Capital's decision lives in the call. It is the main reason the system must never auto-reject, and why its job on an application is to rank, name gaps and write the call questions."
+      }
+    ],
+    "leakage_and_limits": [
+      "In-sample: the revealed lens was reconstructed from these same 12 memos, so its agreement is an upper bound.",
+      "Partner founder assessments carry verdict language (e.g. CampusCredit 'That answer decided it'), so the full variant is easier than a real application.",
+      "Gate rules in the thesis name Coinlane (G2) and Jai Kisan (G3) as examples; the scorer flagged this.",
+      "Six of the twelve are real, well-known companies the scorer may recognise, even though it was told to ignore outside knowledge.",
+      "n = 12: the 95% interval on 8/12 runs from 39% to 86%."
+    ]
+  }
+}

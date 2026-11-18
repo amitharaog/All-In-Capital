@@ -1,0 +1,254 @@
+{
+  "slug": "eplanecompany",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "The defining risk is certification; the file notes timelines are outside the founders' control and neither has shipped a certified aircraft, but does not record whether the founders own a certification plan or delegate it.",
+      "evidence": [
+        {
+          "text": "Regulation and certification timelines are long and outside the founders' control.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Neither has shipped a certified aircraft.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "The company grew out of a research lab; no customer conversations, pilots or buyers are described, and market sizing was aspirational.",
+      "evidence": [
+        {
+          "text": "Grown out of a combustion research lab.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Market sizing in the deck was aspirational rather than evidenced.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Deciding deeptech metrics (milestone sequence to commercial use, signed pilot or LOI) are absent from the file. Scored as missing value.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "No paying customer, certification timeline long and outside founder control, first revenue far away, market size asserted.",
+      "evidence": [
+        {
+          "text": "Certification timelines long; first revenue far away; market sizing aspirational.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "Capital intensity is high and first revenue is far off; a pre-seed cheque risks being the small cheque diluted when larger funds set terms.",
+      "evidence": [
+        {
+          "text": "Capital intensity is high and the first revenue is far away.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Years of research-grade aerospace work and a two-person team where technical authority does not rest on the storyteller suggest technology depth that is hard to copy; not yet tested at manufacturing scale.",
+      "evidence": [
+        {
+          "text": "Both have stayed with the problem for years; Chakravarthy is the one people defer to on technical questions.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Neither has run a large manufacturing organisation.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "eVTOL and UAVs are squarely deeptech.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (aerial mobility).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round for a company founded in 2016; whether the fund can lead at its cheque size is unclear from the file.",
+      "evidence": [
+        {
+          "text": "Stage: Early round.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded 2016.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Complementary technical/commercial pair who have stayed with the problem for years - the long commitment the stated lens asks for. IIT Madras incubation is pedigree and capped; held back by no certified aircraft or manufacturing experience.",
+      "evidence": [
+        {
+          "text": "Deep technical credibility on one side, a commercial operator on the other; both have stayed with the problem for years rather than chasing a trend.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Neither has shipped a certified aircraft or run a large manufacturing organisation.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Intracity electric aerial mobility from India is non-consensus and highly ambitious, pursued for years rather than as a trend.",
+      "evidence": [
+        {
+          "text": "eVTOL aircraft and UAVs for short-range intracity travel.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Stayed with the problem for years rather than chasing a trend.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Depends on long certification timelines rather than a rule change; the UAV line may offer a nearer path. Not triggered, but the certification dependency should be tested on the call.",
+      "source_ids": [
+        "M2",
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely deeptech.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Complementary founding pair with years on the problem (S3).",
+    "Ambitious, non-consensus deeptech in a focus sector (S1, S4).",
+    "Technology depth that is hard to copy (R6)."
+  ],
+  "case_against": [
+    "Certification timeline long and outside founders' control; no certified aircraft shipped (R1, R4).",
+    "High capital intensity and distant first revenue - a poor fit for a pre-seed cheque (R5).",
+    "No customer, pilot or LOI; market sizing aspirational (R2, R3)."
+  ],
+  "call_questions": [
+    "Lay out the milestone sequence from today to first certified commercial flight, with dates and the capital each step needs.",
+    "What can you sell before certification (UAVs, cargo, defence), and to whom - any LOIs?",
+    "How much total capital to first revenue, and how does a cheque our size survive the rounds in between?",
+    "Who on the team has taken an aircraft through certification, or who will you hire?",
+    "The market sizing in your deck looked aspirational to us - defend it with evidence, or tell us what number you'd actually stand behind."
+  ],
+  "what_would_change_our_view": "A dated certification milestone plan owned by the founders, a nearer-term product with a signed customer, and a capital plan showing how an early cheque avoids being diluted before first revenue.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

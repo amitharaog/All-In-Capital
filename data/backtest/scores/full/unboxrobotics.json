@@ -1,0 +1,261 @@
+{
+  "slug": "unboxrobotics",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "For deeptech the defining risk is getting from pilot to commercial rollout; the founders described pilot failures unprompted, which signals ownership, though pilot-to-rollout conversion is still uncertain and no plan is in the file.",
+      "evidence": [
+        {
+          "text": "Talked about specific customer sites and what broke during pilots; described failures before we asked.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Pilot-to-rollout conversion uncertain.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Specific customer sites, pilots, and what broke - the high anchor nearly verbatim.",
+      "evidence": [
+        {
+          "text": "Both talked about specific customer sites and what broke during pilots.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Pilots at customer sites exist (the deeptech deciding metric), but no pilot results or signed rollout numbers are given.",
+      "evidence": [
+        {
+          "text": "Specific customer sites and pilots.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Pilot-to-rollout conversion uncertain.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Customers (e-commerce and logistics warehouses) are identified and piloting; long enterprise sales cycles and a CEO still learning procurement stand in the way.",
+      "evidence": [
+        {
+          "text": "Robotic sorting for e-commerce and logistics warehouses.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Long enterprise sales cycles; CEO still learning to sell to large enterprise procurement teams.",
+          "source_ids": [
+            "M3",
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Hardware with unproven margin structure and long sales cycles needs significant capital; compact systems may lower per-site capex.",
+      "evidence": [
+        {
+          "text": "Hardware margin structure unproven at scale; long enterprise sales cycles.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Hardware plus AI with a clear CEO/CTO split is not founder-personal, but better-funded global competitors exist and Pune hardware hiring is unproven.",
+      "evidence": [
+        {
+          "text": "One builds the company, the other builds the machine.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Several better-funded global competitors.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "Warehouse robotics is squarely deeptech.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (warehouse robotics).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round, introduced by a co-investor - the fund would likely co-lead or follow rather than lead.",
+      "evidence": [
+        {
+          "text": "Stage: Early round; source: warm intro, co-investor.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Complementary CEO/CTO who have built and deployed the machine at customer sites and speak from that experience rather than the deck; the gap is enterprise selling.",
+      "evidence": [
+        {
+          "text": "Clean split; little reliance on the deck; specific customer sites and what broke during pilots.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "CEO still learning to sell to large enterprise procurement teams.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Compact sorting robots built in India compete in a global market; non-consensus vs better-funded global players, but explicit global ambition is not stated.",
+      "evidence": [
+        {
+          "text": "Compact, AI-assisted robotic package-sorting systems.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Several better-funded global competitors.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely deeptech.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Went to the customer first: specific pilot sites and what broke, volunteered unprompted (R2, R1).",
+    "Complementary CEO/CTO who build from real deployments (S3).",
+    "Deeptech in a focus sector with a global market (S1, S4)."
+  ],
+  "case_against": [
+    "Pilot-to-rollout conversion unproven; no pilot numbers in the file (R3).",
+    "Long enterprise sales cycles and a CEO still learning procurement (R4).",
+    "Hardware margins unproven; better-funded global competitors (R5, R6).",
+    "Co-investor-led early round - the fund may not lead (S2)."
+  ],
+  "call_questions": [
+    "For each pilot site: throughput vs target, uptime, and whether it has converted to a paid rollout.",
+    "What is hardware gross margin per unit today, and at 50 units?",
+    "How long from first meeting to signed PO with an enterprise customer so far?",
+    "Who leads the round and what is our role in it?",
+    "Tell us about the pilot that went worst - what did the customer say, and would they buy today?"
+  ],
+  "what_would_change_our_view": "At least one pilot converted to a paid multi-unit rollout with hardware margin data, and a round the fund can lead or co-lead.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

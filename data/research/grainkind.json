@@ -1,0 +1,656 @@
+{
+  "company": "GrainKind",
+  "slug": "grainkind",
+  "one_liner": "Taste-first millet-based breakfast cereals and snacks for urban families, sold on its own site, Amazon and quick commerce.",
+  "sector": "consumer_brand",
+  "sub_sector": "Better-for-you packaged food (millet breakfast and snacks), D2C plus marketplaces",
+  "stage": "Pre-seed",
+  "ask": "INR 2.5 Cr at INR 14 Cr post-money",
+  "business_model": "Sells seven millet SKUs (made by one co-packer) direct and via Amazon and quick commerce; 48% gross margin, 11% contribution after CAC and logistics.",
+  "founders": [
+    {
+      "name": "Ritu Hegde",
+      "role": "CEO",
+      "background_claimed": "6 years in category and brand roles at a large packaged-food company; food science training/degree.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D10",
+        "F14",
+        "F2"
+      ]
+    },
+    {
+      "name": "Sanjay Kulkarni",
+      "role": "COO",
+      "background_claimed": "5 years in supply chain at a quick-commerce company; runs sourcing and the co-packer.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D11",
+        "F3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "90-day repeat rate by cohort: 31% (June), 34% (July), 38% (August), from cohort data covering 3,100 customers.",
+      "source_ids": [
+        "F5",
+        "D4",
+        "D5"
+      ],
+      "status": "founder_stated",
+      "note": "The deck shows only the best cohort (August, 38%); the form gives the full trend. The August cohort's 90-day window cannot be complete for customers acquired late in August if the data is as of October 2026, so 38% may be partial."
+    },
+    {
+      "text": "Repeat trend is improving and above a founder-reported peer benchmark: Wild Date reports ~37% 90-day repeat, and the same page calls >30% within 90 days strong for a D2C food brand.",
+      "source_ids": [
+        "F5",
+        "W1",
+        "W2"
+      ],
+      "status": "founder_stated",
+      "note": "Benchmark is anecdotal (one founder interview plus an unattributed FAQ line), not audited category data. GrainKind's 12-month target is 45% (D13)."
+    },
+    {
+      "text": "October 2026 revenue INR 16.5 L; INR 72 L cumulative since launch in November 2025; monthly revenue grew 4.8 -> 7.1 -> 10.2 -> 13.0 -> 16.5 (INR L) June to October.",
+      "source_ids": [
+        "D3",
+        "F4"
+      ],
+      "status": "founder_stated",
+      "note": "Consistent: June-October sums to INR 51.6 L, leaving INR 20.4 L for November-May."
+    },
+    {
+      "text": "Gross margin 48% after COGS and packaging; blended CAC INR 340; contribution after CAC and logistics 11%; 12-month LTV:CAC about 1.8x.",
+      "source_ids": [
+        "F6",
+        "F7",
+        "D9"
+      ],
+      "status": "founder_stated",
+      "note": "LTV:CAC 1.8x is thin for a brand and partly extrapolated (oldest cohorts are under 12 months old)."
+    },
+    {
+      "text": "First order does not pay back acquisition: average first order INR 540 at 48% gross margin is ~INR 259 gross profit against INR 340 blended CAC (INR 410 on paid social). June cohort averages 2.4 orders in 5 months.",
+      "source_ids": [
+        "D6",
+        "D7",
+        "F6",
+        "D8"
+      ],
+      "status": "founder_stated",
+      "note": "Derived from the founders' numbers. Payback depends on repeat holding."
+    },
+    {
+      "text": "About 70% of new customers come through bought channels: paid social 45% (CAC INR 410) and quick commerce 25% (INR 290 after promos); nutritionist referrals 20% (INR 210), gyms and sampling 10% (INR 380).",
+      "source_ids": [
+        "F8",
+        "F17",
+        "D8"
+      ],
+      "status": "founder_stated",
+      "note": "Echoes the Petalry precedent (C001: paid social ~2/3 of orders). Here, unlike Petalry, cohort repeat data is provided. Nutritionist referral is the cheapest channel but only 20%."
+    },
+    {
+      "text": "Revenue mix: own site 55%, Amazon 25%, quick commerce 20%.",
+      "source_ids": [
+        "D17"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Seven products; three hero SKUs (Ragi choco crunch, Millet muesli, Jowar puffs) account for 87% of orders.",
+      "source_ids": [
+        "F10"
+      ],
+      "status": "founder_stated",
+      "note": "Founders flag slower repeat on Jowar puffs, the quick-commerce favourite (F9)."
+    },
+    {
+      "text": "All products made by a single co-packer in Hosur; founders list single co-packer, rising paid-social costs and slower Jowar puffs repeat as key risks.",
+      "source_ids": [
+        "D12",
+        "F9"
+      ],
+      "status": "founder_stated",
+      "note": "Founders name their risks unprompted (R1-positive) and offer the co-packer agreement (F13)."
+    },
+    {
+      "text": "Priced at INR 62 per 100 g versus INR 45 for large cereal brands and INR 70 for other millet brands (founders' comparison).",
+      "source_ids": [
+        "D15"
+      ],
+      "status": "founder_stated",
+      "note": "Prices of comparators not verified."
+    },
+    {
+      "text": "Founder background differs slightly between documents: deck says Ritu Hegde is 'trained in food science'; form says 'Food science degree'.",
+      "source_ids": [
+        "D10",
+        "F14"
+      ],
+      "status": "founder_stated",
+      "note": "Minor wording difference rather than a contradiction; confirm the qualification."
+    },
+    {
+      "text": "Founders: Ritu Hegde (CEO) claims 6 years in category/brand roles at a large packaged-food company; Sanjay Kulkarni (COO) claims 5 years in supply chain at a quick-commerce company. First-time founders, full-time since July 2025, team of 9.",
+      "source_ids": [
+        "D10",
+        "D11",
+        "D12",
+        "F15"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founder LinkedIn links are placeholders (*-example) and the website is a .example domain; no independent footprint for founders or brand found.",
+      "source_ids": [
+        "F2",
+        "F3",
+        "F1"
+      ],
+      "status": "unverifiable"
+    },
+    {
+      "text": "Founders surveyed 420 urban parents (July 2025) before launch.",
+      "source_ids": [
+        "D2"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Tata Consumer acquired 100% of Kottaram Agro Foods (Soulfull), a millet-based breakfast brand for kids and adults, in 2021.",
+      "source_ids": [
+        "W3",
+        "W4"
+      ],
+      "status": "verified",
+      "note": "Direct category competitor (Soulfull Ragi Bites overlaps with Ragi choco crunch) backed by Tata distribution."
+    },
+    {
+      "text": "Wholsum Foods (Slurrp Farm), a millet-led brand, reported FY25 revenue of Rs 97.5 crore (+33% YoY) and a net loss of Rs 32.67 crore.",
+      "source_ids": [
+        "W5",
+        "W6"
+      ],
+      "status": "verified",
+      "note": "Benchmark: the scaled millet D2C peer is still loss-making at ~Rs 100 Cr revenue."
+    },
+    {
+      "text": "ITC completed its acquisition of 100% of Yoga Bar (Sproutlife Foods) in September 2026.",
+      "source_ids": [
+        "W8"
+      ],
+      "status": "verified",
+      "note": "Large FMCG companies are consolidating the better-for-you snack/breakfast shelf - both competition and a possible exit route."
+    },
+    {
+      "text": "The Indian healthy-snack shelf is described as increasingly crowded (Slurrp Farm, Early Foods, The Whole Truth, Farmley, Happilo named).",
+      "source_ids": [
+        "W7"
+      ],
+      "status": "verified"
+    },
+    {
+      "text": "12-month targets: INR 40 L monthly revenue, 90-day repeat at 45%, contribution margin 15%; 40% of the raise goes to inventory and working capital.",
+      "source_ids": [
+        "D13",
+        "D14"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Market sizing: INR 2,400 annual household spend is the founders' estimate from order data and a parent survey.",
+      "source_ids": [
+        "D16"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Sector as selected (Consumer brands) matches the business: a packaged millet food brand.",
+      "source_ids": [
+        "F16",
+        "D1"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Raising INR 2.5 Cr at INR 14 Cr post-money; three food/retail angels have invested INR 45 L.",
+      "source_ids": [
+        "F11",
+        "F12"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founders offer to share the cohort sheet and the co-packer agreement.",
+      "source_ids": [
+        "F13"
+      ],
+      "status": "founder_stated"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Ritu Hegde (CEO): no public footprint confirming the packaged-food category/brand roles or food-science qualification.",
+      "why_it_matters": "Category-management experience is the main founder-market-fit claim.",
+      "searched": [
+        "WebSearch: \"Ritu Hegde\" GrainKind millet Bengaluru (2026-11-18) - no match; results were other millet brands",
+        "Application LinkedIn link linkedin.com/in/ritu- hegde-example is a placeholder"
+      ],
+      "ask_founder": "Which company and categories did you manage, and what is your food-science qualification?",
+      "blocks_criteria": [
+        "S3"
+      ]
+    },
+    {
+      "what": "Sanjay Kulkarni (COO): no public footprint confirming supply-chain work at a quick-commerce company.",
+      "why_it_matters": "He runs sourcing and the single co-packer, the main operational risk.",
+      "searched": [
+        "WebSearch: \"Sanjay Kulkarni\" GrainKind COO Bengaluru (2026-11-18) - no match",
+        "Application LinkedIn link linkedin.com/in/sanjay-kulkarni-example is a placeholder"
+      ],
+      "ask_founder": "Which quick-commerce company and what scope did you own?",
+      "blocks_criteria": [
+        "S3"
+      ]
+    },
+    {
+      "what": "Brand existence: no website, marketplace listing, FSSAI licence or MCA record found for GrainKind.",
+      "why_it_matters": "Basic verification that the products are on Amazon/quick commerce as claimed.",
+      "searched": [
+        "WebSearch: GrainKind millet ragi choco crunch brand (2026-11-18) - only Soulfull, Slurrp Farm and other brands returned",
+        "Website www.grainkind.example is a placeholder",
+        "FSSAI and MCA portals not queried"
+      ],
+      "ask_founder": "Share Amazon ASINs / quick-commerce listings, FSSAI licence number and CIN.",
+      "blocks_criteria": [
+        "R4"
+      ]
+    },
+    {
+      "what": "Repeat by channel and by SKU, and repeat net of discounts.",
+      "why_it_matters": "Repeat rate is the deciding metric for a brand; a blended 38% can hide weak repeat in paid-social or quick-commerce cohorts.",
+      "searched": [
+        "Deck slides 5-8",
+        "Form Repeat behaviour"
+      ],
+      "ask_founder": "What is 90-day repeat for paid-social-acquired vs nutritionist-referred customers, and for Jowar puffs vs Ragi choco crunch?",
+      "blocks_criteria": [
+        "R3",
+        "R1"
+      ]
+    },
+    {
+      "what": "Return/complaint rate and Amazon/quick-commerce ratings.",
+      "why_it_matters": "Return rate is a listed key metric for brands; nothing in the application.",
+      "searched": [
+        "Deck and form - not mentioned"
+      ],
+      "ask_founder": "What are your return/refund rate and average marketplace rating?",
+      "blocks_criteria": [
+        "R3"
+      ]
+    },
+    {
+      "what": "Contribution margin by channel (own site vs Amazon vs quick commerce after commissions and promos).",
+      "why_it_matters": "45% of revenue is on marketplaces/quick commerce where take rates are high; blended 11% contribution may hide negative channels.",
+      "searched": [
+        "Deck slide 6 and 8",
+        "Form Unit economics"
+      ],
+      "ask_founder": "What is contribution after CAC and logistics separately for own site, Amazon and quick commerce?",
+      "blocks_criteria": [
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "what": "Co-packer dependency: contract terms, capacity, exclusivity and a second-source plan.",
+      "why_it_matters": "All seven products come from one co-packer in Hosur; supply interruption would stop revenue.",
+      "searched": [
+        "Deck slide 10",
+        "Form Key risks"
+      ],
+      "ask_founder": "What capacity headroom does the co-packer have, and when will a second co-packer be qualified?",
+      "blocks_criteria": [
+        "R1",
+        "R4"
+      ]
+    }
+  ],
+  "competitors_named": [
+    "Large cereal brands (unnamed)",
+    "Other millet brands (unnamed)"
+  ],
+  "competitors_found": [
+    "Tata Soulfull",
+    "Slurrp Farm / Wholsum Foods",
+    "Yoga Bar (ITC)",
+    "Early Foods",
+    "The Whole Truth",
+    "Farmley",
+    "Happilo"
+  ],
+  "keywords": [
+    "millet",
+    "breakfast cereal",
+    "healthy snacks",
+    "kids snacks",
+    "muesli",
+    "ragi",
+    "packaged food",
+    "D2C food brand",
+    "quick commerce",
+    "better-for-you"
+  ],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "D1",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 1 (title)",
+      "quote": "Millet-based breakfast and snacks for urban families"
+    },
+    {
+      "id": "D2",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 3 (problem)",
+      "quote": "Survey of 420 urban parents, July 2025."
+    },
+    {
+      "id": "D3",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "INR 16.5 L October revenue"
+    },
+    {
+      "id": "D4",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "38% 90-day repeat, August cohort"
+    },
+    {
+      "id": "D5",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "3,100 customers in cohort data"
+    },
+    {
+      "id": "D6",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 6 (unit economics table; row value INR 540)",
+      "quote": "Average first order value"
+    },
+    {
+      "id": "D7",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 6 (unit economics table; row value 2.4)",
+      "quote": "Orders per customer, June cohort (5 months)"
+    },
+    {
+      "id": "D8",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (GTM)",
+      "quote": "CAC by channel: paid social INR 410, nutritionists INR 210, quick commerce INR 290 after promos, sampling INR 380."
+    },
+    {
+      "id": "D9",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (GTM)",
+      "quote": "1.8x 12-month LTV to CAC"
+    },
+    {
+      "id": "D10",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (team)",
+      "quote": "6 years in category and brand roles at a large packaged-food company. Trained in food science."
+    },
+    {
+      "id": "D11",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (team)",
+      "quote": "5 years in supply chain at a quick-commerce company. Runs sourcing and the co-packer."
+    },
+    {
+      "id": "D12",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (team)",
+      "quote": "First-time founders. Team of 9. All products made by one co-packer in Hosur."
+    },
+    {
+      "id": "D13",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 11 (ask)",
+      "quote": "In 12 months: INR 40 L monthly revenue, 90-day repeat at 45%, contribution margin at 15%."
+    },
+    {
+      "id": "D14",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 11 (ask)",
+      "quote": "40% Inventory and working capital"
+    },
+    {
+      "id": "D15",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (differentiation table; GrainKind INR 62, large cereal brands INR 45, other millet brands INR 70)",
+      "quote": "Price per 100 g"
+    },
+    {
+      "id": "D16",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (market size)",
+      "quote": "INR 2,400 is our estimate from order data and a parent survey."
+    },
+    {
+      "id": "D17",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (GTM)",
+      "quote": "Revenue mix: own site 55%, Amazon 25%, quick commerce 20%."
+    },
+    {
+      "id": "F1",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Website",
+      "quote": "www.grainkind.example"
+    },
+    {
+      "id": "F2",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "linkedin.com/in/ritu- hegde-example"
+    },
+    {
+      "id": "F3",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 2",
+      "quote": "linkedin.com/in/sanjay-kulkarni-example"
+    },
+    {
+      "id": "F4",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Revenue",
+      "quote": "INR 16.5 L in October 2026. INR 72 L since launch in November 2025."
+    },
+    {
+      "id": "F5",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Repeat behaviour",
+      "quote": "90-day repeat rate was 31% (June cohort), 34% (July) and 38% (August). Cohort data covers 3,100 customers."
+    },
+    {
+      "id": "F6",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Unit economics",
+      "quote": "Gross margin 48% after COGS and packaging. Blended CAC INR 340. Contribution after CAC and logistics is 11%."
+    },
+    {
+      "id": "F7",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Unit economics",
+      "quote": "12-month LTV to CAC is about 1.8x on current data."
+    },
+    {
+      "id": "F8",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customer acquisition",
+      "quote": "Paid social 45% of new customers (CAC INR 410)"
+    },
+    {
+      "id": "F9",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Key risks",
+      "quote": "Single co-packer, rising paid social costs, and slower repeat on Jowar puffs."
+    },
+    {
+      "id": "F10",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > What have you built?",
+      "quote": "Seven millet-based products. Three hero SKUs account for 87% of orders."
+    },
+    {
+      "id": "F11",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Valuation expectation",
+      "quote": "INR 14 Cr post-money"
+    },
+    {
+      "id": "F12",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Existing investors",
+      "quote": "Three angels from the food and retail industry, INR 45 L in total."
+    },
+    {
+      "id": "F13",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Anything else",
+      "quote": "We can share our cohort sheet and co-packer agreement on request."
+    },
+    {
+      "id": "F14",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "6 years in category and brand roles at a large packaged-food company. Food science degree."
+    },
+    {
+      "id": "F15",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Time commitment",
+      "quote": "Both full-time since July 2025."
+    },
+    {
+      "id": "F16",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Sector (as selected)",
+      "quote": "Consumer brands"
+    },
+    {
+      "id": "F17",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customer acquisition",
+      "quote": "quick commerce 25% (INR 290 after promos)"
+    },
+    {
+      "id": "W1",
+      "kind": "web",
+      "title": "How to build a clean-label D2C snack brand for India - Wild Date (Fynd podcast page)",
+      "url": "https://www.fynd.com/podcast/how-to-build-clean-label-d2c-snack-brand-for-india-wild-date",
+      "retrieved_on": "2026-11-18",
+      "quote": "Our repeat rate over a 90-day window is around 37%, and over 30 days it is 17% to 18%."
+    },
+    {
+      "id": "W2",
+      "kind": "web",
+      "title": "How to build a clean-label D2C snack brand for India - Wild Date (Fynd) - FAQ benchmark",
+      "url": "https://www.fynd.com/podcast/how-to-build-clean-label-d2c-snack-brand-for-india-wild-date",
+      "retrieved_on": "2026-11-18",
+      "quote": "A strong repeat rate for a D2C food brand is typically above 30% within a 90-day window."
+    },
+    {
+      "id": "W3",
+      "kind": "web",
+      "title": "Tata Consumer Products to acquire Kottaram Agro Foods, owner of the brand 'Soulfull' (Tata Consumer, 2 Feb 2021)",
+      "url": "https://tataconsumer.com/news/tata-consumer-products-acquire-kottaram-agro-foods-owner-brand-soulfull",
+      "retrieved_on": "2026-11-18",
+      "quote": "signed definitive agreements to acquire 100% equity shares of Kottaram Agro Foods (KAF), owner of the brand ‘Soulfull’."
+    },
+    {
+      "id": "W4",
+      "kind": "web",
+      "title": "Tata Consumer acquires Soulfull - product description",
+      "url": "https://tataconsumer.com/news/tata-consumer-products-acquire-kottaram-agro-foods-owner-brand-soulfull",
+      "retrieved_on": "2026-11-18",
+      "quote": "with a portfolio of millet-based products for kids and adults."
+    },
+    {
+      "id": "W5",
+      "kind": "web",
+      "title": "Wholsum Foods (Slurrp Farm) approaches Rs 100 crore revenue in FY25, loss widens 30% (Startuppedia, 20 Feb 2026)",
+      "url": "https://startuppedia.in/trending/startup-news/anushka-sharma-backed-wholsum-foods-parent-company-of-slurrp-farm-approaches-rs-100-crore-revenue-mark-in-fy25-loss-widens-30-11133954",
+      "retrieved_on": "2026-11-18",
+      "quote": "reported 33% year-on-year revenue growth in FY25, reaching Rs 97.5 crore"
+    },
+    {
+      "id": "W6",
+      "kind": "web",
+      "title": "Wholsum Foods (Slurrp Farm) FY25 loss (Startuppedia)",
+      "url": "https://startuppedia.in/trending/startup-news/anushka-sharma-backed-wholsum-foods-parent-company-of-slurrp-farm-approaches-rs-100-crore-revenue-mark-in-fy25-loss-widens-30-11133954",
+      "retrieved_on": "2026-11-18",
+      "quote": "The company reported a net loss of Rs 32.67 crore in FY25"
+    },
+    {
+      "id": "W7",
+      "kind": "web",
+      "title": "Troovy's Rs 100-crore bet on India's crowded healthy-snack shelf (Open Magazine, 27 Oct 2026)",
+      "url": "https://openthemagazine.com/business/troovys-100-crore-bet-on-indias-crowded-healthy-snack-shelf",
+      "retrieved_on": "2026-11-18",
+      "quote": "It is pursuing that ambition on an increasingly crowded shelf."
+    },
+    {
+      "id": "W8",
+      "kind": "web",
+      "title": "ITC completes Yoga Bar acquisition for Rs 645 Cr (Inc42, 29 Sep 2026)",
+      "url": "https://inc42.com/?p=574080",
+      "retrieved_on": "2026-11-18",
+      "quote": "has completed the acquisition of 100% of Sproutlife Foods, the parent of healthy snacking brand Yoga Bar"
+    }
+  ],
+  "research_notes": "Founder and brand searches returned nothing (placeholder links). Repeat-rate benchmarks for Indian D2C food are mostly anecdotal; the cited Wild Date figure is one founder's number. Search snippets also listed Little Joys, Millet Mantra and Monsoon Harvest millet products but those pages were not opened. Comparator prices per 100 g were not verified.",
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+}

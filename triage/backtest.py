@@ -105,9 +105,35 @@ def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
 
 
 def evaluate() -> dict:
-    thesis = load_thesis()
+    """Report under the current routing rules ('variants') and under the rules
+    pre-registered before the backtest was run ('preregistered')."""
+    import copy
+
+    current = load_thesis()
+    v1 = copy.deepcopy(current)
+    v1["routing"]["pass_requires_founder_evidence"] = False
+    out = {"variants": _evaluate(current), "preregistered": _evaluate(v1)}
+    out["auc"] = {v: {lens: _auc(out["variants"][v]["rows"], lens) for lens in ("revealed", "stated")}
+                  for v in out["variants"]}
+    adj = BT / "adjudication.json"
+    if adj.exists():
+        out["adjudication"] = load_json(adj)
+    dump_json(BT / "results.json", out)
+    return out
+
+
+def _auc(rows: list[dict], lens: str) -> float | None:
+    inv = [r[lens] for r in rows if r["fund"] == "INVESTED"]
+    pas = [r[lens] for r in rows if r["fund"] == "PASSED"]
+    if not inv or not pas:
+        return None
+    wins = sum(1.0 if i > p else 0.5 if i == p else 0.0 for i in inv for p in pas)
+    return round(wins / (len(inv) * len(pas)), 3)
+
+
+def _evaluate(thesis: dict) -> dict:
     memos = parse_memos()
-    out = {"variants": {}}
+    out = {}
     for variant in ("full", "no_founder"):
         rows = []
         for m in memos:
@@ -133,11 +159,12 @@ def evaluate() -> dict:
         ks = sum(r["stated_agree"] for r in rows)
         inv = [r for r in rows if r["fund"] == "INVESTED"]
         pas = [r for r in rows if r["fund"] == "PASSED"]
-        out["variants"][variant] = {
+        out[variant] = {
             "n": n,
             "agreement": k, "agreement_rate": round(k / n, 2) if n else None, "agreement_ci95": wilson(k, n),
             "stated_lens_agreement": ks, "stated_lens_rate": round(ks / n, 2) if n else None,
             "missed_investments": [r["company"] for r in inv if not r["agree"]],
+            "investments_marked_pass": [r["company"] for r in inv if r["system"] == "PASS"],
             "would_have_advanced_passes": [r["company"] for r in pas if not r["agree"]],
             "mean_revealed_invested": round(sum(r["revealed"] for r in inv) / len(inv), 2) if inv else None,
             "mean_revealed_passed": round(sum(r["revealed"] for r in pas) / len(pas), 2) if pas else None,
@@ -145,10 +172,6 @@ def evaluate() -> dict:
             "mean_stated_passed": round(sum(r["stated"] for r in pas) / len(pas), 2) if pas else None,
             "rows": rows,
         }
-    adj = BT / "adjudication.json"
-    if adj.exists():
-        out["adjudication"] = load_json(adj)
-    dump_json(BT / "results.json", out)
     return out
 
 

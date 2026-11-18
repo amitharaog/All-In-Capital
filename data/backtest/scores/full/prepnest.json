@@ -1,0 +1,237 @@
+{
+  "slug": "prepnest",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "For consumer tech the defining risk is retention; the founder answered that students return because the content is great and had no 30/90-day numbers.",
+      "evidence": [
+        {
+          "text": "On retention, answer was that students 'keep coming back because the content is great'; no 30- or 90-day numbers.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "The founder knows students as a teacher with a real audience, but no product-specific customer discovery or pilots are described.",
+      "evidence": [
+        {
+          "text": "Former teacher with a popular online following; the audience is real.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Traction is downloads; retention and conversion to paid - the deciding metrics - are not shown.",
+      "evidence": [
+        {
+          "text": "Strong early download numbers.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Retention and conversion to paid not shown.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "No evidence anyone pays; the channel is the founder's following; entrenched, heavily funded players dominate.",
+      "evidence": [
+        {
+          "text": "Retention and conversion to paid not shown; crowded category with entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "A content app can be capital-light, but competing on content against heavily funded players pushes spend up; no ask or milestones given.",
+      "evidence": [
+        {
+          "text": "Crowded category with entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "The product is one teacher's content and audience, and the founder bristled when asked about copycats - both low-anchor signals.",
+      "evidence": [
+        {
+          "text": "Content-led, founder-dependent product hard to scale beyond one teacher.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Bristled at a question about what happens once a larger player copies the format.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Consumer tech (exam prep), a focus sector.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (exam-prep).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed via warm intro; a round the fund can lead.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "Excellent teacher with a real audience and a technical co-founder - genuine knowledge of the learner - but no command of the product metrics that decide the business.",
+      "evidence": [
+        {
+          "text": "Teaching ability excellent, audience real, clearly passionate; technical co-founder.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "No 30- or 90-day retention numbers.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Me-too test-prep app in a crowded category with entrenched, heavily funded players.",
+      "evidence": [
+        {
+          "text": "Crowded category with entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely consumer tech.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Excellent, passionate teacher with a real audience and a technical co-founder (S3).",
+    "Consumer tech at pre-seed (S1, S2)."
+  ],
+  "case_against": [
+    "No retention or conversion data; traction is downloads (R1, R3).",
+    "Product is the founder's teaching and audience; defensive about copycats (R6).",
+    "Crowded category with entrenched, heavily funded players (S4, R4)."
+  ],
+  "call_questions": [
+    "What are your 30- and 90-day retention numbers, and what share of users pay?",
+    "If you stopped posting for a month, what happens to new installs and active users?",
+    "What does the adaptive-practice engine do that a larger player couldn't replicate in a quarter?",
+    "How would you add a second and third teacher without quality dropping?",
+    "Suppose the largest test-prep company copies your format tomorrow - walk us through what you'd do, calmly and specifically."
+  ],
+  "what_would_change_our_view": "Cohort retention and paid conversion numbers, and evidence the product works when someone other than the founder teaches.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

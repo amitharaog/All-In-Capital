@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18.v2",
+  "version": "2026-11-18.v3",
   "note": "Two lenses. 'stated' = what All In Capital says publicly (see data/fund/public_thesis.json for sources). 'revealed' = what the fund's own 12 deal memos and partner notes show it actually rewards. Kushal: 'tell me which one you used and why' -> every verdict shows both, recommendation is driven by 'revealed', and any disagreement between lenses is printed.",
   "scale": "Each criterion 0-5. Weighted to 0-10 per lens. A criterion with no evidence is scored as missing_value (it drags the score, it is never skipped) and lowers coverage.",
   "missing_value": 1.0,
@@ -200,6 +200,16 @@
       "name": "Sector label stretch",
       "rule": "Fits a stated sector only by label (rural credit, 'fintech' that is really lending ops). Not a reject: Jai Kisan precedent - founder behaviour mattered more than the label.",
       "effect": "Flag only."
+    },
+    {
+      "id": "G4",
+      "name": "Outside mandate",
+      "rule": "Round or stage the fund cannot lead at its cheque size: public statements say it leads/co-leads first rounds up to roughly INR 6 Cr with USD 200-600K cheques and is not a fit for revenue-generating companies where large VCs compete (Series A and later).",
+      "effect": "PASS suggested on mandate, not on the company; Kushal still sees it.",
+      "sources": [
+        "https://allincapital.vc/apply_now",
+        "https://inc42.com/features/inside-all-in-capitals-inr-300-cr-bet-on-in"
+      ]
     }
   ],
   "routing": {
@@ -219,6 +229,17 @@
     "default_attendees": [
       "Kushal",
       "Riya"
+    ],
+    "pass_requires_founder_evidence": true,
+    "rule_history": [
+      {
+        "version": "v1 (pre-registered, 2026-11-18, before any results)",
+        "rule": "PASS whenever revealed < 4.5 or G2 fires."
+      },
+      {
+        "version": "v2 (after backtest, 2026-11-18)",
+        "rule": "A score-based PASS also requires R1 (founders own the defining risk) to be evidenced with medium or high confidence; otherwise the application is routed to SCREEN_FIRST. Gate-based passes (G2, G4) are unchanged. Reason: in the blind backtest the only investment marked 'pass' (ePlane) and every investment in the no-founder variant were cases where founder behaviour was not observable. This is the breach response written into the trust contract ('system may not suggest pass' without founder evidence). Thresholds were not retuned."
+      }
     ]
   }
 }

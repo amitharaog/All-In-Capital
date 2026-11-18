@@ -1,0 +1,249 @@
+{
+  "slug": "wintwealth",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "The defining risks are the regulatory perimeter for retail bond distribution and trust; hand-held transactions address trust, but the founders' plan for the evolving regulation is not in the file.",
+      "evidence": [
+        {
+          "text": "Regulatory perimeter for retail bond distribution was evolving.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Trust is slow to build in a category where mistakes cost real money.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "Talked to prospective users directly, explained bonds, arranged transactions by hand and joined intro calls - the high anchor exactly.",
+      "evidence": [
+        {
+          "text": "Talked to prospective users directly, explained bonds, ran a basic lead-generation website and arranged transactions by hand, even joining intro calls.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Early on it was run almost manually.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Real hand-arranged transactions exist, but early volumes were small and no repeat-investment or trust metric is given.",
+      "evidence": [
+        {
+          "text": "Early volumes were small.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Arranged transactions by hand.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "Retail investors are transacting through a working (manual) channel, but the regulatory path for retail debt distribution is unsettled and trust builds slowly.",
+      "evidence": [
+        {
+          "text": "Basic lead-generation website and transactions arranged by hand.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Regulation of retail access to debt products; trust slow to build.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "A manual, distribution-led model is capital-light and can reach the next proof point on a small cheque; it does not hold credit on its balance sheet per the file.",
+      "evidence": [
+        {
+          "text": "Run almost manually with a basic lead-generation website.",
+          "source_ids": [
+            "M2",
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "The early manual model had no obvious scale mechanism; trust built by founders on calls may not travel beyond them yet.",
+      "evidence": [
+        {
+          "text": "The early manual model had no obvious scale mechanism.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "Retail fixed-income investing is squarely fintech.",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (bonds / fixed income).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round; whether it is a first institutional round the fund can lead is unclear.",
+      "evidence": [
+        {
+          "text": "Stage: Early round; source: founder referral.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Earned insight from sitting with customers and explaining bonds by hand is specific founder-market knowledge; the record of building a scalable product is not yet shown.",
+      "evidence": [
+        {
+          "text": "Sat across the table from the customer first; explained bonds and arranged transactions by hand.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Opening the bond market to Indian retail investors is a non-obvious category relative to equity and lending fintech; ambition beyond India not stated.",
+      "evidence": [
+        {
+          "text": "Makes bond-market products accessible to retail investors in India.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "The retail bond distribution perimeter is evolving but the model operates under existing rules; not dependent on a favourable change. Watch item.",
+      "source_ids": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely fintech.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Went to the customer first: explained bonds and arranged transactions by hand (R2).",
+    "Earned insight into how retail investors approach fixed income (S3).",
+    "Capital-light distribution model in a non-obvious fintech category (R5, S4)."
+  ],
+  "case_against": [
+    "Early volumes small; no trust or repeat-investment data (R3).",
+    "Manual model with no obvious scale mechanism (R6).",
+    "Regulatory perimeter for retail bond distribution still evolving; founders' plan not in file (R1, R4)."
+  ],
+  "call_questions": [
+    "What share of first-time investors have invested a second time, and on what timescale?",
+    "Which licences or registrations do you rely on, and what happens if retail bond distribution rules tighten?",
+    "Which parts of what you do by hand will you automate first, and what breaks when you do?",
+    "If an issuer you listed defaults, what happens to your customers and to you?",
+    "Your model looks unscalable today - argue why we're wrong, with the specific mechanism."
+  ],
+  "what_would_change_our_view": "Repeat-investment data from the first users, a clear regulatory plan for retail distribution, and a demonstrated mechanism that scales the hand-run trust-building.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

@@ -46,6 +46,10 @@ and readable by the partners.
   granted, with no plan B.
 - `G3` sector-label stretch: fits a stated sector only by label. A flag, not
   a reject.
+- `G4` outside mandate: the round or stage is one the fund cannot lead (see
+  the gate's rule in the thesis: first rounds up to roughly INR 6 Cr; not
+  Series A+ where large VCs compete). Judge from the ask and stage in the
+  dossier; cite them.
 
 ## Precedents
 

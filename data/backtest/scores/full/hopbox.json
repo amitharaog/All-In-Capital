@@ -1,0 +1,251 @@
+{
+  "slug": "hopbox",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "For an ops-heavy model the defining risk is profitability at achievable density; the founders could not describe a path that did not depend on a large raise and treated it as someone else's problem.",
+      "evidence": [
+        {
+          "text": "Neither could describe a path to profitability that did not depend on a large raise to reach density; treated that as someone else's problem.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Live operations in one neighbourhood cluster and detailed operational knowledge show real on-the-ground work, though customer learning (loyalty) is not described.",
+      "evidence": [
+        {
+          "text": "Operating in one city neighbourhood cluster.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Knew picking times, rider utilisation and wastage by category.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "The deciding metric, contribution margin per order, is negative on the data shown, and customer loyalty is unproven.",
+      "evidence": [
+        {
+          "text": "Contribution margin negative on the data shown; customer loyalty unproven.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "Customers pay per order in a live cluster, but well-funded incumbents with deep pockets stand in the way and economics only work at density.",
+      "evidence": [
+        {
+          "text": "Well-funded incumbents with deep pockets; capital-intensive model that only works at density.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Only works at density that needs a large raise - the low anchor exactly; negative contribution margin with no niche.",
+      "evidence": [
+        {
+          "text": "Capital-intensive model that only works at density; contribution margin negative.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Path to profitability depends on a large raise.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Operational know-how is real but replicable by incumbents who already have it at scale.",
+      "evidence": [
+        {
+          "text": "Former operations managers at a quick-commerce company.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Well-funded incumbents with deep pockets.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Consumer tech, a focus sector.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (10-minute delivery).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed via warm intro; a round the fund could lead, though the model needs much more capital later.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 2.5,
+      "status": "evidenced",
+      "rationale": "Genuine, detailed operating knowledge of quick commerce (an earned secret on ops), but no insight into the key risk of profitability; prior employer is pedigree and capped.",
+      "evidence": [
+        {
+          "text": "Operational knowledge real and detailed: picking times, rider utilisation, wastage by category.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Could not describe a path to profitability without a large raise.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "A me-too in a hot, crowded category with deep-pocketed incumbents; local ambition (one neighbourhood cluster).",
+      "evidence": [
+        {
+          "text": "Under-ten-minute delivery from dark stores in one neighbourhood cluster.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Well-funded incumbents with deep pockets.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely consumer tech.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Founders with detailed, hands-on quick-commerce operating knowledge and a live cluster (R2, S3).",
+    "Energetic team at a stage the fund can lead (S2)."
+  ],
+  "case_against": [
+    "Profitability at density is delegated to a future large raise (R1, R5).",
+    "Contribution margin negative; loyalty unproven (R3).",
+    "Me-too in a hot category against deep-pocketed incumbents (S4, R4, R6)."
+  ],
+  "call_questions": [
+    "At what order density does a single dark store reach positive contribution margin, and how far are you from it today?",
+    "What is 30/90-day retention in your cluster, and what share of orders come from discounts?",
+    "Is there a niche (category, geography, customer) where you can be profitable without matching incumbents' spend?",
+    "What do you do if the large raise you need never comes?",
+    "Incumbents already run your exact playbook with far more capital - tell us why we're wrong to see this as a me-too."
+  ],
+  "what_would_change_our_view": "Positive contribution margin in the existing cluster, or a defensible niche where the model works without a large raise to reach density.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

@@ -10,8 +10,8 @@ from triage.schemas import CriterionScore, GateResult, ResearchDossier, ScoreCar
 THESIS = load_thesis()
 
 
-def crit(cid, score, status="evidenced"):
-    return CriterionScore(criterion_id=cid, score=score, status=status, rationale="t")
+def crit(cid, score, status="evidenced", confidence="medium"):
+    return CriterionScore(criterion_id=cid, score=score, status=status, rationale="t", confidence=confidence)
 
 
 def dossier(**kw):
@@ -113,3 +113,15 @@ def test_memo_parsing_holds_out_decisions():
     assert len(memos) == 12
     assert sum(m["decision"] == "INVESTED" for m in memos) == 6
     assert all(m["what"] and m["founder"] and m["risks"] and m["why"] for m in memos)
+
+
+def test_no_pass_without_founder_evidence():
+    scores = all_revealed(1.5)
+    scores[0] = crit("R1", 1.5, "partial", "low")
+    v = decide(dossier(), card(scores))
+    assert v.recommendation == "SCREEN_FIRST"
+
+
+def test_mandate_gate_suggests_pass_even_for_strong_company():
+    g = GateResult(gate_id="G4", triggered=True, detail="Series A, INR 30 Cr")
+    assert decide(dossier(), card(all_revealed(5), [g])).recommendation == "PASS"

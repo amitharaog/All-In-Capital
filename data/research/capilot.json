@@ -1,0 +1,576 @@
+{
+  "company": "CAPilot",
+  "slug": "capilot",
+  "one_liner": "AI web app for CA firms that reconciles books against GST portal data and drafts tax-notice replies for the CA to review.",
+  "sector": "other",
+  "sub_sector": "B2B vertical SaaS / AI for CA firms (GST compliance)",
+  "stage": "Pre-seed",
+  "ask": "INR 1.5 Cr at INR 10 Cr post-money",
+  "business_model": "Seat-based subscription of INR 2,500-6,000 per firm per month plus INR 400 per drafted notice reply above plan limit.",
+  "founders": [
+    {
+      "name": "Dhruv Shah",
+      "role": "CEO",
+      "background_claimed": "Qualified Chartered Accountant; 4 years in practice handling GST for about 60 clients.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D12",
+        "F13",
+        "F2"
+      ]
+    },
+    {
+      "name": "Isha Merchant",
+      "role": "CTO",
+      "background_claimed": "3 years at a SaaS company; built the matching engine.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D13",
+        "F3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "Paying-customer count differs: deck says 31 paying CA firms; form says 24 paying CA firms plus 7 on free trial.",
+      "source_ids": [
+        "D4",
+        "F4"
+      ],
+      "status": "contradicted",
+      "note": "The deck appears to count free-trial firms as paying (24 + 7 = 31)."
+    },
+    {
+      "text": "MRR is INR 78,000 (October); the deck's 'INR 9.4 L annual recurring revenue' is October MRR x 12, not contracted annual revenue.",
+      "source_ids": [
+        "F5",
+        "D5",
+        "D7"
+      ],
+      "status": "founder_stated",
+      "note": "MRR ran INR 18k -> 41k -> 78k (Aug-Oct). Fast growth from a small base over three months; the ARR label overstates maturity."
+    },
+    {
+      "text": "Implied average revenue is ~INR 3,250 per paying firm per month (78,000 / 24), inside the stated INR 2,500-6,000 seat-based plan range; extra notice replies are INR 400 each.",
+      "source_ids": [
+        "F5",
+        "F4",
+        "D9",
+        "D10"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "2 firms have churned (out of ~26 that ever paid).",
+      "source_ids": [
+        "D6",
+        "F4"
+      ],
+      "status": "founder_stated",
+      "note": "Churn base and timing not given; product is ~8 months old."
+    },
+    {
+      "text": "Customer acquisition is mostly founders' network and CA referrals; acquisition cost has not been measured.",
+      "source_ids": [
+        "F6"
+      ],
+      "status": "founder_stated",
+      "note": "Earned rather than bought, but untested beyond the founders' network."
+    },
+    {
+      "text": "Liability: every drafted reply is reviewed by the CA before filing; responsibility sits with the CA.",
+      "source_ids": [
+        "F7"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founders name model errors on unusual notices and dependence on GST portal data formats as key risks.",
+      "source_ids": [
+        "F8"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Deck claims competitors (Tally/Zoho, ClearTax) do not offer AI notice replies.",
+      "source_ids": [
+        "D11"
+      ],
+      "status": "contradicted",
+      "note": "Contradicted by the web: GST Reply AI sells AI-drafted GST notice replies (W1). Not a deck-vs-form contradiction but a deck-vs-web one."
+    },
+    {
+      "text": "GST Reply AI offers AI-drafted replies to GST notices from INR 299 per reply, with an INR 999/month unlimited plan for CA firms (per a comment on its launch page).",
+      "source_ids": [
+        "W1",
+        "W2",
+        "W3"
+      ],
+      "status": "verified",
+      "note": "Undercuts CAPilot's INR 400 per extra reply and its INR 2,500-6,000 monthly plans on the notice-reply job."
+    },
+    {
+      "text": "Vyapar TaxOne markets AI-driven GST reconciliation for CAs ('automate reconciliations, and identify errors').",
+      "source_ids": [
+        "W4",
+        "W5"
+      ],
+      "status": "verified",
+      "note": "Search snippets (CB Insights, directories) say TaxOne was formerly Suvit, a Surat CA-automation startup; suvit.io URLs now redirect to taxone.vyapar.com (observed during this run). Funding of a well-distributed accounting player into the same job."
+    },
+    {
+      "text": "Third-party GST tools operate as Application Service Providers, connecting to the GST system through GSTN-approved GST Suvidha Providers (GSPs).",
+      "source_ids": [
+        "W6"
+      ],
+      "status": "verified",
+      "note": "Relevant to the founders' stated dependence on GST portal data; the application does not say whether CAPilot uses a GSP/API route or manual uploads."
+    },
+    {
+      "text": "ICAI data shows roughly 99,000 CA firms (98,967 as of 28 February 2025).",
+      "source_ids": [
+        "W7"
+      ],
+      "status": "verified",
+      "note": "Bottom-up market: even at 150 firms CAPilot would have ~0.15% of firms. The deck instead sizes the market as 1% of an INR 1.4 lakh Cr services market (D8), which is services revenue, not software spend."
+    },
+    {
+      "text": "Market is sized top-down: 'Even 1% of this market is a INR 1,400 Cr opportunity'.",
+      "source_ids": [
+        "D8"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Problem claims (staff spend ~40% of time matching GST invoices; each notice reply takes 3-5 hours) are unsourced founder statements.",
+      "source_ids": [
+        "D2",
+        "D3"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Sector mismatch: selected 'Fintech', but the product is AI workflow software for CA firms (tax-compliance SaaS); no money movement or lending. Classified as other (B2B vertical SaaS).",
+      "source_ids": [
+        "F9",
+        "D1"
+      ],
+      "status": "founder_stated",
+      "note": "Relevant to gate G3 / stated-lens S1."
+    },
+    {
+      "text": "Founders: Dhruv Shah (CEO) claims to be a qualified CA with 4 years in practice handling GST for about 60 clients; Isha Merchant (CTO) claims 3 years at a SaaS company and built the matching engine. Full-time since February 2026; no prior startups.",
+      "source_ids": [
+        "D12",
+        "D13",
+        "F13",
+        "F12"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founder LinkedIn links are placeholders (*-example) and the website is a .example domain; no independent footprint for founders or company found.",
+      "source_ids": [
+        "F2",
+        "F3",
+        "F1"
+      ],
+      "status": "unverifiable"
+    },
+    {
+      "text": "12-month target: 150 paying firms and INR 7 L MRR (implies ~INR 4,670 per firm, above today's ~INR 3,250).",
+      "source_ids": [
+        "D14"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Raising INR 1.5 Cr at INR 10 Cr post-money; one angel has invested INR 15 L; no other investors in conversation; 20% of funds for compliance and security.",
+      "source_ids": [
+        "F10",
+        "F11",
+        "D15"
+      ],
+      "status": "founder_stated"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dhruv Shah (CEO): CA qualification and practice history not verified.",
+      "why_it_matters": "The CA-in-practice background is the main founder-market-fit claim and the main sales channel (network referrals).",
+      "searched": [
+        "WebSearch: \"Dhruv Shah\" CAPilot CA Ahmedabad GST (2026-11-18) - no match; generic Ahmedabad CA-service pages",
+        "Application LinkedIn link linkedin.com/in/dhruv-shah-example is a placeholder",
+        "ICAI member directory not queried"
+      ],
+      "ask_founder": "What is your ICAI membership number and the name of the practice you worked in?",
+      "blocks_criteria": [
+        "S3",
+        "R2"
+      ]
+    },
+    {
+      "what": "Isha Merchant (CTO): no public footprint confirming 3 years at a SaaS company.",
+      "why_it_matters": "She built the matching engine and owns model accuracy.",
+      "searched": [
+        "WebSearch: \"Isha Merchant\" CAPilot CTO Ahmedabad (2026-11-18) - no match",
+        "Application LinkedIn link linkedin.com/in/isha-merchant-example is a placeholder"
+      ],
+      "ask_founder": "Which SaaS company and what did you build there?",
+      "blocks_criteria": [
+        "S3"
+      ]
+    },
+    {
+      "what": "Company existence: no website, product listing or MCA record found for CAPilot Labs Pvt. Ltd.",
+      "why_it_matters": "Basic verification.",
+      "searched": [
+        "WebSearch: CAPilot Labs AI assistant CA firms GST reconciliation notice reply (2026-11-18) - no result for CAPilot; competitors returned",
+        "Website www.capilot.example is a placeholder",
+        "MCA portal not queried"
+      ],
+      "ask_founder": "Share CIN and a product demo login.",
+      "blocks_criteria": [
+        "R4"
+      ]
+    },
+    {
+      "what": "Retention and usage: logo and revenue retention by monthly cohort, active seats, replies drafted per firm.",
+      "why_it_matters": "For B2B SaaS the deciding metric is retention/conversion; only '2 churned' is given.",
+      "searched": [
+        "Deck slide 5",
+        "Form Customers"
+      ],
+      "ask_founder": "Of firms that started paying in August, how many still pay and at what MRR? What share of trials convert?",
+      "blocks_criteria": [
+        "R3"
+      ]
+    },
+    {
+      "what": "Accuracy evidence: how often CAs edit or reject drafted replies; reconciliation match accuracy.",
+      "why_it_matters": "Model errors are the founders' own top risk and the product's core promise.",
+      "searched": [
+        "Deck and form - no accuracy data"
+      ],
+      "ask_founder": "What share of drafted replies are filed with minimal edits, and what is the false-match rate in reconciliation?",
+      "blocks_criteria": [
+        "R3",
+        "R1"
+      ]
+    },
+    {
+      "what": "GST data access route: GSP/ASP arrangement, taxpayer consent, and data protection obligations for client tax data.",
+      "why_it_matters": "Dependence on GST portal data is a named risk; 20% of the raise goes to compliance and security.",
+      "searched": [
+        "Web: GSP ecosystem explainer (W6)",
+        "Form Key risks"
+      ],
+      "ask_founder": "Do you pull data via a GSP API or manual uploads, and what security/data-protection certifications do you hold or plan?",
+      "blocks_criteria": [
+        "R4"
+      ]
+    },
+    {
+      "what": "Differentiation versus cheaper AI notice-reply tools and accounting-suite incumbents.",
+      "why_it_matters": "Deck says no competitor offers AI notice replies; at least one does at lower prices.",
+      "searched": [
+        "Web: GST Reply AI (W1-W3), Vyapar TaxOne (W4-W5)"
+      ],
+      "ask_founder": "Why do firms pay INR 2,500-6,000/month for CAPilot when GST Reply AI offers unlimited replies at INR 999/month?",
+      "blocks_criteria": [
+        "R6",
+        "R4"
+      ]
+    }
+  ],
+  "competitors_named": [
+    "Tally",
+    "Zoho",
+    "ClearTax"
+  ],
+  "competitors_found": [
+    "GST Reply AI",
+    "Vyapar TaxOne (formerly Suvit)",
+    "Tally",
+    "Zoho",
+    "ClearTax"
+  ],
+  "keywords": [
+    "GST reconciliation",
+    "tax notice reply",
+    "CA firms",
+    "chartered accountants",
+    "invoice matching",
+    "tax compliance",
+    "accounting automation",
+    "AI drafting",
+    "practice software",
+    "GSTR-2B"
+  ],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "D1",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 1 (title)",
+      "quote": "AI assistant for CA firms: GST reconciliation and notice replies"
+    },
+    {
+      "id": "D2",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 3 (problem)",
+      "quote": "Staff spend about 40% of their time matching GST invoices."
+    },
+    {
+      "id": "D3",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 3 (problem)",
+      "quote": "Each tax notice reply takes 3 to 5 hours to draft."
+    },
+    {
+      "id": "D4",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "31 paying CA firms"
+    },
+    {
+      "id": "D5",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "INR 9.4 L annual recurring revenue"
+    },
+    {
+      "id": "D6",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "2 firms churned"
+    },
+    {
+      "id": "D7",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction chart; Aug 18, Sep 41, Oct 78)",
+      "quote": "Chart: Monthly recurring revenue (INR thousand)"
+    },
+    {
+      "id": "D8",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 6 (market)",
+      "quote": "Even 1% of this market is a INR 1,400 Cr opportunity for CAPilot."
+    },
+    {
+      "id": "D9",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (revenue model)",
+      "quote": "INR 2,500 to 6,000 a month per firm, based on seats."
+    },
+    {
+      "id": "D10",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (revenue model)",
+      "quote": "INR 400 per drafted reply above the plan limit."
+    },
+    {
+      "id": "D11",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (competition table; CAPilot Yes, Tally and Zoho No, ClearTax No)",
+      "quote": "AI notice replies"
+    },
+    {
+      "id": "D12",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (team)",
+      "quote": "Qualified CA. 4 years in practice handling GST for 60 clients."
+    },
+    {
+      "id": "D13",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (team)",
+      "quote": "3 years at a SaaS company. Built the matching engine."
+    },
+    {
+      "id": "D14",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (ask)",
+      "quote": "In 12 months: 150 paying firms and INR 7 L monthly recurring revenue."
+    },
+    {
+      "id": "D15",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (ask)",
+      "quote": "20% Compliance and security"
+    },
+    {
+      "id": "F1",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Website",
+      "quote": "www.capilot.example"
+    },
+    {
+      "id": "F2",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "linkedin.com/in/dhruv-shah-example"
+    },
+    {
+      "id": "F3",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 2",
+      "quote": "linkedin.com/in/isha-merchant-example"
+    },
+    {
+      "id": "F4",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customers",
+      "quote": "24 paying CA firms, 7 on free trial. 2 firms have churned."
+    },
+    {
+      "id": "F5",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Revenue",
+      "quote": "Monthly recurring revenue INR 78,000 (INR 9.4 L annualised)."
+    },
+    {
+      "id": "F6",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customer acquisition",
+      "quote": "Mostly the founders' network and referrals from other CAs. We have not measured acquisition cost yet."
+    },
+    {
+      "id": "F7",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Accuracy and liability",
+      "quote": "Every drafted reply is reviewed by the CA before filing. Responsibility sits with the CA."
+    },
+    {
+      "id": "F8",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Key risks",
+      "quote": "Model errors on unusual notices and dependence on GST portal data formats."
+    },
+    {
+      "id": "F9",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Sector (as selected)",
+      "quote": "Fintech"
+    },
+    {
+      "id": "F10",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Valuation expectation",
+      "quote": "INR 10 Cr post-money"
+    },
+    {
+      "id": "F11",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Existing investors",
+      "quote": "One angel, INR 15 L."
+    },
+    {
+      "id": "F12",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Time commitment",
+      "quote": "Both full-time since February 2026."
+    },
+    {
+      "id": "F13",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "Qualified Chartered Accountant, 4 years in practice handling GST for about 60 clients."
+    },
+    {
+      "id": "F14",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Anything else",
+      "quote": "We believe CA firms are underserved by existing tools. We would welcome a call."
+    },
+    {
+      "id": "W1",
+      "kind": "web",
+      "title": "GST Reply AI - AI-drafted replies to GST notices (Product Hunt)",
+      "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+      "retrieved_on": "2026-11-18",
+      "quote": "AI-drafted replies to GST notices, in 30 seconds"
+    },
+    {
+      "id": "W2",
+      "kind": "web",
+      "title": "GST Reply AI (Product Hunt) - per-reply pricing",
+      "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+      "retrieved_on": "2026-11-18",
+      "quote": "From ₹299 per reply."
+    },
+    {
+      "id": "W3",
+      "kind": "web",
+      "title": "GST Reply AI (Product Hunt) - CA firm plan, hunter's comment",
+      "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+      "retrieved_on": "2026-11-18",
+      "quote": "Rs 999/month unlimited for CA firms handling volume"
+    },
+    {
+      "id": "W4",
+      "kind": "web",
+      "title": "AI-powered software for Indian CAs (Vyapar TaxOne blog)",
+      "url": "https://taxone.vyapar.com/post/ai-powered-software-for-indian-cas",
+      "retrieved_on": "2026-11-18",
+      "quote": "Map multiple GST data, automate reconciliations, and identify errors."
+    },
+    {
+      "id": "W5",
+      "kind": "web",
+      "title": "AI-powered software for Indian CAs (Vyapar TaxOne blog) - AI positioning",
+      "url": "https://taxone.vyapar.com/post/ai-powered-software-for-indian-cas",
+      "retrieved_on": "2026-11-18",
+      "quote": "Vyapar TaxOne offers India-specific AI automation features."
+    },
+    {
+      "id": "W6",
+      "kind": "web",
+      "title": "What is GSP and how the GSP ecosystem works (Quicko help centre)",
+      "url": "https://help.quicko.com/portal/en/kb/articles/what-is-gsp-and-how-the-gsp-ecosystem-works",
+      "retrieved_on": "2026-11-18",
+      "quote": "A software platform that builds tools for GST filing, reconciliation, invoicing, or reporting."
+    },
+    {
+      "id": "W7",
+      "kind": "web",
+      "title": "Statistics of ICAI members, students and firms till 28 February 2025 (TaxConcept) - firms table TOTAL row",
+      "url": "https://taxconcept.net/icai/statistics-of-icai-members-students-firms-till-28th-february-2025/",
+      "retrieved_on": "2026-11-18",
+      "quote": "98967"
+    }
+  ],
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also listed GSTGuard, Notice Reply Studio, TaxCopilot, NoticeAI (an ICAI-listed use case) and other AI tools for CAs; the ICAI and G2 pages returned 403 and were not cited. Suvit-to-Vyapar TaxOne relationship is based on search snippets plus an observed redirect, not a primary source. The ICAI firm count is quoted as a bare table value.",
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+}

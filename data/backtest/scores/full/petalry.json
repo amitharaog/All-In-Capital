@@ -1,0 +1,238 @@
+{
+  "slug": "petalry",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "For a brand the defining risk is repeat; repeat rate is not tracked and unit-economics answers used channel averages, not cohorts.",
+      "evidence": [
+        {
+          "text": "Repeat rate not tracked.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Answered unit-economics questions with channel-level averages, not cohort data.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "No customer conversations or hands-on learning are described; traction is framed around Instagram presence.",
+      "evidence": [
+        {
+          "text": "Strong Instagram presence.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Deciding metric (repeat) is not tracked, CAC is rising month on month and about two thirds of orders come from paid social - growth is bought.",
+      "evidence": [
+        {
+          "text": "CAC rising month on month; roughly two thirds of orders from paid social; repeat rate not tracked.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "Customers do pay via own site and marketplaces (a few thousand orders a month), but the channel is paid-dependent and supply rests on one contract manufacturer.",
+      "evidence": [
+        {
+          "text": "Sells through own site and marketplaces; a few thousand monthly orders.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Product made by a single contract manufacturer.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "With rising paid CAC and no repeat data, a pre-seed cheque is likely to be spent buying orders rather than reaching a proof point.",
+      "evidence": [
+        {
+          "text": "CAC rising month on month; two thirds of orders from paid social.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "The brand rests on the founder's creative and marketing skill in a crowded category with better-funded incumbents; no supply or retention advantage.",
+      "evidence": [
+        {
+          "text": "Clearly good at brand and creative; solo founder.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Category crowded with better-funded incumbents.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "D2C skincare is squarely a consumer brand.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer brand (D2C beauty).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Pre-seed via public application; a round the fund can lead.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed; source: public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "Strong marketer but has never owned a P&L, has no operations co-founder and was unaware of the gap; FMCG brand-manager title is pedigree and capped.",
+      "evidence": [
+        {
+          "text": "Never owned a P&L; no co-founder covering operations or supply chain; a strong marketer, not yet a business builder, and unaware of the gap.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Me-too D2C skincare in a crowded category; no non-consensus insight described.",
+      "evidence": [
+        {
+          "text": "Category is crowded with better-funded incumbents.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely a consumer brand.",
+      "source_ids": [
+        "M1"
+      ]
+    }
+  ],
+  "case_for": [
+    "Founder is strong at brand and creative; real order volume after 18 months (S3, R4).",
+    "Focus sector at pre-seed (S1, S2)."
+  ],
+  "case_against": [
+    "Repeat rate not tracked - the brand's defining risk is unowned (R1, R3).",
+    "Two thirds of orders from paid social with rising CAC - growth is bought (R3, R5).",
+    "Solo founder with no P&L or supply-chain experience, unaware of the gap (S3).",
+    "Crowded category, single contract manufacturer (S4, R4, R6)."
+  ],
+  "call_questions": [
+    "What share of customers from three months ago have bought again? If you don't know, how would you find out this week?",
+    "What is CAC by channel this month vs six months ago, and gross margin after returns?",
+    "What happens if your contract manufacturer fails a batch or raises prices?",
+    "Who will own operations, supply chain and the P&L?",
+    "We think you're a strong marketer but not yet a business builder - what would you say to that?"
+  ],
+  "what_would_change_our_view": "Cohort repeat data showing customers return without paid re-acquisition, falling dependence on paid social, and a co-founder or hire who owns operations and the P&L.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}

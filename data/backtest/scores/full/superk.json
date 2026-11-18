@@ -1,0 +1,267 @@
+{
+  "slug": "superk",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "The defining risk is profitability at achievable density in a thin-margin ops-heavy model; the founders' willingness to learn store operations first suggests ownership, but no margin or same-store data or plan is in the file.",
+      "evidence": [
+        {
+          "text": "Operationally intense, thin margins; limited data on same-store sales growth.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Both willing to spend months in small-town stores learning how shopkeepers actually operate.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Founders spent months in small-town stores learning how shopkeepers operate - the high anchor exactly.",
+      "evidence": [
+        {
+          "text": "Both were willing to spend months in small-town stores learning how shopkeepers actually operate.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Operating in small towns of Andhra Pradesh.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Deciding metrics (contribution margin, same-store sales, store-owner retention) are thin: the file notes limited same-store sales data.",
+      "evidence": [
+        {
+          "text": "Limited data on same-store sales growth at the time.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Converting existing neighbourhood stores gives a concrete route to customers in towns already operated; obstacles are store-owner trust and small-town supply chain.",
+      "evidence": [
+        {
+          "text": "Rebrands existing neighbourhood stores and provides pricing, supply, discounts and digital billing.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Store-owner trust and retention; supply chain in small towns.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Rebranding existing stores is capital-light compared with owning stores, but thin margins and supply-chain build-out need capital.",
+      "evidence": [
+        {
+          "text": "Rebrands existing neighbourhood stores.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Thin margins; supply chain in small towns.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "A network of branded stores with standardised supply and billing is a process and network that does not depend on one person and becomes harder to copy as it densifies.",
+      "evidence": [
+        {
+          "text": "Standardised pricing, supply, discounts and digital billing across rebranded stores.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Consumer tech (tech-enabled retail) - a focus sector, with a meaningful ops component.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (small-town retail).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Labelled an early round for a company founded in 2020; whether the fund can lead is unclear.",
+      "evidence": [
+        {
+          "text": "Stage: Early round.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded 2020.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Complementary pair (growth/product and operations/building from nothing), one a prior co-founder, who earned their insight by living in the stores. Held back by no experience running a retail network at scale.",
+      "evidence": [
+        {
+          "text": "One thinks in customer acquisition and product, the other in operations and building a business from nothing; months in small-town stores.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Neither had run a retail network at scale.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Small-town retail via rebranded kiranas is non-consensus relative to metro-focused commerce; ambition beyond the first region is not stated.",
+      "evidence": [
+        {
+          "text": "Grocery retail network for small towns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Not the usual profile of a metro-based tech founder.",
+          "source_ids": [
+            "M3"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Tech-enabled retail fits consumer tech; ops-heavy but not a label stretch.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ]
+    }
+  ],
+  "case_for": [
+    "Founders went to the customer first - months inside small-town stores (R2).",
+    "Complementary team with an operator who has built a company before (S3).",
+    "Store network that travels beyond the founders; non-consensus small-town market (R6, S4)."
+  ],
+  "case_against": [
+    "Thin margins and limited same-store data - the deciding metric is weak (R3, R1).",
+    "Ops-intense small-town supply chain; neither founder has run a retail network at scale (R4, S3).",
+    "Early-round label; stage fit for the fund unclear (S2)."
+  ],
+  "call_questions": [
+    "What is contribution margin per store per month, and same-store sales growth for your oldest stores?",
+    "How many store owners have left the network, and why?",
+    "At what store density per town does supply break even?",
+    "What did you learn in the stores that changed the product?",
+    "Supply chain in small towns is where this breaks - tell us about the worst supply failure so far and what you changed."
+  ],
+  "what_would_change_our_view": "Same-store sales growth and positive store-level contribution margin on the earliest stores, with store-owner retention data.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, full variant)"
+}
