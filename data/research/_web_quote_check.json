@@ -1,0 +1,490 @@
+{
+ "summary": {
+  "checked_on": "2026-11-18",
+  "method": "re-fetched each URL with requests and searched for the quote (normalised whitespace/quotes; fuzzy >=0.9)",
+  "verified": 61,
+  "wording_only": 2,
+  "unverifiable": 5,
+  "contradicted": 0,
+  "total": 68,
+  "note": "wording_only = every content word present, punctuation differs. unverifiable = site blocks scripts (Product Hunt 403) or renders text with JavaScript; needs a human click-through."
+ },
+ "sources": [
+  {
+   "slug": "capilot",
+   "id": "W1",
+   "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+   "found": false,
+   "status": "unverifiable_blocked_or_js"
+  },
+  {
+   "slug": "capilot",
+   "id": "W2",
+   "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+   "found": false,
+   "status": "unverifiable_blocked_or_js"
+  },
+  {
+   "slug": "capilot",
+   "id": "W3",
+   "url": "https://www.producthunt.com/p/gst-reply-ai/gst-reply-ai",
+   "found": false,
+   "status": "unverifiable_blocked_or_js"
+  },
+  {
+   "slug": "capilot",
+   "id": "W4",
+   "url": "https://taxone.vyapar.com/post/ai-powered-software-for-indian-cas",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "capilot",
+   "id": "W5",
+   "url": "https://taxone.vyapar.com/post/ai-powered-software-for-indian-cas",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "capilot",
+   "id": "W6",
+   "url": "https://help.quicko.com/portal/en/kb/articles/what-is-gsp-and-how-the-gsp-ecosystem-works",
+   "found": false,
+   "status": "unverifiable_blocked_or_js"
+  },
+  {
+   "slug": "capilot",
+   "id": "W7",
+   "url": "https://taxconcept.net/icai/statistics-of-icai-members-students-firms-till-28th-february-2025/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "carecorner",
+   "id": "W1",
+   "url": "https://telanganatoday.com/telangana-govt-adopts-clinical-establishment-act-to-regulate-private-hospitals",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "carecorner",
+   "id": "W2",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/hyderabad-224-private-hospitals-operating-without-mandatory-registration-162923",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "carecorner",
+   "id": "W3",
+   "url": "https://biovoicenews.com/preventify-raises-\u20b92-crore-pre-seed-funding-led-by-pedalstart-to-expand-branded-healthcare-clinics-in-tier-2-and-tier-3-india/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "carecorner",
+   "id": "W4",
+   "url": "https://www.biospectrumindia.com/news/16/27940/hoola-health-raises-5-m-to-expand-child-first-paediatric-healthcare-across-india.html",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "carecorner",
+   "id": "W5",
+   "url": "https://continentalhospitals.com/doctors/dr-k-lakshmi-reddy",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W1",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12382",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W2",
+   "url": "https://www.argus-p.com/updates/updates/rbi-digital-lending-directions-2025-an-overview/",
+   "found": false,
+   "status": "wording_only"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W3",
+   "url": "https://www.billcut.com/blogs/salary-advance-fintechs-how-they-work-in-india",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W4",
+   "url": "https://www.billcut.com/blogs/salary-advance-products-compliance-checklist",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W5",
+   "url": "https://techcrunch.com/2022/01/11/refyne-tiger-global-earned-wage-access-india/embed/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "earnwise",
+   "id": "W6",
+   "url": "https://india.entrepreneur.com/news-and-trends/karmalife-raises-inr-44-crore-in-extended-pre-series-a/453294",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W1",
+   "url": "https://www.fynd.com/podcast/how-to-build-clean-label-d2c-snack-brand-for-india-wild-date",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W2",
+   "url": "https://www.fynd.com/podcast/how-to-build-clean-label-d2c-snack-brand-for-india-wild-date",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W3",
+   "url": "https://tataconsumer.com/news/tata-consumer-products-acquire-kottaram-agro-foods-owner-brand-soulfull",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W4",
+   "url": "https://tataconsumer.com/news/tata-consumer-products-acquire-kottaram-agro-foods-owner-brand-soulfull",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W5",
+   "url": "https://startuppedia.in/trending/startup-news/anushka-sharma-backed-wholsum-foods-parent-company-of-slurrp-farm-approaches-rs-100-crore-revenue-mark-in-fy25-loss-widens-30-11133954",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W6",
+   "url": "https://startuppedia.in/trending/startup-news/anushka-sharma-backed-wholsum-foods-parent-company-of-slurrp-farm-approaches-rs-100-crore-revenue-mark-in-fy25-loss-widens-30-11133954",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W7",
+   "url": "https://openthemagazine.com/business/troovys-100-crore-bet-on-indias-crowded-healthy-snack-shelf",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "grainkind",
+   "id": "W8",
+   "url": "https://inc42.com/?p=574080",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "pumpwise",
+   "id": "W1",
+   "url": "https://entrackr.com/news/infinite-uptime-raises-35-mn-in-series-c-round-8841757",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "pumpwise",
+   "id": "W2",
+   "url": "https://entrackr.com/news/infinite-uptime-raises-35-mn-in-series-c-round-8841757",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "pumpwise",
+   "id": "W3",
+   "url": "https://themachinemaker.com/news/kirloskar-1008/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "pumpwise",
+   "id": "W4",
+   "url": "https://assets.thehansindia.com/business/bits-pilani-hyderabad-startup-unveils-smart-machine-health-monitoring-solutions-for-msmes-993095",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "pumpwise",
+   "id": "W5",
+   "url": "https://alephindia.in/wpc-approval.php",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W1",
+   "url": "https://fintechnews.sg/86371/fintech-india/visa-mastercard-to-stop-commercial-card-payments-via-fintech-intermediaries-in-india/",
+   "found": false,
+   "status": "wording_only"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W2",
+   "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W3",
+   "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W4",
+   "url": "https://inc42.com/?p=532025",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W5",
+   "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W6",
+   "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W7",
+   "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W8",
+   "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W9",
+   "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "rentroute",
+   "id": "W10",
+   "url": "https://www.hdfc.bank.in/ps/payzapp/rent/bengaluru",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W1",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12514",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W2",
+   "url": "https://www.argus-p.com/updates/updates/rbi-digital-lending-directions-2025-an-overview/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W3",
+   "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12382",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W4",
+   "url": "https://www.sidbi.in/en/treds",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W5",
+   "url": "https://www.credlix.com/invoice-discounting/invoice-discounting-for-fintech",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W6",
+   "url": "https://inc42.com/buzz/cashinvoice-bags-3-4-mn-to-aid-new-business-in-supply-chain-finance",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "settlr",
+   "id": "W7",
+   "url": "https://inc42.com/company/settlrs/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W1",
+   "url": "https://lawx.in/acts/section/48/485/4705",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W2",
+   "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W3",
+   "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W4",
+   "url": "https://www.indialaw.in/blog/civil/rbi-notifies-digital-lending-directions/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W5",
+   "url": "https://jumbotail.com/jumbotail-raises-120m-series-d-funding",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W6",
+   "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W7",
+   "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "stocksathi",
+   "id": "W8",
+   "url": "https://india.entrepreneur.com/news-and-trends/rupifi-raises-25-million-series-a-from-bessemer-tiger/411960",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W1",
+   "url": "https://inc42.com/buzz/meetrecord-bags-2-7-mn-funding-to-enhance-ai-powered-sales-coaching-platform",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W2",
+   "url": "https://www.outdoo.ai/press-release/meetrecord-pre-series-a-funding",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W3",
+   "url": "https://www.outdoo.ai/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W4",
+   "url": "https://entrackr.com/2024/08/convin-raises-6-5-mn-in-series-a-round-led-by-india-quotient",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W5",
+   "url": "https://www.businesstoday.in/latest/corporate/story/how-convozen-is-emerging-as-nobrokers-new-growth-engine-517791-2026-02-24",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W6",
+   "url": "https://startuptalky.com/enthu-ai-success-story/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "talkbook",
+   "id": "W7",
+   "url": "https://ksandk.com/data-protection-and-data-privacy/marketing-consent-india-trai-tcccpr-dpdp-act/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "yatrika",
+   "id": "W1",
+   "url": "https://inc42.com/company/thrillophilia-com/",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "yatrika",
+   "id": "W2",
+   "url": "https://india.entrepreneur.com/news-and-trends/wanderon-raises-inr-54-cr-series-a-to-expand-experiential/502045",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "yatrika",
+   "id": "W3",
+   "url": "https://www.theweek.in/wire-updates/business/2025/08/07/dcm32-biz-brief.html",
+   "found": false,
+   "status": "unverifiable_blocked_or_js"
+  },
+  {
+   "slug": "yatrika",
+   "id": "W4",
+   "url": "https://www.tribuneindia.com/news/business/guavatrips-disrupts-indian-travel-with-free-ai-powered-personalized-itineraries",
+   "found": true,
+   "status": "verified"
+  },
+  {
+   "slug": "yatrika",
+   "id": "W5",
+   "url": "https://hospibuz.com/travels-opinion/festive-travel-demand-soars-18-thrillophilia-unveils-festive-travel-pulse-2025-10500135",
+   "found": true,
+   "status": "verified"
+  }
+ ]
+}

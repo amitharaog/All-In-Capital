@@ -24,13 +24,14 @@ def _founder_email(dossier: dict) -> str | None:
     return None
 
 
-def book_approved(today: dt.date | None = None) -> list[dict]:
+def book_approved(today: dt.date | None = None, decisions: dict | None = None, outbox: str = "outbox") -> list[dict]:
     today = today or dt.date.today()
     run_dir = sorted(RUNS.glob("*/batch.json"))[-1].parent
     batch = load_json(run_dir / "batch.json")
-    decisions = load_json(DECISIONS) if DECISIONS.exists() else {}
+    if decisions is None:
+        decisions = load_json(DECISIONS) if DECISIONS.exists() else {}
     by_slug = {i["dossier"]["slug"]: i for i in batch["items"]}
-    out_dir = run_dir / "outbox"
+    out_dir = run_dir / outbox
     calls, results = [], []
     for slug, dec in decisions.items():
         item = by_slug.get(slug)
@@ -51,5 +52,5 @@ def book_approved(today: dt.date | None = None) -> list[dict]:
     results = book_local(calls, out_dir, today) + results
     from .core import dump_json
 
-    dump_json(run_dir / "bookings.json", results)
+    dump_json(out_dir / "bookings.json", results)
     return results

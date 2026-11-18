@@ -115,9 +115,6 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
         headline = "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company."
         if conflict:
             flags.append("Possible portfolio overlap also flagged (G1); moot unless the round changes.")
-    elif conflict:
-        rec = "HOLD_CONFLICT"
-        headline = "Hold: possible overlap with a portfolio company. Kushal to speak to the portfolio founder first."
     elif regulatory:
         rec = "PASS"
         headline = "Suggest pass on category: the business depends on a favourable rule change (G2)."
@@ -140,6 +137,15 @@ def decide(dossier: ResearchDossier, card: ScoreCard, thesis: dict | None = None
             headline = (f"Low score ({revealed.score_10}/10) but founder behaviour is not observable from the application, "
                         "so it is not a pass yet: Riya to screen before anything is decided.")
             flags.append("Pass withheld: R1 not evidenced with confidence (rule v2, from the backtest).")
+
+    if conflict and not mandate:
+        names = sorted({h["portfolio_company"] for h in conflict_hits if h["level"] == "high"})
+        g1 = gates.get("G1")
+        detail = ", ".join(names) or (g1.detail if g1 is not None else "")
+        underlying = {"TAKE_CALL": "take the call", "SCREEN_FIRST": "screen first", "PASS": "suggest pass"}[rec]
+        headline = (f"Hold: possible overlap with a portfolio company ({detail[:160]}). Kushal to speak to the portfolio "
+                    f"founder first. Without the overlap this would be '{underlying}' ({revealed.score_10}/10).")
+        rec = "HOLD_CONFLICT"
 
     lens_gap = round(revealed.score_10 - stated.score_10, 2)
     lens_note = None

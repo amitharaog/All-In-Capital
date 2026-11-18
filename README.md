@@ -118,6 +118,12 @@ Backtest against the fund's 12 past decisions:
 python -m triage backtest
 ```
 
+See what booking produces without any real decisions (writes `runs/<date>/demo_outbox/`, labelled as a demo):
+
+```bash
+python scripts/demo_week.py
+```
+
 Other commands:
 
 ```bash

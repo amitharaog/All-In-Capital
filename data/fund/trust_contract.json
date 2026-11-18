@@ -6,55 +6,64 @@
       "metric": "Missed calls (false passes)",
       "how": "Of applications the partners take a call on during shadow mode, the share the system had marked 'Suggest pass'. This is the costly error: a good founder never reaching a partner.",
       "threshold": "0 of the first 20 calls; at most 5% overall",
-      "if_breached": "System may not suggest 'pass' at all; it ranks only, and Riya reads everything."
+      "if_breached": "System may not suggest 'pass' at all; it ranks only, and Riya reads everything.",
+      "current": "Not measured yet: shadow mode has not started"
     },
     {
       "metric": "Agreement with Riya on call / no call",
       "how": "Share of applications where the system's 'take the call' matches Riya's. Reported with a 95% interval. Every disagreement is reviewed and logged as 'Riya right', 'system right' or 'unclear'.",
       "threshold": ">= 80%",
-      "if_breached": "Extend shadow mode; review the corrections log for a systematic miss."
+      "if_breached": "Extend shadow mode; review the corrections log for a systematic miss.",
+      "current": "Not measured yet: needs Riya's own reads of this batch"
     },
     {
       "metric": "Fabricated facts",
       "how": "Weekly spot-check of 20 random claims: does the cited source actually say it? A fabrication is a claim whose source does not contain it, or a source that does not exist.",
       "threshold": "0",
-      "if_breached": "Stop. Nothing goes to partners until the cause is found and fixed."
+      "if_breached": "Stop. Nothing goes to partners until the cause is found and fixed.",
+      "current": "None found mechanically: 298/298 deck/form quotes and 63/68 web quotes re-found. 5 web pages block scripts; the human 20-claim spot-check is not done yet"
     },
     {
       "metric": "Citation support rate",
       "how": "Same spot-check: share of claims the cited source fully supports (partial support counts as a miss). Plus the mechanical audit: every deck/form quote found in the file.",
       "threshold": ">= 95% supported; 100% of deck/form quotes verified",
-      "if_breached": "Fix the research prompt; re-run that week."
+      "if_breached": "Fix the research prompt; re-run that week.",
+      "current": "470/470 claims cite a source; 100% deck/form quotes verified; 93% of web quotes re-found by script"
     },
     {
       "metric": "Portfolio conflict recall",
       "how": "Seeded test set (Talkbook vs MeetRecord, plus five synthetic overlaps with other portfolio companies) and every real overlap Riya spots in shadow mode.",
       "threshold": "100% (false alarms are acceptable)",
-      "if_breached": "Stop. Expand the conflict families and the portfolio descriptions."
+      "if_breached": "Stop. Expand the conflict families and the portfolio descriptions.",
+      "current": "1/1 real case (Talkbook vs MeetRecord) caught by both the code check and the scorer; synthetic set not built yet"
     },
     {
       "metric": "Gaps named, not filled",
       "how": "In the spot-check, any founder background or metric presented as known when it was not established.",
       "threshold": "0",
-      "if_breached": "Stop, as for fabrication."
+      "if_breached": "Stop, as for fabrication.",
+      "current": "75 gaps named; 0 of 19 founders had a findable footprint and all 19 are reported as gaps, none as facts"
     },
     {
       "metric": "Corrections reused",
       "how": "When a later application matches a correction's tags, did the score card cite and apply it (precedents_applied)?",
       "threshold": ">= 80% of matching cases",
-      "if_breached": "Tighten the tags on corrections; make retrieval stricter."
+      "if_breached": "Tighten the tags on corrections; make retrieval stricter.",
+      "current": "Seeded corrections applied in 4 score cards (C004 on 3 lenders, C002 on Pumpwise); reuse test passes"
     },
     {
       "metric": "Backtest agreement on past decisions",
       "how": "Blind re-score of the 12 deal memos (decision and reasoning withheld). Agreement = 'take the call' on invested companies and anything else on passes. Every disagreement adjudicated in writing.",
       "threshold": ">= 9 of 12, and no investment the fund made scored 'suggest pass'",
-      "if_breached": "Do not start shadow mode; rework the revealed thesis."
+      "if_breached": "Do not start shadow mode; rework the revealed thesis.",
+      "current": "FAILS: 8/12. Investments marked pass: 1 under the pre-registered rule (ePlane), 0 under rule v2"
     },
     {
       "metric": "Riya's time",
       "how": "Minutes per application, logged by Riya during shadow mode, for applications where she accepts the system's read.",
       "threshold": "<= 10 minutes (from ~30)",
-      "if_breached": "The system is not saving time; find out which section she is redoing."
+      "if_breached": "The system is not saving time; find out which section she is redoing.",
+      "current": "Not measured yet"
     }
   ],
   "where_it_breaks": [
@@ -93,5 +102,6 @@
       "why": "Kushal: written rules turn into checklists and founders learn to pass them.",
       "mitigation": "The thesis file and prompts stay internal; scores weigh evidence (numbers, named customers, contradictions), which is harder to perform than language."
     }
-  ]
+  ],
+  "status": "Not ready for shadow mode on its pre-agreed terms: the backtest bar (>= 9/12) is missed. All misses are cautious (no pass the fund rejected was advanced). Recommended next step: shadow mode with the system restricted to ranking, 'screen first' and gate-based passes (rule v2), and a second backtest on the Ledgerly notes and the next quarter's decisions."
 }

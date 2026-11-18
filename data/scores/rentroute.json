@@ -1,0 +1,273 @@
+{
+ "slug": "rentroute",
+ "lens_used_primary": "revealed",
+ "criteria": [
+  {
+   "criterion_id": "R1",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "The defining risk is regulatory and partner-dependent. Incumbents (CRED, PhonePe, Paytm) shut this exact product in September 2025 under RBI's Payment Aggregator directions, and the February 2024 BPSP suspension preceded that. The founders acknowledge 'a change would hit us directly' but offer no plan, no second PA and no account of how their flow complies (landlord KYC as PA merchant). That is naming the risk while leaving it to the partner. The deck also reports gross fees as revenue (INR 11 L vs INR 5.5 L net) and claims no direct competitors. Both are contradicted, which weighs on candour. C004 was shown but concerns lenders' credit risk and does not apply.",
+   "evidence": [
+    {
+     "text": "Single payment aggregator partner; 'Banks and card networks have changed rules on rent payments before, and a change would hit us directly.' No mitigation stated.",
+     "source_ids": ["F8", "F9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "CRED, PhonePe and Paytm halted card rent payments in September 2025 after RBI's PA directions, because landlords were not KYC-onboarded merchants.",
+     "source_ids": ["W2", "W3", "W4", "W5"],
+     "status": "verified"
+    },
+    {
+     "text": "Deck: 'INR 11 L revenue (1.8% fee)'; form: INR 11 L gross, INR 5.5 L net after the PA's 0.9%.",
+     "source_ids": ["D4", "F6"],
+     "status": "contradicted"
+    },
+    {
+     "text": "Deck: 'We have no direct competitors'; web shows RedGiraffe, PayZapp, NoBroker offering card rent payments.",
+     "source_ids": ["D6", "W7", "W10"],
+     "status": "contradicted"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R2",
+   "score": 1.0,
+   "status": "partial",
+   "rationale": "The only indirect evidence is that early users came through word of mouth and that small paid tests were run. No tenant or landlord conversations, landlord onboarding work or learning from pilots is described. The product rests on an assumption that the deck states as fact: landlords won't accept cards, so points go unused.",
+   "evidence": [
+    {
+     "text": "Acquisition mostly organic and word of mouth; small paid tests at ~INR 120 per registered user.",
+     "source_ids": ["F7"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Problem framed as landlords not accepting cards.",
+     "source_ids": ["D15"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R3",
+   "score": 2.5,
+   "status": "evidenced",
+   "rationale": "Volume is real and mostly organic: monthly rent volume grew from INR 0.4 Cr to 2.8 Cr, with 1,100 paying users and about 2.2 payments each. But the deciding fintech metric, monthly repeat (trust) by cohort, is not reported, and nothing is said about fraud or chargebacks. The deck inflates users and revenue (registered users vs payers, gross vs net), and net revenue is only INR 5.5 L.",
+   "evidence": [
+    {
+     "text": "INR 6.1 Cr across 2,400 payments since July 2026; 1,900 registered, 1,100 paid at least once.",
+     "source_ids": ["D5", "F5", "F4", "D3"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Net revenue INR 5.5 L after 0.9% to the payment partner.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Mostly organic acquisition; cost per paying user not measured.",
+     "source_ids": ["F7"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R4",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "Tenants pay a fee, but the product runs only as long as one PA keeps processing it. There is no regulator-facing plan or landlord-KYC flow, and the issuer referral income is unsupported. Compliant competitors re-entered with PAN and rent-agreement checks, which RentRoute's 'enter landlord bank details once' flow does not describe. Net take is about 0.9%.",
+   "evidence": [
+    {
+     "text": "PA directions: PA aggregates funds only for merchants it has a contract with; PAs may not run marketplaces.",
+     "source_ids": ["W5", "W6"],
+     "status": "verified"
+    },
+    {
+     "text": "Platforms that resumed require PAN of payer and payee plus rent agreements.",
+     "source_ids": ["W7", "W8"],
+     "status": "verified"
+    },
+    {
+     "text": "Rent reaches the landlord's bank account via a PA partner within a day.",
+     "source_ids": ["D2", "F9"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "'Referral income from card issuers is coming' with no partner named.",
+     "source_ids": ["D8"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R5",
+   "score": 2.0,
+   "status": "evidenced",
+   "rationale": "The ask is small (INR 1.8 Cr) and the model is capital-light. But 55% goes to marketing to reach 7x volume on about 0.9% net take, and a single rule or PA change could wipe the business out before the next proof point. Payback per paying user (about INR 207 to acquire vs about INR 229 per payment) depends on repeat usage, which is unreported.",
+   "evidence": [
+    {
+     "text": "Raising INR 1.8 Cr at INR 12 Cr post; 55% to marketing; 12-month target INR 20 Cr monthly volume.",
+     "source_ids": ["F12", "D13", "D12"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "1.8% fee, 0.9% paid to PA.",
+     "source_ids": ["F6"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "R6",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "A pass-through payment flow on a third-party PA, with engineering outsourced to contract developers. Nothing compounds or is hard to copy, and larger platforms offer the same flow. The founders deny there are competitors at all.",
+   "evidence": [
+    {
+     "text": "Engineering handled by contract developers.",
+     "source_ids": ["D11", "F14"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "RedGiraffe, PayZapp, NoBroker offer card rent payments; deck says no direct competitors.",
+     "source_ids": ["W7", "W10", "D6"],
+     "status": "verified"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S1",
+   "score": 3.5,
+   "status": "evidenced",
+   "rationale": "Consumer payments is squarely fintech, a focus sector, and it carries no AI or deeptech angle. The product is closer to card-reward arbitrage than to new financial infrastructure.",
+   "evidence": [
+    {
+     "text": "Consumer payments app: pay rent by credit card.",
+     "source_ids": ["D1"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S2",
+   "score": 4.5,
+   "status": "evidenced",
+   "rationale": "First round of INR 1.8 Cr at INR 12 Cr post-money. There are no outside investors, and the founders put in INR 18 L. The fund can lead it.",
+   "evidence": [
+    {
+     "text": "Raising INR 1.8 Cr at INR 12 Cr post; no outside investors.",
+     "source_ids": ["F12", "F11"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "high",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S3",
+   "score": 2.0,
+   "status": "partial",
+   "rationale": "Payments-product management and consumer marketing are relevant, but they are credentials and are capped at 2. There is no in-house engineering, no compliance or regulatory expertise in a regulator-exposed category, and no earned insight into the rule risk. They did launch and grow the app. Backgrounds are unverifiable, and the growth lead went full-time only in August 2026.",
+   "evidence": [
+    {
+     "text": "CEO 4 years fintech PM, launched two payments features; Growth 5 years consumer marketing; engineering outsourced.",
+     "source_ids": ["D9", "D10", "D11"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "Full-time since June 2026 (CEO) and August 2026 (Growth).",
+     "source_ids": ["F10"],
+     "status": "founder_stated"
+    },
+    {
+     "text": "LinkedIn links and website are placeholders.",
+     "source_ids": ["F2", "F3", "F1"],
+     "status": "unverifiable"
+    }
+   ],
+   "confidence": "low",
+   "precedents_applied": []
+  },
+  {
+   "criterion_id": "S4",
+   "score": 1.0,
+   "status": "evidenced",
+   "rationale": "Rent-by-card is a well-known, consensus product, previously run at scale by CRED, PhonePe and Paytm and now by others. The ambition is local, and market sizing is a top-down '1%'.",
+   "evidence": [
+    {
+     "text": "CRED, PhonePe, Paytm ran and halted the product; RedGiraffe, PayZapp, NoBroker offer it.",
+     "source_ids": ["W2", "W7", "W10"],
+     "status": "verified"
+    },
+    {
+     "text": "'Capturing just 1% would mean INR 1,500 Cr of annual rent volume'.",
+     "source_ids": ["D14"],
+     "status": "founder_stated"
+    }
+   ],
+   "confidence": "medium",
+   "precedents_applied": []
+  }
+ ],
+ "gates": [
+  {
+   "gate_id": "G1",
+   "triggered": false,
+   "detail": "Checked all 88 portfolio companies. No one sells card-funded rent payment to tenants. Nearest fintech adjacencies: Rocketpay/UdharPay (P2P NACH mandates for a payee to collect money owed: different customer and job), Volt (loans against securities), MoMoney (investing app), Returns/OptionBase (options trading), Wint Wealth (bonds), Mannjal (B2B marketplace lending), Prosparity (EV NBFC), Jai Kisan (rural credit). No overlap of both customer and job.",
+   "source_ids": ["D1", "F9"]
+  },
+  {
+   "gate_id": "G2",
+   "triggered": true,
+   "detail": "The model needs a payment aggregator to keep processing card-funded rent to landlords. In September 2025, under RBI's PA directions, that permission was effectively withdrawn for this flow: CRED, PhonePe and Paytm stopped because landlords were not KYC-onboarded merchants. RentRoute launched afterwards on a single PA and does not show its flow complies. The founders say a rule change would hit them directly and give no plan B. Some platforms resumed with PAN and rent-agreement checks, so a compliant route may exist. If RentRoute can show its PA KYCs landlords as merchants, the gate can be lifted.",
+   "source_ids": ["F8", "F9", "W2", "W3", "W4", "W5", "W7", "W8"]
+  },
+  {
+   "gate_id": "G3",
+   "triggered": false,
+   "detail": "Selected Fintech, and it is a consumer payments product, so the label fits.",
+   "source_ids": ["D1"]
+  },
+  {
+   "gate_id": "G4",
+   "triggered": false,
+   "detail": "Pre-seed, INR 1.8 Cr at INR 12 Cr post-money, no outside investors. Within the lead mandate.",
+   "source_ids": ["F12", "F11"]
+  }
+ ],
+ "case_for": [
+  "Real, mostly organic volume: INR 2.8 Cr of rent in October, up 7x in three months (R3).",
+  "The founders acknowledge their exposure to rule changes in writing (R1).",
+  "Small, capital-light first round in a focus sector (R5, S1, S2)."
+ ],
+ "case_against": [
+  "The product exists only while one PA keeps processing a flow that RBI's 2025 directions shut for the incumbents; there is no compliance account and no plan B (R1, R4, G2).",
+  "The deck reports gross fees as revenue (INR 11 L vs INR 5.5 L net), counts registered users as users, and claims no competitors. These contradictions weigh on candour (R1, R3).",
+  "Thin ~0.9% net take, 55% of the raise into marketing, no repeat-usage data (R3, R5).",
+  "Pass-through product with outsourced engineering and nothing that compounds; consensus category (R6, S4)."
+ ],
+ "call_questions": [
+  "Which payment aggregator do you use? Does it KYC each landlord as a merchant? Do you collect payer and payee PAN and rent agreements, and has the PA confirmed the flow in writing against the September 2025 directions?",
+  "What is your plan if the PA drops rent payments tomorrow: second PA, landlord-side onboarding, or a pivot?",
+  "Of users who paid in August, what share paid again in September and October? Any chargebacks or fake-landlord cases?",
+  "Which card networks and issuers work on your flow today, and what happens to demand if issuers remove rewards on rent?",
+  "CRED, PhonePe and Paytm exited this exact product. Why should we believe you can keep it running when they could not? (Pressure test on the weakest point.)",
+  "Why did the deck show INR 11 L as revenue and say there are no direct competitors?"
+ ],
+ "what_would_change_our_view": "Written confirmation from a regulated PA (ideally two) that every landlord is onboarded as a KYC'd merchant under the 2025 directions, plus monthly repeat-payment data showing tenants keep using the product.",
+ "produced_by": "claude-code-session (in-session run of prompts/score.md; no API key)"
+}

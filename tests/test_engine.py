@@ -134,3 +134,20 @@ def test_mandate_beats_conflict():
              GateResult(gate_id="G4", triggered=True, detail="Series A")]
     v = decide(dossier(), card(all_revealed(5), gates))
     assert v.recommendation == "PASS" and any("overlap" in f for f in v.flags)
+
+
+def test_correction_is_reused_on_a_similar_company(tmp_path, monkeypatch):
+    from triage import corrections
+
+    monkeypatch.setattr(corrections, "PATH", tmp_path / "c.jsonl")
+    corrections.add("GrainKind", "Repeat above 30% with LTV/CAC under 2x: growth still partly bought; cap R3 at 3.5",
+                    "Kushal", ["consumer_brand", "paid_growth"], "R3", 4.0, 3.5)
+    from triage.schemas import Gap
+
+    similar = dossier(company="Oatly-ish", sector="consumer_brand", sub_sector="packaged food",
+                      claims=[Claim(text="60% of new customers from paid social ads", source_ids=["F1"])],
+                      gaps=[Gap(what="No cohort repeat data", why_it_matters="deciding metric for a brand")])
+    unrelated = dossier(company="LedgerCo", sector="fintech", sub_sector="accounting",
+                        claims=[Claim(text="60% of new customers from paid social ads", source_ids=["F1"])])
+    assert [p["correction"]["company"] for p in corrections.retrieve(similar)] == ["GrainKind"]
+    assert corrections.retrieve(unrelated) == []

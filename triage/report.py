@@ -45,6 +45,8 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-of
 .muted{color:var(--muted)}
 .mono,td.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
 header{display:grid;gap:10px}
+.wrap > *, .company > *, section > *{min-width:0}
+li{overflow-wrap:anywhere}
 .prov{font-size:13px;color:var(--muted);border-left:3px solid var(--line);padding-left:12px}
 .strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
 .tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:4px}
@@ -277,6 +279,7 @@ def _trust() -> str:
   <div class="eyebrow">Trust contract · agreed before it touches a real decision</div>
   <h2>How far to trust it, and where it breaks</h2>
   <p>{e(t['summary'])}</p>
+  {('<p class="flag hold"><b>Status:</b> ' + e(t['status']) + '</p>') if t.get('status') else ''}
   <div class="scroll"><table><thead><tr><th>What we measure</th><th>Threshold</th><th>Now</th><th>If breached</th></tr></thead><tbody>{rows}</tbody></table></div>
   <h3>Where it breaks</h3><ul>{breaks}</ul>
 </section>"""
@@ -292,6 +295,10 @@ def render(batch: dict, out: Path | None = None) -> Path:
     qv = sum(i["audit"]["doc_quotes"]["verified"] for i in items)
     qc = sum(i["audit"]["doc_quotes"]["checked"] for i in items)
     web = sum(i["audit"]["web_sources"] for i in items)
+    wc_path = DATA / "research" / "_web_quote_check.json"
+    wc = load_json(wc_path) if wc_path.exists() else None
+    web_line = (f"{wc['summary']['verified'] + wc['summary']['wording_only']}/{wc['summary']['total']} web quotes re-found on the live page; "
+                f"{wc['summary']['unverifiable']} blocked or JS-rendered (check by hand)") if wc else f"{web} web sources"
     queue = "".join(
         f"<tr><td><a href='#{e(i['dossier']['slug'])}'><b>{e(i['dossier']['company'])}</b></a><div class='muted'>{e(i['dossier']['one_liner'])}</div></td>"
         f"<td><span class='pill {REC[i['verdict']['recommendation']][1]}'>{REC[i['verdict']['recommendation']][0]}</span></td>"
@@ -312,6 +319,7 @@ def render(batch: dict, out: Path | None = None) -> Path:
   <h1>{len(items)} applications, scored against the fund's thesis</h1>
   <p class="lede">Every score names the thesis criterion it is scored against and the source behind each claim. Gaps are listed, not filled in.
   Nothing here is decided: every outcome waits for Kushal.</p>
+  <p class="prov"><b>MESA T2 Case 03 prototype.</b> Applicants and past memos are case-study material; this is not a document of All In Capital.</p>
   <p class="prov">Scores use the <b>revealed</b> thesis (what the fund's past decisions reward) for the recommendation and show the <b>stated</b> thesis (public wording) beside it.
   Provenance: {e(provenance)}.</p>
 </header>
@@ -320,7 +328,7 @@ def render(batch: dict, out: Path | None = None) -> Path:
   <div class="tile"><span class="eyebrow">Screen first</span><b>{counts['SCREEN_FIRST']}</b><span class="muted">Missing numbers to request</span></div>
   <div class="tile"><span class="eyebrow">Hold: conflict</span><b>{counts['HOLD_CONFLICT']}</b><span class="muted">Portfolio overlap</span></div>
   <div class="tile"><span class="eyebrow">Suggest pass</span><b>{counts['PASS']}</b><span class="muted">With what would change our view</span></div>
-  <div class="tile"><span class="eyebrow">Claims sourced</span><b>{sourced}/{claims}</b><span class="muted">{qv}/{qc} deck/form quotes verified · {web} web sources</span></div>
+  <div class="tile"><span class="eyebrow">Claims sourced</span><b>{sourced}/{claims}</b><span class="muted">{qv}/{qc} deck/form quotes verified · {web_line}</span></div>
   <div class="tile"><span class="eyebrow">Gaps named</span><b>{gaps}</b><span class="muted">Each with the question to ask</span></div>
 </div>
 <section>

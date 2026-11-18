@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "pumpwise",
+    "company": "Pumpwise",
+    "sector": "deeptech",
+    "founder_name": "Karthik Subramanian",
+    "founder_email": null,
+    "attendees": [
+      "Kushal",
+      "Aditya",
+      "Riya"
+    ],
+    "status": "held",
+    "slot": "2026-11-19T15:30:00+05:30",
+    "alternates": [
+      "2026-11-24T17:00:00+05:30",
+      "2026-11-24T17:30:00+05:30"
+    ]
+  },
+  {
+    "slug": "grainkind",
+    "status": "no action (hold)"
+  },
+  {
+    "slug": "talkbook",
+    "status": "no action (hold)"
+  },
+  {
+    "slug": "stocksathi",
+    "status": "no action (hold)"
+  },
+  {
+    "slug": "carecorner",
+    "status": "no action (screen)"
+  },
+  {
+    "slug": "capilot",
+    "status": "no action (screen)"
+  },
+  {
+    "slug": "yatrika",
+    "status": "no action (screen)"
+  },
+  {
+    "slug": "settlr",
+    "status": "pass_note_drafted"
+  },
+  {
+    "slug": "rentroute",
+    "status": "pass_note_drafted"
+  },
+  {
+    "slug": "earnwise",
+    "status": "pass_note_drafted"
+  }
+]

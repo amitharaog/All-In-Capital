@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//All In Capital//triage//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:4dce77f7-66ce-4358-8231-0ea1c26215f2@allincapital-triage
+DTSTAMP:20261118T070614Z
+DTSTART;TZID=Asia/Kolkata:20261119T153000
+DTEND;TZID=Asia/Kolkata:20261119T160000
+SUMMARY:All In Capital x Pumpwise - intro call (30 min)
+DESCRIPTION:First call. Briefing pack: runs/<date>/report.html#pumpwise
+ATTENDEE;CN=Kushal;ROLE=REQ-PARTICIPANT:mailto:kushal@example.invalid
+ATTENDEE;CN=Aditya;ROLE=REQ-PARTICIPANT:mailto:aditya@example.invalid
+ATTENDEE;CN=Riya;ROLE=REQ-PARTICIPANT:mailto:riya@example.invalid
+END:VEVENT
+END:VCALENDAR
