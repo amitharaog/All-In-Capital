@@ -70,17 +70,25 @@ def research(slug: str, retrieved_on: str) -> ResearchDossier:
     return ResearchDossier.model_validate(data)
 
 
-def score(dossier: ResearchDossier) -> ScoreCard:
-    client = _client()
+def build_score_input(dossier: ResearchDossier) -> str:
+    """The exact user message the scorer sees. Also written to disk as a packet
+    so a hand/in-session run sees byte-identical input."""
     portfolio = load_json(FUND / "portfolio.json") if (FUND / "portfolio.json").exists() else []
+    slim = [{k: c.get(k) for k in ("name", "aliases", "sector", "one_line", "all_in_capital_fund_investment")}
+            for c in portfolio]
     precedents = retrieve(dossier)
-    user = (
+    return (
         "<thesis>\n" + json.dumps(load_thesis(), indent=1) + "\n</thesis>\n\n"
-        "<portfolio>\n" + json.dumps(portfolio, indent=1) + "\n</portfolio>\n\n"
+        "<portfolio>\n" + json.dumps(slim, indent=1) + "\n</portfolio>\n\n"
         "<partner_corrections>\n" + as_prompt_block(precedents) + "\n</partner_corrections>\n\n"
         "<dossier>\n" + dossier.model_dump_json(indent=1) + "\n</dossier>\n\n"
         "Score every criterion in both lenses (R1-R6, S1-S4) and evaluate gates G1-G3."
     )
+
+
+def score(dossier: ResearchDossier) -> ScoreCard:
+    client = _client()
+    user = build_score_input(dossier)
     resp = client.messages.parse(
         model=MODEL,
         max_tokens=16000,
