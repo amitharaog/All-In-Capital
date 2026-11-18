@@ -1,0 +1,230 @@
+{
+  "slug": "superk",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "For an ops-heavy retail network the defining risk is profitability at density; thin margins are recorded but not the founders' plan for them. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Rebranding existing neighbourhood stores and running supply and billing in small towns implies on-the-ground work with store owners; specific learnings are not described.",
+      "evidence": [
+        {
+          "text": "Rebrands existing neighbourhood stores; standardised pricing, supply, discounts and digital billing; operating in small towns of Andhra Pradesh.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "A live store network exists, but same-store sales growth data was limited and store-owner retention is an open risk.",
+      "evidence": [
+        {
+          "text": "Operating in small towns of Andhra Pradesh.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Limited data on same-store sales growth; store-owner trust and retention.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Store owners are onboarded and consumers buy through them; the channel works in one region, with supply chain and thin margins as obstacles.",
+      "evidence": [
+        {
+          "text": "Rebrands existing neighbourhood stores; operating in small towns of Andhra Pradesh.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Thin margins; supply chain in small towns.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Operationally intense with thin margins; asset-light versus owning stores, but supply chain build-out is costly.",
+      "evidence": [
+        {
+          "text": "Operationally intense, thin margins, supply chain in small towns.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "A branded store network with standardised supply and digital billing is a process/network asset that can compound, if store owners stay.",
+      "evidence": [
+        {
+          "text": "Standardised pricing, supply, discounts and digital billing across rebranded stores.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Store-owner trust and retention.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Labelled consumer tech; in substance a tech-enabled grocery retail and supply operation (see G3).",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (small-town retail).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "A tech-enabled grocery retail network.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Early round, founded 2020. Round size not given; may be beyond the first cheque.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Warm intro, Fund I founder.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Organising small-town kiranas under one brand rather than competing with them is a non-consensus approach to a large market.",
+      "evidence": [
+        {
+          "text": "Rebrands existing neighbourhood stores in small towns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": true,
+      "detail": "Consumer tech by label; in substance grocery retail and supply operations with a tech layer. Flag only.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ]
+    }
+  ],
+  "case_for": [
+    "On-the-ground model working with existing stores in small towns (R2, R4).",
+    "Network and standardised supply could compound into a defensible asset (R6).",
+    "Non-consensus approach to an underserved small-town market (S4)."
+  ],
+  "case_against": [
+    "Thin margins and operational intensity; profitability at density not shown (R1, R5).",
+    "Limited same-store sales data; store-owner retention unproven (R3).",
+    "Retail ops more than consumer tech; early round may exceed the fund's cheque (G3, S2)."
+  ],
+  "call_questions": [
+    "What is same-store sales growth for stores that joined six or more months ago?",
+    "How many store owners have left the network, and why?",
+    "What is contribution margin per store per month, and at what store density per town does it turn positive?",
+    "How do you keep supply reliable in towns far from a distribution hub?",
+    "Thin margins are our main worry: show us where the margin comes from if not from scale."
+  ],
+  "what_would_change_our_view": "Same-store sales growth and store-owner retention data, with a contribution-margin path at achievable density, would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

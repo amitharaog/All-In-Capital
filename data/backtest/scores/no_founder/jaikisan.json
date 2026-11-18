@@ -1,0 +1,208 @@
+{
+  "slug": "jaikisan",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "For a lender the defining risk is who holds default; the dossier lists rural credit and collections risk but not who holds it or how the founders manage it. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "No description of field work, farmer visits or how the first borrowers were found. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Deciding metric (default/NPA or repayment data) is absent; scored as missing value. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Borrowers and channel partners are identified and purchases are income-generating, but regulatory exposure, channel dependence and seasonality are open.",
+      "evidence": [
+        {
+          "text": "Financing for income-generating purchases such as agricultural and dairy equipment.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Regulatory exposure, dependence on channel partners, seasonality.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Lending needs balance sheet and an 'early round' at a company founded 2017; fit with a pre-seed cheque is unclear.",
+      "evidence": [
+        {
+          "text": "Stage: Early round.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Mumbai-based, founded 2017.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Channel-partner network could compound, but dependence on partners cuts the other way; no data or process moat described.",
+      "evidence": [
+        {
+          "text": "Dependence on channel partners.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Fintech label; in substance rural asset lending (see G3).",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (rural / agri credit).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Early round for a company founded 2017; probably beyond a first institutional cheque. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded 2017.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Productive-asset credit for farmers and rural households is a non-consensus, underserved market with large scale potential.",
+      "evidence": [
+        {
+          "text": "Financing to farmers and rural households for income-generating purchases.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Regulatory exposure is a risk but nothing indicates dependence on a permission not yet granted or withdrawn.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": true,
+      "detail": "Rural credit labelled fintech; in substance lending operations. Flag only.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ]
+    }
+  ],
+  "case_for": [
+    "Lending tied to income-generating assets is a sounder credit thesis than consumption credit (R4).",
+    "Non-consensus, underserved rural market with scale (S4)."
+  ],
+  "case_against": [
+    "No default or repayment data and no statement of who holds credit risk (R1, R3 missing).",
+    "Rural collections, monsoon seasonality and channel-partner dependence (R4, R6).",
+    "Fintech by label; early round from a 2017 company may exceed the fund's lead cheque (G3, S2)."
+  ],
+  "call_questions": [
+    "Who carries the loss when a farmer defaults, and how much is on your own book?",
+    "Show repayment and NPA by cohort, including through a bad monsoon season.",
+    "How do collections work in a village where you have no branch?",
+    "What happens to origination if your largest channel partner leaves?",
+    "Rural credit has burned many lenders: what do you know about defaults that they did not?"
+  ],
+  "what_would_change_our_view": "Cohort repayment data through at least one bad season, and evidence the company owns underwriting and collections, would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

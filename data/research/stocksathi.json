@@ -1,0 +1,690 @@
+{
+  "company": "StockSathi",
+  "slug": "stocksathi",
+  "one_liner": "Vernacular B2B ordering app for small-town kirana stores with next-morning delivery from partner distributors and 7-14 day credit.",
+  "sector": "fintech",
+  "sub_sector": "B2B kirana restocking with embedded trade credit (lending-led)",
+  "stage": "Pre-seed",
+  "ask": "INR 2 Cr at INR 12 Cr post-money",
+  "business_model": "About 4% trade margin from distributors on delivered orders plus a 1.5% fee on credit orders; credit book currently ~INR 85,000.",
+  "founders": [
+    {
+      "name": "Aarav Deshmukh",
+      "role": "CEO",
+      "background_claimed": "8 years in FMCG distribution and field operations; ran a regional sales team at a large distributor.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D11",
+        "F3"
+      ]
+    },
+    {
+      "name": "Pooja Nair",
+      "role": "CTO",
+      "background_claimed": "5 years as a software engineer at a payments company; built the ordering app and credit-scoring rules.",
+      "background_verified": null,
+      "public_footprint": "not_found",
+      "source_ids": [
+        "D12",
+        "F4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "text": "Retailer count differs: deck says 38 retailers onboarded; form says 42 retailers onboarded. Both say 22 have ordered more than once.",
+      "source_ids": [
+        "D4",
+        "D17",
+        "F5"
+      ],
+      "status": "contradicted",
+      "note": "38 vs 42. Repeat share is therefore 58% (deck) or 52% (form). May be a timing difference, but neither document dates the count."
+    },
+    {
+      "text": "CAC differs: deck gives INR 2,860 blended CAC for October (INR 40,000 field cost / 14 stores); form says CAC is under INR 2,000 per store.",
+      "source_ids": [
+        "D6",
+        "D7",
+        "F7"
+      ],
+      "status": "contradicted",
+      "note": "The deck's own 12-month target is 'CAC under INR 2,000' (D13), which implies the form figure is a goal, not today's number."
+    },
+    {
+      "text": "How credit is funded differs: deck says the credit pilot is funded from the company's own capital with an NBFC partnership 'in discussion'; form says credit is provided through 'our NBFC partner' and StockSathi takes the first-loss risk.",
+      "source_ids": [
+        "D9",
+        "D10",
+        "F8",
+        "F18"
+      ],
+      "status": "contradicted",
+      "note": "Form also asks the fund for introductions to NBFCs (F18), which is consistent with the deck (no partner signed yet) and inconsistent with the form's credit answer. This is the defining-risk question for a lender."
+    },
+    {
+      "text": "StockSathi is not registered with the RBI as an NBFC.",
+      "source_ids": [
+        "F11"
+      ],
+      "status": "founder_stated",
+      "note": "If credit is lent from StockSathi's own balance sheet (D9), whether this falls under the RBI Act s.45-IA registration requirement (W1) is a legal question this research cannot settle; it must be put to the founders."
+    },
+    {
+      "text": "Under RBI's default loss guarantee (DLG) framework, first-loss cover on a digital-lending portfolio is capped at 5% of that portfolio, and an LSP giving DLG must be a company incorporated under the Companies Act, 2013.",
+      "source_ids": [
+        "W2",
+        "W3"
+      ],
+      "status": "verified",
+      "note": "The form says StockSathi takes 'the first-loss risk' (F8) without saying how much. Any first-loss arrangement above 5% or outside the permitted forms would not fit the framework. StockSathi is a Pvt. Ltd. company so it can be an LSP in principle."
+    },
+    {
+      "text": "RBI's Digital Lending Directions, 2025 require loans to be disbursed directly to the borrower's account and repayments routed through the regulated entity's account, with no pass-through via LSP accounts.",
+      "source_ids": [
+        "W4"
+      ],
+      "status": "verified",
+      "note": "StockSathi's pay-later flow (order now, pay in 7-14 days, D3) settles the distributor first. Who disburses to whom, and whose account collects repayment, is not described in the application."
+    },
+    {
+      "text": "Credit book is about INR 85,000 outstanding across 12 retailers, with no defaults to date; late payments are chased personally by the team.",
+      "source_ids": [
+        "F9",
+        "F10",
+        "D9"
+      ],
+      "status": "founder_stated",
+      "note": "Four months of operation and a tiny book: 'no defaults' is not yet evidence of credit quality. No late-payment / days-past-due data is given."
+    },
+    {
+      "text": "Credit orders are about a third of October GMV (implying roughly INR 1.3 L of October GMV on credit), charged a 1.5% credit fee.",
+      "source_ids": [
+        "D10",
+        "D5"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "GMV was INR 3.8 L in October; about INR 9 lakh over the last three months; GMV has grown every month since the July launch.",
+      "source_ids": [
+        "D5",
+        "F6"
+      ],
+      "status": "founder_stated",
+      "note": "Figures are consistent with each other (Oct 3.8 L inside a ~9 L quarter). No monthly series or GMV per store is given."
+    },
+    {
+      "text": "Repeat customers reorder about once a week; 22 stores have ordered more than once.",
+      "source_ids": [
+        "F17",
+        "F5"
+      ],
+      "status": "founder_stated",
+      "note": "No cohort table (repeat by onboarding month) or churned-store count."
+    },
+    {
+      "text": "Unit economics: about 4% trade margin per order; INR 520 monthly margin per active store; ~5.5-month payback on trade margin; positive contribution once a store has ordered twice.",
+      "source_ids": [
+        "D8",
+        "F13"
+      ],
+      "status": "founder_stated",
+      "note": "Delivery cost is not shown, so 'margin per store' may be before logistics. Payback uses the INR 2,860 CAC, not the form's sub-2,000 figure."
+    },
+    {
+      "text": "The founders did 60 owner interviews in Karimnagar and Warangal (June-July 2026) before launch; the product is live in Karimnagar only, onboarding via two field agents.",
+      "source_ids": [
+        "D2",
+        "F12"
+      ],
+      "status": "founder_stated",
+      "note": "Evidence of going to the customer first (R2), but entirely self-reported."
+    },
+    {
+      "text": "Sector mismatch: founder selected 'Consumer tech', but the business is a B2B kirana ordering marketplace with embedded trade credit; 40% of the raise goes to the credit book. Classified here as fintech (lending-led B2B commerce).",
+      "source_ids": [
+        "F2",
+        "D1",
+        "D14"
+      ],
+      "status": "founder_stated",
+      "note": "Relevant to gate G3 (sector label stretch) and to precedent C004: for a lender the deciding question is who owns default risk."
+    },
+    {
+      "text": "Founders: Aarav Deshmukh (CEO) claims 8 years in FMCG distribution and field operations; Pooja Nair (CTO) claims 5 years as a software engineer at a payments company. Neither has prior startup experience; both full-time since April 2026.",
+      "source_ids": [
+        "D11",
+        "D12",
+        "F16"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Founder LinkedIn links in the form are placeholders (*-example) and the website is a .example domain; no independent footprint for the founders or company was found.",
+      "source_ids": [
+        "F3",
+        "F4",
+        "F1"
+      ],
+      "status": "unverifiable"
+    },
+    {
+      "text": "Jumbotail raised USD 120M (Series D, June 2025, led by SC Ventures) and offers kiranas access to credit alongside B2B supply.",
+      "source_ids": [
+        "W5"
+      ],
+      "status": "verified",
+      "note": "Contradicts the deck's framing that B2B marketplaces offer only 'Limited' credit on orders (D16); a well-funded player already bundles supply and credit for kiranas."
+    },
+    {
+      "text": "ONDC's DigiDukaan kirana-restocking pilot started in Hyderabad in March 2026 (via ONDC partner Qwipo) and signed up 10,000+ retailers and 35+ brands.",
+      "source_ids": [
+        "W6",
+        "W7"
+      ],
+      "status": "verified",
+      "note": "Same state as StockSathi; a subsidised open-network alternative for kirana restocking."
+    },
+    {
+      "text": "B2B BNPL providers (e.g. Rupifi) already embed credit into B2B marketplaces in India.",
+      "source_ids": [
+        "W8"
+      ],
+      "status": "verified",
+      "note": "Indicates the credit layer can be sourced from specialist lenders; StockSathi's edge must be underwriting/collections in small towns."
+    },
+    {
+      "text": "Application names no specific competitor, only 'Large B2B marketplaces and local wholesale markets'.",
+      "source_ids": [
+        "F20"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Market sizing is top-down: TAM INR 17 lakh Cr from 12M stores x INR 1.2 L monthly purchases; store counts are the founders' own estimates.",
+      "source_ids": [
+        "D15"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Raising INR 2 Cr at INR 12 Cr post-money; three FMCG/logistics angels have invested INR 25 lakh.",
+      "source_ids": [
+        "F15",
+        "F19"
+      ],
+      "status": "founder_stated"
+    },
+    {
+      "text": "Application came via a Fund I portfolio founder. Portfolio company SuperK runs a tech-enabled grocery network for small towns in Andhra Pradesh, which serves the same small-town kirana owners.",
+      "source_ids": [
+        "F14",
+        "S1"
+      ],
+      "status": "founder_stated",
+      "note": "Possible portfolio overlap (same customer: small-town kirana owners; overlapping job: supply and working capital). Flag for the G1 conflict check; also ask which portfolio founder made the intro."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Aarav Deshmukh (CEO): no public footprint confirming 8 years in FMCG distribution or the 'large distributor' employer.",
+      "why_it_matters": "Founder-market fit is the core of the case (field execution in small-town distribution); it rests entirely on self-reported history.",
+      "searched": [
+        "WebSearch: \"Aarav Deshmukh\" StockSathi Hyderabad (2026-11-18) - no result mentions the person with StockSathi",
+        "Application LinkedIn link linkedin.com/in/aarav-deshmukh-example is a placeholder (.example pattern), not a real profile"
+      ],
+      "ask_founder": "Which distributor did you work for, which region and team size did you run, and can we speak to a former manager?",
+      "blocks_criteria": [
+        "R2",
+        "S3"
+      ]
+    },
+    {
+      "what": "Pooja Nair (CTO): no public footprint confirming 5 years at a payments company or the credit-rules work.",
+      "why_it_matters": "She built the credit-scoring rules the founders call their edge; her credit/risk background is unverified.",
+      "searched": [
+        "WebSearch: \"Pooja Nair\" StockSathi CTO Hyderabad (2026-11-18) - no matching profile",
+        "Application LinkedIn link linkedin.com/in/pooja-nair-example is a placeholder, not a real profile"
+      ],
+      "ask_founder": "Which payments company, which product, and did you work on underwriting or risk there?",
+      "blocks_criteria": [
+        "R1",
+        "S3"
+      ]
+    },
+    {
+      "what": "Company existence and registration: no website, app-store listing, press or MCA record found for StockSathi Technologies Pvt. Ltd.",
+      "why_it_matters": "Basic verification that the entity and app exist.",
+      "searched": [
+        "WebSearch: StockSathi kirana restocking app Karimnagar (2026-11-18) - no result",
+        "Website www.stocksathi.example is a placeholder",
+        "MCA portal not queried in this run"
+      ],
+      "ask_founder": "Please share the CIN, Play Store link and a live demo.",
+      "blocks_criteria": [
+        "R4"
+      ]
+    },
+    {
+      "what": "Who actually funds the credit and who bears the losses (deck: own capital, NBFC in discussion; form: NBFC partner, StockSathi takes first loss).",
+      "why_it_matters": "This is the defining risk for a lender and the fund's precedent (C004) scores it heavily; the two documents give opposite answers.",
+      "searched": [
+        "Deck slide 8 vs form Credit section",
+        "Web: RBI DLG framework (W2, W3)"
+      ],
+      "ask_founder": "Is there a signed NBFC agreement today? If yes, which NBFC, what DLG percentage and in what form (cash/FD/bank guarantee)? If not, on whose balance sheet is the INR 85,000 book?",
+      "blocks_criteria": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "what": "Regulatory structure of the pay-later product: whether lending from own capital without NBFC registration is permissible here, and how disbursal/repayment flows comply with the Digital Lending Directions.",
+      "why_it_matters": "If the structure is non-compliant the credit product (40% of the raise) may have to be rebuilt around a regulated lender.",
+      "searched": [
+        "Web: RBI Act s.45-IA text (W1)",
+        "Web: Digital Lending Directions 2025 summary (W4)"
+      ],
+      "ask_founder": "Have you taken legal advice on the credit structure? Who disburses, into whose account, and where do repayments land?",
+      "blocks_criteria": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "what": "Credit performance data: days-past-due, late-payment counts, collection cost, loss assumptions.",
+      "why_it_matters": "Sector key metric for fintech is default/NPA data or plan; 'none so far' on a 4-month, 12-borrower book is not data.",
+      "searched": [
+        "Deck slides 5 and 8",
+        "Form Credit section"
+      ],
+      "ask_founder": "How many credit orders have paid late, by how many days, and what loss rate does your model assume at 300 stores?",
+      "blocks_criteria": [
+        "R1",
+        "R3"
+      ]
+    },
+    {
+      "what": "Reconciled traction numbers: retailer count (38 vs 42) and CAC (INR 2,860 vs under INR 2,000).",
+      "why_it_matters": "Two of the headline numbers differ between deck and form.",
+      "searched": [
+        "Deck slides 5 and 7 vs form traction answers"
+      ],
+      "ask_founder": "What is today's retailer count and the October CAC with field-agent salaries included?",
+      "blocks_criteria": [
+        "R3"
+      ]
+    },
+    {
+      "what": "Contribution after delivery: delivery is 'next-morning from partner distributors' but logistics cost per order is not shown.",
+      "why_it_matters": "Ops-heavy B2B supply often fails on contribution at density; the INR 520 margin per store may be gross of logistics.",
+      "searched": [
+        "Deck slides 4, 7, 8",
+        "Form Unit economics"
+      ],
+      "ask_founder": "Who pays for delivery, and what is contribution per order after delivery and credit losses?",
+      "blocks_criteria": [
+        "R3",
+        "R5"
+      ]
+    }
+  ],
+  "competitors_named": [
+    "B2B marketplaces (unnamed)",
+    "Local wholesale markets"
+  ],
+  "competitors_found": [
+    "Jumbotail",
+    "ONDC DigiDukaan (via Qwipo)",
+    "Rupifi (B2B BNPL)"
+  ],
+  "keywords": [
+    "kirana",
+    "B2B ordering",
+    "restocking",
+    "retailer credit",
+    "pay later",
+    "trade credit",
+    "wholesale distribution",
+    "small-town grocery",
+    "FMCG supply",
+    "vernacular app"
+  ],
+  "founder_contact": null,
+  "sources": [
+    {
+      "id": "D1",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 1 (title)",
+      "quote": "Restocking and credit for India's small-town kirana stores"
+    },
+    {
+      "id": "D2",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 2 (problem)",
+      "quote": "Based on 60 owner interviews in Karimnagar and Warangal, June to July 2026."
+    },
+    {
+      "id": "D3",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 4 (product)",
+      "quote": "7 to 14 days credit on repeat orders"
+    },
+    {
+      "id": "D4",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "38 retailers onboarded"
+    },
+    {
+      "id": "D5",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "INR 3.8 L GMV in October"
+    },
+    {
+      "id": "D6",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (GTM)",
+      "quote": "INR 2,860 blended CAC, October"
+    },
+    {
+      "id": "D7",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (GTM)",
+      "quote": "CAC = INR 40,000 field cost / 14 stores onboarded in October. Small sample, one town."
+    },
+    {
+      "id": "D8",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 7 (GTM)",
+      "quote": "INR 520 monthly margin per active store"
+    },
+    {
+      "id": "D9",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (revenue model)",
+      "quote": "Pilot with 12 retailers, funded from our own capital for now."
+    },
+    {
+      "id": "D10",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 8 (revenue model)",
+      "quote": "Credit is about a third of October GMV. NBFC partnership in discussion."
+    },
+    {
+      "id": "D11",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (team)",
+      "quote": "8 years in FMCG distribution and field operations. Ran a regional sales team at a large distributor."
+    },
+    {
+      "id": "D12",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 10 (team)",
+      "quote": "5 years as a software engineer at a payments company. Built the ordering app and credit rules."
+    },
+    {
+      "id": "D13",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 11 (ask)",
+      "quote": "In 12 months: 300 live stores, INR 40 L monthly GMV, CAC under INR 2,000."
+    },
+    {
+      "id": "D14",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 11 (ask)",
+      "quote": "40% Credit book"
+    },
+    {
+      "id": "D15",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 6 (market size)",
+      "quote": "Store counts are our estimates."
+    },
+    {
+      "id": "D16",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 9 (differentiation)",
+      "quote": "Credit on orders"
+    },
+    {
+      "id": "D17",
+      "kind": "deck",
+      "title": "Pitch deck",
+      "locator": "Slide 5 (traction)",
+      "quote": "22 of 38 have ordered more than once"
+    },
+    {
+      "id": "F1",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Website",
+      "quote": "www.stocksathi.example"
+    },
+    {
+      "id": "F2",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Company > Sector (as selected)",
+      "quote": "Consumer tech"
+    },
+    {
+      "id": "F3",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 1",
+      "quote": "LinkedIn: linkedin.com/in/aarav-deshmukh-example"
+    },
+    {
+      "id": "F4",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Founder 2",
+      "quote": "LinkedIn: linkedin.com/in/pooja-nair-example"
+    },
+    {
+      "id": "F5",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Active customers",
+      "quote": "42 retailers onboarded, 22 of whom have ordered more than once."
+    },
+    {
+      "id": "F6",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Revenue / GMV",
+      "quote": "GMV of about INR 9 lakh in the last three months."
+    },
+    {
+      "id": "F7",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Customer acquisition",
+      "quote": "Our CAC is under INR 2,000 per store."
+    },
+    {
+      "id": "F8",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Credit > How is credit funded?",
+      "quote": "Credit is provided through our NBFC partner. We take the first-loss risk."
+    },
+    {
+      "id": "F9",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Credit > Credit book size",
+      "quote": "About INR 85,000 outstanding across 12 retailers."
+    },
+    {
+      "id": "F10",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Credit > Defaults to date",
+      "quote": "None so far. We follow up personally on late payments."
+    },
+    {
+      "id": "F11",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Credit > Regulatory status",
+      "quote": "Not registered as an NBFC."
+    },
+    {
+      "id": "F12",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > What have you built?",
+      "quote": "Live in Karimnagar only."
+    },
+    {
+      "id": "F13",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Unit economics",
+      "quote": "Positive contribution on delivered orders once a store has ordered twice."
+    },
+    {
+      "id": "F14",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > How did you hear about us?",
+      "quote": "Introduction through a founder in your Fund I portfolio."
+    },
+    {
+      "id": "F15",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Valuation expectation",
+      "quote": "INR 12 Cr post-money"
+    },
+    {
+      "id": "F16",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Founders > Time commitment / prior experience",
+      "quote": "None for either founder."
+    },
+    {
+      "id": "F17",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Product and traction > Repeat behaviour",
+      "quote": "Repeat customers reorder about once a week."
+    },
+    {
+      "id": "F18",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Anything else",
+      "quote": "We would also welcome your help with introductions to NBFCs."
+    },
+    {
+      "id": "F19",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Fundraising > Existing investors",
+      "quote": "Three angels from the FMCG and logistics industry, INR 25 lakh in total."
+    },
+    {
+      "id": "F20",
+      "kind": "form",
+      "title": "Application form",
+      "locator": "Competition > Who else is doing this?",
+      "quote": "Large B2B marketplaces and local wholesale markets."
+    },
+    {
+      "id": "W1",
+      "kind": "web",
+      "title": "Section 45-IA, Reserve Bank of India Act 1934 (lawx.in)",
+      "url": "https://lawx.in/acts/section/48/485/4705",
+      "retrieved_on": "2026-11-18",
+      "quote": "Notwithstanding anything contained in this Chapter or in any other law for the time being in force, no non-banking financial"
+    },
+    {
+      "id": "W2",
+      "kind": "web",
+      "title": "RBI's new guidelines on Default Loss Guarantee in digital lending (IndiaLaw, posted 12 June 2023)",
+      "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+      "retrieved_on": "2026-11-18",
+      "quote": "the total amount of DLG cover on any outstanding portfolio shall not exceed 5% of the amount of that loan portfolio."
+    },
+    {
+      "id": "W3",
+      "kind": "web",
+      "title": "RBI's new guidelines on Default Loss Guarantee in digital lending (IndiaLaw) - DLG provider eligibility",
+      "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+      "retrieved_on": "2026-11-18",
+      "quote": "the LSP providing DLG must be a company incorporated under the Companies Act, 2013."
+    },
+    {
+      "id": "W4",
+      "kind": "web",
+      "title": "RBI notifies Digital Lending Directions, 2025 (IndiaLaw)",
+      "url": "https://www.indialaw.in/blog/civil/rbi-notifies-digital-lending-directions/",
+      "retrieved_on": "2026-11-18",
+      "quote": "Loans must be disbursed directly to the borrower's account, with servicing and repayments routed through the RE's account"
+    },
+    {
+      "id": "W5",
+      "kind": "web",
+      "title": "Jumbotail raises $120M Series D; completes acquisition of Solv (Jumbotail press release, 30 June 2025)",
+      "url": "https://jumbotail.com/jumbotail-raises-120m-series-d-funding",
+      "retrieved_on": "2026-11-18",
+      "quote": "The platform enables kiranas and MSMEs to digitize operations, access credit"
+    },
+    {
+      "id": "W6",
+      "kind": "web",
+      "title": "ONDC's DigiDukaan wants to digitise how kirana stores buy stock (Lapaas Voice, 23 June 2026)",
+      "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+      "retrieved_on": "2026-11-18",
+      "quote": "The first test began in Hyderabad in March 2026."
+    },
+    {
+      "id": "W7",
+      "kind": "web",
+      "title": "ONDC's DigiDukaan (Lapaas Voice) - pilot scale",
+      "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+      "retrieved_on": "2026-11-18",
+      "quote": "More than 10,000 retailers (shops) signed up, and 35+ brands joined in."
+    },
+    {
+      "id": "W8",
+      "kind": "web",
+      "title": "Rupifi raises $25 Mn Series A from Bessemer, Tiger Global (Entrepreneur India, 7 Jan 2022)",
+      "url": "https://india.entrepreneur.com/news-and-trends/rupifi-raises-25-million-series-a-from-bessemer-tiger/411960",
+      "retrieved_on": "2026-11-18",
+      "quote": "Our B2B BNPL is currently operating at some of the category leading B2B marketplaces in India"
+    },
+    {
+      "id": "S1",
+      "kind": "seed",
+      "title": "All In Capital deal memos (data/seed/deal_memos.md)",
+      "locator": "Memo 9: SuperK",
+      "quote": "A tech-enabled grocery retail network for small towns."
+    }
+  ],
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also surfaced StoreKing, Badho, ShopKirana, KiranaPro and Udaan as kirana B2B players, but those pages were not opened, so they are not listed as sources. Pages that blocked fetching (403): YourStory on Flipkart Wholesale credit, Business Standard. RBI's own DLG FAQ page returned no content, so DLG rules are cited from a law-firm summary. The legal question of whether own-capital trade credit needs NBFC registration is flagged, not answered.",
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+}

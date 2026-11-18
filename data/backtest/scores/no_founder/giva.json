@@ -1,0 +1,212 @@
+{
+  "slug": "giva",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "For a brand the defining risk is repeat purchase; the dossier says nothing about repeat or how the founders track it. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "No description of how first customers were found or of on-the-ground work. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Deciding metric (cohort repeat) is absent; what is recorded is heavy early reliance on marketplaces and paid channels, a negative signal on earned growth.",
+      "evidence": [
+        {
+          "text": "Heavy reliance on marketplaces and paid channels early.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Channel is working online (own and marketplaces) with offline expansion and category extension, though paid-channel dependence and established jewellers going digital stand in the way.",
+      "evidence": [
+        {
+          "text": "Online-first; later expanding into gold and lab-grown diamonds and building offline presence.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Competition from established jewellers going digital.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Jewellery inventory and working-capital intensity, plus offline expansion, push capital needs above a pre-seed cheque.",
+      "evidence": [
+        {
+          "text": "Inventory and working-capital intensity.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "A brand with category and offline expansion could compound, but established jewellers are going digital and no moat is described.",
+      "evidence": [
+        {
+          "text": "Building offline presence.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Competition from established jewellers going digital.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "D2C jewellery is squarely a consumer brand.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer brand (jewellery, D2C).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "An 'early round' for a revenue-generating brand founded 2019: possibly beyond the first cheque and in a space where larger VCs compete. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded in 2019.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Online-first fine silver is a less-crowded entry point with ambition into gold and lab-grown diamonds, but jewellery D2C is not non-consensus overall.",
+      "evidence": [
+        {
+          "text": "Online-first fine silver jewellery brand, expanding into gold and lab-grown diamonds.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely a consumer brand.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Squarely a consumer brand with a working online channel and offline expansion (S1, R4).",
+    "Category expansion from silver into gold and lab-grown diamonds shows ambition (S4)."
+  ],
+  "case_against": [
+    "No repeat/cohort data; early growth leaned on marketplaces and paid channels (R3).",
+    "Inventory and working-capital intensity strain a pre-seed cheque (R5).",
+    "Established jewellers going digital threaten the position (R6).",
+    "Early round on a revenue-generating brand may be beyond the fund's lead cheque (S2)."
+  ],
+  "call_questions": [
+    "What share of customers buy a second time within 6 and 12 months, by acquisition channel?",
+    "What share of orders come from paid channels and marketplaces today, and how has it moved?",
+    "How many days of inventory do you carry and how is it financed?",
+    "What stops a large established jeweller from launching a silver line online and outspending you?",
+    "Paid dependence is the weakest part of this story to us: show us the data that says otherwise."
+  ],
+  "what_would_change_our_view": "Cohort repeat data showing a rising share of organic, repeat orders and a working-capital plan that fits the cheque would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

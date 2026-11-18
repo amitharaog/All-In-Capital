@@ -1,0 +1,230 @@
+{
+  "slug": "aerodrop",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Defining risk is the regulator (plus liability). The dossier records commercial permission as uncertain on a multi-year horizon and liability/insurance as unaddressed, which reads as the risk not yet being owned; no founder plan is described.",
+      "evidence": [
+        {
+          "text": "Regulatory permission for commercial operations uncertain on a multi-year horizon; liability and insurance unaddressed.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "A working prototype and a handful of demonstration flights, but no signed customer and no described customer sites or pilots treated as learning: technology-first.",
+      "evidence": [
+        {
+          "text": "Working prototype and a handful of demonstration flights.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "No signed customer.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Deeptech deciding metrics are a milestone sequence and a signed pilot/LOI. Demo flights exist but there is no signed customer or LOI.",
+      "evidence": [
+        {
+          "text": "Handful of demonstration flights.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "No signed customer.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "No paying or signed customer, regulatory path uncertain for years, liability unaddressed: all three path-to-market elements are open.",
+      "evidence": [
+        {
+          "text": "Regulatory permission uncertain on a multi-year horizon; no signed customer; liability and insurance unaddressed.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Hardware plus a multi-year wait for commercial permission means the next proof point likely needs more than a pre-seed cheque, unless the cheque is sized to survive a slow path (ask not given).",
+      "evidence": [
+        {
+          "text": "Regulatory permission uncertain on a multi-year horizon.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Stage: Pre-seed.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "No information on what would be defensible (network, data, operations) beyond the prototype. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Drone delivery is squarely deeptech, a stated focus sector.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (drone delivery).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "partial",
+      "rationale": "Pre-seed with a prototype: the stage the fund leads. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed | Source: Warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "The only founder-relevant line is the fund's note of a weak commercial co-founder, a gap on the key commercial/regulatory skill this business needs. Nothing on technical record.",
+      "evidence": [
+        {
+          "text": "Weak commercial co-founder.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Medical/small-parcel drone delivery is ambitious but a widely pursued category; no non-consensus insight is stated.",
+      "evidence": [
+        {
+          "text": "Autonomous drone delivery of medical supplies and small parcels over short distances.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": true,
+      "detail": "Commercial operations depend on a regulatory permission not yet granted and uncertain on a multi-year horizon; no plan B (e.g. non-regulated use case) appears in the dossier. Triggered pending a call.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Genuinely deeptech, not a label stretch.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Squarely in deeptech focus with a working prototype and demonstration flights (S1, R2).",
+    "Pre-seed stage the fund can lead (S2)."
+  ],
+  "case_against": [
+    "Commercial permission not granted and uncertain for years, with no plan B shown (R1, R4, G2).",
+    "No signed customer, and liability/insurance unaddressed (R3, R4).",
+    "Weak commercial co-founder on a business whose hardest problems are commercial and regulatory (S3).",
+    "Likely needs far more capital than a pre-seed cheque before first revenue (R5)."
+  ],
+  "call_questions": [
+    "If commercial permission takes three more years, what does the company sell in the meantime, and to whom?",
+    "Walk us through the regulator milestone sequence you are working to, and which step you have already completed.",
+    "Who carries liability if a drone fails over a populated area, and what has an insurer told you?",
+    "Name the hospital or logistics customer closest to signing and what they would pay per delivery.",
+    "We see the commercial side as your weakest point: why should we believe this team can sell and navigate regulators, not just fly?"
+  ],
+  "what_would_change_our_view": "A signed pilot or LOI with a paying customer, plus a documented regulator milestone plan and a liability/insurance answer, would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

@@ -1,0 +1,221 @@
+{
+  "slug": "coinlane",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "The defining risk is the regulator and banking access; the dossier records the uncertainty but says nothing about the founders' plan for it. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Users came through referral campaigns; no customer conversations, manual work or learnings described.",
+      "evidence": [
+        {
+          "text": "Growing user base from referral campaigns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Only user-count growth from referral campaigns is cited; trust/repeat usage, trading activity or revenue are absent, and referral growth is likely incentivised.",
+      "evidence": [
+        {
+          "text": "Growing user base from referral campaigns.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Trading revenue is cyclical.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Path to market runs through a payment partner and banks under regulatory and tax uncertainty, against large well-funded exchanges.",
+      "evidence": [
+        {
+          "text": "Fiat on-ramp through a payment partner.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Regulatory and tax uncertainty; banking and payment-partner dependency; intense competition.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Competing with well-funded exchanges on user acquisition, with cyclical revenue, points to capital needs well beyond a pre-seed cheque.",
+      "evidence": [
+        {
+          "text": "Intense competition from large, well-funded exchanges; trading revenue is cyclical.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "A retail trading app and wallet with no stated differentiation against large incumbents; nothing that compounds is described.",
+      "evidence": [
+        {
+          "text": "Intense competition from large, well-funded exchanges.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "Web3 sits outside the named focus sectors; a consumer fintech angle exists but no AI or deeptech element.",
+      "evidence": [
+        {
+          "text": "Sector: Web3 (crypto exchange and wallet).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "partial",
+      "rationale": "Pre-seed via public application. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed | Source: Public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Me-too retail crypto exchange in a hot, crowded category, India-only.",
+      "evidence": [
+        {
+          "text": "A retail crypto trading app and wallet for Indian users.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Intense competition from large, well-funded exchanges.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": true,
+      "detail": "Retail crypto trading in India depends on regulatory, tax and banking treatment that is uncertain; the business exists only if the rules stay or become favourable, with no plan B in the dossier.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Labelled Web3/other, not claimed into a focus sector by label.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Consumer-facing product with some user growth (R3).",
+    "Pre-seed stage the fund can lead (S2)."
+  ],
+  "case_against": [
+    "Exists only if crypto regulation and banking access stay favourable (G2, R4).",
+    "Traction is referral-driven user counts, not trust/repeat usage or revenue (R3).",
+    "Me-too exchange against large, well-funded incumbents; nothing defensible stated (S4, R6)."
+  ],
+  "call_questions": [
+    "If your payment partner dropped you next month, how would users get money in?",
+    "What happens to the company under a 1% TDS or an outright trading restriction: is there a business left?",
+    "Of users acquired via referrals, how many traded again in month two and month three?",
+    "Why would a user pick you over the largest exchanges?",
+    "We think this is a me-too exchange that lives at the regulator's mercy: tell us why we are wrong."
+  ],
+  "what_would_change_our_view": "A business that survives an adverse regulatory outcome (plan B) plus retention data showing users trade repeatedly without incentives would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

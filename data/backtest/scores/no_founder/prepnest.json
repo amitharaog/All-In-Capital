@@ -1,0 +1,212 @@
+{
+  "slug": "prepnest",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "For consumer tech the defining risk is retention/conversion; the dossier says it was not shown, but not whether or how the founders track or manage it. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Traction is described as downloads; no learner conversations, pilots or on-the-ground work.",
+      "evidence": [
+        {
+          "text": "Strong early download numbers.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Downloads only; retention and conversion to paid, the deciding metrics, are not shown.",
+      "evidence": [
+        {
+          "text": "Strong early download numbers.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Retention and conversion to paid not shown.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "No evidence anyone pays; entrenched, heavily funded players own the channel.",
+      "evidence": [
+        {
+          "text": "Conversion to paid not shown; crowded category with entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "An app is capital-light to build, but out-acquiring heavily funded players is not.",
+      "evidence": [
+        {
+          "text": "Mobile-first app with video lessons and adaptive practice.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Content-led and founder-dependent, hard to scale beyond one teacher: the product is the founder, the low anchor.",
+      "evidence": [
+        {
+          "text": "Content-led, founder-dependent product that is hard to scale beyond one teacher.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Consumer edtech app is consumer tech; adaptive practice is a thin AI angle.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (exam-prep).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "partial",
+      "rationale": "Pre-seed, warm intro. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed | Source: Warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Exam-prep apps are a crowded, consensus category with entrenched leaders.",
+      "evidence": [
+        {
+          "text": "Crowded category with entrenched, heavily funded players.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Consumer tech in substance.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Early demand signal in downloads (R3).",
+    "Consumer tech at pre-seed; app is capital-light to build (S1, S2, R5)."
+  ],
+  "case_against": [
+    "Downloads only; retention and paid conversion not shown (R3).",
+    "Founder-dependent content product, hard to scale beyond one teacher (R6).",
+    "Crowded category with heavily funded incumbents (R4, S4)."
+  ],
+  "call_questions": [
+    "Of users who downloaded in month one, how many were active in week four, and how many paid?",
+    "What share of lessons are taught by someone other than you, and how do their ratings compare?",
+    "How does adaptive practice change outcomes versus the incumbents' apps?",
+    "What does it cost to acquire a paying learner, and through which channel?",
+    "If you stepped away for three months, what would happen to the product: be honest."
+  ],
+  "what_would_change_our_view": "Retention and paid conversion data, and evidence the product works without the founder teaching, would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

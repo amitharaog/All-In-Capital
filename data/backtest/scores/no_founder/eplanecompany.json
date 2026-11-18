@@ -1,0 +1,215 @@
+{
+  "slug": "eplanecompany",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "The defining risk is certification and regulation; the dossier says timelines are outside the founders' control but not how the founders sequence or manage it. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Grown out of a research lab: technology-first. No customer, operator or pilot work is described.",
+      "evidence": [
+        {
+          "text": "Incubated at IIT Madras, grown out of a combustion research lab.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "Deeptech deciding metrics are a milestone sequence and signed pilot/LOI; neither appears, and first revenue is far away.",
+      "evidence": [
+        {
+          "text": "Capital intensity is high and the first revenue is far away.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Certification timelines are long, no customer is named and market sizing was aspirational rather than evidenced.",
+      "evidence": [
+        {
+          "text": "Regulation and certification timelines are long; market sizing in the deck was aspirational rather than evidenced.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "High capital intensity and distant revenue: the company only reaches proof with capital far beyond a pre-seed cheque.",
+      "evidence": [
+        {
+          "text": "Capital intensity is high and the first revenue is far away.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Research-lab origins suggest technical IP that could be hard to copy, but this is institutional provenance; pedigree cap applies.",
+      "evidence": [
+        {
+          "text": "Grown out of a combustion research lab; founded 2016.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "eVTOL/UAV is core deeptech.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (aerial mobility).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Founded 2016 and raising an 'early round' rather than the first cheque; capital needs suggest a round larger than the fund leads. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Warm intro, Fund I founder network.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Founded 2016.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Only institutional provenance (incubator, research lab) bears on it; credentials alone are capped at 2 and nothing describes what the founders themselves have built.",
+      "evidence": [
+        {
+          "text": "Incubated at IIT Madras, grown out of a combustion research lab.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 4.0,
+      "status": "evidenced",
+      "rationale": "Intracity eVTOL from India is a non-consensus, highly ambitious bet with global relevance.",
+      "evidence": [
+        {
+          "text": "eVTOL aircraft and UAVs for short-range intracity travel.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Needs aircraft certification under existing regimes, a long path rather than a rule change; UAV line offers some alternative. Not triggered, but the regulator is the defining risk (R1/R4).",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Squarely deeptech.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Core deeptech with a non-consensus, global-scale ambition (S1, S4).",
+    "Research-lab origins point to technical depth that could be hard to copy (R6)."
+  ],
+  "case_against": [
+    "Certification timelines are long and outside founders' control; no customer or LOI (R3, R4).",
+    "Capital intensity far beyond a pre-seed cheque; the fund risks being the small diluted cheque (R5, S2).",
+    "Market sizing was aspirational, not evidenced (R4)."
+  ],
+  "call_questions": [
+    "Lay out the certification milestone sequence and which steps you control.",
+    "What revenue can the UAV line generate before eVTOL certification, and from whom?",
+    "How much capital to first commercial revenue, and how does a pre-seed cheque survive that path?",
+    "Which operator or city has signed anything, even an LOI?",
+    "Your market sizing looked aspirational to us: defend one number in it from evidence."
+  ],
+  "what_would_change_our_view": "A signed LOI from an operator, a certification plan with dated milestones and an interim revenue line would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

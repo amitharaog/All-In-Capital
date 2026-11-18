@@ -1,0 +1,233 @@
+{
+  "slug": "campuscredit",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "For a lender the defining risk is who holds default. Licence and balance sheet sit with an NBFC partner, which is structurally the 'NBFC handles it' pattern; whether the founders take first-loss or own underwriting is not stated.",
+      "evidence": [
+        {
+          "text": "Depends on an NBFC partner for the licence and balance sheet.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Collections from students are hard; unclear credit-bureau data on first-time borrowers.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Campus ambassador networks suggest on-the-ground distribution, but no customer conversations, pilots or learnings are described.",
+      "evidence": [
+        {
+          "text": "Underwritten with parent co-signer data and campus ambassador networks.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Deciding metric (default/repayment data, repeat usage) is absent from the dossier; scored as missing value. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Channel (campus ambassadors) and licence route (NBFC partner) are named, but the licence is borrowed and digital lending faces regulatory scrutiny; no paying volume shown.",
+      "evidence": [
+        {
+          "text": "Campus ambassador networks; parent co-signer data.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Depends on an NBFC partner for the licence; regulatory scrutiny of digital lending.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Credit growth needs balance sheet; relying on a partner's balance sheet keeps pre-seed needs low but leaves the company dependent and squeezed on terms.",
+      "evidence": [
+        {
+          "text": "Depends on an NBFC partner for the licence and balance sheet.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "A campus ambassador network and co-signer data could compound, but nothing shows they are proprietary or hard to copy.",
+      "evidence": [
+        {
+          "text": "Underwritten with parent co-signer data and campus ambassador networks.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Labelled fintech, but the business is small-ticket lending operations on a partner's licence (see G3).",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (student credit).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        },
+        {
+          "text": "Buy-now-pay-later and small-ticket credit for college students.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "partial",
+      "rationale": "Pre-seed via public application: a round the fund could lead. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed | Source: Public application form.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 1.5,
+      "status": "evidenced",
+      "rationale": "Student BNPL is a crowded, consensus category under regulatory scrutiny; co-signer underwriting is the only differentiating idea stated.",
+      "evidence": [
+        {
+          "text": "BNPL for college students, underwritten with parent co-signer data.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Regulatory scrutiny of digital lending.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Licence is available today through an NBFC partner, so the model does not depend on a rule change; digital-lending scrutiny is a risk (R1/R4), not a gate.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": true,
+      "detail": "Fintech by label; in substance small-ticket lending operations on a partner's licence and balance sheet. Flag only.",
+      "source_ids": [
+        "M2",
+        "M4"
+      ]
+    }
+  ],
+  "case_for": [
+    "Campus ambassador network is a cheap, on-the-ground channel to a reachable segment (R2, R4).",
+    "Parent co-signer data is a plausible underwriting angle for thin-file borrowers (R6).",
+    "Pre-seed round the fund could lead (S2)."
+  ],
+  "case_against": [
+    "Default risk and licence sit with an NBFC partner: the defining risk appears delegated (R1).",
+    "No repayment or default data at all (R3 missing).",
+    "Hard collections from students and regulatory scrutiny of digital lending (R4).",
+    "Crowded BNPL category; fintech by label more than substance (S4, G3)."
+  ],
+  "call_questions": [
+    "When a student defaults, whose money is lost and how much first-loss do you carry?",
+    "What are your repayment and default numbers by cohort so far, and how do co-signed loans compare?",
+    "How do you collect from a student who has stopped responding, step by step?",
+    "If the RBI tightened digital-lending rules again tomorrow, what changes in your model?",
+    "Our biggest worry is that the NBFC holds the risk and you hold the growth target: convince us otherwise."
+  ],
+  "what_would_change_our_view": "Cohort repayment data and evidence that the company holds and manages credit risk itself (first-loss, own collections) would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

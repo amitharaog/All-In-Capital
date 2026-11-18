@@ -1,0 +1,220 @@
+{
+  "slug": "unboxrobotics",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Defining risk is pilot-to-rollout conversion and hardware margins; recorded as open but nothing on the founders' plan. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Pilots with warehouse customers are implied (pilot-to-rollout conversion is the question), but sites and learnings are not described.",
+      "evidence": [
+        {
+          "text": "Pilot-to-rollout conversion uncertain.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Deciding metric is signed pilots and their results; pilots appear to exist but conversion and results are not given.",
+      "evidence": [
+        {
+          "text": "Pilot-to-rollout conversion uncertain.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 3.0,
+      "status": "evidenced",
+      "rationale": "Clear buyer (e-commerce and logistics warehouses) and a pilot channel, but long enterprise sales cycles and better-funded global competitors.",
+      "evidence": [
+        {
+          "text": "Robotic sorting for warehouses and fulfilment centres of e-commerce and logistics companies.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Long enterprise sales cycles; better-funded global competitors.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Hardware with unproven margins and long sales cycles needs patient capital; fit with a pre-seed cheque is uncertain.",
+      "evidence": [
+        {
+          "text": "Hardware margin structure unproven at scale; long enterprise sales cycles.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Compact AI-assisted hardware is engineered IP and deployments can compound, but better-funded global competitors exist.",
+      "evidence": [
+        {
+          "text": "Compact, AI-assisted robotic package-sorting systems.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Several better-funded global competitors.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 5.0,
+      "status": "evidenced",
+      "rationale": "AI-assisted robotics for one industry: deeptech and vertical AI.",
+      "evidence": [
+        {
+          "text": "Sector: Deeptech (warehouse robotics).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Early round with a co-investor, founded 2019; the fund may follow rather than lead. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Warm intro, co-investor.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Compact sorting for space-constrained warehouses is a specific angle in a global market, though global competitors are well funded.",
+      "evidence": [
+        {
+          "text": "Compact robotic package-sorting systems.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Several better-funded global competitors.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Genuinely deeptech.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Deeptech/vertical AI with a clear enterprise buyer (S1, R4).",
+    "Pilots appear to be running with warehouse customers (R2, R3).",
+    "Compact form factor is a specific, globally relevant angle (S4, R6)."
+  ],
+  "case_against": [
+    "Pilot-to-rollout conversion uncertain and long enterprise sales cycles (R3, R4).",
+    "Hardware margins unproven at scale; capital needs may exceed a pre-seed cheque (R5).",
+    "Better-funded global competitors; co-investor-led round the fund may not lead (R6, S2)."
+  ],
+  "call_questions": [
+    "How many pilots are live, and which has converted to a paid rollout, at what price?",
+    "What is gross margin per unit today and at 100 units?",
+    "How long from first meeting to signed order with your last customer?",
+    "Why do customers pick you over the better-funded global players?",
+    "If no pilot converts in the next nine months, what does that tell you, and what do you change?"
+  ],
+  "what_would_change_our_view": "At least one pilot converted to a paid multi-site rollout with unit margins shown would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

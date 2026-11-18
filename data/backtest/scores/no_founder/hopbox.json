@@ -1,0 +1,220 @@
+{
+  "slug": "hopbox",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": 1.0,
+      "status": "partial",
+      "rationale": "Ops-heavy defining risk is profitability at density. Contribution margin is negative on the data shown and the model only works at density, the low-anchor pattern; whether founders have a margin path is not stated.",
+      "evidence": [
+        {
+          "text": "Capital-intensive model that only works at density; contribution margin negative on the data shown.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Actually operating dark stores in one neighbourhood cluster is real on-the-ground work, though no customer learning is described.",
+      "evidence": [
+        {
+          "text": "Operating in one city neighbourhood cluster from small dark stores.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 1.0,
+      "status": "evidenced",
+      "rationale": "Deciding metrics are contribution margin and retention: margin is negative and customer loyalty unproven.",
+      "evidence": [
+        {
+          "text": "Contribution margin negative on the data shown. Customer loyalty unproven.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.0,
+      "status": "evidenced",
+      "rationale": "Paying customers exist in one cluster, but well-funded incumbents with deep pockets contest every neighbourhood.",
+      "evidence": [
+        {
+          "text": "Operating in one city neighbourhood cluster.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Well-funded incumbents with deep pockets.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Only works at density, capital-intensive, negative contribution margin: the low anchor almost word for word.",
+      "evidence": [
+        {
+          "text": "Capital-intensive model that only works at density; contribution margin negative.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": 1.5,
+      "status": "partial",
+      "rationale": "Local dark-store operations are copyable by incumbents with deeper pockets; no network or data advantage described.",
+      "evidence": [
+        {
+          "text": "Well-funded incumbents with deep pockets.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Quick commerce is consumer tech.",
+      "evidence": [
+        {
+          "text": "Sector: Consumer tech (10-minute delivery).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 4.0,
+      "status": "partial",
+      "rationale": "Pre-seed, warm intro. Round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Pre-seed | Source: Warm intro.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 0.5,
+      "status": "evidenced",
+      "rationale": "Ten-minute grocery delivery is the archetypal hot, crowded category; one neighbourhood cluster, local ambition.",
+      "evidence": [
+        {
+          "text": "Hyperlocal delivery in under ten minutes, one neighbourhood cluster.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Well-funded incumbents with deep pockets.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "No regulatory dependency.",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Consumer tech in substance.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Live operations in a real neighbourhood cluster (R2).",
+    "Consumer-tech focus sector at pre-seed (S1, S2)."
+  ],
+  "case_against": [
+    "Negative contribution margin in a model that only works at density (R1, R3, R5).",
+    "Well-funded incumbents with deep pockets; nothing defensible (R4, R6).",
+    "Me-too in the hottest, most capital-hungry category (S4)."
+  ],
+  "call_questions": [
+    "What is contribution margin per order today, and at what orders/day per store does it turn positive?",
+    "What share of month-one customers are still ordering in month three?",
+    "How much capital to reach that density in one cluster, and does a pre-seed cheque get you there?",
+    "What do you do when an incumbent opens a dark store next door with free delivery?",
+    "Your model looks like it needs a big raise to reach density: why is that wrong?"
+  ],
+  "what_would_change_our_view": "Positive contribution margin at achievable density in one cluster, with retention data, would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "wintwealth",
+  "lens_used_primary": "revealed",
+  "criteria": [
+    {
+      "criterion_id": "R1",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Defining risks are regulation of retail debt access and trust; recorded as risks but nothing on the founders' plan. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R2",
+      "score": 3.5,
+      "status": "evidenced",
+      "rationale": "Early on the platform was run almost manually: unscalable, hand-run transactions before automating.",
+      "evidence": [
+        {
+          "text": "Early on it was run almost manually.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "medium",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R3",
+      "score": 2.0,
+      "status": "partial",
+      "rationale": "Trust/repeat usage is the deciding metric; only that early volumes were small is recorded, with no repeat or retention data.",
+      "evidence": [
+        {
+          "text": "Early volumes were small; trust is slow to build.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R4",
+      "score": 2.5,
+      "status": "partial",
+      "rationale": "Retail investors are the customer and the platform is live, but regulation of retail access to debt products and slow trust-building stand in the way.",
+      "evidence": [
+        {
+          "text": "Makes bond-market products accessible to retail investors in India.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Regulation of retail access to debt products; trust slow to build.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R5",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "A platform run manually early is capital-efficient; the next proof point (repeat investors, volume) looks reachable without heavy capital.",
+      "evidence": [
+        {
+          "text": "Early on it was run almost manually.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        },
+        {
+          "text": "Early volumes were small.",
+          "source_ids": [
+            "M4"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "R6",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Nothing on what would be defensible (trust, distribution, sourcing) beyond the founders. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S1",
+      "score": 4.5,
+      "status": "evidenced",
+      "rationale": "Retail investment platform is squarely fintech.",
+      "evidence": [
+        {
+          "text": "Sector: Fintech (bonds / fixed income).",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "high",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S2",
+      "score": 3.0,
+      "status": "partial",
+      "rationale": "Early round via founder referral; round size not given.",
+      "evidence": [
+        {
+          "text": "Stage: Early round | Source: Founder referral.",
+          "source_ids": [
+            "M1"
+          ],
+          "status": "verified"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S3",
+      "score": null,
+      "status": "not_evidenced",
+      "rationale": "Founder-market fit, earned secrets and build record cannot be assessed: the dossier holds no founder information. The dossier carries no information on how the founders think about or manage this; not inferred from the company description.",
+      "evidence": [],
+      "confidence": "low",
+      "precedents_applied": []
+    },
+    {
+      "criterion_id": "S4",
+      "score": 3.5,
+      "status": "partial",
+      "rationale": "Opening bond markets to retail investors is a less crowded, non-obvious category relative to equity and crypto apps.",
+      "evidence": [
+        {
+          "text": "Makes bond-market products accessible to retail investors in India.",
+          "source_ids": [
+            "M2"
+          ],
+          "status": "founder_stated"
+        }
+      ],
+      "confidence": "low",
+      "precedents_applied": []
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "triggered": false,
+      "detail": "not checked in backtest",
+      "source_ids": []
+    },
+    {
+      "gate_id": "G2",
+      "triggered": false,
+      "detail": "Regulation of retail debt access is a risk, but nothing indicates dependence on a permission withdrawn or not yet granted.",
+      "source_ids": [
+        "M4"
+      ]
+    },
+    {
+      "gate_id": "G3",
+      "triggered": false,
+      "detail": "Fintech in substance.",
+      "source_ids": []
+    }
+  ],
+  "case_for": [
+    "Ran the platform almost manually early: customer-first, unscalable work (R2).",
+    "Capital-efficient path to the next proof point (R5).",
+    "Non-obvious, underserved category in fintech focus (S1, S4)."
+  ],
+  "case_against": [
+    "Early volumes small and no repeat/trust data (R3).",
+    "Regulation of retail access to debt products could reshape the model (R4).",
+    "Trust slow to build where mistakes cost investors real money; defensibility not described (R6)."
+  ],
+  "call_questions": [
+    "What share of first-time investors invested again, and how much more?",
+    "If a bond you listed defaulted tomorrow, what would you do and who bears the loss?",
+    "Which regulatory change would hurt you most, and what is your plan if it happens?",
+    "What did running it manually teach you that changed the product?",
+    "Volumes are small: why is this a large business rather than a niche product for a few investors?"
+  ],
+  "what_would_change_our_view": "Repeat-investor data and a clear plan for regulatory change and issuer default would change our view.",
+  "produced_by": "claude-code-session (blind backtest, prompts/score.md, no_founder variant)"
+}
