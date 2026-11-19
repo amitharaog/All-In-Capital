@@ -20,8 +20,8 @@ import datetime as dt
 import re
 from zoneinfo import ZoneInfo
 
-from . import conflicts, corrections, emailer, scheduling, scrape
-from .core import APPS, DATA, FUND, decide, dump_json, list_slugs, load_json, load_thesis
+from . import conflicts, corrections, emailer, scheduling, scrape, storage
+from .core import APPS, DATA, FUND, decide, list_slugs, load_json, load_thesis
 from .schemas import ResearchDossier, ScoreCard
 
 IST = ZoneInfo("Asia/Kolkata")
@@ -51,11 +51,11 @@ def config() -> dict:
 
 
 def load_state() -> dict:
-    return load_json(STATE) if STATE.exists() else {"rubric_version": None, "apps": {}}
+    return storage.read_json(STATE, {"rubric_version": None, "apps": {}})
 
 
 def save_state(state: dict) -> None:
-    dump_json(STATE, state)
+    storage.write_json(STATE, state)
 
 
 def _app(state: dict, slug: str) -> dict:
@@ -97,7 +97,7 @@ def define_rubrics(now: dt.datetime | None = None) -> dict:
                     problems.append(f"{c['id']} missing {key}")
     if problems:
         raise StageError("rubric invalid: " + "; ".join(problems))
-    dump_json(FUND / "rubric_versions" / f"{t['version']}.json", t)
+    storage.write_json(FUND / "rubric_versions" / f"{t['version']}.json", t)
     state = load_state()
     state["rubric_version"] = t["version"]
     save_state(state)
@@ -200,10 +200,10 @@ def final_decision(slug: str, decision: str, by: str, reason: str = "", tags: li
                                      by, t).model_dump()
     app["decision"] = {"decision": decision, "by": by, "reason": reason, "override": override,
                        "correction_id": correction["id"] if correction else None, "at": now.isoformat(timespec="minutes")}
-    decisions = load_json(DATA / "decisions.json") if (DATA / "decisions.json").exists() else {}
+    decisions = storage.read_json(DATA / "decisions.json", {})
     decisions[slug] = {"decision": {"go": "call", "no_go": "pass", "hold": "hold"}[decision], "by": by,
                        "date": now.date().isoformat(), "note": reason}
-    dump_json(DATA / "decisions.json", decisions)
+    storage.write_json(DATA / "decisions.json", decisions)
     stage = {"go": GO, "no_go": NO_GO, "hold": HOLD}[decision]
     _move(app, stage, "final_decision", now, by=by,
           detail=("override of " + rec + "; correction " + correction["id"]) if correction else f"agrees with {rec}")

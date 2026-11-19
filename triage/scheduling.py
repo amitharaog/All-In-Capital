@@ -7,8 +7,8 @@ Rules from the partner notes (Meeting 5):
   ever runs on applications with an approved decision in data/decisions.json.
 
 Backends:
-- LocalBackend (default): picks free slots from data/fund/calendar.json,
-  writes an .ics invite and a founder email draft per company.
+- LocalCalendar (default): free/busy and bookings in data/fund/calendar.json
+  (through triage.storage, so Postgres when deployed).
 - GoogleCalendarBackend: same slot logic against real free/busy, then inserts
   the event with a Meet link and the founder as guest. Needs a service
   account or OAuth token with calendar scope (see README). Not exercised in CI.
@@ -20,14 +20,14 @@ import uuid
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .core import FUND, load_json
+from . import storage
+from .core import FUND
 
 IST = ZoneInfo("Asia/Kolkata")
 
 
 def _config() -> dict:
-    path = FUND / "calendar.json"
-    return load_json(path) if path.exists() else {}
+    return storage.read_json(FUND / "calendar.json", {})
 
 
 def candidate_slots(start: dt.date, days: int = 14, cfg: dict | None = None) -> list[dt.datetime]:
@@ -99,57 +99,6 @@ def ics(company: str, slot: dt.datetime, attendees: list[str], founder_email: st
     return "\r\n".join(lines) + "\r\n"
 
 
-def founder_email_draft(company: str, founder_name: str, slots: list[dt.datetime], attendees: list[str]) -> str:
-    opts = "\n".join(f"  - {s.strftime('%A %d %b, %I:%M %p')} IST" for s in slots)
-    who = " and ".join(a for a in attendees if a != "Riya") or "Kushal"
-    return (
-        f"Subject: All In Capital - 30 min intro call with {company}\n\n"
-        f"Hi {founder_name.split()[0]},\n\n"
-        f"Thanks for applying to All In Capital. {who} would like to take a 30-minute call about {company}.\n"
-        f"We've held the first slot below for you; if it doesn't work, reply with another from the list and we'll move it:\n\n"
-        f"{opts}\n\n"
-        "A calendar invite for the first slot is attached.\n\n"
-        "Best,\nRiya\nAll In Capital\n"
-    )
-
-
-def pass_note_draft(company: str, founder_name: str, what_would_change: str | None) -> str:
-    change = what_would_change or "a clearer view of the numbers that decide this category"
-    return (
-        f"Subject: Your application to All In Capital - {company}\n\n"
-        f"Hi {founder_name.split()[0]},\n\n"
-        f"Thank you for sending us {company}. We're not going to take this forward right now, and we'd rather tell you why than go quiet.\n\n"
-        f"What would change our view: {change}\n\n"
-        "If that changes, write back and we'll take another look.\n\n"
-        "Best,\nRiya\nAll In Capital\n"
-    )
-
-
-def book_local(approvals: list[dict], out_dir: Path, today: dt.date | None = None) -> list[dict]:
-    """approvals: [{slug, company, sector, founder_name, founder_email, attendees}]"""
-    cfg = _config()
-    today = today or dt.date.today()
-    taken: set[dt.datetime] = set()
-    booked = []
-    out_dir.mkdir(parents=True, exist_ok=True)
-    for a in approvals:
-        slots = free_slots(a["attendees"], today, taken, cfg)
-        if not slots:
-            booked.append({**a, "status": "no_free_slot"})
-            continue
-        held = slots[0]
-        taken.add(held)
-        alternates = [s for s in slots[1:] if s.date() != held.date()][:2] or slots[1:3]
-        (out_dir / f"{a['slug']}.ics").write_text(
-            ics(a["company"], held, a["attendees"], a.get("founder_email"), cfg.get("emails", {}))
-        )
-        (out_dir / f"{a['slug']}_email.txt").write_text(
-            founder_email_draft(a["company"], a.get("founder_name") or "there", [held, *alternates], a["attendees"])
-        )
-        booked.append({**a, "status": "held", "slot": held.isoformat(), "alternates": [s.isoformat() for s in alternates]})
-    return booked
-
-
 class GoogleCalendarBackend:  # pragma: no cover - needs credentials
     """Real booking. Requires `pip install google-api-python-client google-auth`
     and GOOGLE_APPLICATION_CREDENTIALS pointing at a service account with
@@ -203,15 +152,12 @@ class LocalCalendar:
     name = "local"
 
     def book(self, company: str, slot: dt.datetime, attendees: list[str], founder_email: str | None) -> str:
-        import json
-
-        path = FUND / "calendar.json"
         cfg = _config()
         cfg.setdefault("busy", []).append({
             "who": attendees, "start": slot.isoformat(), "end": (slot + dt.timedelta(minutes=30)).isoformat(),
             "what": f"Intro call: {company}" + (f" ({founder_email})" if founder_email else ""),
         })
-        path.write_text(json.dumps(cfg, indent=2) + "\n")
+        storage.write_json(FUND / "calendar.json", cfg)
         return f"local calendar: {slot.isoformat()}"
 
 

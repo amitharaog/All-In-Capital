@@ -4,7 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import os
 
-from . import citations, conflicts, corrections
+from . import citations, conflicts, corrections, storage
 from .core import DATA, FUND, RESEARCH, RUNS, SCORES, decide, dump_json, list_slugs, load_json, load_thesis
 from .schemas import ResearchDossier, ScoreCard
 
@@ -44,10 +44,8 @@ def ensure_card(d: ResearchDossier, refresh: bool = False) -> ScoreCard:
 
 def apply_overrides(card: ScoreCard) -> list[dict]:
     """Partner score corrections on *this* company take effect immediately."""
-    if not OVERRIDES.exists():
-        return []
     applied = []
-    for crit_id, o in load_json(OVERRIDES).get(card.slug, {}).items():
+    for crit_id, o in storage.read_json(OVERRIDES, {}).get(card.slug, {}).items():
         for cs in card.criteria:
             if cs.criterion_id == crit_id:
                 applied.append({"criterion": crit_id, "from": cs.score, "to": o["score"], "by": o["by"],
@@ -62,7 +60,7 @@ def apply_overrides(card: ScoreCard) -> list[dict]:
 def run_batch(slugs: list[str] | None = None, refresh: bool = False) -> dict:
     thesis = load_thesis()
     slugs = slugs or list_slugs()
-    decisions = load_json(DECISIONS) if DECISIONS.exists() else {}
+    decisions = storage.read_json(DECISIONS, {})
     items = []
     for slug in slugs:
         d = ensure_dossier(slug, refresh)
@@ -94,9 +92,9 @@ def run_batch(slugs: list[str] | None = None, refresh: bool = False) -> dict:
 
 
 def record_decision(slug: str, decision: str, by: str, note: str = "") -> dict:
-    decisions = load_json(DECISIONS) if DECISIONS.exists() else {}
+    decisions = storage.read_json(DECISIONS, {})
     decisions[slug] = {"decision": decision, "by": by, "date": dt.date.today().isoformat(), "note": note}
-    dump_json(DECISIONS, decisions)
+    storage.write_json(DECISIONS, decisions)
     return decisions[slug]
 
 
@@ -108,9 +106,9 @@ def record_correction(slug: str, criterion_id: str | None, new_score: float | No
     tags = sorted(set(applies_when) | (corrections.tags_for(d) if not applies_when else set()))
     c = corrections.add(d.company, reason, by, tags, criterion_id, old, new_score)
     if criterion_id:
-        ov = load_json(OVERRIDES) if OVERRIDES.exists() else {}
+        ov = storage.read_json(OVERRIDES, {})
         ov.setdefault(slug, {})[criterion_id] = {"score": new_score, "by": by, "reason": reason, "correction_id": c.id}
-        dump_json(OVERRIDES, ov)
+        storage.write_json(OVERRIDES, ov)
     return c.model_dump()
 
 

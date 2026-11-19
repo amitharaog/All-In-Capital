@@ -123,8 +123,9 @@ STAGE_LABEL = {k: k.replace("_", " ").capitalize() for k in NEXT}
 
 
 def _pipeline_state() -> dict:
-    p = DATA / "pipeline" / "state.json"
-    return load_json(p)["apps"] if p.exists() else {}
+    from . import storage
+
+    return (storage.read_json(DATA / "pipeline" / "state.json", {}) or {}).get("apps", {})
 
 
 def _pipeline_line(slug: str, app: dict | None) -> str:
@@ -323,6 +324,13 @@ def _trust() -> str:
 
 
 def render(batch: dict, out: Path | None = None) -> Path:
+    out = out or RUNS / dt.date.today().isoformat() / "report.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(render_html(batch), encoding="utf-8")
+    return out
+
+
+def render_html(batch: dict, nav: str = "") -> str:
     thesis = load_thesis()
     items = batch["items"]
     counts = {k: sum(1 for i in items if i["verdict"]["recommendation"] == k) for k in REC}
@@ -353,6 +361,7 @@ def render(batch: dict, out: Path | None = None) -> Path:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>{CSS}</style>
 <div class="wrap">
+{nav}
 <header>
   <div class="eyebrow">All In Capital · intake week · thesis {e(batch['thesis_version'])} · generated {e(batch['generated'][:16].replace('T', ' '))}</div>
   <h1>{len(items)} applications, scored against the fund's thesis</h1>
@@ -379,7 +388,4 @@ def render(batch: dict, out: Path | None = None) -> Path:
 {_trust()}
 </div>
 """
-    out = out or RUNS / dt.date.today().isoformat() / "report.html"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(html, encoding="utf-8")
-    return out
+    return html

@@ -1,7 +1,9 @@
 anthropic>=2.10
 pydantic>=2.7
-pdfplumber>=0.11
 requests>=2.31
+fastapi>=0.115
+python-multipart>=0.0.9
+pdfplumber>=0.11
 # optional, for real calendar booking:
 # google-api-python-client
 # google-auth

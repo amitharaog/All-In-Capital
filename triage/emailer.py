@@ -24,6 +24,7 @@ import re
 from email.message import EmailMessage
 from pathlib import Path
 
+from . import storage
 from .core import DATA, FUND, ROOT
 
 TEMPLATES = FUND / "email_templates"
@@ -80,8 +81,7 @@ def ref_tag(slug: str) -> str:
 
 
 def template(kind: str) -> str:
-    path = TEMPLATES / f"{kind}.txt"
-    return path.read_text(encoding="utf-8") if path.exists() else DEFAULT_TEMPLATES[kind]
+    return storage.read_text(TEMPLATES / f"{kind}.txt") or DEFAULT_TEMPLATES[kind]
 
 
 def human_slot(iso: str) -> str:
@@ -121,11 +121,9 @@ def record_feedback(slug: str, kind: str, original: dict, edited: dict, note: st
         "changed": original != edited, "saved_as_template": False,
     }
     if save_template and original != edited:
-        TEMPLATES.mkdir(parents=True, exist_ok=True)
-        (TEMPLATES / f"{kind}.txt").write_text(generalise(edited, values), encoding="utf-8")
+        storage.write_text(TEMPLATES / f"{kind}.txt", generalise(edited, values))
         entry["saved_as_template"] = True
-    with FEEDBACK.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(entry) + "\n")
+    storage.append_text(FEEDBACK, json.dumps(entry) + "\n")
     return entry
 
 
@@ -142,9 +140,7 @@ def generalise(edited: dict, values: dict) -> str:
 
 
 def style_notes(kind: str, limit: int = 5) -> list[str]:
-    if not FEEDBACK.exists():
-        return []
-    notes = [json.loads(line) for line in FEEDBACK.read_text().splitlines() if line.strip()]
+    notes = [json.loads(line) for line in (storage.read_text(FEEDBACK) or "").splitlines() if line.strip()]
     return [n["note"] for n in notes if n["kind"] == kind and n.get("note")][-limit:]
 
 
@@ -172,12 +168,10 @@ class OutboxBackend:
     name = "outbox"
 
     def send(self, slug: str, kind: str, msg: EmailMessage) -> str:
-        d = OUTBOX / slug
-        d.mkdir(parents=True, exist_ok=True)
-        n = len(list(d.glob("*.eml"))) + 1
-        path = d / f"{n:02d}_{kind}.eml"
-        path.write_bytes(msg.as_bytes(policy=email.policy.SMTP))
-        return str(path.relative_to(ROOT))
+        existing = [k for k in storage.list_keys(OUTBOX / slug) if k.endswith(".eml")]
+        path = OUTBOX / slug / f"{len(existing) + 1:02d}_{kind}.eml"
+        storage.write_text(path, msg.as_bytes(policy=email.policy.SMTP).decode("utf-8", "replace"))
+        return storage.key(path)
 
 
 class SMTPBackend:  # pragma: no cover - needs a mail server
@@ -207,14 +201,13 @@ class LocalInbox:
     name = "local"
 
     def fetch(self, slug: str, seen: set[str]) -> list[dict]:
-        d = INBOX / slug
         out = []
-        for p in sorted(d.glob("*")) if d.exists() else []:
-            key = p.name
-            if key in seen or p.suffix not in (".txt", ".eml"):
+        for k in storage.list_keys(INBOX / slug):
+            key = k.rsplit("/", 1)[-1]
+            if key in seen or not key.endswith((".txt", ".eml")):
                 continue
-            raw = p.read_bytes()
-            if p.suffix == ".eml":
+            raw = (storage.read_text(k) or "").encode("utf-8")
+            if key.endswith(".eml"):
                 m = email.message_from_bytes(raw, policy=email.policy.default)
                 part = m.get_body(preferencelist=("plain",))
                 body = part.get_content() if part else ""

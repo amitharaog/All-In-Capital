@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import re
 
+from . import storage
 from .core import FUND
 from .schemas import Correction, ResearchDossier
 
@@ -33,9 +34,8 @@ STOP = {"and", "for", "the", "with", "from", "led", "based", "end", "front"}
 
 
 def load() -> list[Correction]:
-    if not PATH.exists():
-        return []
-    return [Correction.model_validate_json(line) for line in PATH.read_text().splitlines() if line.strip()]
+    text = storage.read_text(PATH) or ""
+    return [Correction.model_validate_json(line) for line in text.splitlines() if line.strip()]
 
 
 def add(company: str, reason: str, by: str, applies_when: list[str], criterion_id: str | None = None,
@@ -52,8 +52,7 @@ def add(company: str, reason: str, by: str, applies_when: list[str], criterion_i
         reason=reason,
         applies_when=sorted({t.lower() for t in applies_when}),
     )
-    with PATH.open("a", encoding="utf-8") as f:
-        f.write(c.model_dump_json() + "\n")
+    storage.append_text(PATH, c.model_dump_json() + "\n")
     return c
 
 
