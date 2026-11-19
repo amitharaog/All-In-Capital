@@ -12,7 +12,10 @@ from typing import Any
 
 from .schemas import CriterionScore, LensResult, ResearchDossier, ScoreCard, Verdict
 
-ROOT = Path(__file__).resolve().parent.parent
+import os
+
+# TRIAGE_ROOT lets a demo or test run the whole pipeline on a sandbox copy.
+ROOT = Path(os.environ.get("TRIAGE_ROOT") or Path(__file__).resolve().parent.parent)
 DATA = ROOT / "data"
 APPS = DATA / "applications"
 RESEARCH = DATA / "research"

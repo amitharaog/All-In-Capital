@@ -56,7 +56,8 @@
         "F8",
         "F9"
       ],
-      "status": "unverifiable"
+      "status": "unverifiable",
+      "note": null
     },
     {
       "text": "October 2026 payment volume INR 86 Cr and net revenue INR 78 L, from 1,150 SME customers.",
@@ -160,7 +161,8 @@
       "source_ids": [
         "W6"
       ],
-      "status": "verified"
+      "status": "verified",
+      "note": null
     },
     {
       "text": "Seed round of INR 9 Cr raised in 2024, led by two institutional funds; cap table founders 58%, seed investors 30%, ESOP 12%.",
@@ -194,7 +196,8 @@
       "source_ids": [
         "F14"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "18-month plan: INR 300 Cr monthly volume, 4,500 SMEs and break-even operations.",
@@ -209,7 +212,8 @@
       "source_ids": [
         "F4"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Raising INR 30 Cr Series A at INR 180 Cr post-money, looking for a lead; four Series A funds in conversation.",
@@ -219,7 +223,8 @@
         "F10",
         "F11"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     }
   ],
   "gaps": [
@@ -321,6 +326,33 @@
       "blocks_criteria": [
         "unit_economics"
       ]
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://www.settlr.example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://www.settlr.example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for www.settlr.example?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/rahul-mehta-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/rahul-mehta-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/sonal-iyer-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/sonal-iyer-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
     }
   ],
   "competitors_named": [],
@@ -353,203 +385,261 @@
       "id": "D1",
       "kind": "deck",
       "title": "Settlr deck - cover",
+      "url": null,
       "locator": "Cover",
+      "retrieved_on": null,
       "quote": "Series A | Raising INR 30 Cr | Mumbai"
     },
     {
       "id": "D2",
       "kind": "deck",
       "title": "Settlr deck - Invoice, collect, finance",
+      "url": null,
       "locator": "Slide 4",
+      "retrieved_on": null,
       "quote": "Get paid early against any invoice, at 1.2% a month."
     },
     {
       "id": "D3",
       "kind": "deck",
       "title": "Settlr deck - Traction",
+      "url": null,
       "locator": "Slide 5 (Traction)",
+      "retrieved_on": null,
       "quote": "Traction: INR 86 Cr monthly volume"
     },
     {
       "id": "D4",
       "kind": "deck",
       "title": "Settlr deck - Traction chart extraction note",
+      "url": null,
       "locator": "Slide 5 (chart comment)",
+      "retrieved_on": null,
       "quote": "chart values as extracted from the PDF, in extraction order: 79, 86, 70, 52, 61, against months Jun, Jul, Aug, Sep, Oct."
     },
     {
       "id": "D5",
       "kind": "deck",
       "title": "Settlr deck - Market size (SOM row; SOM shown as INR 6,750 Cr)",
+      "url": null,
       "locator": "Slide 6 (Market size), SOM row",
+      "retrieved_on": null,
       "quote": "In 3 years: 15,000 SMEs x INR 4.5 Cr"
     },
     {
       "id": "D6",
       "kind": "deck",
       "title": "Settlr deck - Market size (SAM row; SAM shown as INR 1.8 lakh Cr)",
+      "url": null,
       "locator": "Slide 6 (Market size), SAM row",
+      "retrieved_on": null,
       "quote": "400K SMEs in 6 metros x INR 4.5 Cr"
     },
     {
       "id": "D7",
       "kind": "deck",
       "title": "Settlr deck - Go-to-market and CAC",
+      "url": null,
       "locator": "Slide 7",
+      "retrieved_on": null,
       "quote": "Average SME pays INR 6,800 a month in fees and financing charges. Gross margin 58%."
     },
     {
       "id": "D8",
       "kind": "deck",
       "title": "Settlr deck - How we make money (payment fee)",
+      "url": null,
       "locator": "Slide 8",
+      "retrieved_on": null,
       "quote": "0.4% on each payment collected."
     },
     {
       "id": "D9",
       "kind": "deck",
       "title": "Settlr deck - How we make money (financing spread)",
+      "url": null,
       "locator": "Slide 8",
+      "retrieved_on": null,
       "quote": "About 1.2% a month on invoices financed, funded through NBFC partners."
     },
     {
       "id": "D10",
       "kind": "deck",
       "title": "Settlr deck - The team (CEO)",
+      "url": null,
       "locator": "Slide 9",
+      "retrieved_on": null,
       "quote": "10 years in transaction banking. Led SME product at a private bank."
     },
     {
       "id": "D11",
       "kind": "deck",
       "title": "Settlr deck - The team (CTO)",
+      "url": null,
       "locator": "Slide 9",
+      "retrieved_on": null,
       "quote": "8 years in payments engineering at a large fintech."
     },
     {
       "id": "D12",
       "kind": "deck",
       "title": "Settlr deck - The team (size, seed)",
+      "url": null,
       "locator": "Slide 9",
+      "retrieved_on": null,
       "quote": "Team of 31. Seed round of INR 9 Cr raised in 2024."
     },
     {
       "id": "D13",
       "kind": "deck",
       "title": "Settlr deck - The ask (18-month plan)",
+      "url": null,
       "locator": "Slide 10",
+      "retrieved_on": null,
       "quote": "In 18 months: INR 300 Cr monthly volume, 4,500 SMEs, break-even operations."
     },
     {
       "id": "D14",
       "kind": "deck",
       "title": "Settlr deck - Problem (costly credit)",
+      "url": null,
       "locator": "Slide 3",
+      "retrieved_on": null,
       "quote": "Informal invoice discounting costs 24 to 36% a year."
     },
     {
       "id": "D15",
       "kind": "deck",
       "title": "Settlr deck - The ask (use of funds)",
+      "url": null,
       "locator": "Slide 10",
+      "retrieved_on": null,
       "quote": "45% Financing book"
     },
     {
       "id": "F1",
       "kind": "form",
       "title": "Application form - What have you built?",
+      "url": null,
       "locator": "Product and traction > What have you built?",
+      "retrieved_on": null,
       "quote": "A payments platform for SMEs with payment links, collections reconciliation and invoice financing funded by NBFC partners."
     },
     {
       "id": "F2",
       "kind": "form",
       "title": "Application form - Volume and revenue",
+      "url": null,
       "locator": "Product and traction > Volume and revenue",
+      "retrieved_on": null,
       "quote": "INR 86 Cr payment volume in October 2026. Net revenue INR 78 L."
     },
     {
       "id": "F3",
       "kind": "form",
       "title": "Application form - Unit economics",
+      "url": null,
       "locator": "Product and traction > Unit economics",
+      "retrieved_on": null,
       "quote": "CAC INR 14,500 per SME, payback 7 months, gross margin 58%, net revenue retention 112%."
     },
     {
       "id": "F4",
       "kind": "form",
       "title": "Application form - Key risks",
+      "url": null,
       "locator": "Product and traction > Key risks",
+      "retrieved_on": null,
       "quote": "Credit losses on financed invoices, dependence on NBFC partners, regulation of digital lending."
     },
     {
       "id": "F5",
       "kind": "form",
       "title": "Application form - Valuation expectation",
+      "url": null,
       "locator": "Fundraising > Valuation expectation",
+      "retrieved_on": null,
       "quote": "INR 180 Cr post-money"
     },
     {
       "id": "F6",
       "kind": "form",
       "title": "Application form - Existing investors",
+      "url": null,
       "locator": "Fundraising > Existing investors",
+      "retrieved_on": null,
       "quote": "INR 9 Cr seed round in 2024, led by two institutional funds."
     },
     {
       "id": "F7",
       "kind": "form",
       "title": "Application form - Equity split",
+      "url": null,
       "locator": "Founders > Equity split",
+      "retrieved_on": null,
       "quote": "Founders 58%, seed investors 30%, ESOP 12%."
     },
     {
       "id": "F8",
       "kind": "form",
       "title": "Application form - Founder 1",
+      "url": null,
       "locator": "Founders > Founder 1",
+      "retrieved_on": null,
       "quote": "Rahul Mehta, CEO. 10 years in transaction banking; led SME product at a private bank. linkedin.com/in/rahul-mehta-example"
     },
     {
       "id": "F9",
       "kind": "form",
       "title": "Application form - Founder 2",
+      "url": null,
       "locator": "Founders > Founder 2",
+      "retrieved_on": null,
       "quote": "Sonal Iyer, CTO. 8 years in payments engineering at a large fintech. linkedin.com/in/sonal-iyer-example"
     },
     {
       "id": "F10",
       "kind": "form",
       "title": "Application form - Other investors in conversation",
+      "url": null,
       "locator": "Fundraising > Other investors in conversation",
+      "retrieved_on": null,
       "quote": "Four Series A funds."
     },
     {
       "id": "F11",
       "kind": "form",
       "title": "Application form - Anything else",
+      "url": null,
       "locator": "Anything else we should know?",
+      "retrieved_on": null,
       "quote": "We are looking for a lead investor for our Series A."
     },
     {
       "id": "F12",
       "kind": "form",
       "title": "Application form - Customers",
+      "url": null,
       "locator": "Product and traction > Customers",
+      "retrieved_on": null,
       "quote": "1,150 SMEs."
     },
     {
       "id": "F13",
       "kind": "form",
       "title": "Application form - Company name",
+      "url": null,
       "locator": "Company > Company name",
+      "retrieved_on": null,
       "quote": "Settlr (Settlr Fintech Pvt. Ltd.)"
     },
     {
       "id": "F14",
       "kind": "form",
       "title": "Application form - Customer acquisition",
+      "url": null,
       "locator": "Product and traction > Customer acquisition",
+      "retrieved_on": null,
       "quote": "CA and accountant partners 40%, direct sales 35%, inbound and referrals 25%."
     },
     {
@@ -557,6 +647,7 @@
       "kind": "web",
       "title": "RBI - Guidelines on Default Loss Guarantee (DLG) in Digital Lending, 8 June 2023 (since repealed into the 2025 Directions)",
       "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12514",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "shall not exceed five per cent of the amount of that loan portfolio"
     },
@@ -565,6 +656,7 @@
       "kind": "web",
       "title": "Argus Partners - RBI Digital Lending Directions, 2025: an overview",
       "url": "https://www.argus-p.com/updates/updates/rbi-digital-lending-directions-2025-an-overview/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "DLG cover on any outstanding portfolio must not exceed 5 (five) % of the total disbursed amount,"
     },
@@ -573,6 +665,7 @@
       "kind": "web",
       "title": "RBI - Guidelines on Digital Lending, 2 September 2022 (since repealed into the 2025 Directions)",
       "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12382",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "without any pass-through account/ pool account of any third party"
     },
@@ -581,6 +674,7 @@
       "kind": "web",
       "title": "SIDBI - TReDS",
       "url": "https://www.sidbi.in/en/treds",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "TReDS is an electronic platform for online discounting of bills of MSMEs for supplies to large Corporates."
     },
@@ -589,6 +683,7 @@
       "kind": "web",
       "title": "Credlix - Invoice discounting",
       "url": "https://www.credlix.com/invoice-discounting/invoice-discounting-for-fintech",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Smart Financing Begins at just 1% per month"
     },
@@ -597,6 +692,7 @@
       "kind": "web",
       "title": "Inc42 - Cashinvoice bags $3.4 Mn (7 Feb 2024)",
       "url": "https://inc42.com/buzz/cashinvoice-bags-3-4-mn-to-aid-new-business-in-supply-chain-finance",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "has raised $3.4 Mn (INR 28.2 Cr)"
     },
@@ -605,6 +701,7 @@
       "kind": "web",
       "title": "Inc42 company profile - Settlrs (unrelated Bengaluru rental company)",
       "url": "https://inc42.com/company/settlrs/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Settlrs is headquartered in Bengaluru, India."
     }

@@ -1,0 +1,1096 @@
+{
+  "rubric_version": "2026-11-18.v3",
+  "apps": {
+    "capilot": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.7/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.7/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.7/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.7/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Screen first: 4.7/10 - borderline; Riya to run a short first screen.",
+        "revealed": 4.7,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "carecorner": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (5.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (5.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (5.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (5.75/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Screen first: 5.75/10 - borderline; Riya to run a short first screen.",
+        "revealed": 5.75,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "earnwise": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web), scrape (1/2 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.25/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web), scrape (0/2 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web), scrape (0/2 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.25/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web), scrape (0/2 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.25/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web), scrape (0/2 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.25/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass: 2.25/10 on the revealed thesis.",
+        "revealed": 2.25,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "grainkind": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (6.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (6.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (6.75/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (6.75/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (Possible overlap with portfolio consumer-food brands, triggered on the false-alarm-preferred rule. Taakat ('Whole Truth for Masses') is a clean-label, better-fo). Kushal to speak to the portfolio founder first. Without the overlap this would be 'take the call' (6.75/10).",
+        "revealed": 6.75,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "pumpwise": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "TAKE_CALL (6.35/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "TAKE_CALL (6.35/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "TAKE_CALL (6.35/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "TAKE_CALL (6.35/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "TAKE_CALL",
+        "headline": "Take the call: 6.35/10 on the fund's revealed thesis with 95% evidence coverage.",
+        "revealed": 6.35,
+        "attendees": [
+          "Kushal",
+          "Aditya",
+          "Riya"
+        ]
+      }
+    },
+    "rentroute": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.8/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.8/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.8/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.8/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass on category: the business depends on a favourable rule change (G2).",
+        "revealed": 2.8,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "settlr": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (4.55/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (4.55/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (4.55/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (4.55/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company.",
+        "revealed": 4.55,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "stocksathi": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.45/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.45/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.45/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.45/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (Possible overlap with SuperK, a tech-enabled franchised kirana/mini-supermarket chain in small towns. It is a pre-fund partner investment (all_in_capital_fund_i). Kushal to speak to the portfolio founder first. Without the overlap this would be 'suggest pass' (4.45/10).",
+        "revealed": 4.45,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "talkbook": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.65/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.65/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.65/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.65/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (MeetRecord). Kushal to speak to the portfolio founder first. Without the overlap this would be 'screen first' (4.65/10).",
+        "revealed": 4.65,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "yatrika": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (2/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.15/10)"
+        },
+        {
+          "at": "2026-11-19T21:25+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.15/10)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:26+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.15/10)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web), scrape (0/3 links live)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T21:29+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.15/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Low score (4.15/10) but founder behaviour is not observable from the application, so it is not a pass yet: Riya to screen before anything is decided.",
+        "revealed": 4.15,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    }
+  }
+}

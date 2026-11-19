@@ -68,7 +68,8 @@
         "D7",
         "F6"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Channels: 3 of 6 paid customers via a cluster association, 2 via a pump distributor, 1 direct.",
@@ -92,7 +93,8 @@
       "source_ids": [
         "D2"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Founders name their own key risks: sensor accuracy across motor types, hardware supply, and longer sales cycles in larger plants.",
@@ -171,7 +173,8 @@
         "F3",
         "F1"
       ],
-      "status": "unverifiable"
+      "status": "unverifiable",
+      "note": null
     },
     {
       "text": "Team of 7; sensors made by a contract manufacturer in Pune.",
@@ -186,7 +189,8 @@
       "source_ids": [
         "D16"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Sector as selected is Deeptech; the business is industrial IoT hardware plus subscription analytics, which fits deeptech.",
@@ -194,7 +198,8 @@
         "F13",
         "D1"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Raising INR 2.2 Cr at INR 11 Cr post-money; existing capital INR 30 L (INR 10 L incubator grant + INR 20 L from two angels).",
@@ -210,7 +215,8 @@
       "source_ids": [
         "F15"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     }
   ],
   "gaps": [
@@ -311,6 +317,33 @@
       "blocks_criteria": [
         "R3"
       ]
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://www.pumpwise.example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://www.pumpwise.example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for www.pumpwise.example?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/karthik-subramanian-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/karthik-subramanian-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/neeraj-pillai-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/neeraj-pillai-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
     }
   ],
   "competitors_named": [
@@ -340,245 +373,315 @@
       "id": "D1",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 1 (title)",
+      "retrieved_on": null,
       "quote": "Predictive maintenance for small-factory motors and pumps"
     },
     {
       "id": "D2",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 3 (problem)",
+      "retrieved_on": null,
       "quote": "From visits to 38 plants in the Pune and Coimbatore clusters, Nov 2025 to Feb 2026."
     },
     {
       "id": "D3",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 3 (problem)",
+      "retrieved_on": null,
       "quote": "Imported condition monitors cost INR 40,000+ per motor, with annual contracts."
     },
     {
       "id": "D4",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 6 (traction)",
+      "retrieved_on": null,
       "quote": "6 of 11 pilots converted to paid"
     },
     {
       "id": "D5",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 6 (traction)",
+      "retrieved_on": null,
       "quote": "INR 1.05 L monthly recurring"
     },
     {
       "id": "D6",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 6 (traction)",
+      "retrieved_on": null,
       "quote": "Chart: Paid sensors deployed"
     },
     {
       "id": "D7",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 8 (GTM)",
+      "retrieved_on": null,
       "quote": "CAC = cost of 11 pilots (INR 4.4 L) / 6 paid customers. A pilot is 10 free sensors for 30 days."
     },
     {
       "id": "D8",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (revenue model)",
+      "retrieved_on": null,
       "quote": "INR 9,500 per sensor. Cost to us: INR 3,200."
     },
     {
       "id": "D9",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (revenue model)",
+      "retrieved_on": null,
       "quote": "INR 750 per sensor a month at about 85% gross margin."
     },
     {
       "id": "D10",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (revenue model)",
+      "retrieved_on": null,
       "quote": "Average customer: 23 sensors and INR 3.1 L first-year gross profit."
     },
     {
       "id": "D11",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 11 (team)",
+      "retrieved_on": null,
       "quote": "IIT Madras, mechanical. 5 years as a reliability engineer at an engine maker."
     },
     {
       "id": "D12",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 11 (team)",
+      "retrieved_on": null,
       "quote": "4 years in embedded systems at an auto- components supplier. Designed the sensor and firmware."
     },
     {
       "id": "D13",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 11 (team)",
+      "retrieved_on": null,
       "quote": "Team of 7. Sensors made by a contract manufacturer in Pune."
     },
     {
       "id": "D14",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 12 (ask)",
+      "retrieved_on": null,
       "quote": "In 12 months: 30 paying customers, INR 12 L monthly recurring, pilot-to-paid at 65%."
     },
     {
       "id": "D15",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 12 (ask)",
+      "retrieved_on": null,
       "quote": "25% Certification and operations"
     },
     {
       "id": "D16",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (market size)",
+      "retrieved_on": null,
       "quote": "based on our plant visits. Subscription revenue only; hardware excluded."
     },
     {
       "id": "D17",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (product)",
+      "retrieved_on": null,
       "quote": "WhatsApp alert when behaviour drifts, days before failure."
     },
     {
       "id": "D18",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 4 (why now)",
+      "retrieved_on": null,
       "quote": "Low-power radios and Indian mobile data make remote monitoring affordable."
     },
     {
       "id": "D19",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 8 (GTM)",
+      "retrieved_on": null,
       "quote": "payback on first-year gross profit"
     },
     {
       "id": "F1",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Website",
+      "retrieved_on": null,
       "quote": "www.pumpwise.example"
     },
     {
       "id": "F2",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 1",
+      "retrieved_on": null,
       "quote": "linkedin.com/in/karthik- subramanian-example"
     },
     {
       "id": "F3",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 2",
+      "retrieved_on": null,
       "quote": "linkedin.com/in/neeraj-pillai-example"
     },
     {
       "id": "F4",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Customers",
+      "retrieved_on": null,
       "quote": "11 pilots started since March 2026. 6 converted to paid, across 140 sensors (average 23 per customer)."
     },
     {
       "id": "F5",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Revenue",
+      "retrieved_on": null,
       "quote": "INR 14.2 L cumulative, of which hardware INR 13.3 L. Monthly recurring subscription INR 1.05 L."
     },
     {
       "id": "F6",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Customer acquisition",
+      "retrieved_on": null,
       "quote": "This excludes founder time."
     },
     {
       "id": "F7",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Evidence of value",
+      "retrieved_on": null,
       "quote": "These figures are customer-reported, not audited."
     },
     {
       "id": "F8",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Evidence of value",
+      "retrieved_on": null,
       "quote": "Customers report 9 unplanned stoppages caught early during pilots, estimated by them at INR 1.8 L average downtime cost each."
     },
     {
       "id": "F9",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Key risks",
+      "retrieved_on": null,
       "quote": "Sensor accuracy across motor types, hardware supply, and longer sales cycles in larger plants."
     },
     {
       "id": "F10",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Valuation expectation",
+      "retrieved_on": null,
       "quote": "INR 11 Cr post-money"
     },
     {
       "id": "F11",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Existing investors",
+      "retrieved_on": null,
       "quote": "INR 30 L: a INR 10 L incubator grant and two angels (INR 20 L)."
     },
     {
       "id": "F12",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Time commitment",
+      "retrieved_on": null,
       "quote": "Both full-time since October 2025."
     },
     {
       "id": "F13",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Sector (as selected)",
+      "retrieved_on": null,
       "quote": "Deeptech"
     },
     {
       "id": "F14",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Customer acquisition",
+      "retrieved_on": null,
       "quote": "3 of 6 paid customers came through a cluster association, 2 through a pump distributor, 1 direct."
     },
     {
       "id": "F15",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Anything else",
+      "retrieved_on": null,
       "quote": "We would value a conversation about manufacturing scale-up and calibration. Happy to share pilot data."
     },
     {
       "id": "F16",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Prior startup experience",
+      "retrieved_on": null,
       "quote": "None for either founder."
     },
     {
@@ -586,6 +689,7 @@
       "kind": "web",
       "title": "Infinite Uptime raises $35 Mn in Series C round (Entrackr, 11 Mar 2025)",
       "url": "https://entrackr.com/news/infinite-uptime-raises-35-mn-in-series-c-round-8841757",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "has secured $35 million in its Series C round, led by Avataar Ventures"
     },
@@ -594,6 +698,7 @@
       "kind": "web",
       "title": "Infinite Uptime raises $35 Mn in Series C round (Entrackr) - company description",
       "url": "https://entrackr.com/news/infinite-uptime-raises-35-mn-in-series-c-round-8841757",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "a provider of predictive maintenance solutions for industrial machinery."
     },
@@ -602,6 +707,7 @@
       "kind": "web",
       "title": "Kirloskar Brothers IoT pump monitoring KirloSmart (The Machine Maker, 10 Aug 2022)",
       "url": "https://themachinemaker.com/news/kirloskar-1008/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "can generate alerts for the probable causes leading to the failure of the pump."
     },
@@ -610,6 +716,7 @@
       "kind": "web",
       "title": "BITS Pilani Hyderabad startup unveils smart machine health monitoring solutions for MSMEs (The Hans India, 1 Aug 2025)",
       "url": "https://assets.thehansindia.com/business/bits-pilani-hyderabad-startup-unveils-smart-machine-health-monitoring-solutions-for-msmes-993095",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Mach-Sevak, tailored for smaller units, offers real-time monitoring of machines of the same type."
     },
@@ -618,10 +725,11 @@
       "kind": "web",
       "title": "WPC approval (Aleph India, certification consultancy)",
       "url": "https://alephindia.in/wpc-approval.php",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Equipment Type Approval (ETA) is an approval that has to be obtained from WPC before importing any wireless device in India"
     }
   ],
-  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also mentioned Nanoprecise, Petasense, Covacsis and ABB Ability Smart Sensor as monitoring products; those pages were not successfully retrieved (403/503) so they are not cited. A marketplace listing of a ~INR 12,500 wireless vibration sensor appeared in search snippets but the page returned 429, so the deck's 'INR 40,000+' imported-monitor price could neither be confirmed nor rebutted. Udyam manufacturing-MSME count (deck's ~2.5M) not verified.",
-  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)",
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also mentioned Nanoprecise, Petasense, Covacsis and ABB Ability Smart Sensor as monitoring products; those pages were not successfully retrieved (403/503) so they are not cited. A marketplace listing of a ~INR 12,500 wireless vibration sensor appeared in search snippets but the page returned 429, so the deck's 'INR 40,000+' imported-monitor price could neither be confirmed nor rebutted. Udyam manufacturing-MSME count (deck's ~2.5M) not verified."
 }

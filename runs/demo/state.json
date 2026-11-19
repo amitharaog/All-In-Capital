@@ -1,0 +1,876 @@
+{
+  "rubric_version": "2026-11-18.v3",
+  "apps": {
+    "capilot": {
+      "stage": "CLOSED_NO_REPLY",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.7/10)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "DECIDED_GO",
+          "event": "final_decision",
+          "by": "Kushal (demo)",
+          "detail": "override of SCREEN_FIRST; correction C006"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_DRAFTED",
+          "event": "draft_email",
+          "by": "system",
+          "detail": "invite v1"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_APPROVED",
+          "event": "review_draft",
+          "by": "Riya (demo)",
+          "detail": "approved"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_SENT",
+          "event": "send_email",
+          "by": "system",
+          "detail": "invite sent to founders@capilot.example (outbox)"
+        },
+        {
+          "at": "2026-11-22T10:00+05:30",
+          "stage": "FOLLOWED_UP",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "no reply for 3 days; follow-up 1 sent"
+        },
+        {
+          "at": "2026-11-25T10:30+05:30",
+          "stage": "FOLLOWED_UP",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "no reply for 3 days; follow-up 2 sent"
+        },
+        {
+          "at": "2026-11-28T11:00+05:30",
+          "stage": "CLOSED_NO_REPLY",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "no reply after 2 follow-ups; closed, Riya notified"
+        }
+      ],
+      "emails": [
+        {
+          "kind": "invite",
+          "at": "2026-11-19T10:00+05:30",
+          "to": "founders@capilot.example",
+          "subject": "All In Capital x CAPilot: 30 min intro call [AIC-capilot]",
+          "message_id": "<179510395016.880.14205257132599235603@allincapital-triage>",
+          "stored": "runs/outbox/capilot/01_invite.eml",
+          "slots": [
+            "2026-11-24T14:30:00+05:30",
+            "2026-11-26T15:00:00+05:30",
+            "2026-12-01T15:00:00+05:30"
+          ]
+        },
+        {
+          "kind": "followup",
+          "at": "2026-11-22T10:00+05:30",
+          "to": "founders@capilot.example",
+          "subject": "Re: All In Capital x CAPilot: 30 min intro call [AIC-capilot]",
+          "message_id": "<179510395123.886.16967053288111775135@allincapital-triage>",
+          "stored": "runs/outbox/capilot/02_followup.eml",
+          "slots": [
+            "2026-11-24T14:00:00+05:30",
+            "2026-11-26T14:30:00+05:30",
+            "2026-12-01T14:00:00+05:30"
+          ]
+        },
+        {
+          "kind": "followup",
+          "at": "2026-11-25T10:30+05:30",
+          "to": "founders@capilot.example",
+          "subject": "Re: All In Capital x CAPilot: 30 min intro call [AIC-capilot]",
+          "message_id": "<179510395139.887.8041871949064239716@allincapital-triage>",
+          "stored": "runs/outbox/capilot/03_followup.eml",
+          "slots": [
+            "2026-11-26T14:30:00+05:30",
+            "2026-12-01T14:00:00+05:30",
+            "2026-12-03T14:30:00+05:30"
+          ]
+        }
+      ],
+      "drafts": [
+        {
+          "version": 1,
+          "kind": "invite",
+          "subject": "All In Capital x CAPilot: 30 min intro call [AIC-capilot]",
+          "body": "Hi Dhruv,\n\nThanks for applying to All In Capital. We enjoyed reading about CAPilot. Kushal would like to take a 30-minute call about CAPilot.\nWe've held the first slot below for you. If it doesn't work, reply with another one from the list:\n\n  1. Tuesday 24 Nov, 02:30 PM IST\n  2. Thursday 26 Nov, 03:00 PM IST\n  3. Tuesday 01 Dec, 03:00 PM IST\n\nJust reply to this email with the slot that works.\n\nBest,\nRiya\nAll In Capital\n",
+          "values": {
+            "slug": "capilot",
+            "company": "CAPilot",
+            "founder_first": "Dhruv",
+            "partners": "Kushal",
+            "slots": [
+              "2026-11-24T14:30:00+05:30",
+              "2026-11-26T15:00:00+05:30",
+              "2026-12-01T15:00:00+05:30"
+            ]
+          },
+          "status": "sent",
+          "style_notes": [
+            "mention the company by name in the first line"
+          ],
+          "at": "2026-11-19T10:00+05:30",
+          "approved_by": "Riya (demo)"
+        }
+      ],
+      "seen_replies": [],
+      "follow_ups": 2,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Screen first: 4.7/10 - borderline; Riya to run a short first screen.",
+        "revealed": 4.7,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      },
+      "decision": {
+        "decision": "go",
+        "by": "Kushal (demo)",
+        "reason": "Vertical AI for CA firms built by a practising CA; worth a call despite the deck's overstatements",
+        "override": false,
+        "correction_id": "C006",
+        "at": "2026-11-19T10:00+05:30"
+      },
+      "founder_email": "founders@capilot.example",
+      "offered_slots": [],
+      "last_sent_at": "2026-11-25T10:30+05:30"
+    },
+    "carecorner": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (5.75/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Screen first: 5.75/10 - borderline; Riya to run a short first screen.",
+        "revealed": 5.75,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "earnwise": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (6 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.25/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass: 2.25/10 on the revealed thesis.",
+        "revealed": 2.25,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "grainkind": {
+      "stage": "MEETING_BOOKED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (6.75/10)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "DECIDED_GO",
+          "event": "final_decision",
+          "by": "Kushal (demo)",
+          "detail": "override of HOLD_CONFLICT; correction C005"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_DRAFTED",
+          "event": "draft_email",
+          "by": "system",
+          "detail": "invite v1"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_APPROVED",
+          "event": "review_draft",
+          "by": "Riya (demo)",
+          "detail": "approved"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_SENT",
+          "event": "send_email",
+          "by": "system",
+          "detail": "invite sent to founders@grainkind.example (outbox)"
+        },
+        {
+          "at": "2026-11-19T14:00+05:30",
+          "stage": "RESCHEDULING",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "founder asked for other times; new slots sent from 2026-11-30"
+        },
+        {
+          "at": "2026-11-20T09:00+05:30",
+          "stage": "MEETING_BOOKED",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "founder said yes; booked 2026-12-03T14:00:00+05:30 (rules)"
+        }
+      ],
+      "emails": [
+        {
+          "kind": "invite",
+          "at": "2026-11-19T10:00+05:30",
+          "to": "founders@grainkind.example",
+          "subject": "All In Capital x GrainKind: 30 min intro call [AIC-grainkind]",
+          "message_id": "<179510394961.877.2226115053743031399@allincapital-triage>",
+          "stored": "runs/outbox/grainkind/01_invite.eml",
+          "slots": [
+            "2026-11-24T14:00:00+05:30",
+            "2026-11-26T14:30:00+05:30",
+            "2026-12-01T14:30:00+05:30"
+          ]
+        },
+        {
+          "kind": "reschedule",
+          "at": "2026-11-19T14:00+05:30",
+          "to": "founders@grainkind.example",
+          "subject": "Re: All In Capital x GrainKind: 30 min intro call [AIC-grainkind]",
+          "message_id": "<179510395085.884.12060890233023526987@allincapital-triage>",
+          "stored": "runs/outbox/grainkind/02_reschedule.eml",
+          "slots": [
+            "2026-12-01T15:30:00+05:30",
+            "2026-12-03T14:00:00+05:30",
+            "2026-12-08T14:00:00+05:30"
+          ]
+        },
+        {
+          "kind": "confirmation",
+          "at": "2026-11-20T09:00+05:30",
+          "to": "founders@grainkind.example",
+          "subject": "Confirmed: All In Capital x GrainKind, Thursday 03 Dec, 02:00 PM IST [AIC-grainkind]",
+          "message_id": "<179510395105.885.2458453567448078646@allincapital-triage>",
+          "stored": "runs/outbox/grainkind/03_confirmation.eml",
+          "slots": []
+        }
+      ],
+      "drafts": [
+        {
+          "version": 1,
+          "kind": "invite",
+          "subject": "All In Capital x GrainKind: 30 min intro call [AIC-grainkind]",
+          "body": "Hi Ritu,\n\nThanks for applying to All In Capital. We enjoyed reading about GrainKind. Kushal would like to take a 30-minute call about GrainKind.\nWe've held the first slot below for you. If it doesn't work, reply with another one from the list:\n\n  1. Tuesday 24 Nov, 02:00 PM IST\n  2. Thursday 26 Nov, 02:30 PM IST\n  3. Tuesday 01 Dec, 02:30 PM IST\n\nJust reply to this email with the slot that works.\n\nBest,\nRiya\nAll In Capital\n",
+          "values": {
+            "slug": "grainkind",
+            "company": "GrainKind",
+            "founder_first": "Ritu",
+            "partners": "Kushal",
+            "slots": [
+              "2026-11-24T14:00:00+05:30",
+              "2026-11-26T14:30:00+05:30",
+              "2026-12-01T14:30:00+05:30"
+            ]
+          },
+          "status": "sent",
+          "style_notes": [
+            "mention the company by name in the first line"
+          ],
+          "at": "2026-11-19T10:00+05:30",
+          "approved_by": "Riya (demo)"
+        }
+      ],
+      "seen_replies": [
+        "01.txt",
+        "02.txt"
+      ],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (Possible overlap with portfolio consumer-food brands, triggered on the false-alarm-preferred rule. Taakat ('Whole Truth for Masses') is a clean-label, better-fo). Kushal to speak to the portfolio founder first. Without the overlap this would be 'take the call' (6.75/10).",
+        "revealed": 6.75,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      },
+      "decision": {
+        "decision": "go",
+        "by": "Kushal (demo)",
+        "reason": "Different shelf from Taakat and MomsMade; both portfolio founders told and fine with it",
+        "override": true,
+        "correction_id": "C005",
+        "at": "2026-11-19T10:00+05:30"
+      },
+      "founder_email": "founders@grainkind.example",
+      "offered_slots": [
+        "2026-12-01T15:30:00+05:30",
+        "2026-12-03T14:00:00+05:30",
+        "2026-12-08T14:00:00+05:30"
+      ],
+      "last_sent_at": "2026-11-20T09:00+05:30",
+      "replies": [
+        {
+          "at": "2026-11-19T14:00+05:30",
+          "text": "Thanks! We're at a trade show all of next week. Could we do another time?",
+          "intent": "reschedule",
+          "slot": null,
+          "not_before": "2026-11-30",
+          "reason": "asks for other times",
+          "method": "rules"
+        },
+        {
+          "at": "2026-11-20T09:00+05:30",
+          "text": "Option 2 works.",
+          "intent": "yes",
+          "slot": "2026-12-03T14:00:00+05:30",
+          "not_before": null,
+          "reason": "named one of the offered slots",
+          "method": "rules"
+        }
+      ],
+      "booking": {
+        "slot": "2026-12-03T14:00:00+05:30",
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ],
+        "calendar": "local calendar: 2026-12-03T14:00:00+05:30",
+        "at": "2026-11-20T09:00+05:30"
+      }
+    },
+    "pumpwise": {
+      "stage": "MEETING_BOOKED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "TAKE_CALL (6.35/10)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "DECIDED_GO",
+          "event": "final_decision",
+          "by": "Kushal (demo)",
+          "detail": "agrees with TAKE_CALL"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_DRAFTED",
+          "event": "draft_email",
+          "by": "system",
+          "detail": "invite v1"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_APPROVED",
+          "event": "review_draft",
+          "by": "Riya (demo)",
+          "detail": "approved with edits"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_SENT",
+          "event": "send_email",
+          "by": "system",
+          "detail": "invite sent to karthik@pumpwise.example (outbox)"
+        },
+        {
+          "at": "2026-11-19T14:00+05:30",
+          "stage": "MEETING_BOOKED",
+          "event": "booking_agent",
+          "by": "system",
+          "detail": "founder said yes; booked 2026-11-26T14:00:00+05:30 (rules)"
+        }
+      ],
+      "emails": [
+        {
+          "kind": "invite",
+          "at": "2026-11-19T10:00+05:30",
+          "to": "karthik@pumpwise.example",
+          "subject": "All In Capital x Pumpwise: 30 min intro call [AIC-pumpwise]",
+          "message_id": "<179510394915.874.3299695733514910279@allincapital-triage>",
+          "stored": "runs/outbox/pumpwise/01_invite.eml",
+          "slots": [
+            "2026-11-24T17:00:00+05:30",
+            "2026-11-26T14:00:00+05:30",
+            "2026-12-01T14:00:00+05:30"
+          ]
+        },
+        {
+          "kind": "confirmation",
+          "at": "2026-11-19T14:00+05:30",
+          "to": "karthik@pumpwise.example",
+          "subject": "Confirmed: All In Capital x Pumpwise, Thursday 26 Nov, 02:00 PM IST [AIC-pumpwise]",
+          "message_id": "<179510395085.884.5175149805776260236@allincapital-triage>",
+          "stored": "runs/outbox/pumpwise/02_confirmation.eml",
+          "slots": []
+        }
+      ],
+      "drafts": [
+        {
+          "version": 1,
+          "kind": "invite",
+          "subject": "All In Capital x Pumpwise: 30 min intro call [AIC-pumpwise]",
+          "body": "Hi Karthik,\n\nThanks for applying to All In Capital. We enjoyed reading about Pumpwise. Kushal and Aditya would like to take a 30-minute call about Pumpwise.\nWe've held the first slot below for you. If it doesn't work, reply with another one from the list:\n\n  1. Tuesday 24 Nov, 05:00 PM IST\n  2. Thursday 26 Nov, 02:00 PM IST\n  3. Tuesday 01 Dec, 02:00 PM IST\n\nJust reply to this email with the slot that works.\n\nBest,\nRiya\nAll In Capital\n",
+          "values": {
+            "slug": "pumpwise",
+            "company": "Pumpwise",
+            "founder_first": "Karthik",
+            "partners": "Kushal and Aditya",
+            "slots": [
+              "2026-11-24T17:00:00+05:30",
+              "2026-11-26T14:00:00+05:30",
+              "2026-12-01T14:00:00+05:30"
+            ]
+          },
+          "status": "sent",
+          "style_notes": [],
+          "at": "2026-11-19T10:00+05:30",
+          "feedback": {
+            "date": "2026-11-19",
+            "slug": "pumpwise",
+            "kind": "invite",
+            "by": "Riya (demo)",
+            "note": "mention the company by name in the first line",
+            "changed": true,
+            "saved_as_template": true
+          },
+          "approved_by": "Riya (demo)"
+        }
+      ],
+      "seen_replies": [
+        "01.txt"
+      ],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "TAKE_CALL",
+        "headline": "Take the call: 6.35/10 on the fund's revealed thesis with 95% evidence coverage.",
+        "revealed": 6.35,
+        "attendees": [
+          "Kushal",
+          "Aditya",
+          "Riya"
+        ]
+      },
+      "decision": {
+        "decision": "go",
+        "by": "Kushal (demo)",
+        "reason": "",
+        "override": false,
+        "correction_id": null,
+        "at": "2026-11-19T10:00+05:30"
+      },
+      "founder_email": "karthik@pumpwise.example",
+      "offered_slots": [
+        "2026-11-24T17:00:00+05:30",
+        "2026-11-26T14:00:00+05:30",
+        "2026-12-01T14:00:00+05:30"
+      ],
+      "last_sent_at": "2026-11-19T14:00+05:30",
+      "replies": [
+        {
+          "at": "2026-11-19T14:00+05:30",
+          "text": "Hi Riya, Thursday 2:00 pm works for both of us. Looking forward to it.",
+          "intent": "yes",
+          "slot": "2026-11-26T14:00:00+05:30",
+          "not_before": null,
+          "reason": "named one of the offered slots",
+          "method": "rules"
+        }
+      ],
+      "booking": {
+        "slot": "2026-11-26T14:00:00+05:30",
+        "attendees": [
+          "Kushal",
+          "Aditya",
+          "Riya"
+        ],
+        "calendar": "local calendar: 2026-11-26T14:00:00+05:30",
+        "at": "2026-11-19T14:00+05:30"
+      }
+    },
+    "rentroute": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (10 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (2.8/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass on category: the business depends on a favourable rule change (G2).",
+        "revealed": 2.8,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "settlr": {
+      "stage": "CLOSED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "PASS (4.55/10)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "DECIDED_NO_GO",
+          "event": "final_decision",
+          "by": "Kushal (demo)",
+          "detail": "agrees with PASS"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_DRAFTED",
+          "event": "draft_email",
+          "by": "system",
+          "detail": "pass v1"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "EMAIL_APPROVED",
+          "event": "review_draft",
+          "by": "Riya (demo)",
+          "detail": "approved"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "CLOSED",
+          "event": "send_email",
+          "by": "system",
+          "detail": "pass note sent to rahul@settlr.example"
+        }
+      ],
+      "emails": [
+        {
+          "kind": "pass",
+          "at": "2026-11-19T10:00+05:30",
+          "to": "rahul@settlr.example",
+          "subject": "Your application to All In Capital: Settlr [AIC-settlr]",
+          "message_id": "<179510395067.883.1740031567969175903@allincapital-triage>",
+          "stored": "runs/outbox/settlr/01_pass.eml",
+          "slots": []
+        }
+      ],
+      "drafts": [
+        {
+          "version": 1,
+          "kind": "pass",
+          "subject": "Your application to All In Capital: Settlr [AIC-settlr]",
+          "body": "Hi Rahul,\n\nThank you for sending us Settlr. We're not going to take this forward right now, and we'd rather tell you why than go quiet.\n\nWhat would change our view: This is a pass on mandate: a INR 30 Cr Series A is larger than the first rounds we lead. If you raise a smaller round we could lead, a clear statement of who holds credit risk with vintage loss data would be what we look for first.\n\nIf that changes, write back and we'll take another look.\n\nBest,\nRiya\nAll In Capital\n",
+          "values": {
+            "slug": "settlr",
+            "company": "Settlr",
+            "founder_first": "Rahul",
+            "what_would_change": "This is a pass on mandate: a INR 30 Cr Series A is larger than the first rounds we lead. If you raise a smaller round we could lead, a clear statement of who holds credit risk with vintage loss data would be what we look for first."
+          },
+          "status": "sent",
+          "style_notes": [],
+          "at": "2026-11-19T10:00+05:30",
+          "approved_by": "Riya (demo)"
+        }
+      ],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "PASS",
+        "headline": "Suggest pass on mandate: the round or stage is outside what the fund leads (G4). Not a judgement on the company.",
+        "revealed": 4.55,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      },
+      "decision": {
+        "decision": "no_go",
+        "by": "Kushal (demo)",
+        "reason": "",
+        "override": false,
+        "correction_id": null,
+        "at": "2026-11-19T10:00+05:30"
+      },
+      "founder_email": "rahul@settlr.example",
+      "last_sent_at": "2026-11-19T10:00+05:30"
+    },
+    "stocksathi": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (8 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.45/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (Possible overlap with SuperK, a tech-enabled franchised kirana/mini-supermarket chain in small towns. It is a pre-fund partner investment (all_in_capital_fund_i). Kushal to speak to the portfolio founder first. Without the overlap this would be 'suggest pass' (4.45/10).",
+        "revealed": 4.45,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    },
+    "talkbook": {
+      "stage": "DECIDED_HOLD",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (7 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "HOLD_CONFLICT (4.65/10)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "DECIDED_HOLD",
+          "event": "final_decision",
+          "by": "Kushal (demo)",
+          "detail": "agrees with HOLD_CONFLICT"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "HOLD_CONFLICT",
+        "headline": "Hold: possible overlap with a portfolio company (MeetRecord). Kushal to speak to the portfolio founder first. Without the overlap this would be 'screen first' (4.65/10).",
+        "revealed": 4.65,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      },
+      "decision": {
+        "decision": "hold",
+        "by": "Kushal (demo)",
+        "reason": "",
+        "override": false,
+        "correction_id": null,
+        "at": "2026-11-19T10:00+05:30"
+      }
+    },
+    "yatrika": {
+      "stage": "RECOMMENDED",
+      "history": [
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "INFO_COLLECTED",
+          "event": "collect_info",
+          "by": "system",
+          "detail": "deck, form, free sources (5 web)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "SCORED",
+          "event": "score_startup",
+          "by": "system",
+          "detail": "10 criteria, by claude-code-session (in-session run of prompts/score.md; no API key)"
+        },
+        {
+          "at": "2026-11-19T10:00+05:30",
+          "stage": "RECOMMENDED",
+          "event": "recommend",
+          "by": "system",
+          "detail": "SCREEN_FIRST (4.15/10)"
+        }
+      ],
+      "emails": [],
+      "drafts": [],
+      "seen_replies": [],
+      "follow_ups": 0,
+      "recommendation": {
+        "recommendation": "SCREEN_FIRST",
+        "headline": "Low score (4.15/10) but founder behaviour is not observable from the application, so it is not a pass yet: Riya to screen before anything is decided.",
+        "revealed": 4.15,
+        "attendees": [
+          "Kushal",
+          "Riya"
+        ]
+      }
+    }
+  }
+}

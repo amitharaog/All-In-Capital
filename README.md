@@ -1,70 +1,69 @@
 # All In Capital — intake triage
 
-A system that takes a week of inbound applications, the whole pile, and returns a
-read on each one for the partners:
+A system that takes a week of inbound applications, the whole pile, and runs each one
+through the pipeline on the whiteboard:
 
-- **A score against the fund's thesis, criterion by criterion.** Every score names
-  the criterion it is scored against and the sources behind it.
-- **What it couldn't find out.** Each gap comes with the question to put to the founder.
-- **Whether to take the call.** This is a suggestion only. Kushal sees every outcome
-  before anything is decided.
+- It defines the rubric, collects information, scores the startup, and recommends.
+- A partner makes the final decision.
+- For a Go, it drafts the invite. A person reviews it, then it is sent.
+- A booking agent reads the founder's reply and books the meeting, closes the thread,
+  or follows up.
 
-It then removes the busywork around a yes, and it keeps the partners' corrections
-so they count the next time a similar company comes in. Before any of it touches a
-real decision, it is measured against the fund's own past calls.
-
-Built for MESA T2 Case 03 (All In Capital). The case brief and the seed data are in
+Built for MESA T2 Case 03 (All In Capital). The case brief and seed data are in
 `data/seed/` and `data/applications/`.
 
 > **Read first:** [`docs/WRITEUP.md`](docs/WRITEUP.md) has the results, the backtest,
 > the trust contract and the known limits.
-> The partner review pack is at `runs/<date>/report.html`.
+> The review pack is at `runs/<date>/report.html`. A full simulated walk through every
+> box is in `runs/demo/transcript.txt`.
 
-## How a week of intake flows
+## The pipeline
 
 ```mermaid
 flowchart LR
-  A[Deck + form PDFs] -->|ingest| B[data/applications/slug/*.md]
-  B --> C[Research step<br/>Claude + web search<br/>prompts/research.md]
-  C --> D[Evidence dossier<br/>claims, sources, gaps]
-  D --> E[Scoring step<br/>Claude, structured output<br/>prompts/score.md]
-  P[Portfolio list<br/>88 companies] --> E
-  K[Partner corrections<br/>corrections.jsonl] --> E
-  T[Thesis<br/>stated + revealed lenses] --> E
-  E --> F[Score card<br/>per-criterion scores + evidence]
-  F --> G[Deterministic engine<br/>totals, missing-value rule,<br/>gates, routing]
-  P --> H[Conflict check<br/>all 88, recall-biased]
-  H --> G
-  D --> I[Citation audit<br/>quotes checked against files]
-  G --> R[Partner review pack]
-  I --> R
-  R -->|Kushal approves| S[Booking: Tue/Thu slot,<br/>invite, founder email]
-  R -->|Kushal corrects| K
+  R[Define Rubrics] --> C[Collect Info]
+  D[Deck] --> C
+  F[Free Source<br/>web search] --> C
+  S[Scrape<br/>links in the application] --> C
+  C --> SC[Score the Startup] --> REC[Recommendation] --> H1((Human)) --> FD[Final Decision]
+  FD -. feedback loop:<br/>overrides become corrections .-> REC
+  FD -- Go startup --> DE[Draft Email] --> H2((HITL)) --> SE[Send Email]
+  H2 -. feedback loop:<br/>edits become the template .-> DE
+  SE --> MBA[Meeting Booking Agent]
+  MBA -- Yes --> MB[Meeting Booked]
+  MBA -- No --> X[Closed: declined]
+  MBA -- No reply for x days --> FU[Follow-up] --> MBA
 ```
 
+| Whiteboard box | Command | Code |
+|---|---|---|
+| Define Rubrics | `python -m triage rubric` | `flow.define_rubrics`. Validates `data/fund/thesis.json` (two lenses, gates, routing) and snapshots the version every score refers to. |
+| Collect Info: Deck | (in `collect`) | `ingest.py`. Deck/form PDF to text, or the transcribed `.md`. |
+| Collect Info: Free Source | (in `collect`) | `llm.research`. Claude with web search/fetch, following `prompts/research.md`, produces the evidence dossier. |
+| Collect Info: Scrape | (in `collect`) | `scrape.py`. Fetches every link in the deck and form. A live page becomes a source; a dead, placeholder or bot-walled link becomes a named gap. |
+| Score the Startup | `python -m triage score` | `llm.score`. Per-criterion scores with cited evidence (`prompts/score.md`). |
+| Recommendation | `python -m triage recommend` | `core.decide`. Deterministic totals, the missing-value rule, the four gates, the portfolio conflict check and the routing thresholds. |
+| Boxes 1–4 for the whole pile | `python -m triage run` | Also writes the review pack. |
+| Human → Final Decision | `python -m triage decide <slug> go\|no_go\|hold --by Kushal [--reason "..."]` | `flow.final_decision`. Nothing moves without it. |
+| Feedback loop 1 | (automatic) | Overriding the recommendation requires a one-line reason. That reason is stored as a correction (`corrections.jsonl`), which the scorer retrieves for similar companies. |
+| Draft Email | `python -m triage draft <slug> [--to email]` | `flow.draft_email`. Offers 3 free Tuesday/Thursday afternoon slots, spread across days, never offered to another founder at the same time. Aditya is included for deeptech. |
+| HITL | `python -m triage review <slug> --by Riya [--body-file edited.txt] [--note "..."] [--save-template] [--reject]` | `flow.review_draft` |
+| Feedback loop 2 | (in `review`) | Edits and notes are logged (`email_feedback.jsonl`). With `--save-template`, the edited email becomes the template for the next draft. Notes are shown to the next reviewer. |
+| Send Email | `python -m triage send <slug>` | `emailer.py`. Writes a real `.eml` to `runs/outbox/` by default; `EMAIL_BACKEND=smtp` sends it. |
+| Meeting Booking Agent | `python -m triage agent` (run hourly) | `flow.booking_agent` and `replies.py`. Reads replies (local inbox or IMAP), matched by the `[AIC-slug]` tag in the subject. |
+| → Yes | | Books the chosen slot in the calendar (local file or Google Calendar) and sends a confirmation with an `.ics` invite. |
+| → No | | Closes as declined. |
+| → Asks for other times | | Offers new slots, skipping the ones already offered and any week the founder says they're busy. |
+| → No reply for x days | | Sends a follow-up after `follow_up_after_days` (default 3), up to `max_follow_ups` (default 2), then closes. |
+| → Unclear | `python -m triage resolve <slug> yes\|no\|reschedule --by Riya` | Never guesses; a person decides. |
+| Where is everyone | `python -m triage status` | `data/pipeline/state.json` keeps every stage change with time, actor and detail. |
+
 **Who does what:**
-- **Claude does judgement only:** it gathers evidence and scores each criterion with
-  sources.
-- **Code does all arithmetic and routing:** weighting, the missing-value penalty,
-  gates and thresholds live in `triage/core.py` and `data/fund/thesis.json`. Partners
-  can read them, and they apply the same way to every company.
-
-## Repository map
-
-| Path | What it is |
-|---|---|
-| `data/fund/thesis.json` | The thesis, as two lenses: **stated** (public wording, with source URLs) and **revealed** (reconstructed from the 12 memos and 5 partner meetings). Also holds the gates and routing thresholds. |
-| `data/fund/public_thesis.json` | Every public statement about the fund's thesis, each with URL and verbatim quote, plus what could not be found. |
-| `data/fund/portfolio.json` | 88 portfolio companies from the fund's own portfolio CSV, press and Tracxn, with sources. Pre-fund partner investments are marked. |
-| `data/fund/corrections.jsonl` | Partner corrections, seeded with the four found in the meeting notes. |
-| `data/applications/<slug>/` | The 10 inbound applications as deck and form text, transcribed verbatim. |
-| `data/research/<slug>.json` | Evidence dossier per applicant: claims, sources, gaps, contradictions. |
-| `data/scores/<slug>.json` | Per-criterion score card per applicant. |
-| `data/backtest/` | Blind inputs built from the 12 memos, score cards, `results.json` and the adjudication of each disagreement. |
-| `prompts/` | The two prompts used by the API path and by the in-session run. |
-| `triage/` | The pipeline. |
-| `tests/` | Tests for the deterministic parts. |
-| `runs/<date>/` | `batch.json`, `report.html`, and the outbox (invites, founder emails, pass notes). |
+- **Claude does three judgement tasks:** research, per-criterion scoring, and reading
+  founder replies. Reading replies falls back to transparent rules when no API key is set.
+- **Code does all arithmetic, routing, gating, scheduling and state.**
+- **People own the two gates:** the final decision and the draft review.
+- **Stages can't be skipped.** You can't draft before a decision or send before review.
 
 ## Running it
 
@@ -72,85 +71,117 @@ flowchart LR
 pip install -r requirements.txt
 ```
 
-The research and scoring steps need an Anthropic credential:
+The research and scoring steps call Claude through this key:
 
 ```bash
 export ANTHROPIC_API_KEY=...
 ```
 
-Score every application in `data/applications/` and write the review pack. Existing
-dossiers and score cards are reused:
+Boxes 1–4 for every application, plus the review pack:
 
 ```bash
 python -m triage run
 ```
 
-Re-research and re-score from scratch:
+Then, per company:
 
 ```bash
-python -m triage run --refresh
-```
-
-**Partner actions.** Nothing is booked or sent until these are recorded:
-
-```bash
-python -m triage approve pumpwise call --by Kushal
+python -m triage decide pumpwise go --by Kushal
 ```
 
 ```bash
-python -m triage approve talkbook hold --by Kushal --note "speak to MeetRecord founder first"
+python -m triage draft pumpwise --to founder@pumpwise.com
 ```
 
 ```bash
-python -m triage correct grainkind R3 3.5 --by Kushal --reason "31-38% 90-day repeat is good but LTV/CAC 1.8x means growth is still partly bought" --tags consumer_brand,d2c,paid_growth
+python -m triage review pumpwise --by Riya
 ```
-
-Book what was approved. This holds Tue/Thu afternoon slots, writes the `.ics` invites
-and founder emails, and drafts pass notes:
 
 ```bash
-python -m triage book
+python -m triage send pumpwise
 ```
 
-Backtest against the fund's 12 past decisions:
+On a schedule, for example hourly:
+
+```bash
+python -m triage agent
+```
+
+See every box run end to end on a sandbox copy, with simulated decisions, replies and
+clock. It writes `runs/demo/`:
+
+```bash
+python scripts/demo_pipeline.py
+```
+
+Other commands:
+
+```bash
+python -m triage correct grainkind R3 3.5 --by Kushal --reason "..." --tags consumer_brand,d2c
+```
 
 ```bash
 python -m triage backtest
 ```
-
-See what booking produces without any real decisions (writes `runs/<date>/demo_outbox/`, labelled as a demo):
-
-```bash
-python scripts/demo_week.py
-```
-
-Other commands:
 
 ```bash
 python -m triage audit
 ```
 
 ```bash
-python -m triage ingest new_deck.pdf --slug newco --kind deck
-```
-
-```bash
 python -m pytest -q
 ```
 
+### Configuration
+
+| What | Where |
+|---|---|
+| Follow-up timing, slots offered, minimum notice | `data/fund/pipeline.json` (defaults: 3 days, 2 follow-ups, 3 slots, 20 h notice) |
+| Partners' availability | `data/fund/calendar.json`, or set `GOOGLE_CALENDAR_ID` and `GOOGLE_ATTENDEE_CALENDARS` with `GOOGLE_APPLICATION_CREDENTIALS` |
+| Sending | `EMAIL_BACKEND=smtp` with `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_FROM` |
+| Reading replies | `INBOX_BACKEND=imap` with `IMAP_HOST`, `IMAP_USER`, `IMAP_PASSWORD`. Locally, drop replies in `data/pipeline/inbox/<slug>/` |
+| Email wording | `data/fund/email_templates/` (created when a reviewer saves an edit as the template) |
+
+## Repository map
+
+| Path | What it is |
+|---|---|
+| `data/fund/thesis.json` | The rubric: **stated** lens (public wording, with source URLs) and **revealed** lens (reconstructed from the 12 memos and 5 partner meetings), plus gates and routing thresholds. |
+| `data/fund/public_thesis.json` | Every public statement about the thesis, each with URL and verbatim quote, plus what could not be found. |
+| `data/fund/portfolio.json` | 88 portfolio companies with sources, used by the conflict check. |
+| `data/fund/corrections.jsonl` | Partner corrections and decision overrides (feedback loop 1). |
+| `data/applications/<slug>/` | The 10 inbound applications as deck and form text, transcribed verbatim. |
+| `data/research/<slug>.json` | Evidence dossier: claims, sources, gaps, contradictions. `research/scrape/` holds the raw scrape results. |
+| `data/scores/<slug>.json` | Per-criterion score cards. |
+| `data/pipeline/state.json` | Where every application is on the whiteboard, with full history. |
+| `data/backtest/` | Blind re-scoring of the fund's 12 past decisions, with adjudication. |
+| `prompts/` | The research and scoring prompts. |
+| `triage/` | The pipeline code. |
+| `tests/` | Tests for the engine and for every whiteboard branch, run through the CLI on a sandbox. |
+| `runs/` | Review packs, outbox `.eml` files, and the demo. |
+
 ## How this batch was produced
 
-This environment had no Anthropic API key, so the research and scoring steps for
-this batch and the backtest were run in a Claude Code session instead of through
+This environment had no Anthropic API key, so the research and scoring steps for the
+10 applications and the backtest were run in a Claude Code session instead of through
 `triage/llm.py`.
 
-- **Same prompts:** each step was run by an agent following the same prompt text in
-  `prompts/`.
-- **Real web research:** the agents used live web search and fetch.
-- **Same contracts:** outputs were written in the same schemas and checked by the
-  same validators and citation audit.
+- **Same prompts and inputs:** the agents followed the same prompt files and input
+  packets.
+- **Real web research:** they used live web search.
+- **Same contracts:** outputs were written in the same schemas and checked by the same
+  validators and citation audit.
 - **Labelled:** every file records this in its `produced_by` field.
 
-The deterministic engine, conflict check, scheduling, report and backtest arithmetic
-ran as code. Running `python -m triage run --refresh` with a key regenerates
-everything through the API.
+Everything after scoring ran as code: Recommendation, the decision gate, drafting, the
+review step, sending to the outbox, the booking agent with the rule-based reply reader,
+and calendar booking.
+
+To regenerate everything through the API once a key is set:
+
+```bash
+python -m triage run --refresh
+```
+
+Real sending, inbox reading and Google Calendar booking need their credentials and have
+not been exercised here.

@@ -1,0 +1,302 @@
+DEMO of the full pipeline on a sandbox copy. Partner decisions and founder replies are simulated.
+
+## 1-4. Define Rubrics, Collect Info, Score the Startup, Recommendation (whole pile)
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 run --no-scrape
+SCREEN_FIRST     4.7  capilot
+SCREEN_FIRST    5.75  carecorner
+PASS            2.25  earnwise
+HOLD_CONFLICT   6.75  grainkind
+TAKE_CALL       6.35  pumpwise
+PASS             2.8  rentroute
+PASS            4.55  settlr
+HOLD_CONFLICT   4.45  stocksathi
+HOLD_CONFLICT   4.65  talkbook
+SCREEN_FIRST    4.15  yatrika
+review pack: /tmp/triage-demo-qw20rcul/runs/2026-11-19/report.html
+
+## 5. Final Decision (human). DEMO choices: Pumpwise go (agrees), GrainKind go (overrides the hold), CAPilot go (screen-first), Talkbook hold (agrees), Settlr no-go (agrees)
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 decide pumpwise go --by Kushal (demo)
+{
+  "decision": "go",
+  "by": "Kushal (demo)",
+  "reason": "",
+  "override": false,
+  "correction_id": null,
+  "at": "2026-11-19T10:00+05:30"
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 decide grainkind go --by Kushal (demo) --reason Different shelf from Taakat and MomsMade; both portfolio founders told and fine with it
+{
+  "decision": "go",
+  "by": "Kushal (demo)",
+  "reason": "Different shelf from Taakat and MomsMade; both portfolio founders told and fine with it",
+  "override": true,
+  "correction_id": "C005",
+  "at": "2026-11-19T10:00+05:30"
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 decide capilot go --by Kushal (demo) --reason Vertical AI for CA firms built by a practising CA; worth a call despite the deck's overstatements
+{
+  "decision": "go",
+  "by": "Kushal (demo)",
+  "reason": "Vertical AI for CA firms built by a practising CA; worth a call despite the deck's overstatements",
+  "override": false,
+  "correction_id": "C006",
+  "at": "2026-11-19T10:00+05:30"
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 decide talkbook hold --by Kushal (demo)
+{
+  "decision": "hold",
+  "by": "Kushal (demo)",
+  "reason": "",
+  "override": false,
+  "correction_id": null,
+  "at": "2026-11-19T10:00+05:30"
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 decide settlr no_go --by Kushal (demo)
+{
+  "decision": "no_go",
+  "by": "Kushal (demo)",
+  "reason": "",
+  "override": false,
+  "correction_id": null,
+  "at": "2026-11-19T10:00+05:30"
+}
+
+## 6-8. Draft Email -> HITL -> Send Email. Riya edits the first draft and saves it as the template (feedback loop 2)
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 draft pumpwise --to karthik@pumpwise.example
+Draft v1 (invite) for review:
+
+Subject: All In Capital x Pumpwise: 30 min intro call [AIC-pumpwise]
+
+Hi Karthik,
+
+Thanks for applying to All In Capital. Kushal and Aditya would like to take a 30-minute call about Pumpwise.
+We've held the first slot below for you. If it doesn't work, reply with another one from the list:
+
+  1. Tuesday 24 Nov, 05:00 PM IST
+  2. Thursday 26 Nov, 02:00 PM IST
+  3. Tuesday 01 Dec, 02:00 PM IST
+
+Just reply to this email with the slot that works.
+
+Best,
+Riya
+All In Capital
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 review pumpwise --by Riya (demo) --body-file /tmp/triage-demo-qw20rcul/edited.txt --note mention the company by name in the first line --save-template
+approved (saved as template)
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 send pumpwise
+{
+  "kind": "invite",
+  "at": "2026-11-19T10:00+05:30",
+  "to": "karthik@pumpwise.example",
+  "subject": "All In Capital x Pumpwise: 30 min intro call [AIC-pumpwise]",
+  "message_id": "<179510394915.874.3299695733514910279@allincapital-triage>",
+  "stored": "runs/outbox/pumpwise/01_invite.eml",
+  "slots": [
+    "2026-11-24T17:00:00+05:30",
+    "2026-11-26T14:00:00+05:30",
+    "2026-12-01T14:00:00+05:30"
+  ]
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 draft grainkind --to founders@grainkind.example
+Draft v1 (invite) for review:
+
+Subject: All In Capital x GrainKind: 30 min intro call [AIC-grainkind]
+
+Hi Ritu,
+
+Thanks for applying to All In Capital. We enjoyed reading about GrainKind. Kushal would like to take a 30-minute call about GrainKind.
+We've held the first slot below for you. If it doesn't work, reply with another one from the list:
+
+  1. Tuesday 24 Nov, 02:00 PM IST
+  2. Thursday 26 Nov, 02:30 PM IST
+  3. Tuesday 01 Dec, 02:30 PM IST
+
+Just reply to this email with the slot that works.
+
+Best,
+Riya
+All In Capital
+
+Reviewer notes from earlier drafts:
+  - mention the company by name in the first line
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 review grainkind --by Riya (demo)
+approved
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 send grainkind
+{
+  "kind": "invite",
+  "at": "2026-11-19T10:00+05:30",
+  "to": "founders@grainkind.example",
+  "subject": "All In Capital x GrainKind: 30 min intro call [AIC-grainkind]",
+  "message_id": "<179510394961.877.2226115053743031399@allincapital-triage>",
+  "stored": "runs/outbox/grainkind/01_invite.eml",
+  "slots": [
+    "2026-11-24T14:00:00+05:30",
+    "2026-11-26T14:30:00+05:30",
+    "2026-12-01T14:30:00+05:30"
+  ]
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 draft capilot --to founders@capilot.example
+Draft v1 (invite) for review:
+
+Subject: All In Capital x CAPilot: 30 min intro call [AIC-capilot]
+
+Hi Dhruv,
+
+Thanks for applying to All In Capital. We enjoyed reading about CAPilot. Kushal would like to take a 30-minute call about CAPilot.
+We've held the first slot below for you. If it doesn't work, reply with another one from the list:
+
+  1. Tuesday 24 Nov, 02:30 PM IST
+  2. Thursday 26 Nov, 03:00 PM IST
+  3. Tuesday 01 Dec, 03:00 PM IST
+
+Just reply to this email with the slot that works.
+
+Best,
+Riya
+All In Capital
+
+Reviewer notes from earlier drafts:
+  - mention the company by name in the first line
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 review capilot --by Riya (demo)
+approved
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 send capilot
+{
+  "kind": "invite",
+  "at": "2026-11-19T10:00+05:30",
+  "to": "founders@capilot.example",
+  "subject": "All In Capital x CAPilot: 30 min intro call [AIC-capilot]",
+  "message_id": "<179510395016.880.14205257132599235603@allincapital-triage>",
+  "stored": "runs/outbox/capilot/01_invite.eml",
+  "slots": [
+    "2026-11-24T14:30:00+05:30",
+    "2026-11-26T15:00:00+05:30",
+    "2026-12-01T15:00:00+05:30"
+  ]
+}
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 draft settlr --pass-note --to rahul@settlr.example
+Draft v1 (pass) for review:
+
+Subject: Your application to All In Capital: Settlr [AIC-settlr]
+
+Hi Rahul,
+
+Thank you for sending us Settlr. We're not going to take this forward right now, and we'd rather tell you why than go quiet.
+
+What would change our view: This is a pass on mandate: a INR 30 Cr Series A is larger than the first rounds we lead. If you raise a smaller round we could lead, a clear statement of who holds credit risk with vintage loss data would be what we look for first.
+
+If that changes, write back and we'll take another look.
+
+Best,
+Riya
+All In Capital
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 review settlr --by Riya (demo)
+approved
+
+$ python -m triage --now 2026-11-19T10:00:00+05:30 send settlr
+{
+  "kind": "pass",
+  "at": "2026-11-19T10:00+05:30",
+  "to": "rahul@settlr.example",
+  "subject": "Your application to All In Capital: Settlr [AIC-settlr]",
+  "message_id": "<179510395067.883.1740031567969175903@allincapital-triage>",
+  "stored": "runs/outbox/settlr/01_pass.eml",
+  "slots": []
+}
+
+## 9. Meeting Booking Agent reads replies
+
+[founder of pumpwise replies] Hi Riya, Thursday 2:00 pm works for both of us. Looking forward to it.
+
+On Thu, Riya wrote:
+> Hi Karthik
+
+[founder of grainkind replies] Thanks! We're at a trade show all of next week. Could we do another time?
+
+$ python -m triage --now 2026-11-19T14:00:00+05:30 agent
+[
+  {
+    "slug": "grainkind",
+    "reply": "reschedule",
+    "stage": "RESCHEDULING"
+  },
+  {
+    "slug": "pumpwise",
+    "reply": "yes",
+    "stage": "MEETING_BOOKED"
+  }
+]
+
+[founder of grainkind replies] Option 2 works.
+
+$ python -m triage --now 2026-11-20T09:00:00+05:30 agent
+[
+  {
+    "slug": "grainkind",
+    "reply": "yes",
+    "stage": "MEETING_BOOKED"
+  }
+]
+
+## No reply from CAPilot: follow up after 3 days, twice, then close
+
+$ python -m triage --now 2026-11-22T10:00:00+05:30 agent
+[
+  {
+    "slug": "capilot",
+    "reply": null,
+    "stage": "FOLLOWED_UP"
+  }
+]
+
+$ python -m triage --now 2026-11-25T10:30:00+05:30 agent
+[
+  {
+    "slug": "capilot",
+    "reply": null,
+    "stage": "FOLLOWED_UP"
+  }
+]
+
+$ python -m triage --now 2026-11-28T11:00:00+05:30 agent
+[
+  {
+    "slug": "capilot",
+    "reply": null,
+    "stage": "CLOSED_NO_REPLY"
+  }
+]
+
+## Final status
+
+$ python -m triage --now 2026-11-28T11:00:00+05:30 status
+capilot     CLOSED_NO_REPLY   2026-11-28T11:00+05:30  no reply after 2 follow-ups; closed, Riya notified
+carecorner  RECOMMENDED       2026-11-19T10:00+05:30  SCREEN_FIRST (5.75/10)
+earnwise    RECOMMENDED       2026-11-19T10:00+05:30  PASS (2.25/10)
+grainkind   MEETING_BOOKED    2026-11-20T09:00+05:30  founder said yes; booked 2026-12-03T14:00:00+05:30 (rules)
+pumpwise    MEETING_BOOKED    2026-11-19T14:00+05:30  founder said yes; booked 2026-11-26T14:00:00+05:30 (rules)
+rentroute   RECOMMENDED       2026-11-19T10:00+05:30  PASS (2.8/10)
+settlr      CLOSED            2026-11-19T10:00+05:30  pass note sent to rahul@settlr.example
+stocksathi  RECOMMENDED       2026-11-19T10:00+05:30  HOLD_CONFLICT (4.45/10)
+talkbook    DECIDED_HOLD      2026-11-19T10:00+05:30  agrees with HOLD_CONFLICT
+yatrika     RECOMMENDED       2026-11-19T10:00+05:30  SCREEN_FIRST (4.15/10)
+
+## Feedback loop 1: each override is now a correction future scoring retrieves
+{"id":"C005","date":"2026-11-19","company":"GrainKind","criterion_id":null,"old_score":null,"new_score":null,"by":"Kushal (demo)","reason":"Partner decided go where the system said HOLD_CONFLICT: Different shelf from Taakat and MomsMade; both portfolio founders told and fine with it","applies_when":["better","breakfast","capital_intensive","consumer_brand","d2c","decision_override","food","marketplaces","millet","missing_repeat_rate","packaged","paid_growth","plus","regulatory_dependency","snacks","you"],"origin":"review"}
+{"id":"C006","date":"2026-11-19","company":"CAPilot","criterion_id":null,"old_score":null,"new_score":null,"by":"Kushal (demo)","reason":"Partner decided go where the system said SCREEN_FIRST: Vertical AI for CA firms built by a practising CA; worth a call despite the deck's overstatements","applies_when":["b2b","compliance","decision_override","firms","gst","missing_repeat_rate","other","saas","vertical"],"origin":"review"}

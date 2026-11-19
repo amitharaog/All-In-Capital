@@ -103,7 +103,43 @@ def _srcs(ids, slug) -> str:
     return "".join(f'<a class="src" href="#{e(slug)}-{e(i)}">{e(i)}</a>' for i in ids)
 
 
-def _company(item: dict, thesis: dict) -> str:
+NEXT = {
+    "RECOMMENDED": "Waiting for Kushal: python -m triage decide {slug} go|no_go|hold --by Kushal",
+    "DECIDED_GO": "Draft the invite: python -m triage draft {slug}",
+    "DECIDED_NO_GO": "Closed. Optional pass note: python -m triage draft {slug} --pass-note",
+    "DECIDED_HOLD": "On hold until Kushal speaks to the portfolio founder",
+    "EMAIL_DRAFTED": "Riya reviews the draft: python -m triage review {slug} --by Riya",
+    "EMAIL_APPROVED": "Send: python -m triage send {slug}",
+    "EMAIL_SENT": "Booking agent is waiting for the founder's reply",
+    "FOLLOWED_UP": "Booking agent sent a follow-up and is waiting",
+    "RESCHEDULING": "Booking agent offered new times and is waiting",
+    "NEEDS_HUMAN": "Reply was unclear: python -m triage resolve {slug} yes|no|reschedule --by Riya",
+    "MEETING_BOOKED": "Meeting booked",
+    "DECLINED": "Founder declined",
+    "CLOSED_NO_REPLY": "Closed: no reply after follow-ups",
+    "CLOSED": "Closed",
+}
+STAGE_LABEL = {k: k.replace("_", " ").capitalize() for k in NEXT}
+
+
+def _pipeline_state() -> dict:
+    p = DATA / "pipeline" / "state.json"
+    return load_json(p)["apps"] if p.exists() else {}
+
+
+def _pipeline_line(slug: str, app: dict | None) -> str:
+    if not app or not app.get("stage"):
+        return ""
+    stage = app["stage"]
+    nxt = NEXT.get(stage, "").format(slug=slug)
+    steps = " → ".join(f"{e(h['stage'].replace('_', ' ').lower())}" for h in app["history"][-6:])
+    booking = app.get("booking")
+    extra = f" · booked {e(booking['slot'][:16].replace('T', ' '))}" if booking else ""
+    return (f'<p class="prov"><b>Pipeline:</b> {e(STAGE_LABEL.get(stage, stage))}{extra}. Next: <span class="mono">{e(nxt)}</span>'
+            f'<br><span class="muted">History: {steps}</span></p>')
+
+
+def _company(item: dict, thesis: dict, app: dict | None = None) -> str:
     d, card, v = item["dossier"], item["card"], item["verdict"]
     slug = d["slug"]
     label, cls = REC[v["recommendation"]]
@@ -184,6 +220,7 @@ def _company(item: dict, thesis: dict) -> str:
     <div style="display:grid;gap:8px;justify-items:start"><span class="pill {cls}">{label}</span>{dec_html}</div>
   </div>
   <p class="lede">{e(v['headline'])}</p>
+  {_pipeline_line(slug, app)}
   <div class="scores">
     <div class="score"><span class="eyebrow">Revealed thesis</span><b>{v['revealed']['score_10']}</b><span class="muted">/10 · {int(v['revealed']['coverage']*100)}% evidenced</span></div>
     <div class="score"><span class="eyebrow">Stated thesis</span><b>{v['stated']['score_10']}</b><span class="muted">/10 · {int(v['stated']['coverage']*100)}% evidenced</span></div>
@@ -299,12 +336,14 @@ def render(batch: dict, out: Path | None = None) -> Path:
     wc = load_json(wc_path) if wc_path.exists() else None
     web_line = (f"{wc['summary']['verified'] + wc['summary']['wording_only']}/{wc['summary']['total']} web quotes re-found on the live page; "
                 f"{wc['summary']['unverifiable']} blocked or JS-rendered (check by hand)") if wc else f"{web} web sources"
+    pstate = _pipeline_state()
     queue = "".join(
         f"<tr><td><a href='#{e(i['dossier']['slug'])}'><b>{e(i['dossier']['company'])}</b></a><div class='muted'>{e(i['dossier']['one_liner'])}</div></td>"
         f"<td><span class='pill {REC[i['verdict']['recommendation']][1]}'>{REC[i['verdict']['recommendation']][0]}</span></td>"
         f"<td class='num'>{i['verdict']['revealed']['score_10']}</td><td class='num'>{i['verdict']['stated']['score_10']}</td>"
         f"<td><div class='bar'><i style='width:{int(i['verdict']['revealed']['coverage']*100)}%'></i></div><span class='muted mono'>{int(i['verdict']['revealed']['coverage']*100)}%</span></td>"
-        f"<td class='num'>{len(i['dossier']['gaps'])}</td><td>{e(i['dossier']['sector'].replace('_',' '))}</td></tr>"
+        f"<td class='num'>{len(i['dossier']['gaps'])}</td><td>{e(i['dossier']['sector'].replace('_',' '))}</td>"
+        f"<td>{e(STAGE_LABEL.get((pstate.get(i['dossier']['slug']) or {}).get('stage') or '', '–'))}</td></tr>"
         for i in items
     )
     provenance = "; ".join(batch.get("produced_by", []))
@@ -333,9 +372,9 @@ def render(batch: dict, out: Path | None = None) -> Path:
 </div>
 <section>
   <h2>Review queue</h2>
-  <div class="scroll"><table><thead><tr><th>Company</th><th>Suggestion</th><th>Revealed</th><th>Stated</th><th>Evidence</th><th>Gaps</th><th>Sector</th></tr></thead><tbody>{queue}</tbody></table></div>
+  <div class="scroll"><table><thead><tr><th>Company</th><th>Suggestion</th><th>Revealed</th><th>Stated</th><th>Evidence</th><th>Gaps</th><th>Sector</th><th>Stage</th></tr></thead><tbody>{queue}</tbody></table></div>
 </section>
-{''.join(_company(i, thesis) for i in items)}
+{''.join(_company(i, thesis, pstate.get(i['dossier']['slug'])) for i in items)}
 {_backtest()}
 {_trust()}
 </div>

@@ -1,0 +1,39 @@
+{
+  "slug": "settlr",
+  "scraped_on": "2026-11-19",
+  "results": [
+    {
+      "url": "https://www.settlr.example",
+      "fetched_at": "2026-11-19T15:59:35",
+      "ok": false,
+      "status": null,
+      "error": "ProxyError: HTTPSConnectionPool(host='www.settlr.example', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel c",
+      "found_in": "form",
+      "placeholder": true
+    },
+    {
+      "url": "https://linkedin.com/in/rahul-mehta-example",
+      "fetched_at": "2026-11-19T15:59:35",
+      "ok": false,
+      "status": 200,
+      "final_url": "https://linkedin.com/in/rahul-mehta-example",
+      "title": "Checking your browser - reCAPTCHA",
+      "snippet": "Checking your browser - reCAPTCHA Checking your browser before accessing linkedin.com ... Click here if you are not automatically redirected after 5 seconds.",
+      "error": "blocked or not a real page (title: 'Checking your browser - reCAPTCHA')",
+      "found_in": "form",
+      "placeholder": true
+    },
+    {
+      "url": "https://linkedin.com/in/sonal-iyer-example",
+      "fetched_at": "2026-11-19T15:59:35",
+      "ok": false,
+      "status": 200,
+      "final_url": "https://linkedin.com/in/sonal-iyer-example",
+      "title": "Checking your browser - reCAPTCHA",
+      "snippet": "Checking your browser - reCAPTCHA Checking your browser before accessing linkedin.com ... Click here if you are not automatically redirected after 5 seconds.",
+      "error": "blocked or not a real page (title: 'Checking your browser - reCAPTCHA')",
+      "found_in": "form",
+      "placeholder": true
+    }
+  ]
+}

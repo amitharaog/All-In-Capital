@@ -104,7 +104,8 @@
         "D10",
         "D5"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "GMV was INR 3.8 L in October; about INR 9 lakh over the last three months; GMV has grown every month since the July launch.",
@@ -159,7 +160,8 @@
         "D12",
         "F16"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Founder LinkedIn links in the form are placeholders (*-example) and the website is a .example domain; no independent footprint for the founders or company was found.",
@@ -168,7 +170,8 @@
         "F4",
         "F1"
       ],
-      "status": "unverifiable"
+      "status": "unverifiable",
+      "note": null
     },
     {
       "text": "Jumbotail raised USD 120M (Series D, June 2025, led by SC Ventures) and offers kiranas access to credit alongside B2B supply.",
@@ -200,14 +203,16 @@
       "source_ids": [
         "F20"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Market sizing is top-down: TAM INR 17 lakh Cr from 12M stores x INR 1.2 L monthly purchases; store counts are the founders' own estimates.",
       "source_ids": [
         "D15"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Raising INR 2 Cr at INR 12 Cr post-money; three FMCG/logistics angels have invested INR 25 lakh.",
@@ -215,7 +220,8 @@
         "F15",
         "F19"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Application came via a Fund I portfolio founder. Portfolio company SuperK runs a tech-enabled grocery network for small towns in Andhra Pradesh, which serves the same small-town kirana owners.",
@@ -329,6 +335,33 @@
         "R3",
         "R5"
       ]
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://www.stocksathi.example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://www.stocksathi.example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for www.stocksathi.example?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/aarav-deshmukh-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/aarav-deshmukh-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/pooja-nair-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/pooja-nair-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
     }
   ],
   "competitors_named": [
@@ -358,259 +391,333 @@
       "id": "D1",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 1 (title)",
+      "retrieved_on": null,
       "quote": "Restocking and credit for India's small-town kirana stores"
     },
     {
       "id": "D2",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 2 (problem)",
+      "retrieved_on": null,
       "quote": "Based on 60 owner interviews in Karimnagar and Warangal, June to July 2026."
     },
     {
       "id": "D3",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 4 (product)",
+      "retrieved_on": null,
       "quote": "7 to 14 days credit on repeat orders"
     },
     {
       "id": "D4",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "38 retailers onboarded"
     },
     {
       "id": "D5",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "INR 3.8 L GMV in October"
     },
     {
       "id": "D6",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (GTM)",
+      "retrieved_on": null,
       "quote": "INR 2,860 blended CAC, October"
     },
     {
       "id": "D7",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (GTM)",
+      "retrieved_on": null,
       "quote": "CAC = INR 40,000 field cost / 14 stores onboarded in October. Small sample, one town."
     },
     {
       "id": "D8",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (GTM)",
+      "retrieved_on": null,
       "quote": "INR 520 monthly margin per active store"
     },
     {
       "id": "D9",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 8 (revenue model)",
+      "retrieved_on": null,
       "quote": "Pilot with 12 retailers, funded from our own capital for now."
     },
     {
       "id": "D10",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 8 (revenue model)",
+      "retrieved_on": null,
       "quote": "Credit is about a third of October GMV. NBFC partnership in discussion."
     },
     {
       "id": "D11",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 10 (team)",
+      "retrieved_on": null,
       "quote": "8 years in FMCG distribution and field operations. Ran a regional sales team at a large distributor."
     },
     {
       "id": "D12",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 10 (team)",
+      "retrieved_on": null,
       "quote": "5 years as a software engineer at a payments company. Built the ordering app and credit rules."
     },
     {
       "id": "D13",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 11 (ask)",
+      "retrieved_on": null,
       "quote": "In 12 months: 300 live stores, INR 40 L monthly GMV, CAC under INR 2,000."
     },
     {
       "id": "D14",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 11 (ask)",
+      "retrieved_on": null,
       "quote": "40% Credit book"
     },
     {
       "id": "D15",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 6 (market size)",
+      "retrieved_on": null,
       "quote": "Store counts are our estimates."
     },
     {
       "id": "D16",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (differentiation)",
+      "retrieved_on": null,
       "quote": "Credit on orders"
     },
     {
       "id": "D17",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "22 of 38 have ordered more than once"
     },
     {
       "id": "F1",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Website",
+      "retrieved_on": null,
       "quote": "www.stocksathi.example"
     },
     {
       "id": "F2",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Sector (as selected)",
+      "retrieved_on": null,
       "quote": "Consumer tech"
     },
     {
       "id": "F3",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 1",
+      "retrieved_on": null,
       "quote": "LinkedIn: linkedin.com/in/aarav-deshmukh-example"
     },
     {
       "id": "F4",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 2",
+      "retrieved_on": null,
       "quote": "LinkedIn: linkedin.com/in/pooja-nair-example"
     },
     {
       "id": "F5",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Active customers",
+      "retrieved_on": null,
       "quote": "42 retailers onboarded, 22 of whom have ordered more than once."
     },
     {
       "id": "F6",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Revenue / GMV",
+      "retrieved_on": null,
       "quote": "GMV of about INR 9 lakh in the last three months."
     },
     {
       "id": "F7",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Customer acquisition",
+      "retrieved_on": null,
       "quote": "Our CAC is under INR 2,000 per store."
     },
     {
       "id": "F8",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Credit > How is credit funded?",
+      "retrieved_on": null,
       "quote": "Credit is provided through our NBFC partner. We take the first-loss risk."
     },
     {
       "id": "F9",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Credit > Credit book size",
+      "retrieved_on": null,
       "quote": "About INR 85,000 outstanding across 12 retailers."
     },
     {
       "id": "F10",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Credit > Defaults to date",
+      "retrieved_on": null,
       "quote": "None so far. We follow up personally on late payments."
     },
     {
       "id": "F11",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Credit > Regulatory status",
+      "retrieved_on": null,
       "quote": "Not registered as an NBFC."
     },
     {
       "id": "F12",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > What have you built?",
+      "retrieved_on": null,
       "quote": "Live in Karimnagar only."
     },
     {
       "id": "F13",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Unit economics",
+      "retrieved_on": null,
       "quote": "Positive contribution on delivered orders once a store has ordered twice."
     },
     {
       "id": "F14",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > How did you hear about us?",
+      "retrieved_on": null,
       "quote": "Introduction through a founder in your Fund I portfolio."
     },
     {
       "id": "F15",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Valuation expectation",
+      "retrieved_on": null,
       "quote": "INR 12 Cr post-money"
     },
     {
       "id": "F16",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Time commitment / prior experience",
+      "retrieved_on": null,
       "quote": "None for either founder."
     },
     {
       "id": "F17",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Repeat behaviour",
+      "retrieved_on": null,
       "quote": "Repeat customers reorder about once a week."
     },
     {
       "id": "F18",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Anything else",
+      "retrieved_on": null,
       "quote": "We would also welcome your help with introductions to NBFCs."
     },
     {
       "id": "F19",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Existing investors",
+      "retrieved_on": null,
       "quote": "Three angels from the FMCG and logistics industry, INR 25 lakh in total."
     },
     {
       "id": "F20",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Competition > Who else is doing this?",
+      "retrieved_on": null,
       "quote": "Large B2B marketplaces and local wholesale markets."
     },
     {
@@ -618,6 +725,7 @@
       "kind": "web",
       "title": "Section 45-IA, Reserve Bank of India Act 1934 (lawx.in)",
       "url": "https://lawx.in/acts/section/48/485/4705",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Notwithstanding anything contained in this Chapter or in any other law for the time being in force, no non-banking financial"
     },
@@ -626,6 +734,7 @@
       "kind": "web",
       "title": "RBI's new guidelines on Default Loss Guarantee in digital lending (IndiaLaw, posted 12 June 2023)",
       "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "the total amount of DLG cover on any outstanding portfolio shall not exceed 5% of the amount of that loan portfolio."
     },
@@ -634,6 +743,7 @@
       "kind": "web",
       "title": "RBI's new guidelines on Default Loss Guarantee in digital lending (IndiaLaw) - DLG provider eligibility",
       "url": "https://www.indialaw.in/blog/banking-and-finance/rbis-new-guidelines-on-default-loss-guarantee-in-digital-lending/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "the LSP providing DLG must be a company incorporated under the Companies Act, 2013."
     },
@@ -642,6 +752,7 @@
       "kind": "web",
       "title": "RBI notifies Digital Lending Directions, 2025 (IndiaLaw)",
       "url": "https://www.indialaw.in/blog/civil/rbi-notifies-digital-lending-directions/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Loans must be disbursed directly to the borrower's account, with servicing and repayments routed through the RE's account"
     },
@@ -650,6 +761,7 @@
       "kind": "web",
       "title": "Jumbotail raises $120M Series D; completes acquisition of Solv (Jumbotail press release, 30 June 2025)",
       "url": "https://jumbotail.com/jumbotail-raises-120m-series-d-funding",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "The platform enables kiranas and MSMEs to digitize operations, access credit"
     },
@@ -658,6 +770,7 @@
       "kind": "web",
       "title": "ONDC's DigiDukaan wants to digitise how kirana stores buy stock (Lapaas Voice, 23 June 2026)",
       "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "The first test began in Hyderabad in March 2026."
     },
@@ -666,6 +779,7 @@
       "kind": "web",
       "title": "ONDC's DigiDukaan (Lapaas Voice) - pilot scale",
       "url": "https://lapaasvoice.com/ondc-digidukaan-kirana-b2b/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "More than 10,000 retailers (shops) signed up, and 35+ brands joined in."
     },
@@ -674,6 +788,7 @@
       "kind": "web",
       "title": "Rupifi raises $25 Mn Series A from Bessemer, Tiger Global (Entrepreneur India, 7 Jan 2022)",
       "url": "https://india.entrepreneur.com/news-and-trends/rupifi-raises-25-million-series-a-from-bessemer-tiger/411960",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Our B2B BNPL is currently operating at some of the category leading B2B marketplaces in India"
     },
@@ -681,10 +796,12 @@
       "id": "S1",
       "kind": "seed",
       "title": "All In Capital deal memos (data/seed/deal_memos.md)",
+      "url": null,
       "locator": "Memo 9: SuperK",
+      "retrieved_on": null,
       "quote": "A tech-enabled grocery retail network for small towns."
     }
   ],
-  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also surfaced StoreKing, Badho, ShopKirana, KiranaPro and Udaan as kirana B2B players, but those pages were not opened, so they are not listed as sources. Pages that blocked fetching (403): YourStory on Flipkart Wholesale credit, Business Standard. RBI's own DLG FAQ page returned no content, so DLG rules are cited from a law-firm summary. The legal question of whether own-capital trade credit needs NBFC registration is flagged, not answered.",
-  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)",
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Search results also surfaced StoreKing, Badho, ShopKirana, KiranaPro and Udaan as kirana B2B players, but those pages were not opened, so they are not listed as sources. Pages that blocked fetching (403): YourStory on Flipkart Wholesale credit, Business Standard. RBI's own DLG FAQ page returned no content, so DLG rules are cited from a law-firm summary. The legal question of whether own-capital trade credit needs NBFC registration is flagged, not answered."
 }

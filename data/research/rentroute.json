@@ -68,7 +68,8 @@
         "D5",
         "F5"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Acquisition: mostly organic/word of mouth; small paid tests cost ~INR 120 per registered user; cost per paying user not measured.",
@@ -92,7 +93,8 @@
       "source_ids": [
         "W1"
       ],
-      "status": "verified"
+      "status": "verified",
+      "note": null
     },
     {
       "text": "RBI's Payment Aggregator Directions (September 2025) require a PA to aggregate funds only for merchants with whom it has a contractual relationship and prohibit PAs from running marketplaces.",
@@ -110,7 +112,8 @@
         "W3",
         "W4"
       ],
-      "status": "verified"
+      "status": "verified",
+      "note": null
     },
     {
       "text": "By January 2026 some platforms (RedGiraffe, PayZapp, NoBroker) had restarted or continued card rent payments with stricter verification - PAN of both payer and payee plus rent agreement documents; PhonePe stayed out.",
@@ -159,14 +162,16 @@
         "F3",
         "F1"
       ],
-      "status": "unverifiable"
+      "status": "unverifiable",
+      "note": null
     },
     {
       "text": "Market sizing is top-down: INR 1.5 lakh Cr annual urban rent, 'capturing just 1%' = INR 1,500 Cr volume.",
       "source_ids": [
         "D14"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "12-month target INR 20 Cr monthly rent volume (~7x October); 55% of the raise goes to marketing.",
@@ -174,7 +179,8 @@
         "D12",
         "D13"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Raising INR 1.8 Cr at INR 12 Cr post-money; no outside investors; founders have put in INR 18 L and own 100%.",
@@ -182,14 +188,16 @@
         "F12",
         "F11"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Sector as selected (Fintech) matches the business: a consumer payments app (rent via credit card).",
       "source_ids": [
         "D1"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     },
     {
       "text": "Founders frame rent as a large, underserved payment category and the problem as landlords not accepting cards.",
@@ -197,7 +205,8 @@
         "F13",
         "D15"
       ],
-      "status": "founder_stated"
+      "status": "founder_stated",
+      "note": null
     }
   ],
   "gaps": [
@@ -285,6 +294,33 @@
       "blocks_criteria": [
         "R1"
       ]
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://www.rentroute.example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://www.rentroute.example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for www.rentroute.example?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/sameer-qureshi-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/sameer-qureshi-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
+    },
+    {
+      "what": "[scrape] Link in the form does not resolve: https://linkedin.com/in/divya-menon-example",
+      "why_it_matters": "Links the founders give are the first place to verify the company and the team; a dead link means nothing here could be checked.",
+      "searched": [
+        "fetched https://linkedin.com/in/divya-menon-example on 2026-11-19: a placeholder address (*.example), so there is nothing to verify"
+      ],
+      "ask_founder": "Can you share a working link for linkedin.com?",
+      "blocks_criteria": []
     }
   ],
   "competitors_named": [],
@@ -313,203 +349,261 @@
       "id": "D1",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 1 (title)",
+      "retrieved_on": null,
       "quote": "Pay your rent with your credit card"
     },
     {
       "id": "D2",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 4 (product)",
+      "retrieved_on": null,
       "quote": "Rent reaches the landlord's bank account within a day."
     },
     {
       "id": "D3",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "1,900 users"
     },
     {
       "id": "D4",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "INR 11 L revenue (1.8% fee)"
     },
     {
       "id": "D5",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 5 (traction)",
+      "retrieved_on": null,
       "quote": "Traction: INR 6.1 Cr of rent paid in 4 months"
     },
     {
       "id": "D6",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (competition)",
+      "retrieved_on": null,
       "quote": "We have no direct competitors."
     },
     {
       "id": "D7",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 7 (competition)",
+      "retrieved_on": null,
       "quote": "Existing payment apps focus on other bills like electricity, mobile and credit card repayments."
     },
     {
       "id": "D8",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 8 (revenue model)",
+      "retrieved_on": null,
       "quote": "Referral income from card issuers is coming."
     },
     {
       "id": "D9",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (team)",
+      "retrieved_on": null,
       "quote": "Product manager at a fintech for 4 years. Launched two payments features."
     },
     {
       "id": "D10",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (team)",
+      "retrieved_on": null,
       "quote": "5 years in consumer marketing."
     },
     {
       "id": "D11",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 9 (team)",
+      "retrieved_on": null,
       "quote": "Engineering handled by contract developers."
     },
     {
       "id": "D12",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 10 (ask)",
+      "retrieved_on": null,
       "quote": "In 12 months: INR 20 Cr monthly rent volume."
     },
     {
       "id": "D13",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 10 (ask)",
+      "retrieved_on": null,
       "quote": "55% Marketing"
     },
     {
       "id": "D14",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 6 (market)",
+      "retrieved_on": null,
       "quote": "Capturing just 1% would mean INR 1,500 Cr of annual rent volume."
     },
     {
       "id": "D15",
       "kind": "deck",
       "title": "Pitch deck",
+      "url": null,
       "locator": "Slide 3 (problem)",
+      "retrieved_on": null,
       "quote": "Landlords will not accept cards, so reward points go unused."
     },
     {
       "id": "F1",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Website",
+      "retrieved_on": null,
       "quote": "www.rentroute.example"
     },
     {
       "id": "F2",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 1",
+      "retrieved_on": null,
       "quote": "linkedin.com/in/sameer-qureshi- example"
     },
     {
       "id": "F3",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Founder 2",
+      "retrieved_on": null,
       "quote": "linkedin.com/in/divya-menon-example"
     },
     {
       "id": "F4",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Users",
+      "retrieved_on": null,
       "quote": "1,900 registered. 1,100 have paid at least once."
     },
     {
       "id": "F5",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Rent volume",
+      "retrieved_on": null,
       "quote": "INR 6.1 Cr paid since July 2026 across 2,400 payments."
     },
     {
       "id": "F6",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Revenue",
+      "retrieved_on": null,
       "quote": "Users pay a 1.8% fee: INR 11 L gross. After the 0.9% we pay the payment partner, net revenue is INR 5.5 L."
     },
     {
       "id": "F7",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Customer acquisition",
+      "retrieved_on": null,
       "quote": "In small paid tests we saw about INR 120 per registered user. We have not measured cost per paying user."
     },
     {
       "id": "F8",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > Dependencies",
+      "retrieved_on": null,
       "quote": "We rely on a single payment aggregator partner. Banks and card networks have changed rules on rent payments before, and a change would hit us directly."
     },
     {
       "id": "F9",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Product and traction > What have you built?",
+      "retrieved_on": null,
       "quote": "We pay the landlord's bank account through a payment aggregator partner."
     },
     {
       "id": "F10",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Founders > Time commitment",
+      "retrieved_on": null,
       "quote": "Sameer full-time since June 2026. Divya full-time since August 2026."
     },
     {
       "id": "F11",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Existing investors",
+      "retrieved_on": null,
       "quote": "None. Founders have put in INR 18 L of savings."
     },
     {
       "id": "F12",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Fundraising > Valuation expectation",
+      "retrieved_on": null,
       "quote": "INR 12 Cr post-money"
     },
     {
       "id": "F13",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Anything else",
+      "retrieved_on": null,
       "quote": "We believe rent is a large, underserved payment category."
     },
     {
       "id": "F14",
       "kind": "form",
       "title": "Application form",
+      "url": null,
       "locator": "Company > Team size",
+      "retrieved_on": null,
       "quote": "4 (2 founders, 2 contract developers)"
     },
     {
@@ -517,6 +611,7 @@
       "kind": "web",
       "title": "Visa, Mastercard to stop commercial card payments via fintech intermediaries in India (Fintech News Singapore, 15 Feb 2024)",
       "url": "https://fintechnews.sg/86371/fintech-india/visa-mastercard-to-stop-commercial-card-payments-via-fintech-intermediaries-in-india/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "The communication from the RBI instructed Visa to temporarily suspend all transactions involving BPSPs."
     },
@@ -525,6 +620,7 @@
       "kind": "web",
       "title": "CRED, PhonePe, Paytm stop rent payments via credit cards (Entrackr, 17 Sep 2025)",
       "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "CRED, PhonePe, and Paytm have halted rent payments via credit cards on their platforms."
     },
@@ -533,6 +629,7 @@
       "kind": "web",
       "title": "CRED, PhonePe, Paytm stop rent payments via credit cards (Entrackr) - cause",
       "url": "https://entrackr.com/news/cred-phonepe-paytm-stop-rent-payments-via-credit-cards-10474094",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "The move follows the Reserve Bank of India’s (RBI) latest master directions on payment aggregator regulations."
     },
@@ -541,6 +638,7 @@
       "kind": "web",
       "title": "PhonePe, Paytm & CRED halt rent payments via credit cards (Inc42, 18 Sep 2025)",
       "url": "https://inc42.com/?p=532025",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Rent payments routed via fintechs were impacted as landlords are not often onboarded on fintech platforms with full KYC"
     },
@@ -549,6 +647,7 @@
       "kind": "web",
       "title": "Decoding RBI's overhaul of the Payment Aggregator Directions (IndiaCorpLaw, 9 Oct 2025)",
       "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "mandate that a PA shall aggregate funds only for the merchant with whom it has a contractual relationship."
     },
@@ -557,6 +656,7 @@
       "kind": "web",
       "title": "Decoding RBI's overhaul of the Payment Aggregator Directions (IndiaCorpLaw) - marketplaces",
       "url": "https://indiacorplaw.in/2025/10/09/decoding-rbis-overhaul-of-the-payment-aggregator-directions/",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "The 2025 directions further prohibit PAs from running marketplaces"
     },
@@ -565,6 +665,7 @@
       "kind": "web",
       "title": "Fintech rent payments resume amidst RBI scrutiny; PhonePe stays out (Whalesbook, 27 Jan 2026)",
       "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "have either quietly restarted or continued to offer rent payment facilities."
     },
@@ -573,6 +674,7 @@
       "kind": "web",
       "title": "Fintech rent payments resume (Whalesbook) - new verification requirements",
       "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "including the mandatory submission of PAN cards for both payer and payee, alongside rent agreement documents"
     },
@@ -581,6 +683,7 @@
       "kind": "web",
       "title": "Fintech rent payments resume (Whalesbook) - PhonePe",
       "url": "https://www.whalesbook.com/news/English/tech/Fintech-Rent-Payments-Resume-Amidst-RBI-Scrutiny-PhonePe-Stays-Out/6978a52d657adf9c86c60534",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Walmart-owned PhonePe has elected to maintain its discontinuation of rent payment services."
     },
@@ -589,10 +692,11 @@
       "kind": "web",
       "title": "Pay rent in Bengaluru - PayZapp (HDFC Bank)",
       "url": "https://www.hdfc.bank.in/ps/payzapp/rent/bengaluru",
+      "locator": null,
       "retrieved_on": "2026-11-18",
       "quote": "Transfer rent digitally via UPI, Credit Card, Debit Card or Zapp Account on PayZapp."
     }
   ],
-  "research_notes": "Founder and company searches returned nothing (placeholder links). Business Standard article on the September 2025 shutdown returned 403; Inc42, Entrackr and IndiaCorpLaw used instead. Search snippets also reported HDFC Bank's June 2024 1% fee on card rent payments and ICICI/SBI Card removing rewards on rent, but no page with a verbatim quote was retrieved for these, so they are not cited as sources. Whalesbook (Jan 2026) is a lesser-known outlet; its report that some platforms resumed rent payments should be confirmed.",
-  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)"
+  "produced_by": "claude-code-session (in-session run of prompts/research.md; no API key)",
+  "research_notes": "Founder and company searches returned nothing (placeholder links). Business Standard article on the September 2025 shutdown returned 403; Inc42, Entrackr and IndiaCorpLaw used instead. Search snippets also reported HDFC Bank's June 2024 1% fee on card rent payments and ICICI/SBI Card removing rewards on rent, but no page with a verbatim quote was retrieved for these, so they are not cited as sources. Whalesbook (Jan 2026) is a lesser-known outlet; its report that some platforms resumed rent payments should be confirmed."
 }

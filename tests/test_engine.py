@@ -151,3 +151,11 @@ def test_correction_is_reused_on_a_similar_company(tmp_path, monkeypatch):
                         claims=[Claim(text="60% of new customers from paid social ads", source_ids=["F1"])])
     assert [p["correction"]["company"] for p in corrections.retrieve(similar)] == ["GrainKind"]
     assert corrections.retrieve(unrelated) == []
+
+
+def test_scrape_rejoins_split_links_and_never_trusts_placeholders():
+    from triage import scrape
+
+    urls = [u["url"] for u in scrape.find_urls("grainkind")]
+    assert "https://linkedin.com/in/ritu-hegde-example" in urls
+    assert scrape.placeholder("https://linkedin.com/in/ritu-hegde-example")

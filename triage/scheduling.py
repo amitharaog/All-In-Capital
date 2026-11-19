@@ -58,7 +58,8 @@ def _busy(cfg: dict) -> list[tuple[dt.datetime, dt.datetime]]:
     return spans
 
 
-def free_slots(attendees: list[str], start: dt.date, taken: set[dt.datetime], cfg: dict | None = None) -> list[dt.datetime]:
+def free_slots(attendees: list[str], start: dt.date, taken: set[dt.datetime], cfg: dict | None = None,
+               days: int = 14) -> list[dt.datetime]:
     cfg = cfg or _config()
     busy = [
         (dt.datetime.fromisoformat(b["start"]).astimezone(IST), dt.datetime.fromisoformat(b["end"]).astimezone(IST))
@@ -66,7 +67,7 @@ def free_slots(attendees: list[str], start: dt.date, taken: set[dt.datetime], cf
         if not b.get("who") or set(b["who"]) & set(attendees)
     ]
     out = []
-    for s in candidate_slots(start, cfg=cfg):
+    for s in candidate_slots(start, days=days, cfg=cfg):
         e = s + dt.timedelta(minutes=30)
         if s in taken:
             continue
@@ -193,3 +194,33 @@ class GoogleCalendarBackend:  # pragma: no cover - needs credentials
             calendarId=self.calendar_id, body=event, conferenceDataVersion=1, sendUpdates="all"
         ).execute()
         return ev.get("htmlLink", "")
+
+
+class LocalCalendar:
+    """Books into data/fund/calendar.json: the meeting becomes a busy block for
+    every attendee, so later slot searches can't offer it again."""
+
+    name = "local"
+
+    def book(self, company: str, slot: dt.datetime, attendees: list[str], founder_email: str | None) -> str:
+        import json
+
+        path = FUND / "calendar.json"
+        cfg = _config()
+        cfg.setdefault("busy", []).append({
+            "who": attendees, "start": slot.isoformat(), "end": (slot + dt.timedelta(minutes=30)).isoformat(),
+            "what": f"Intro call: {company}" + (f" ({founder_email})" if founder_email else ""),
+        })
+        path.write_text(json.dumps(cfg, indent=2) + "\n")
+        return f"local calendar: {slot.isoformat()}"
+
+
+def calendar_backend():
+    import os
+
+    if os.environ.get("GOOGLE_CALENDAR_ID"):  # pragma: no cover - needs credentials
+        import json
+
+        return GoogleCalendarBackend(os.environ["GOOGLE_CALENDAR_ID"],
+                                     json.loads(os.environ.get("GOOGLE_ATTENDEE_CALENDARS", "{}")))
+    return LocalCalendar()

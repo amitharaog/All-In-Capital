@@ -3,7 +3,7 @@
 **For:** Kushal Bhagia, Aditya Singh and Riya
 **Batch:** 10 inbound applications
 **Date:** 18 Nov 2026
-**Review pack:** `runs/2026-11-18/report.html`
+**Review pack:** `runs/2026-11-19/report.html`
 
 ## The short version
 
@@ -140,9 +140,9 @@ lens was built from those same 12.
 | "What it couldn't find out" | `gaps` in each dossier: what was looked for, where, and the question to ask the founder. |
 | "Whether we should take the call" | A deterministic routing rule in `triage/core.py`. The thresholds live in `thesis.json` and were set before any results. |
 | "Go find it, not just read the deck" | The research step uses web search and fetch: 68 web sources across 10 companies. It found RBI's 2025 card-rent shutdown, the MeetRecord overlap, competitors the decks didn't name (GST Reply AI, Infinite Uptime, Convin, Thrillophilia, MakeMyTrip's Myra), and arithmetic errors in decks. |
-| "A correction should count next time" | `python -m triage correct ...` stores a one-line reason with tags. The next similar applicant retrieves it, and the scorer must say where it was applied. Four corrections from the meeting notes are seeded. C004 (the lender rule) was applied to StockSathi, Settlr and EarnWise, and C002 (pedigree) to Pumpwise. A test proves a GrainKind correction reaches the next similar brand and not an unrelated fintech. |
-| "Don't make me go back to email and calendars" | `approve <slug> call` then `book` holds a Tue/Thu afternoon slot, avoiding busy times, adds Aditya for deeptech, and writes the invite, the founder email with two alternates, and pass notes. `runs/2026-11-18/demo_outbox/` shows the output, clearly labelled as a demo, not a decision. A Google Calendar backend is included but untested here. |
-| "I'll see every outcome first" | `needs_partner_review` is always true. Nothing is booked or sent without a recorded decision. |
+| "A correction should count next time" | `python -m triage correct ...` stores a one-line reason with tags. The next similar applicant retrieves it, and the scorer must say where it was applied. Four corrections from the meeting notes are seeded. C004 (the lender rule) was applied to StockSathi, Settlr and EarnWise, and C002 (pedigree) to Pumpwise. A test proves a GrainKind correction reaches the next similar brand and not an unrelated fintech.. And when Kushal's final decision overrides the recommendation, the system requires a one-line reason and stores it as a correction automatically (feedback loop 1 on the whiteboard). |
+| "Don't make me go back to email and calendars" | The whiteboard pipeline after the decision. `draft` offers three free Tue/Thu afternoon slots (Aditya for deeptech; never the same slot to two founders). Riya reviews it (`review`), and her edits can become the template. Then `send`. The **Meeting Booking Agent** (`agent`, run hourly) reads replies: yes books the chosen slot in the calendar and sends a confirmation with an .ics invite; no closes it; "other times" gets new slots that skip any busy week; no reply for 3 days gets a follow-up, twice, then it closes; an unclear reply goes to Riya. Every outcome is also sent to Riya as a note. `runs/demo/transcript.txt` walks all of this on a sandbox copy with simulated decisions and replies. Real SMTP/IMAP/Google Calendar backends are included but untested here. |
+| "I'll see every outcome first" | Every application stops at **Recommendation** until `decide` is run. The pipeline state machine refuses to draft without a decision or send without a reviewed draft (tested). |
 | "Run it against our real decisions" | The backtest in section 3. |
 
 ## 3. Backtest: how often it disagrees with the fund, and who was wrong
@@ -241,7 +241,22 @@ from this run.
 7. **Founders learning the rubric.** "Written rules turn into checklists." The thesis
    file and prompts stay internal.
 
-## 5. How this run was produced
+## 5. The whiteboard pipeline
+
+The system follows the team's whiteboard box for box: Define Rubrics → Collect Info
+(Deck, Free Source, Scrape) → Score the Startup → Recommendation → human → Final
+Decision → (Go) Draft Email → HITL → Send Email → Meeting Booking Agent → Yes: Meeting
+Booked / No / no reply for x days: Follow-up. Both feedback loops are built in.
+
+**Every application is at Recommendation**, waiting for Kushal. The live scrape of the
+29 links in the applications found 0 live pages. All 29 are `*.example` placeholders:
+- 10 company websites, which don't resolve.
+- 19 LinkedIn profiles, which return a bot wall.
+
+Each one is a named gap. The README maps every box to its command and code, and
+`tests/test_flow.py` exercises every branch through the CLI.
+
+## 6. How this run was produced
 
 **Code.** The pipeline (`triage/`) calls Claude through the Anthropic API for two steps:
 - **Research:** Claude Opus 5.5 with the server-side web search and fetch tools.
