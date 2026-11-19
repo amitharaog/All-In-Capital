@@ -65,6 +65,41 @@ flowchart LR
 - **People own the two gates:** the final decision and the draft review.
 - **Stages can't be skipped.** You can't draft before a decision or send before review.
 
+## Deployed app (Vercel)
+
+**Live:** https://all-in-capital-intake-amitharaogs-projects.vercel.app
+
+The web app is the same pipeline with buttons.
+
+**Pages:**
+- `/`: the whiteboard with a count at every box, and the queue.
+- `/c/<slug>`: one company. It has an action panel for its current stage, the email
+  thread, the founder replies, the stage history and the full scored dossier.
+- `/report`, `/writeup` and `/demo`: the review pack, the write-up and the demo
+  transcript.
+
+**Access:**
+- **Viewing is public.** Anyone with the link can read every page.
+- **Actions need the desk passcode** (the `APP_PASSCODE` environment variable).
+  Actions are: decide, draft, review, send, simulate a reply, run the agent, the demo
+  clock, and reset.
+
+**What the deployed demo does and doesn't do:**
+- **No real mail.** Emails land in an outbox inside the app.
+- **Founder replies are simulated** on each company page.
+- **The demo clock** moves time forward, so you can watch the follow-ups fire.
+- **Reset** puts every application back at Recommendation.
+
+**How it runs:**
+
+| Part | Detail |
+|---|---|
+| Entry point | `app.py`, a FastAPI app that Vercel detects automatically. Region `sin1`. |
+| State | Neon Postgres project `all-in-capital-triage`, table `docs`, reached over Neon's HTTPS SQL endpoint (`triage/storage.py`). A key that isn't in the table falls back to the seed file in the repo. |
+| Booking agent | Runs daily at 09:00 IST (`vercel.json` cron, authorised by `CRON_SECRET`). Hobby plans allow daily jobs only. There is also a "Run booking agent now" button. |
+| Environment variables | `DATABASE_URL`, `APP_PASSCODE`, `CRON_SECRET`, `SESSION_SECRET`. All are marked sensitive in Vercel. |
+| Research and scoring | Not run on Vercel. The deployment ships the dossiers and score cards produced for this batch. Run `python -m triage run --refresh` locally with an API key, then commit, to update them. |
+
 ## Running it
 
 ```bash
